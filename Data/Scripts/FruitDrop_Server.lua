@@ -2,7 +2,8 @@
 -- Custom 
 local startingLocs = script:GetCustomProperty("StartingLocations"):WaitForObject():GetChildren()
 local endingLocs = script:GetCustomProperty("EndingLocations"):WaitForObject():GetChildren()
-
+local fruitLocs = script:GetCustomProperty("FruitSpawnLocations"):WaitForObject():GetChildren()
+local apple = script:GetCustomProperty("PhysicsApple")
 
 local readyPlayers = {} -- list of all players currently playing
 
@@ -62,6 +63,7 @@ function StartRound()
         --local glove2 = World.SpawnAsset(propBoxingGloveRight)
         --glove2:Equip(p)
     end
+    SpawnFruit()
     --ballObject = World.SpawnAsset(ball, {position = BallSpawnLocation, scale = 6})
 end
 
@@ -83,6 +85,19 @@ function Tick(deltaTime)
         if elapsedTime > roundTime then
             EndRound()
         end
+    end
+end
+
+
+function SpawnFruit()
+    --number of fruits spawned depends on number of players
+    --spawn friut in regular intervals in random locations
+    local numFruits = #readyPlayers * 3
+    print(numFruits)
+    local spawnloc = fruitLocs[math.random()]
+
+    for _, p in ipairs(fruitLocs) do
+        local fruit = World.SpawnAsset(apple, {position = spawnloc, scale = 1})
     end
 end
 
