@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Core saves .pbt files as LF by default
+*.pbt text eol=lf -delta
+# Terrain files are binary and we don't need delta diffs for them
+*.terrain binary -delta
