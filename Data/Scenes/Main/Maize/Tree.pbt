@@ -1,6 +1,44 @@
 Name: "Maize"
 RootId: 44003275876171690
 Objects {
+  Id: 1545551210481271009
+  Name: "Dummy Object"
+  Transform {
+    Location {
+      X: -465
+      Y: 205
+      Z: 245
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 44003275876171690
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6242378129829751886
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
   Id: 1139543232354936422
   Name: "FruitDrop_Server"
   Transform {
@@ -42,6 +80,22 @@ Objects {
       Name: "cs:PhysicsApple"
       AssetReference {
         Id: 13130021917915733645
+      }
+    }
+    Overrides {
+      Name: "cs:WaitTime"
+      Int: 5
+    }
+    Overrides {
+      Name: "cs:StaticApple"
+      AssetReference {
+        Id: 9383373610387053765
+      }
+    }
+    Overrides {
+      Name: "cs:AppleSpawn"
+      ObjectReference {
+        SelfId: 1545551210481271009
       }
     }
   }

@@ -4,13 +4,17 @@ local startingLocs = script:GetCustomProperty("StartingLocations"):WaitForObject
 local endingLocs = script:GetCustomProperty("EndingLocations"):WaitForObject():GetChildren()
 local fruitLocs = script:GetCustomProperty("FruitSpawnLocations"):WaitForObject():GetChildren()
 local apple = script:GetCustomProperty("PhysicsApple")
+local appleShpere = script:GetCustomProperty("StaticApple")
+local appleSpawn = script:GetCustomProperty("AppleSpawn"):WaitForObject()
 
 local readyPlayers = {} -- list of all players currently playing
 
 
 local roundTime = script:GetCustomProperty("RoundLength")
+local waitTime = script:GetCustomProperty("WaitTime")
 local elapsedTime = 0
 local roundStarted = false
+local timeWaited = 0
 
 local GAME_STATES = {
     LOBBY = 1,
@@ -34,6 +38,8 @@ function AddPlayerToLobby(player)
 
     --when a player registers to play game add them to readyPlayers table
     table.insert(readyPlayers, player)
+    --set the time they have waited to zero
+    timeWaited = 0
     --if there is no current round being played then start round
     if GAME_STATE == GAME_STATES.LOBBY then
        -- if #readyPlayers <= 8 then
@@ -44,12 +50,15 @@ end
 
 Events.ConnectForPlayer("AddPlayer", AddPlayerToLobby)
 
+
+
+
 function AddAllPlayersToLobby()
 --send players back to waiting area at end of round
     for i, p in ipairs(readyPlayers) do
         p:SetWorldPosition(endingLocs[i]:GetWorldPosition())
     end
-
+    timeWaited = 0
 end
 
 function StartRound()
@@ -75,6 +84,8 @@ function EndRound()
     readyPlayers = {}
     --ballObject:Destroy()
     --Events.BroadcastToAllPlayers("OpenStartMenu")
+    local sphere = World.FindObjectByName("StaticApple")
+    sphere:Destroy()
     
 end
 
@@ -85,6 +96,13 @@ function Tick(deltaTime)
         if elapsedTime > roundTime then
             EndRound()
         end
+    else
+        if #readyPlayers > 0 then
+            timeWaited = timeWaited + deltaTime
+            if timeWaited > waitTime then
+                StartRound()
+            end
+        end
     end
 end
 
@@ -94,11 +112,13 @@ function SpawnFruit()
     --spawn friut in regular intervals in random locations
     local numFruits = #readyPlayers * 3
     print(numFruits)
-    local spawnloc = fruitLocs[math.random()]
+    --local spawnloc = fruitLocs[math.random()]
+    --print(spawnLoc)
+    local appleSpot = appleSpawn:GetWorldPosition()
 
-    for _, p in ipairs(fruitLocs) do
-        local fruit = World.SpawnAsset(apple, {position = spawnloc, scale = 1})
-    end
+    --for _, p in ipairs(fruitLocs) do
+        local fruit = World.SpawnAsset(appleShpere, {position = appleSpot, scale = 1})
+   -- end
 end
 
 StartLobby()

@@ -7,7 +7,7 @@ local UIMenu = script:GetCustomProperty("UIContainerPlayFruitDrop"):WaitForObjec
 function OnClicked(whichButton)
 	print("button clicked: " .. whichButton.name)
 	while UIMenu.opacity > 0 do
-		UIMenu.opacity = UIMenu.opacity - 0.2
+		UIMenu.opacity = UIMenu.opacity - 0.5
 		Task.Wait(0.1)
 		UI.SetCursorVisible(false)
 		UI.SetCanCursorInteractWithUI(false)

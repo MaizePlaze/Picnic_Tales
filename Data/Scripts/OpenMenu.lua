@@ -18,7 +18,7 @@ function OnEndOverlap(whichTrigger, other)
 	if other:IsA("Player") then
 		print(whichTrigger.name .. ": End Trigger Overlap with " .. other.name)
 		while UIMenu.opacity > 0 do
-			UIMenu.opacity = UIMenu.opacity + 0.2
+			UIMenu.opacity = UIMenu.opacity + 0.5
 			Task.Wait(0.1)
 			UI.SetCursorVisible(false)
 			UI.SetCanCursorInteractWithUI(false)
@@ -30,7 +30,7 @@ function OnInteracted(whichTrigger, other)
 	if other:IsA("Player") then
 		print(whichTrigger.name .. ": Trigger Interacted " .. other.name)
 		while UIMenu.opacity < 1 do
-			UIMenu.opacity = UIMenu.opacity + 0.2
+			UIMenu.opacity = UIMenu.opacity + 0.5
 			Task.Wait(0.1)
 			UI.SetCursorVisible(true)
 			UI.SetCanCursorInteractWithUI(true)
