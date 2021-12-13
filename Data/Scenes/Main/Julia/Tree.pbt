@@ -1,6 +1,1137 @@
 Name: "Julia"
 RootId: 4147847003364547307
 Objects {
+  Id: 341234770719137638
+  Name: "Green Apple with Stalk (decor)"
+  Transform {
+    Location {
+      X: -401.516541
+      Y: 2621.96191
+      Z: 23.2678375
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4147847003364547307
+  ChildIds: 880001919052837217
+  ChildIds: 9755793664032770871
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9755793664032770871
+  Name: "Stalk"
+  Transform {
+    Location {
+      X: -10.0008545
+      Y: -1.7293396
+      Z: 18.9083672
+    }
+    Rotation {
+      Yaw: 87.7028
+    }
+    Scale {
+      X: 0.233669087
+      Y: 0.233669087
+      Z: 0.233669087
+    }
+  }
+  ParentId: 341234770719137638
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18436676146666430799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0729166642
+        G: 0.00835502893
+        B: 0.00835502893
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6120777486642466004
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 880001919052837217
+  Name: "Green Apple (decor)"
+  Transform {
+    Location {
+      X: 0.0467529297
+      Y: -3.11227417
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 341234770719137638
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4946768303961194863
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 15450470870571843840
+  Name: "Red Apple with Stalk (decor)"
+  Transform {
+    Location {
+      X: 1576.3042
+      Y: 450.671448
+      Z: 40.9379883
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.596515536
+      Y: 0.596515536
+      Z: 0.596515536
+    }
+  }
+  ParentId: 4147847003364547307
+  ChildIds: 17775341070612437496
+  ChildIds: 6518277346272874411
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6518277346272874411
+  Name: "Stalk"
+  Transform {
+    Location {
+      X: -8.48779297
+      Y: 3.72238159
+      Z: 18.9083672
+    }
+    Rotation {
+      Yaw: 87.7028
+      Roll: 1.32311067e-12
+    }
+    Scale {
+      X: 0.233669102
+      Y: 0.233669102
+      Z: 0.233669102
+    }
+  }
+  ParentId: 15450470870571843840
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18436676146666430799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0729166642
+        G: 0.00835502893
+        B: 0.00835502893
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6120777486642466004
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 17775341070612437496
+  Name: "Red Apple"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 2.73207552e-05
+      Roll: 1.04287722e-07
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 15450470870571843840
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7485850683740043800
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 14194329878968965132
+  Name: "Green Apple with Stalk (decor)"
+  Transform {
+    Location {
+      X: 1321.38025
+      Y: 453.840729
+      Z: 40.9379883
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.596515536
+      Y: 0.596515536
+      Z: 0.596515536
+    }
+  }
+  ParentId: 4147847003364547307
+  ChildIds: 16866578167116810035
+  ChildIds: 5758996744215308613
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5758996744215308613
+  Name: "Stalk"
+  Transform {
+    Location {
+      X: -10.0008545
+      Y: -1.7293396
+      Z: 18.9083672
+    }
+    Rotation {
+      Yaw: 87.7028
+    }
+    Scale {
+      X: 0.233669087
+      Y: 0.233669087
+      Z: 0.233669087
+    }
+  }
+  ParentId: 14194329878968965132
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18436676146666430799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0729166642
+        G: 0.00835502893
+        B: 0.00835502893
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6120777486642466004
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 16866578167116810035
+  Name: "Green Apple (decor)"
+  Transform {
+    Location {
+      X: 0.0467529297
+      Y: -3.11227417
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 14194329878968965132
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4946768303961194863
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 6110333801406886714
+  Name: "Yellow Apple with Stalk (decor)"
+  Transform {
+    Location {
+      X: 1096.65991
+      Y: 448.114319
+      Z: 40.9379883
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.596515536
+      Y: 0.596515536
+      Z: 0.596515536
+    }
+  }
+  ParentId: 4147847003364547307
+  ChildIds: 18376018766249991255
+  ChildIds: 7194989256864728830
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7194989256864728830
+  Name: "Stalk"
+  Transform {
+    Location {
+      X: -10.3847656
+      Y: -2.77053833
+      Z: 18.9083672
+    }
+    Rotation {
+      Yaw: 87.7028046
+    }
+    Scale {
+      X: 0.233669087
+      Y: 0.233669087
+      Z: 0.233669087
+    }
+  }
+  ParentId: 6110333801406886714
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18436676146666430799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0729166642
+        G: 0.00835502893
+        B: 0.00835502893
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6120777486642466004
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 18376018766249991255
+  Name: "Apple"
+  Transform {
+    Location {
+      X: 0.125488281
+      Y: -3.28851318
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 6110333801406886714
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4946768303961194863
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.89
+        G: 0.866423845
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 789959548071595340
+  Name: "Red Apple with Stalk (decor)"
+  Transform {
+    Location {
+      X: 1576.3042
+      Y: 243.667786
+      Z: 40.9379883
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.38563919
+      Y: 1.38563919
+      Z: 1.38563919
+    }
+  }
+  ParentId: 4147847003364547307
+  ChildIds: 14223315858198760682
+  ChildIds: 17121754108546165306
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17121754108546165306
+  Name: "Stalk"
+  Transform {
+    Location {
+      X: -8.48779297
+      Y: 3.72238159
+      Z: 18.9083672
+    }
+    Rotation {
+      Yaw: 87.7028
+      Roll: 1.32311067e-12
+    }
+    Scale {
+      X: 0.233669102
+      Y: 0.233669102
+      Z: 0.233669102
+    }
+  }
+  ParentId: 789959548071595340
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18436676146666430799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0729166642
+        G: 0.00835502893
+        B: 0.00835502893
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6120777486642466004
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 14223315858198760682
+  Name: "Red Apple"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 2.73207552e-05
+      Roll: 1.04287722e-07
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 789959548071595340
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7485850683740043800
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 3743638952521938750
+  Name: "Green Apple with Stalk (decor)"
+  Transform {
+    Location {
+      X: 1329.19604
+      Y: 246.837067
+      Z: 40.9379883
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.38563919
+      Y: 1.38563919
+      Z: 1.38563919
+    }
+  }
+  ParentId: 4147847003364547307
+  ChildIds: 9326168609652992808
+  ChildIds: 7962176907046064621
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7962176907046064621
+  Name: "Stalk"
+  Transform {
+    Location {
+      X: -10.0008545
+      Y: -1.7293396
+      Z: 18.9083672
+    }
+    Rotation {
+      Yaw: 87.7028
+    }
+    Scale {
+      X: 0.233669087
+      Y: 0.233669087
+      Z: 0.233669087
+    }
+  }
+  ParentId: 3743638952521938750
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18436676146666430799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0729166642
+        G: 0.00835502893
+        B: 0.00835502893
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6120777486642466004
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 9326168609652992808
+  Name: "Green Apple (decor)"
+  Transform {
+    Location {
+      X: 0.0467529297
+      Y: -3.11227417
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 3743638952521938750
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4946768303961194863
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 8785691890506775044
+  Name: "Yellow Apple with Stalk (decor)"
+  Transform {
+    Location {
+      X: 1096.65991
+      Y: 241.110657
+      Z: 40.9379883
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.38563919
+      Y: 1.38563919
+      Z: 1.38563919
+    }
+  }
+  ParentId: 4147847003364547307
+  ChildIds: 11132085264673072856
+  ChildIds: 5697208863891766594
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5697208863891766594
+  Name: "Stalk"
+  Transform {
+    Location {
+      X: -10.3847656
+      Y: -2.77053833
+      Z: 18.9083672
+    }
+    Rotation {
+      Yaw: 87.7028046
+    }
+    Scale {
+      X: 0.233669087
+      Y: 0.233669087
+      Z: 0.233669087
+    }
+  }
+  ParentId: 8785691890506775044
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18436676146666430799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0729166642
+        G: 0.00835502893
+        B: 0.00835502893
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6120777486642466004
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 11132085264673072856
+  Name: "Apple"
+  Transform {
+    Location {
+      X: 0.125488281
+      Y: -3.28851318
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 8785691890506775044
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4946768303961194863
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.89
+        G: 0.866423845
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 15322032079658942904
   Name: "Fruit Basket Wicket Oblong 1 (decor)"
   Transform {
@@ -5924,7 +7055,7 @@ Objects {
   Transform {
     Location {
       X: 1576.3042
-      Y: 386.290405
+      Y: 360.703613
       Z: 40.9379883
     }
     Rotation {
@@ -6083,8 +7214,8 @@ Objects {
   Name: "Green Apple with Stalk (decor)"
   Transform {
     Location {
-      X: 1321.38025
-      Y: 389.459686
+      X: 1324.23987
+      Y: 374.387115
       Z: 40.9379883
     }
     Rotation {
@@ -6243,7 +7374,7 @@ Objects {
   Transform {
     Location {
       X: 1096.65991
-      Y: 383.733276
+      Y: 370.622589
       Z: 40.9379883
     }
     Rotation {
@@ -6446,7 +7577,7 @@ Objects {
   Name: "Yellow Apple"
   Transform {
     Location {
-      X: -155.484253
+      X: -165.993164
     }
     Rotation {
     }
@@ -6511,7 +7642,7 @@ Objects {
   Name: "Green Apple"
   Transform {
     Location {
-      X: 8.60131836
+      X: 67.6773682
     }
     Rotation {
     }
@@ -6568,7 +7699,8 @@ Objects {
   Name: "Red Apple"
   Transform {
     Location {
-      X: 146.882324
+      X: 306.447876
+      Y: 10.0753479
     }
     Rotation {
     }
@@ -8552,12 +9684,12 @@ Objects {
   }
 }
 Objects {
-  Id: 9224559033088100518
-  Name: "Basic Apple"
+  Id: 5998978211950124267
+  Name: "Placeholders & Dummy Objects"
   Transform {
     Location {
-      X: -1527.12854
-      Y: 1606.10815
+      X: -420.091827
+      Y: -1009.66577
       Z: 40.9379883
     }
     Rotation {
@@ -8569,6 +9701,46 @@ Objects {
     }
   }
   ParentId: 4147847003364547307
+  ChildIds: 6340520491091309645
+  ChildIds: 15421482356343042708
+  ChildIds: 10377257378747485730
+  ChildIds: 8342262370725360896
+  ChildIds: 12986524537365901599
+  ChildIds: 5475785631080138423
+  ChildIds: 9224559033088100518
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9224559033088100518
+  Name: "Basic Apple"
+  Transform {
+    Location {
+      X: -1107.03674
+      Y: 2615.77393
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5998978211950124267
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8603,12 +9775,12 @@ Objects {
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
-      X: 116.250092
-      Y: -1980.04102
-      Z: 105.000031
+      X: 536.341919
+      Y: -970.375244
+      Z: 64.0620422
     }
     Rotation {
-      Yaw: 67.3472672
+      Yaw: 67.3472748
     }
     Scale {
       X: 1
@@ -8616,7 +9788,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4147847003364547307
+  ParentId: 5998978211950124267
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8665,12 +9837,12 @@ Objects {
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
-      X: -1932.5448
-      Y: 1334.71802
-      Z: 105.000023
+      X: -1512.453
+      Y: 2344.38379
+      Z: 64.0620346
     }
     Rotation {
-      Yaw: 67.3472672
+      Yaw: 67.3472748
     }
     Scale {
       X: 1
@@ -8678,7 +9850,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4147847003364547307
+  ParentId: 5998978211950124267
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8727,12 +9899,12 @@ Objects {
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
-      X: 510.397644
-      Y: -2009.23657
-      Z: 105.000023
+      X: 930.489502
+      Y: -999.570801
+      Z: 64.0620346
     }
     Rotation {
-      Yaw: 67.3472672
+      Yaw: 67.3472748
     }
     Scale {
       X: 1
@@ -8740,7 +9912,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4147847003364547307
+  ParentId: 5998978211950124267
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8789,12 +9961,12 @@ Objects {
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
-      X: -316.452515
-      Y: -2029.974
-      Z: 105.000023
+      X: 103.639313
+      Y: -1020.30823
+      Z: 64.0620346
     }
     Rotation {
-      Yaw: 67.3472672
+      Yaw: 67.3472748
     }
     Scale {
       X: 1
@@ -8802,7 +9974,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4147847003364547307
+  ParentId: 5998978211950124267
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8851,12 +10023,12 @@ Objects {
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
-      X: -66.0794678
-      Y: -1969.67822
-      Z: 105.000023
+      X: 354.01236
+      Y: -960.012451
+      Z: 64.0620346
     }
     Rotation {
-      Yaw: 67.3472672
+      Yaw: 67.3472748
     }
     Scale {
       X: 1
@@ -8864,7 +10036,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4147847003364547307
+  ParentId: 5998978211950124267
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8913,12 +10085,12 @@ Objects {
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
-      X: 274.914886
-      Y: -2019.55652
-      Z: 105.000023
+      X: 695.006714
+      Y: -1009.89075
+      Z: 64.0620346
     }
     Rotation {
-      Yaw: 67.3472672
+      Yaw: 67.3472748
     }
     Scale {
       X: 1
@@ -8926,7 +10098,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4147847003364547307
+  ParentId: 5998978211950124267
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8968,40 +10140,5 @@ Objects {
         Id: 841534158063459245
       }
     }
-  }
-}
-Objects {
-  Id: 7974548024162178283
-  Name: "Equipment"
-  Transform {
-    Location {
-      X: 53.8621826
-      Y: 167.808716
-      Z: 105.496582
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4147847003364547307
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Equipment"
   }
 }
