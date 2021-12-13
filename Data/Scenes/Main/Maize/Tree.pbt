@@ -1,13 +1,100 @@
 Name: "Maize"
 RootId: 44003275876171690
 Objects {
-  Id: 1545551210481271009
-  Name: "Dummy Object"
+  Id: 14107002506763753702
+  Name: "Whitebox Floor 01 4m x 4m"
   Transform {
     Location {
-      X: -465
-      Y: 205
-      Z: 245
+      Y: 2845
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 2.75000024
+      Z: 1
+    }
+  }
+  ParentId: 44003275876171690
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9792587434536731249
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 10576231355272251083
+  Name: "Whitebox Floor 01 4m x 4m"
+  Transform {
+    Location {
+      X: -3495
+    }
+    Rotation {
+    }
+    Scale {
+      X: 4.50000095
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 44003275876171690
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9792587434536731249
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 9964610755031626702
+  Name: "FruitFindMiniGame"
+  Transform {
+    Location {
     }
     Rotation {
     }
@@ -18,6 +105,257 @@ Objects {
     }
   }
   ParentId: 44003275876171690
+  ChildIds: 11569917957662549746
+  ChildIds: 11468488314398581459
+  ChildIds: 5673462259848196854
+  ChildIds: 16597599469179140055
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16597599469179140055
+  Name: "Reset Collectables Button"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9964610755031626702
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9802320275638469321
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Reset Collectables Button"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 3260
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5496717980017017299
+    }
+  }
+}
+Objects {
+  Id: 5673462259848196854
+  Name: "Collectable Coin Group"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9964610755031626702
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2346299826263987260
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Collectable Coin Group"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 4080
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16770233353028870407
+    }
+  }
+}
+Objects {
+  Id: 11468488314398581459
+  Name: "Whitebox Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: -1675
+      Y: 6690
+      Z: -20
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5
+      Y: 5
+      Z: 1
+    }
+  }
+  ParentId: 9964610755031626702
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 917256483381082687
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 11569917957662549746
+  Name: "Efficient Collectables"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9964610755031626702
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1922599688902567268
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Efficient Collectables"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6131898597161979646
+    }
+  }
+}
+Objects {
+  Id: 2677495261569597953
+  Name: "FruitDropMiniGame"
+  Transform {
+    Location {
+      X: -165
+      Y: -385
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 44003275876171690
+  ChildIds: 6018856275537252153
+  ChildIds: 343961503485121148
+  ChildIds: 2909358311781510362
+  ChildIds: 1139543232354936422
+  ChildIds: 1545551210481271009
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1545551210481271009
+  Name: "Dummy Object"
+  Transform {
+    Location {
+      X: -300
+      Y: 590
+      Z: 245
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2677495261569597953
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -43,6 +381,8 @@ Objects {
   Name: "FruitDrop_Server"
   Transform {
     Location {
+      X: 165
+      Y: 385
     }
     Rotation {
     }
@@ -52,7 +392,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 44003275876171690
+  ParentId: 2677495261569597953
   UnregisteredParameters {
     Overrides {
       Name: "cs:StartingLocations"
@@ -122,8 +462,8 @@ Objects {
   Name: "Play Area"
   Transform {
     Location {
-      X: -350
-      Y: -760
+      X: -185
+      Y: -375
       Z: 100
     }
     Rotation {
@@ -134,7 +474,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 44003275876171690
+  ParentId: 2677495261569597953
   ChildIds: 13006306498132129600
   ChildIds: 16426432572577204193
   ChildIds: 2060234037197206718
@@ -677,6 +1017,7 @@ Objects {
   ChildIds: 2129410073242994225
   ChildIds: 469161932057450072
   ChildIds: 12217542977741803020
+  ChildIds: 16087272126578293143
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -691,6 +1032,53 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 16087272126578293143
+  Name: "Whitebox Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: -1675
+      Y: 1965
+      Z: -20
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5
+      Y: 5
+      Z: 1
+    }
+  }
+  ParentId: 842309935005774273
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 917256483381082687
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
 }
 Objects {
@@ -1123,6 +1511,8 @@ Objects {
   Name: "UIClientContext"
   Transform {
     Location {
+      X: 165
+      Y: 385
     }
     Rotation {
     }
@@ -1132,7 +1522,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 44003275876171690
+  ParentId: 2677495261569597953
   ChildIds: 8690948267228987499
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -1868,7 +2258,8 @@ Objects {
   Name: "Register for Fruit Drop"
   Transform {
     Location {
-      Y: -1360
+      X: 165
+      Y: -975
       Z: 50
     }
     Rotation {
@@ -1879,7 +2270,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 44003275876171690
+  ParentId: 2677495261569597953
   ChildIds: 13146634277164826543
   ChildIds: 5230280991689147059
   ChildIds: 9667715199617462536

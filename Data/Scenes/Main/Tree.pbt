@@ -39,6 +39,7 @@ Objects {
   Name: "Maize"
   Transform {
     Location {
+      X: 6000
     }
     Rotation {
     }
