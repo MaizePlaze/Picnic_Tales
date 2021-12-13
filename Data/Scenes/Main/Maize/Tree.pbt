@@ -155,7 +155,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            Y: 3260
+            X: 1890
+            Y: 2790
+            Z: 140
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 60
           }
         }
       }
