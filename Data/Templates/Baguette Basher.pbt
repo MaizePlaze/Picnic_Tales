@@ -7,7 +7,7 @@ Assets {
       RootId: 6844330457232209348
       Objects {
         Id: 6844330457232209348
-        Name: "Gem - Baguette Polished"
+        Name: "Baguette Basher"
         Transform {
           Scale {
             X: 2.39914465
@@ -15,7 +15,7 @@ Assets {
             Z: 0.827285767
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 8272291763913453256
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -36,7 +36,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

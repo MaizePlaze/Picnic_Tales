@@ -179,6 +179,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10771057208018775687
+  Name: "Weapon Guide 2hand_sword"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "weapon_guide_sword_BP_ref"
+  }
+}
+Assets {
   Id: 9314504034621143103
   Name: "Wicker Basket 01"
   PlatformAssetType: 2
