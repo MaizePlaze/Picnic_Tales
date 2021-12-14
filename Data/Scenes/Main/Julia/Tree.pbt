@@ -381,7 +381,7 @@ Objects {
     Overrides {
       Name: "cs:PickupSound"
       AssetReference {
-        Id: 4020958367257585299
+        Id: 11701728538962683260
       }
     }
   }
@@ -4694,7 +4694,7 @@ Objects {
     }
   }
   ParentId: 15927157234127289507
-  ChildIds: 9063729127034386843
+  ChildIds: 16497101522502115988
   ChildIds: 10213677628368296046
   ChildIds: 7441592648151520046
   WantsNetworking: true
@@ -4798,12 +4798,18 @@ Objects {
   }
 }
 Objects {
-  Id: 9063729127034386843
+  Id: 16497101522502115988
   Name: "EquipmentPickupClient"
   Transform {
     Location {
+      X: 14.478653
+      Y: 303.875732
+      Z: -288.123322
     }
     Rotation {
+      Pitch: -4.20185709
+      Yaw: 42.6896133
+      Roll: 5.9621048
     }
     Scale {
       X: 1
@@ -4816,7 +4822,7 @@ Objects {
     Overrides {
       Name: "cs:PickupSound"
       AssetReference {
-        Id: 4020958367257585299
+        Id: 11701728538962683260
       }
     }
   }
@@ -6838,6 +6844,7 @@ Objects {
   ChildIds: 1589170583504593861
   ChildIds: 17571292952252943893
   ChildIds: 5277670132951671215
+  ChildIds: 12876328061818975086
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -6858,6 +6865,56 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12876328061818975086
+  Name: "EquipmentPickupClient"
+  Transform {
+    Location {
+      X: 150.401123
+      Y: 501.629639
+      Z: -518.465698
+    }
+    Rotation {
+      Pitch: 3.6901803
+      Yaw: 42.6570778
+      Roll: 13.2224779
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16668614254862806334
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:PickupSound"
+      AssetReference {
+        Id: 11701728538962683260
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 440168262593430639
+    }
+  }
+  InstanceHistory {
+    SelfId: 8942973090779218631
+    SubobjectId: 8231522078824179818
+    InstanceId: 4241382240575549203
+    TemplateId: 1033855592343353671
   }
 }
 Objects {
@@ -7707,7 +7764,7 @@ Objects {
     }
   }
   ParentId: 5590306460761271745
-  ChildIds: 4682079130493259021
+  ChildIds: 7490266633497900074
   ChildIds: 6087545035181401323
   ChildIds: 3639009137940817960
   WantsNetworking: true
@@ -7811,12 +7868,18 @@ Objects {
   }
 }
 Objects {
-  Id: 4682079130493259021
+  Id: 7490266633497900074
   Name: "EquipmentPickupClient"
   Transform {
     Location {
+      X: 185.870117
+      Y: 506.595825
+      Z: -558.558105
     }
     Rotation {
+      Pitch: 4.69452524
+      Yaw: 42.7249908
+      Roll: 14.1514273
     }
     Scale {
       X: 1
@@ -7829,7 +7892,7 @@ Objects {
     Overrides {
       Name: "cs:PickupSound"
       AssetReference {
-        Id: 4020958367257585299
+        Id: 11701728538962683260
       }
     }
   }
