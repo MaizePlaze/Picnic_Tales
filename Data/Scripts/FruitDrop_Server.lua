@@ -70,13 +70,8 @@ function StartRound()
     GAME_STATE = GAME_STATES.ROUND
     for i, p in ipairs(readyPlayers) do
         p:SetWorldPosition(startingLocs[i]:GetWorldPosition())
-        --local glove1 = World.SpawnAsset(propBoxingGloveLeft, Rotation = 0,0,180)
-        --glove1:Equip(p)
-        --local glove2 = World.SpawnAsset(propBoxingGloveRight)
-        --glove2:Equip(p)
     end
     SpawnFruit()
-    --ballObject = World.SpawnAsset(ball, {position = BallSpawnLocation, scale = 6})
 end
 
 Game.roundStartEvent:Connect(StartRound)
@@ -87,7 +82,7 @@ function EndRound()
     readyPlayers = {}
     --ballObject:Destroy()
     --Events.BroadcastToAllPlayers("OpenStartMenu")
-    local sphere = World.FindObjectByName("StaticApple")
+    local sphere = World.FindObjectByName("Physics Apple")
     sphere:Destroy()
     
 end
@@ -116,12 +111,11 @@ function SpawnFruit()
     local numFruits = #readyPlayers * 3
     print(numFruits)
     --local spawnloc = fruitLocs[math.random()]
-    --print(spawnLoc)
     local appleSpot = appleSpawn:GetWorldPosition()
 
-    --for _, p in ipairs(fruitLocs) do
-        local fruit = World.SpawnAsset(appleShpere, {position = appleSpot, scale = 1})
-   -- end
+    for i, p in ipairs(fruitLocs) do
+        local fruit = World.SpawnAsset(apple, {position = fruitLocs[i]:GetWorldPosition(), scale = 1})
+    end
 end
 
 StartLobby()

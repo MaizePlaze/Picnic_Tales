@@ -335,7 +335,7 @@ Objects {
 }
 Objects {
   Id: 10689726599139081185
-  Name: "Collectable Coin Group"
+  Name: "Collectable Apple Group"
   Transform {
     Location {
       Y: 4080
@@ -509,7 +509,7 @@ Objects {
 }
 Objects {
   Id: 1726844449338733231
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 400
@@ -841,7 +841,7 @@ Objects {
 }
 Objects {
   Id: 14695835180830612786
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       Y: 100
@@ -1172,7 +1172,7 @@ Objects {
 }
 Objects {
   Id: 9962729402642059126
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       Y: 200
@@ -1503,7 +1503,7 @@ Objects {
 }
 Objects {
   Id: 1205797618710176561
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       Y: 300
@@ -1834,7 +1834,7 @@ Objects {
 }
 Objects {
   Id: 1364494444148479048
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       Y: 400
@@ -2165,7 +2165,7 @@ Objects {
 }
 Objects {
   Id: 11625376476736461637
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       Z: 200
@@ -2495,7 +2495,7 @@ Objects {
 }
 Objects {
   Id: 4939454989869098397
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 100
@@ -2827,7 +2827,7 @@ Objects {
 }
 Objects {
   Id: 15542617112415338979
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 100
@@ -3159,7 +3159,7 @@ Objects {
 }
 Objects {
   Id: 9120093959383230408
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 100
@@ -3491,7 +3491,7 @@ Objects {
 }
 Objects {
   Id: 14914004051288381547
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 100
@@ -3823,7 +3823,7 @@ Objects {
 }
 Objects {
   Id: 6291193404771905013
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 200
@@ -4154,7 +4154,7 @@ Objects {
 }
 Objects {
   Id: 17344063539648044036
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 200
@@ -4486,7 +4486,7 @@ Objects {
 }
 Objects {
   Id: 9296979190253710633
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 200
@@ -4818,7 +4818,7 @@ Objects {
 }
 Objects {
   Id: 13279368836715635901
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 200
@@ -5150,7 +5150,7 @@ Objects {
 }
 Objects {
   Id: 1269456174185238399
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 200
@@ -5482,7 +5482,7 @@ Objects {
 }
 Objects {
   Id: 14268374035556094722
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 300
@@ -5813,7 +5813,7 @@ Objects {
 }
 Objects {
   Id: 18085504595956959141
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 300
@@ -6145,7 +6145,7 @@ Objects {
 }
 Objects {
   Id: 12399892242638042974
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 300
@@ -6477,7 +6477,7 @@ Objects {
 }
 Objects {
   Id: 3567565168309282596
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 300
@@ -6809,7 +6809,7 @@ Objects {
 }
 Objects {
   Id: 16368601782400997992
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 300
@@ -7141,7 +7141,7 @@ Objects {
 }
 Objects {
   Id: 8686119223732818410
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 400
@@ -7472,7 +7472,7 @@ Objects {
 }
 Objects {
   Id: 7208583999821978527
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 400
@@ -7804,7 +7804,7 @@ Objects {
 }
 Objects {
   Id: 5080897947272264147
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 400
@@ -8136,7 +8136,7 @@ Objects {
 }
 Objects {
   Id: 8576682465194894096
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 400
@@ -8468,7 +8468,7 @@ Objects {
 }
 Objects {
   Id: 6178298085461089450
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 100
@@ -8799,7 +8799,7 @@ Objects {
 }
 Objects {
   Id: 9473668146882623220
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       Z: 100
@@ -9129,7 +9129,7 @@ Objects {
 }
 Objects {
   Id: 6299751066681689623
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 400
@@ -9461,7 +9461,7 @@ Objects {
 }
 Objects {
   Id: 8319584521228605650
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 400
@@ -9793,7 +9793,7 @@ Objects {
 }
 Objects {
   Id: 6989701434632450455
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 400
@@ -10125,7 +10125,7 @@ Objects {
 }
 Objects {
   Id: 11837336597513173381
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 400
@@ -10456,7 +10456,7 @@ Objects {
 }
 Objects {
   Id: 4622152305684400765
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 300
@@ -10788,7 +10788,7 @@ Objects {
 }
 Objects {
   Id: 17841097410516938465
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 300
@@ -11120,7 +11120,7 @@ Objects {
 }
 Objects {
   Id: 3453708694295304958
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 300
@@ -11452,7 +11452,7 @@ Objects {
 }
 Objects {
   Id: 17340365634707941209
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 300
@@ -11784,7 +11784,7 @@ Objects {
 }
 Objects {
   Id: 16341484058433437431
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 300
@@ -12115,7 +12115,7 @@ Objects {
 }
 Objects {
   Id: 5432498472661481815
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 200
@@ -12447,7 +12447,7 @@ Objects {
 }
 Objects {
   Id: 2670242300070036372
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 200
@@ -12779,7 +12779,7 @@ Objects {
 }
 Objects {
   Id: 10992324531213385373
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 200
@@ -13111,7 +13111,7 @@ Objects {
 }
 Objects {
   Id: 15757521445057314579
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 200
@@ -13443,7 +13443,7 @@ Objects {
 }
 Objects {
   Id: 12013634764780294787
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 200
@@ -13774,7 +13774,7 @@ Objects {
 }
 Objects {
   Id: 16458068718769484155
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 100
@@ -14106,7 +14106,7 @@ Objects {
 }
 Objects {
   Id: 1589649804767875619
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 100
@@ -14438,7 +14438,7 @@ Objects {
 }
 Objects {
   Id: 5900131170076890562
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 100
@@ -14770,7 +14770,7 @@ Objects {
 }
 Objects {
   Id: 11221929904548471216
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 100
@@ -15102,7 +15102,7 @@ Objects {
 }
 Objects {
   Id: 10785014119720539658
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 100
@@ -15433,7 +15433,7 @@ Objects {
 }
 Objects {
   Id: 11754830732754440559
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       Y: 400
@@ -15764,7 +15764,7 @@ Objects {
 }
 Objects {
   Id: 12696840225890855252
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       Y: 300
@@ -16095,7 +16095,7 @@ Objects {
 }
 Objects {
   Id: 11768403853249987253
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       Y: 200
@@ -16426,7 +16426,7 @@ Objects {
 }
 Objects {
   Id: 15546934132206045832
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       Y: 100
@@ -16757,7 +16757,7 @@ Objects {
 }
 Objects {
   Id: 11682551322286151344
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 400
@@ -17089,7 +17089,7 @@ Objects {
 }
 Objects {
   Id: 13889010461094460554
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 400
@@ -17420,7 +17420,7 @@ Objects {
 }
 Objects {
   Id: 5463994172586565447
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 400
@@ -17751,7 +17751,7 @@ Objects {
 }
 Objects {
   Id: 4432533121807337120
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 400
@@ -18082,7 +18082,7 @@ Objects {
 }
 Objects {
   Id: 10072365912387567781
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 400
@@ -18413,7 +18413,7 @@ Objects {
 }
 Objects {
   Id: 6159473878950652356
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 400
@@ -18735,7 +18735,7 @@ Objects {
 }
 Objects {
   Id: 7451247619458695716
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 300
@@ -19066,7 +19066,7 @@ Objects {
 }
 Objects {
   Id: 13938687227664567385
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 300
@@ -19397,7 +19397,7 @@ Objects {
 }
 Objects {
   Id: 7438319299966403765
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 300
@@ -19728,7 +19728,7 @@ Objects {
 }
 Objects {
   Id: 13444366722270562682
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 300
@@ -20059,7 +20059,7 @@ Objects {
 }
 Objects {
   Id: 16959691413397609919
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 300
@@ -20381,7 +20381,7 @@ Objects {
 }
 Objects {
   Id: 3069852867745912850
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 200
@@ -20712,7 +20712,7 @@ Objects {
 }
 Objects {
   Id: 2332998779351804357
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 200
@@ -21043,7 +21043,7 @@ Objects {
 }
 Objects {
   Id: 12615519545874914513
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 200
@@ -21374,7 +21374,7 @@ Objects {
 }
 Objects {
   Id: 8910331114592238001
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 200
@@ -21705,7 +21705,7 @@ Objects {
 }
 Objects {
   Id: 1765992664575909432
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 200
@@ -22027,7 +22027,7 @@ Objects {
 }
 Objects {
   Id: 6843902240351860442
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 100
@@ -22358,7 +22358,7 @@ Objects {
 }
 Objects {
   Id: 8148138088282504358
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 100
@@ -22689,7 +22689,7 @@ Objects {
 }
 Objects {
   Id: 8679124304475782653
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 100
@@ -23020,7 +23020,7 @@ Objects {
 }
 Objects {
   Id: 2623253514950484919
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 100
@@ -23351,7 +23351,7 @@ Objects {
 }
 Objects {
   Id: 8701143227138115070
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       X: 100
@@ -23673,7 +23673,7 @@ Objects {
 }
 Objects {
   Id: 18031428088908169938
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       Y: 400
@@ -23995,7 +23995,7 @@ Objects {
 }
 Objects {
   Id: 14202650634703668757
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       Y: 300
@@ -24317,7 +24317,7 @@ Objects {
 }
 Objects {
   Id: 18021846765350251180
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       Y: 200
@@ -24639,7 +24639,7 @@ Objects {
 }
 Objects {
   Id: 13115168025059799911
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
       Y: 100
@@ -24961,7 +24961,7 @@ Objects {
 }
 Objects {
   Id: 4081649287275562135
-  Name: "MantiCoin"
+  Name: "ApplePickup"
   Transform {
     Location {
     }

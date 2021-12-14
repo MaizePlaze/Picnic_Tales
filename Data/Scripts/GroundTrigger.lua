@@ -3,11 +3,10 @@ local sphere = World.FindObjectByName("Physics Apple")
 local teamToReward = 1
 
 function OnBeginOverlap(whichTrigger, other)
-	if other:IsA("Object") then
+	if other.name("Physics Apple") then
 		print(whichTrigger.name .. ": Begin Trigger Overlap with " .. other.name)
+		other:Destroy()
 	end
-	--print(sphere.name)
-	--sphere:Destroy()
 	--while true do
 		--Task.Wait(1)
 		--if sphere and trigger:IsOverlapping(sphere) then
@@ -31,5 +30,5 @@ function OnInteracted(whichTrigger, other)
 end
 
 trigger.beginOverlapEvent:Connect(OnBeginOverlap)
-trigger.endOverlapEvent:Connect(OnEndOverlap)
-trigger.interactedEvent:Connect(OnInteracted)
+--trigger.endOverlapEvent:Connect(OnEndOverlap)
+--trigger.interactedEvent:Connect(OnInteracted)

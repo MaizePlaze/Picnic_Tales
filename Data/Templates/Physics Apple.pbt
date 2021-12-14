@@ -15,9 +15,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17399955235974060222
+        ParentId: 4781671109827199097
         ChildIds: 3628195363046199152
-        ChildIds: 4036516853200755575
+        ChildIds: 5263573830702898479
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -74,7 +74,6 @@ Assets {
           }
         }
         ParentId: 8065011927264135857
-        ChildIds: 15815567543485626862
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -92,26 +91,69 @@ Assets {
         }
       }
       Objects {
-        Id: 15815567543485626862
-        Name: "PhysicsSphereMesh"
+        Id: 5263573830702898479
+        Name: "RedAppleGeo"
         Transform {
           Location {
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2
+            Y: 2
+            Z: 2
           }
         }
-        ParentId: 3628195363046199152
+        ParentId: 8065011927264135857
+        ChildIds: 8421056290921332965
+        ChildIds: 14125106330105085800
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 8421056290921332965
+        Name: "Red Apple"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Pitch: 2.73207552e-05
+            Roll: 1.04287722e-07
+          }
+          Scale {
+            X: 0.445568591
+            Y: 0.445568591
+            Z: 0.445568591
+          }
+        }
+        ParentId: 5263573830702898479
         UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 7485850683740043800
+            }
+          }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: false
           }
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -126,7 +168,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 14574194950930370417
+            Id: 5089623065350727938
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -142,21 +184,42 @@ Assets {
         }
       }
       Objects {
-        Id: 4036516853200755575
-        Name: "Trigger"
+        Id: 14125106330105085800
+        Name: "Stalk"
         Transform {
           Location {
+            X: -8.48779297
+            Y: 3.72238159
+            Z: 18.9083672
           }
           Rotation {
+            Yaw: 87.7028
+            Roll: 1.32311067e-12
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.233669102
+            Y: 0.233669102
+            Z: 0.233669102
           }
         }
-        ParentId: 8065011927264135857
-        ChildIds: 17916740791000363958
+        ParentId: 5263573830702898479
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 18436676146666430799
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0729166642
+              G: 0.00835502893
+              B: 0.00835502893
+              A: 1
+            }
+          }
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -170,72 +233,58 @@ Assets {
         EditorIndicatorVisibility {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
-        Trigger {
-          TeamSettings {
+        CoreMesh {
+          MeshAsset {
+            Id: 6120777486642466004
+          }
+          Teams {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          TriggerShape_v2 {
-            Value: "mc:etriggershape:sphere"
-          }
-        }
-      }
-      Objects {
-        Id: 17916740791000363958
-        Name: "AppleTrigger"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4036516853200755575
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Playfield"
-            ObjectReference {
-              SelfId: 15145189578890841340
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
             }
-          }
-          Overrides {
-            Name: "cs:PhysicsApple"
-            ObjectReference {
-              SubObjectId: 8065011927264135857
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Script {
-          ScriptAsset {
-            Id: 3763697437728287309
+            BoundsScale: 1
           }
         }
       }
     }
     Assets {
-      Id: 14574194950930370417
-      Name: "Sphere"
+      Id: 5089623065350727938
+      Name: "Basic Apple"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_sphere_002"
+        AssetId: "sm_prim_org_apple_001_ref"
+      }
+    }
+    Assets {
+      Id: 7485850683740043800
+      Name: "Food Fruit 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_food_generic_apple_001_uv"
+      }
+    }
+    Assets {
+      Id: 6120777486642466004
+      Name: "Sphere - Half Slice Thin"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_hemisphere_wedge_002"
+      }
+    }
+    Assets {
+      Id: 18436676146666430799
+      Name: "Grass and Soil"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_grass_003_uv"
       }
     }
     PrimaryAssetId {
