@@ -305,15 +305,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4248955559736083819
-  Name: "Impact Player Body Thud 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_impact_player_bodythud_01_Cue_ref"
-  }
-}
-Assets {
   Id: 3675376178011267601
   Name: "Cylinder - Rounded"
   PlatformAssetType: 1
@@ -347,24 +338,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_sphere_3quarter_002_ref"
-  }
-}
-Assets {
-  Id: 2510984402606835564
-  Name: "Gem - Baguette Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_gem_baguette_polished_001"
-  }
-}
-Assets {
-  Id: 1583892998503481529
-  Name: "Food Corn 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_food_generic_corn_001_uv"
   }
 }
 Assets {

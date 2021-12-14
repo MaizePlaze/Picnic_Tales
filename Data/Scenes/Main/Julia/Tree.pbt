@@ -1,15 +1,16 @@
 Name: "Julia"
 RootId: 4147847003364547307
 Objects {
-  Id: 14095893996338936139
+  Id: 16995246632107296310
   Name: "Baguette Basher"
   Transform {
     Location {
-      X: 733.294556
-      Y: -1931.93982
-      Z: 15.6515503
+      X: 1083.0531
+      Y: -1464.97302
+      Z: 125.388489
     }
     Rotation {
+      Pitch: 79.4655304
     }
     Scale {
       X: 1
@@ -18,13 +19,13 @@ Objects {
     }
   }
   ParentId: 4147847003364547307
-  ChildIds: 7612034852672480500
-  ChildIds: 6091341271270367465
-  ChildIds: 4184254864130766735
-  ChildIds: 8138887964302055672
-  ChildIds: 9426853773271652331
-  ChildIds: 624827133929124817
-  ChildIds: 8398710371515216606
+  ChildIds: 4430120032115671565
+  ChildIds: 8096660658165507994
+  ChildIds: 3669295031608851838
+  ChildIds: 18435637607697142057
+  ChildIds: 17240124483450101667
+  ChildIds: 15088620148528483506
+  ChildIds: 8393403098370016898
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentStance"
@@ -105,7 +106,7 @@ Objects {
   Equipment {
     SocketName: "right_prop"
     PickupTrigger {
-      SelfId: 7612034852672480500
+      SelfId: 4430120032115671565
     }
   }
   InstanceHistory {
@@ -117,11 +118,12 @@ Objects {
   }
 }
 Objects {
-  Id: 8398710371515216606
+  Id: 8393403098370016898
   Name: "Weapon Guide 2hand_sword"
   Transform {
     Location {
       X: -134.47467
+      Z: -2.28881836e-05
     }
     Rotation {
       Pitch: -92.6953735
@@ -132,7 +134,7 @@ Objects {
       Z: 1.0000006
     }
   }
-  ParentId: 14095893996338936139
+  ParentId: 16995246632107296310
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -155,7 +157,7 @@ Objects {
   }
 }
 Objects {
-  Id: 624827133929124817
+  Id: 15088620148528483506
   Name: "ClientContext"
   Transform {
     Location {
@@ -168,8 +170,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14095893996338936139
-  ChildIds: 3520792896692988472
+  ParentId: 16995246632107296310
+  ChildIds: 7137952403032789311
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -187,7 +189,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3520792896692988472
+  Id: 7137952403032789311
   Name: "Baguette Basher"
   Transform {
     Scale {
@@ -196,7 +198,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 624827133929124817
+  ParentId: 15088620148528483506
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -229,7 +231,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9426853773271652331
+  Id: 17240124483450101667
   Name: "ClientContext"
   Transform {
     Location {
@@ -242,10 +244,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14095893996338936139
-  ChildIds: 4936972702344538302
-  ChildIds: 11496166080594531529
-  ChildIds: 10436705018895759443
+  ParentId: 16995246632107296310
+  ChildIds: 537033720244363033
+  ChildIds: 17207071962810452995
+  ChildIds: 4647679312694577152
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -266,7 +268,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10436705018895759443
+  Id: 4647679312694577152
   Name: "Geo"
   Transform {
     Location {
@@ -279,7 +281,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9426853773271652331
+  ParentId: 17240124483450101667
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -300,7 +302,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11496166080594531529
+  Id: 17207071962810452995
   Name: "EquipmentMeleeAttacksClient"
   Transform {
     Location {
@@ -313,7 +315,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9426853773271652331
+  ParentId: 17240124483450101667
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -338,7 +340,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4936972702344538302
+  Id: 537033720244363033
   Name: "EquipmentPickupClient"
   Transform {
     Location {
@@ -351,7 +353,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9426853773271652331
+  ParentId: 17240124483450101667
   UnregisteredParameters {
     Overrides {
       Name: "cs:PickupSound"
@@ -382,7 +384,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8138887964302055672
+  Id: 18435637607697142057
   Name: "ServerContext"
   Transform {
     Location {
@@ -395,10 +397,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14095893996338936139
-  ChildIds: 12221190363785626499
-  ChildIds: 6924223751784073436
-  ChildIds: 13253610196932999628
+  ParentId: 16995246632107296310
+  ChildIds: 16041709340968765762
+  ChildIds: 16590535945292234285
+  ChildIds: 1631250930860331418
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -420,7 +422,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13253610196932999628
+  Id: 1631250930860331418
   Name: "EquipmentMeleeAttacksServer"
   Transform {
     Location {
@@ -434,7 +436,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8138887964302055672
+  ParentId: 18435637607697142057
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -459,7 +461,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6924223751784073436
+  Id: 16590535945292234285
   Name: "EquipmentStanceServer"
   Transform {
     Location {
@@ -472,7 +474,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8138887964302055672
+  ParentId: 18435637607697142057
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -495,7 +497,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12221190363785626499
+  Id: 16041709340968765762
   Name: "EquipmentPickupServer"
   Transform {
     Location {
@@ -509,12 +511,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8138887964302055672
+  ParentId: 18435637607697142057
   UnregisteredParameters {
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 7612034852672480500
+        SelfId: 4430120032115671565
       }
     }
   }
@@ -540,7 +542,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4184254864130766735
+  Id: 3669295031608851838
   Name: "Attack 2"
   Transform {
     Location {
@@ -553,7 +555,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14095893996338936139
+  ParentId: 16995246632107296310
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -660,7 +662,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6091341271270367465
+  Id: 8096660658165507994
   Name: "Attack 1"
   Transform {
     Location {
@@ -673,7 +675,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14095893996338936139
+  ParentId: 16995246632107296310
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -779,7 +781,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7612034852672480500
+  Id: 4430120032115671565
   Name: "Pickup Trigger"
   Transform {
     Location {
@@ -793,7 +795,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 14095893996338936139
+  ParentId: 16995246632107296310
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -809,7 +811,7 @@ Objects {
   }
   Trigger {
     Interactable: true
-    InteractionLabel: "Equip Advanced 2-Handed Sword"
+    InteractionLabel: "Baguette Basher"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -826,15 +828,16 @@ Objects {
   }
 }
 Objects {
-  Id: 7020857559390168432
+  Id: 6724773553523906192
   Name: "Baguette Basher"
   Transform {
     Location {
-      X: 739.457275
-      Y: -2021.28076
-      Z: 15.6515503
+      X: 1234.86621
+      Y: -1464.97302
+      Z: 125.388489
     }
     Rotation {
+      Pitch: 79.4655304
     }
     Scale {
       X: 1
@@ -843,13 +846,13 @@ Objects {
     }
   }
   ParentId: 4147847003364547307
-  ChildIds: 484539539687507048
-  ChildIds: 4493595827153372789
-  ChildIds: 3403124814297736532
-  ChildIds: 7312202739934119462
-  ChildIds: 1947317326744603831
-  ChildIds: 6787212849466727787
-  ChildIds: 4522746381223819026
+  ChildIds: 2895258131159342322
+  ChildIds: 11425478530039016711
+  ChildIds: 15176820731860045016
+  ChildIds: 3107018153883737307
+  ChildIds: 3784103301438552265
+  ChildIds: 5014923725288185457
+  ChildIds: 13530482965709444945
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentStance"
@@ -930,7 +933,7 @@ Objects {
   Equipment {
     SocketName: "right_prop"
     PickupTrigger {
-      SelfId: 484539539687507048
+      SelfId: 2895258131159342322
     }
   }
   InstanceHistory {
@@ -942,11 +945,12 @@ Objects {
   }
 }
 Objects {
-  Id: 4522746381223819026
+  Id: 13530482965709444945
   Name: "Weapon Guide 2hand_sword"
   Transform {
     Location {
       X: -134.47467
+      Z: -2.28881836e-05
     }
     Rotation {
       Pitch: -92.6953735
@@ -957,7 +961,7 @@ Objects {
       Z: 1.0000006
     }
   }
-  ParentId: 7020857559390168432
+  ParentId: 6724773553523906192
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -980,7 +984,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6787212849466727787
+  Id: 5014923725288185457
   Name: "ClientContext"
   Transform {
     Location {
@@ -993,8 +997,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7020857559390168432
-  ChildIds: 2052621641078072409
+  ParentId: 6724773553523906192
+  ChildIds: 15682211526382881282
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -1012,7 +1016,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2052621641078072409
+  Id: 15682211526382881282
   Name: "Baguette Basher"
   Transform {
     Scale {
@@ -1021,7 +1025,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6787212849466727787
+  ParentId: 5014923725288185457
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1054,7 +1058,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1947317326744603831
+  Id: 3784103301438552265
   Name: "ClientContext"
   Transform {
     Location {
@@ -1067,10 +1071,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7020857559390168432
-  ChildIds: 14830850291533606456
-  ChildIds: 12250152083242050910
-  ChildIds: 4208479131144794488
+  ParentId: 6724773553523906192
+  ChildIds: 13466877850449099785
+  ChildIds: 12128019441238834989
+  ChildIds: 15386236928339262082
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -1091,7 +1095,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4208479131144794488
+  Id: 15386236928339262082
   Name: "Geo"
   Transform {
     Location {
@@ -1104,7 +1108,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1947317326744603831
+  ParentId: 3784103301438552265
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1125,7 +1129,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12250152083242050910
+  Id: 12128019441238834989
   Name: "EquipmentMeleeAttacksClient"
   Transform {
     Location {
@@ -1138,7 +1142,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1947317326744603831
+  ParentId: 3784103301438552265
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1163,7 +1167,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14830850291533606456
+  Id: 13466877850449099785
   Name: "EquipmentPickupClient"
   Transform {
     Location {
@@ -1176,7 +1180,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1947317326744603831
+  ParentId: 3784103301438552265
   UnregisteredParameters {
     Overrides {
       Name: "cs:PickupSound"
@@ -1207,7 +1211,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7312202739934119462
+  Id: 3107018153883737307
   Name: "ServerContext"
   Transform {
     Location {
@@ -1220,10 +1224,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7020857559390168432
-  ChildIds: 8249275093057916685
-  ChildIds: 13535032836188702211
-  ChildIds: 15754637442909215886
+  ParentId: 6724773553523906192
+  ChildIds: 10285077456106938277
+  ChildIds: 13062589079325971783
+  ChildIds: 17037657387570334605
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1245,7 +1249,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15754637442909215886
+  Id: 17037657387570334605
   Name: "EquipmentMeleeAttacksServer"
   Transform {
     Location {
@@ -1259,7 +1263,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7312202739934119462
+  ParentId: 3107018153883737307
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1284,7 +1288,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13535032836188702211
+  Id: 13062589079325971783
   Name: "EquipmentStanceServer"
   Transform {
     Location {
@@ -1297,7 +1301,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7312202739934119462
+  ParentId: 3107018153883737307
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1320,7 +1324,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8249275093057916685
+  Id: 10285077456106938277
   Name: "EquipmentPickupServer"
   Transform {
     Location {
@@ -1334,12 +1338,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7312202739934119462
+  ParentId: 3107018153883737307
   UnregisteredParameters {
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 484539539687507048
+        SelfId: 2895258131159342322
       }
     }
   }
@@ -1365,7 +1369,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3403124814297736532
+  Id: 15176820731860045016
   Name: "Attack 2"
   Transform {
     Location {
@@ -1378,7 +1382,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7020857559390168432
+  ParentId: 6724773553523906192
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -1485,7 +1489,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4493595827153372789
+  Id: 11425478530039016711
   Name: "Attack 1"
   Transform {
     Location {
@@ -1498,7 +1502,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7020857559390168432
+  ParentId: 6724773553523906192
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -1604,7 +1608,7 @@ Objects {
   }
 }
 Objects {
-  Id: 484539539687507048
+  Id: 2895258131159342322
   Name: "Pickup Trigger"
   Transform {
     Location {
@@ -1618,7 +1622,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7020857559390168432
+  ParentId: 6724773553523906192
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1634,7 +1638,7 @@ Objects {
   }
   Trigger {
     Interactable: true
-    InteractionLabel: "Equip Advanced 2-Handed Sword"
+    InteractionLabel: "Baguette Basher"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -1651,15 +1655,16 @@ Objects {
   }
 }
 Objects {
-  Id: 9530890125997956309
+  Id: 15100607879427143246
   Name: "Baguette Basher"
   Transform {
     Location {
-      X: 733.294556
-      Y: -2159.77661
-      Z: 15.6515503
+      X: 1186.57935
+      Y: -1466.50146
+      Z: 116.42421
     }
     Rotation {
+      Pitch: 81.3367
     }
     Scale {
       X: 1
@@ -1668,13 +1673,13 @@ Objects {
     }
   }
   ParentId: 4147847003364547307
-  ChildIds: 7134859396718603630
-  ChildIds: 13097073254247462284
-  ChildIds: 1563949752542713278
-  ChildIds: 16514891142189480257
-  ChildIds: 13251778380602044292
-  ChildIds: 13080137722132272142
-  ChildIds: 16733393377776987749
+  ChildIds: 6941776252199427041
+  ChildIds: 2607244747540023336
+  ChildIds: 9273940682491727191
+  ChildIds: 449768218806620307
+  ChildIds: 2896417157901219899
+  ChildIds: 17148576011002797441
+  ChildIds: 8128739241909436181
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentStance"
@@ -1755,7 +1760,7 @@ Objects {
   Equipment {
     SocketName: "right_prop"
     PickupTrigger {
-      SelfId: 7134859396718603630
+      SelfId: 6941776252199427041
     }
   }
   InstanceHistory {
@@ -1767,11 +1772,12 @@ Objects {
   }
 }
 Objects {
-  Id: 16733393377776987749
+  Id: 8128739241909436181
   Name: "Weapon Guide 2hand_sword"
   Transform {
     Location {
       X: -134.47467
+      Z: 2.28881836e-05
     }
     Rotation {
       Pitch: -92.6953735
@@ -1782,7 +1788,7 @@ Objects {
       Z: 1.0000006
     }
   }
-  ParentId: 9530890125997956309
+  ParentId: 15100607879427143246
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1805,7 +1811,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13080137722132272142
+  Id: 17148576011002797441
   Name: "ClientContext"
   Transform {
     Location {
@@ -1818,8 +1824,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9530890125997956309
-  ChildIds: 12514075151305609511
+  ParentId: 15100607879427143246
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -1837,49 +1842,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12514075151305609511
-  Name: "Baguette Basher"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13080137722132272142
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6844330457232209348
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Baguette Basher"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 4515449708693288353
-    }
-  }
-}
-Objects {
-  Id: 13251778380602044292
+  Id: 2896417157901219899
   Name: "ClientContext"
   Transform {
     Location {
@@ -1892,10 +1855,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9530890125997956309
-  ChildIds: 2492050640967250767
-  ChildIds: 11888537215531063407
-  ChildIds: 14549138705139608961
+  ParentId: 15100607879427143246
+  ChildIds: 15776040055916216663
+  ChildIds: 2999886461741918763
+  ChildIds: 17418520289847764931
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -1916,7 +1879,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14549138705139608961
+  Id: 17418520289847764931
   Name: "Geo"
   Transform {
     Location {
@@ -1929,7 +1892,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13251778380602044292
+  ParentId: 2896417157901219899
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1950,7 +1913,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11888537215531063407
+  Id: 2999886461741918763
   Name: "EquipmentMeleeAttacksClient"
   Transform {
     Location {
@@ -1963,7 +1926,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13251778380602044292
+  ParentId: 2896417157901219899
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1988,7 +1951,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2492050640967250767
+  Id: 15776040055916216663
   Name: "EquipmentPickupClient"
   Transform {
     Location {
@@ -2001,7 +1964,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13251778380602044292
+  ParentId: 2896417157901219899
   UnregisteredParameters {
     Overrides {
       Name: "cs:PickupSound"
@@ -2032,7 +1995,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16514891142189480257
+  Id: 449768218806620307
   Name: "ServerContext"
   Transform {
     Location {
@@ -2045,10 +2008,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9530890125997956309
-  ChildIds: 4745689632636746423
-  ChildIds: 6192842560040205193
-  ChildIds: 5172157738992463061
+  ParentId: 15100607879427143246
+  ChildIds: 15079212382452190035
+  ChildIds: 6770461533916502949
+  ChildIds: 11568091595980698886
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2070,7 +2033,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5172157738992463061
+  Id: 11568091595980698886
   Name: "EquipmentMeleeAttacksServer"
   Transform {
     Location {
@@ -2084,7 +2047,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16514891142189480257
+  ParentId: 449768218806620307
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2109,7 +2072,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6192842560040205193
+  Id: 6770461533916502949
   Name: "EquipmentStanceServer"
   Transform {
     Location {
@@ -2122,7 +2085,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16514891142189480257
+  ParentId: 449768218806620307
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2145,7 +2108,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4745689632636746423
+  Id: 15079212382452190035
   Name: "EquipmentPickupServer"
   Transform {
     Location {
@@ -2159,12 +2122,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16514891142189480257
+  ParentId: 449768218806620307
   UnregisteredParameters {
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 7134859396718603630
+        SelfId: 6941776252199427041
       }
     }
   }
@@ -2190,7 +2153,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1563949752542713278
+  Id: 9273940682491727191
   Name: "Attack 2"
   Transform {
     Location {
@@ -2203,7 +2166,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9530890125997956309
+  ParentId: 15100607879427143246
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -2310,7 +2273,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13097073254247462284
+  Id: 2607244747540023336
   Name: "Attack 1"
   Transform {
     Location {
@@ -2323,7 +2286,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9530890125997956309
+  ParentId: 15100607879427143246
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -2429,11 +2392,12 @@ Objects {
   }
 }
 Objects {
-  Id: 7134859396718603630
+  Id: 6941776252199427041
   Name: "Pickup Trigger"
   Transform {
     Location {
-      Z: 40
+      X: -3.81469727e-06
+      Z: 40.0000038
     }
     Rotation {
     }
@@ -2443,7 +2407,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 9530890125997956309
+  ParentId: 15100607879427143246
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2459,7 +2423,7 @@ Objects {
   }
   Trigger {
     Interactable: true
-    InteractionLabel: "Equip Advanced 2-Handed Sword"
+    InteractionLabel: "Baguette Basher"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -2476,15 +2440,16 @@ Objects {
   }
 }
 Objects {
-  Id: 15052439378116515657
+  Id: 4781061542513317737
   Name: "Baguette Basher"
   Transform {
     Location {
-      X: 739.457275
-      Y: -2249.11841
-      Z: 15.6515503
+      X: 1287.78833
+      Y: -1466.50146
+      Z: 116.42421
     }
     Rotation {
+      Pitch: 81.3367
     }
     Scale {
       X: 1
@@ -2493,13 +2458,13 @@ Objects {
     }
   }
   ParentId: 4147847003364547307
-  ChildIds: 1875363903981782605
-  ChildIds: 10679958237333903214
-  ChildIds: 16567269610927098573
-  ChildIds: 12143447863700263736
-  ChildIds: 6540165531307915331
-  ChildIds: 17590068186707091507
-  ChildIds: 4089621927993791613
+  ChildIds: 4122289846671390452
+  ChildIds: 12377209017753661842
+  ChildIds: 8908086123669450839
+  ChildIds: 5521771284714085707
+  ChildIds: 7971919501782090557
+  ChildIds: 10411597292296297882
+  ChildIds: 8282359287566186007
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentStance"
@@ -2580,7 +2545,7 @@ Objects {
   Equipment {
     SocketName: "right_prop"
     PickupTrigger {
-      SelfId: 1875363903981782605
+      SelfId: 4122289846671390452
     }
   }
   InstanceHistory {
@@ -2592,11 +2557,12 @@ Objects {
   }
 }
 Objects {
-  Id: 4089621927993791613
+  Id: 8282359287566186007
   Name: "Weapon Guide 2hand_sword"
   Transform {
     Location {
       X: -134.47467
+      Z: 2.28881836e-05
     }
     Rotation {
       Pitch: -92.6953735
@@ -2607,7 +2573,7 @@ Objects {
       Z: 1.0000006
     }
   }
-  ParentId: 15052439378116515657
+  ParentId: 4781061542513317737
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2630,7 +2596,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17590068186707091507
+  Id: 10411597292296297882
   Name: "ClientContext"
   Transform {
     Location {
@@ -2643,8 +2609,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15052439378116515657
-  ChildIds: 15697114701923004370
+  ParentId: 4781061542513317737
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -2662,49 +2627,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15697114701923004370
-  Name: "Baguette Basher"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17590068186707091507
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6844330457232209348
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Baguette Basher"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 4515449708693288353
-    }
-  }
-}
-Objects {
-  Id: 6540165531307915331
+  Id: 7971919501782090557
   Name: "ClientContext"
   Transform {
     Location {
@@ -2717,10 +2640,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15052439378116515657
-  ChildIds: 3307366731485499097
-  ChildIds: 14621412385793766741
-  ChildIds: 16093653340381965148
+  ParentId: 4781061542513317737
+  ChildIds: 4277297871261282772
+  ChildIds: 14193717485161134685
+  ChildIds: 9744913061389841183
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -2741,7 +2664,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16093653340381965148
+  Id: 9744913061389841183
   Name: "Geo"
   Transform {
     Location {
@@ -2754,7 +2677,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6540165531307915331
+  ParentId: 7971919501782090557
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2775,7 +2698,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14621412385793766741
+  Id: 14193717485161134685
   Name: "EquipmentMeleeAttacksClient"
   Transform {
     Location {
@@ -2788,7 +2711,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6540165531307915331
+  ParentId: 7971919501782090557
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2813,7 +2736,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3307366731485499097
+  Id: 4277297871261282772
   Name: "EquipmentPickupClient"
   Transform {
     Location {
@@ -2826,7 +2749,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6540165531307915331
+  ParentId: 7971919501782090557
   UnregisteredParameters {
     Overrides {
       Name: "cs:PickupSound"
@@ -2857,7 +2780,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12143447863700263736
+  Id: 5521771284714085707
   Name: "ServerContext"
   Transform {
     Location {
@@ -2870,10 +2793,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15052439378116515657
-  ChildIds: 9719245568667275164
-  ChildIds: 9201631452883273219
-  ChildIds: 1304566057010282426
+  ParentId: 4781061542513317737
+  ChildIds: 18306007178106272881
+  ChildIds: 7239871710685419291
+  ChildIds: 17036672238053056771
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2895,7 +2818,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1304566057010282426
+  Id: 17036672238053056771
   Name: "EquipmentMeleeAttacksServer"
   Transform {
     Location {
@@ -2909,7 +2832,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12143447863700263736
+  ParentId: 5521771284714085707
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2934,7 +2857,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9201631452883273219
+  Id: 7239871710685419291
   Name: "EquipmentStanceServer"
   Transform {
     Location {
@@ -2947,7 +2870,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12143447863700263736
+  ParentId: 5521771284714085707
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2970,7 +2893,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9719245568667275164
+  Id: 18306007178106272881
   Name: "EquipmentPickupServer"
   Transform {
     Location {
@@ -2984,12 +2907,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12143447863700263736
+  ParentId: 5521771284714085707
   UnregisteredParameters {
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 1875363903981782605
+        SelfId: 4122289846671390452
       }
     }
   }
@@ -3015,7 +2938,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16567269610927098573
+  Id: 8908086123669450839
   Name: "Attack 2"
   Transform {
     Location {
@@ -3028,7 +2951,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15052439378116515657
+  ParentId: 4781061542513317737
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -3135,7 +3058,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10679958237333903214
+  Id: 12377209017753661842
   Name: "Attack 1"
   Transform {
     Location {
@@ -3148,7 +3071,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15052439378116515657
+  ParentId: 4781061542513317737
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -3254,11 +3177,12 @@ Objects {
   }
 }
 Objects {
-  Id: 1875363903981782605
+  Id: 4122289846671390452
   Name: "Pickup Trigger"
   Transform {
     Location {
-      Z: 40
+      X: -3.81469727e-06
+      Z: 40.0000038
     }
     Rotation {
     }
@@ -3268,7 +3192,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 15052439378116515657
+  ParentId: 4781061542513317737
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3284,7 +3208,7 @@ Objects {
   }
   Trigger {
     Interactable: true
-    InteractionLabel: "Equip Advanced 2-Handed Sword"
+    InteractionLabel: "Baguette Basher"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -3301,15 +3225,171 @@ Objects {
   }
 }
 Objects {
-  Id: 13076394930908669448
+  Id: 6710651248752526581
+  Name: "Fruit Basket Wicker Oval 1 large (player)"
+  Transform {
+    Location {
+      X: 1227.48938
+      Y: -1465.73901
+      Z: -49.6891441
+    }
+    Rotation {
+      Yaw: 5.2049675
+    }
+    Scale {
+      X: 0.897475481
+      Y: 0.897475481
+      Z: 0.897475481
+    }
+  }
+  ParentId: 4147847003364547307
+  ChildIds: 5166944975859020149
+  ChildIds: 1742616330867819415
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1742616330867819415
+  Name: "Base"
+  Transform {
+    Location {
+      X: 2.49868774
+      Y: 2.8258667
+      Z: 57.7144623
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.62399054
+      Y: 1
+      Z: 0.00672262907
+    }
+  }
+  ParentId: 6710651248752526581
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9314504034621143103
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5387016660230950312
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 5166944975859020149
+  Name: "Body"
+  Transform {
+    Location {
+      X: 1.89215088
+      Y: 3.25439453
+      Z: 55.4222717
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.96915007
+      Y: 1
+      Z: 0.676196337
+    }
+  }
+  ParentId: 6710651248752526581
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9314504034621143103
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5055429345916703247
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 1783514479829605846
   Name: "Baguette Basher"
   Transform {
     Location {
-      X: 993.388611
-      Y: -1508.32776
-      Z: 15.6515503
+      X: 1287.78833
+      Y: -1466.50146
+      Z: 116.42421
     }
     Rotation {
+      Pitch: 81.3367
     }
     Scale {
       X: 1
@@ -3318,13 +3398,13 @@ Objects {
     }
   }
   ParentId: 4147847003364547307
-  ChildIds: 6986019583174917664
-  ChildIds: 6206054504404338361
-  ChildIds: 3222525944842869953
-  ChildIds: 14867851775656474233
-  ChildIds: 8209589557640216385
-  ChildIds: 13912956347204055213
-  ChildIds: 14443292453669664905
+  ChildIds: 15936769813369483770
+  ChildIds: 10308055974119063244
+  ChildIds: 11633848949631174545
+  ChildIds: 14005859937432192578
+  ChildIds: 6076917610374613472
+  ChildIds: 8960752203651841540
+  ChildIds: 4648805744771507694
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentStance"
@@ -3405,7 +3485,7 @@ Objects {
   Equipment {
     SocketName: "right_prop"
     PickupTrigger {
-      SelfId: 6986019583174917664
+      SelfId: 15936769813369483770
     }
   }
   InstanceHistory {
@@ -3417,11 +3497,12 @@ Objects {
   }
 }
 Objects {
-  Id: 14443292453669664905
+  Id: 4648805744771507694
   Name: "Weapon Guide 2hand_sword"
   Transform {
     Location {
       X: -134.47467
+      Z: 2.28881836e-05
     }
     Rotation {
       Pitch: -92.6953735
@@ -3432,7 +3513,7 @@ Objects {
       Z: 1.0000006
     }
   }
-  ParentId: 13076394930908669448
+  ParentId: 1783514479829605846
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3455,7 +3536,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13912956347204055213
+  Id: 8960752203651841540
   Name: "ClientContext"
   Transform {
     Location {
@@ -3468,8 +3549,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13076394930908669448
-  ChildIds: 11838647036002927513
+  ParentId: 1783514479829605846
+  ChildIds: 5479514005434475797
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -3487,7 +3568,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11838647036002927513
+  Id: 5479514005434475797
   Name: "Baguette Basher"
   Transform {
     Scale {
@@ -3496,7 +3577,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13912956347204055213
+  ParentId: 8960752203651841540
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3529,7 +3610,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8209589557640216385
+  Id: 6076917610374613472
   Name: "ClientContext"
   Transform {
     Location {
@@ -3542,10 +3623,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13076394930908669448
-  ChildIds: 12584938595720619785
-  ChildIds: 3260490109737533737
-  ChildIds: 7619087355082897795
+  ParentId: 1783514479829605846
+  ChildIds: 5460069873179135371
+  ChildIds: 12241417460052874370
+  ChildIds: 8831048608344618226
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -3566,7 +3647,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7619087355082897795
+  Id: 8831048608344618226
   Name: "Geo"
   Transform {
     Location {
@@ -3579,7 +3660,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8209589557640216385
+  ParentId: 6076917610374613472
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3600,7 +3681,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3260490109737533737
+  Id: 12241417460052874370
   Name: "EquipmentMeleeAttacksClient"
   Transform {
     Location {
@@ -3613,7 +3694,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8209589557640216385
+  ParentId: 6076917610374613472
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3638,7 +3719,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12584938595720619785
+  Id: 5460069873179135371
   Name: "EquipmentPickupClient"
   Transform {
     Location {
@@ -3651,7 +3732,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8209589557640216385
+  ParentId: 6076917610374613472
   UnregisteredParameters {
     Overrides {
       Name: "cs:PickupSound"
@@ -3682,7 +3763,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14867851775656474233
+  Id: 14005859937432192578
   Name: "ServerContext"
   Transform {
     Location {
@@ -3695,10 +3776,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13076394930908669448
-  ChildIds: 16450699946734627438
-  ChildIds: 1600867534878725816
-  ChildIds: 7177540669223177828
+  ParentId: 1783514479829605846
+  ChildIds: 7311337821560477662
+  ChildIds: 11993111295595208415
+  ChildIds: 9975158000945398877
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3720,7 +3801,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7177540669223177828
+  Id: 9975158000945398877
   Name: "EquipmentMeleeAttacksServer"
   Transform {
     Location {
@@ -3734,7 +3815,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14867851775656474233
+  ParentId: 14005859937432192578
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3759,7 +3840,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1600867534878725816
+  Id: 11993111295595208415
   Name: "EquipmentStanceServer"
   Transform {
     Location {
@@ -3772,7 +3853,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14867851775656474233
+  ParentId: 14005859937432192578
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3795,7 +3876,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16450699946734627438
+  Id: 7311337821560477662
   Name: "EquipmentPickupServer"
   Transform {
     Location {
@@ -3809,12 +3890,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14867851775656474233
+  ParentId: 14005859937432192578
   UnregisteredParameters {
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 6986019583174917664
+        SelfId: 15936769813369483770
       }
     }
   }
@@ -3840,7 +3921,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3222525944842869953
+  Id: 11633848949631174545
   Name: "Attack 2"
   Transform {
     Location {
@@ -3853,7 +3934,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13076394930908669448
+  ParentId: 1783514479829605846
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -3960,7 +4041,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6206054504404338361
+  Id: 10308055974119063244
   Name: "Attack 1"
   Transform {
     Location {
@@ -3973,7 +4054,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13076394930908669448
+  ParentId: 1783514479829605846
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -4079,11 +4160,12 @@ Objects {
   }
 }
 Objects {
-  Id: 6986019583174917664
+  Id: 15936769813369483770
   Name: "Pickup Trigger"
   Transform {
     Location {
-      Z: 40
+      X: -3.81469727e-06
+      Z: 40.0000038
     }
     Rotation {
     }
@@ -4093,7 +4175,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 13076394930908669448
+  ParentId: 1783514479829605846
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4109,7 +4191,7 @@ Objects {
   }
   Trigger {
     Interactable: true
-    InteractionLabel: "Equip Advanced 2-Handed Sword"
+    InteractionLabel: "Baguette Basher"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -4126,15 +4208,16 @@ Objects {
   }
 }
 Objects {
-  Id: 16767328802854143508
+  Id: 15927157234127289507
   Name: "Baguette Basher"
   Transform {
     Location {
-      X: 999.551331
-      Y: -1597.6687
-      Z: 15.6515503
+      X: 796.036133
+      Y: -1466.50146
+      Z: 116.42421
     }
     Rotation {
+      Pitch: 81.3367691
     }
     Scale {
       X: 1
@@ -4143,13 +4226,13 @@ Objects {
     }
   }
   ParentId: 4147847003364547307
-  ChildIds: 13195766993781289551
-  ChildIds: 5115723666247254463
-  ChildIds: 15054214749326603819
-  ChildIds: 10933817438021973007
-  ChildIds: 7052890628411366378
-  ChildIds: 9799452951382705533
-  ChildIds: 5757883919827923914
+  ChildIds: 89597249844428260
+  ChildIds: 16114030964071006889
+  ChildIds: 6957832970126829853
+  ChildIds: 14635101045873821896
+  ChildIds: 5423409417783617004
+  ChildIds: 11527231138988949650
+  ChildIds: 12087912414870000923
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentStance"
@@ -4230,7 +4313,7 @@ Objects {
   Equipment {
     SocketName: "right_prop"
     PickupTrigger {
-      SelfId: 13195766993781289551
+      SelfId: 89597249844428260
     }
   }
   InstanceHistory {
@@ -4242,11 +4325,12 @@ Objects {
   }
 }
 Objects {
-  Id: 5757883919827923914
+  Id: 12087912414870000923
   Name: "Weapon Guide 2hand_sword"
   Transform {
     Location {
       X: -134.47467
+      Z: 2.28881836e-05
     }
     Rotation {
       Pitch: -92.6953735
@@ -4257,7 +4341,7 @@ Objects {
       Z: 1.0000006
     }
   }
-  ParentId: 16767328802854143508
+  ParentId: 15927157234127289507
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4280,7 +4364,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9799452951382705533
+  Id: 11527231138988949650
   Name: "ClientContext"
   Transform {
     Location {
@@ -4293,8 +4377,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16767328802854143508
-  ChildIds: 10000111376146329703
+  ParentId: 15927157234127289507
+  ChildIds: 7341613077379493233
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -4312,7 +4396,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10000111376146329703
+  Id: 7341613077379493233
   Name: "Baguette Basher"
   Transform {
     Scale {
@@ -4321,7 +4405,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9799452951382705533
+  ParentId: 11527231138988949650
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4354,7 +4438,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7052890628411366378
+  Id: 5423409417783617004
   Name: "ClientContext"
   Transform {
     Location {
@@ -4367,10 +4451,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16767328802854143508
-  ChildIds: 18034330291507758375
-  ChildIds: 13555063040388272791
-  ChildIds: 2244625706998301073
+  ParentId: 15927157234127289507
+  ChildIds: 9063729127034386843
+  ChildIds: 10213677628368296046
+  ChildIds: 7441592648151520046
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -4391,7 +4475,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2244625706998301073
+  Id: 7441592648151520046
   Name: "Geo"
   Transform {
     Location {
@@ -4404,7 +4488,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7052890628411366378
+  ParentId: 5423409417783617004
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4425,7 +4509,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13555063040388272791
+  Id: 10213677628368296046
   Name: "EquipmentMeleeAttacksClient"
   Transform {
     Location {
@@ -4438,7 +4522,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7052890628411366378
+  ParentId: 5423409417783617004
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4463,7 +4547,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18034330291507758375
+  Id: 9063729127034386843
   Name: "EquipmentPickupClient"
   Transform {
     Location {
@@ -4476,7 +4560,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7052890628411366378
+  ParentId: 5423409417783617004
   UnregisteredParameters {
     Overrides {
       Name: "cs:PickupSound"
@@ -4507,7 +4591,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10933817438021973007
+  Id: 14635101045873821896
   Name: "ServerContext"
   Transform {
     Location {
@@ -4520,10 +4604,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16767328802854143508
-  ChildIds: 15448585099108052875
-  ChildIds: 12240959503766919444
-  ChildIds: 8174098079302522525
+  ParentId: 15927157234127289507
+  ChildIds: 17609414773427035564
+  ChildIds: 4851221591834992222
+  ChildIds: 6160573481613128601
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4545,7 +4629,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8174098079302522525
+  Id: 6160573481613128601
   Name: "EquipmentMeleeAttacksServer"
   Transform {
     Location {
@@ -4559,7 +4643,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10933817438021973007
+  ParentId: 14635101045873821896
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4584,7 +4668,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12240959503766919444
+  Id: 4851221591834992222
   Name: "EquipmentStanceServer"
   Transform {
     Location {
@@ -4597,7 +4681,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10933817438021973007
+  ParentId: 14635101045873821896
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4620,7 +4704,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15448585099108052875
+  Id: 17609414773427035564
   Name: "EquipmentPickupServer"
   Transform {
     Location {
@@ -4634,12 +4718,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10933817438021973007
+  ParentId: 14635101045873821896
   UnregisteredParameters {
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 13195766993781289551
+        SelfId: 89597249844428260
       }
     }
   }
@@ -4665,7 +4749,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15054214749326603819
+  Id: 6957832970126829853
   Name: "Attack 2"
   Transform {
     Location {
@@ -4678,7 +4762,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16767328802854143508
+  ParentId: 15927157234127289507
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -4785,7 +4869,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5115723666247254463
+  Id: 16114030964071006889
   Name: "Attack 1"
   Transform {
     Location {
@@ -4798,7 +4882,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16767328802854143508
+  ParentId: 15927157234127289507
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -4904,11 +4988,12 @@ Objects {
   }
 }
 Objects {
-  Id: 13195766993781289551
+  Id: 89597249844428260
   Name: "Pickup Trigger"
   Transform {
     Location {
-      Z: 40
+      X: -3.81469727e-06
+      Z: 40.0000038
     }
     Rotation {
     }
@@ -4918,7 +5003,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 16767328802854143508
+  ParentId: 15927157234127289507
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4934,7 +5019,7 @@ Objects {
   }
   Trigger {
     Interactable: true
-    InteractionLabel: "Equip Advanced 2-Handed Sword"
+    InteractionLabel: "Baguette Basher"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -4951,15 +5036,16 @@ Objects {
   }
 }
 Objects {
-  Id: 13136528881750997933
+  Id: 4339705361616692039
   Name: "Baguette Basher"
   Transform {
     Location {
-      X: 993.388611
-      Y: -1736.16492
-      Z: 15.6515503
+      X: 701.374878
+      Y: -1463.66077
+      Z: 111.410538
     }
     Rotation {
+      Pitch: 69.2506104
     }
     Scale {
       X: 1
@@ -4968,13 +5054,13 @@ Objects {
     }
   }
   ParentId: 4147847003364547307
-  ChildIds: 12012673643598520112
-  ChildIds: 18383721763989292423
-  ChildIds: 3051102249783522927
-  ChildIds: 5670806100567694582
-  ChildIds: 1557744891396051241
-  ChildIds: 2485545911071626331
-  ChildIds: 5898772728407344181
+  ChildIds: 8855974170025208402
+  ChildIds: 9635184148430262277
+  ChildIds: 6606519411148342090
+  ChildIds: 5511088612442544484
+  ChildIds: 12743043515454639457
+  ChildIds: 14272863350070673507
+  ChildIds: 5588293521969452451
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentStance"
@@ -5055,7 +5141,7 @@ Objects {
   Equipment {
     SocketName: "right_prop"
     PickupTrigger {
-      SelfId: 12012673643598520112
+      SelfId: 8855974170025208402
     }
   }
   InstanceHistory {
@@ -5067,11 +5153,12 @@ Objects {
   }
 }
 Objects {
-  Id: 5898772728407344181
+  Id: 5588293521969452451
   Name: "Weapon Guide 2hand_sword"
   Transform {
     Location {
-      X: -134.47467
+      X: -134.474655
+      Z: 2.28881836e-05
     }
     Rotation {
       Pitch: -92.6953735
@@ -5082,7 +5169,7 @@ Objects {
       Z: 1.0000006
     }
   }
-  ParentId: 13136528881750997933
+  ParentId: 4339705361616692039
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5105,7 +5192,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2485545911071626331
+  Id: 14272863350070673507
   Name: "ClientContext"
   Transform {
     Location {
@@ -5118,8 +5205,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13136528881750997933
-  ChildIds: 2703846590530644566
+  ParentId: 4339705361616692039
+  ChildIds: 1934088664493201100
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -5137,7 +5224,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2703846590530644566
+  Id: 1934088664493201100
   Name: "Baguette Basher"
   Transform {
     Scale {
@@ -5146,7 +5233,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2485545911071626331
+  ParentId: 14272863350070673507
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5179,7 +5266,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1557744891396051241
+  Id: 12743043515454639457
   Name: "ClientContext"
   Transform {
     Location {
@@ -5192,10 +5279,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13136528881750997933
-  ChildIds: 12044698952670012680
-  ChildIds: 16332860563819858436
-  ChildIds: 14788668808349592529
+  ParentId: 4339705361616692039
+  ChildIds: 7888075494468094400
+  ChildIds: 6334524675933393928
+  ChildIds: 4771852267719253293
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -5216,7 +5303,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14788668808349592529
+  Id: 4771852267719253293
   Name: "Geo"
   Transform {
     Location {
@@ -5229,7 +5316,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1557744891396051241
+  ParentId: 12743043515454639457
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5250,7 +5337,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16332860563819858436
+  Id: 6334524675933393928
   Name: "EquipmentMeleeAttacksClient"
   Transform {
     Location {
@@ -5263,7 +5350,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1557744891396051241
+  ParentId: 12743043515454639457
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5288,7 +5375,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12044698952670012680
+  Id: 7888075494468094400
   Name: "EquipmentPickupClient"
   Transform {
     Location {
@@ -5301,7 +5388,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1557744891396051241
+  ParentId: 12743043515454639457
   UnregisteredParameters {
     Overrides {
       Name: "cs:PickupSound"
@@ -5332,7 +5419,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5670806100567694582
+  Id: 5511088612442544484
   Name: "ServerContext"
   Transform {
     Location {
@@ -5345,10 +5432,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13136528881750997933
-  ChildIds: 1222526262203354494
-  ChildIds: 901834421609301932
-  ChildIds: 13021534856609929183
+  ParentId: 4339705361616692039
+  ChildIds: 10329456076254136349
+  ChildIds: 2367522897848574431
+  ChildIds: 4799249472891486952
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5370,7 +5457,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13021534856609929183
+  Id: 4799249472891486952
   Name: "EquipmentMeleeAttacksServer"
   Transform {
     Location {
@@ -5384,7 +5471,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5670806100567694582
+  ParentId: 5511088612442544484
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5409,7 +5496,7 @@ Objects {
   }
 }
 Objects {
-  Id: 901834421609301932
+  Id: 2367522897848574431
   Name: "EquipmentStanceServer"
   Transform {
     Location {
@@ -5422,7 +5509,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5670806100567694582
+  ParentId: 5511088612442544484
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5445,7 +5532,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1222526262203354494
+  Id: 10329456076254136349
   Name: "EquipmentPickupServer"
   Transform {
     Location {
@@ -5459,12 +5546,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5670806100567694582
+  ParentId: 5511088612442544484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 12012673643598520112
+        SelfId: 8855974170025208402
       }
     }
   }
@@ -5490,7 +5577,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3051102249783522927
+  Id: 6606519411148342090
   Name: "Attack 2"
   Transform {
     Location {
@@ -5503,7 +5590,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13136528881750997933
+  ParentId: 4339705361616692039
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -5610,7 +5697,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18383721763989292423
+  Id: 9635184148430262277
   Name: "Attack 1"
   Transform {
     Location {
@@ -5623,7 +5710,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13136528881750997933
+  ParentId: 4339705361616692039
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -5729,11 +5816,12 @@ Objects {
   }
 }
 Objects {
-  Id: 12012673643598520112
+  Id: 8855974170025208402
   Name: "Pickup Trigger"
   Transform {
     Location {
-      Z: 40
+      X: -1.14440918e-05
+      Z: 40.0000076
     }
     Rotation {
     }
@@ -5743,7 +5831,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 13136528881750997933
+  ParentId: 4339705361616692039
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5759,7 +5847,7 @@ Objects {
   }
   Trigger {
     Interactable: true
-    InteractionLabel: "Equip Advanced 2-Handed Sword"
+    InteractionLabel: "Baguette Basher"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -5776,15 +5864,326 @@ Objects {
   }
 }
 Objects {
-  Id: 17024713993562565858
+  Id: 3854934822513275565
+  Name: "Fruit Basket Wicker Oval 1 large (player)"
+  Transform {
+    Location {
+      X: 733.462097
+      Y: -1465.73901
+      Z: -49.6891441
+    }
+    Rotation {
+      Yaw: 5.2049613
+    }
+    Scale {
+      X: 0.897475481
+      Y: 0.897475481
+      Z: 0.897475481
+    }
+  }
+  ParentId: 4147847003364547307
+  ChildIds: 3368357610467508991
+  ChildIds: 8269015540645513900
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8269015540645513900
+  Name: "Base"
+  Transform {
+    Location {
+      X: 2.49868774
+      Y: 2.8258667
+      Z: 57.7144623
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.62399054
+      Y: 1
+      Z: 0.00672262907
+    }
+  }
+  ParentId: 3854934822513275565
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9314504034621143103
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5387016660230950312
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 3368357610467508991
+  Name: "Body"
+  Transform {
+    Location {
+      X: 1.89215088
+      Y: 3.25439453
+      Z: 55.4222717
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.96915007
+      Y: 1
+      Z: 0.676196337
+    }
+  }
+  ParentId: 3854934822513275565
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9314504034621143103
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5055429345916703247
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 1198013964527731182
+  Name: "Fruit Basket Wicker Oval 1 large (player)"
+  Transform {
+    Location {
+      X: 888.36676
+      Y: -1677.42773
+      Z: -49.6891441
+    }
+    Rotation {
+      Yaw: -47.8164673
+    }
+    Scale {
+      X: 0.897475481
+      Y: 0.897475481
+      Z: 0.897475481
+    }
+  }
+  ParentId: 4147847003364547307
+  ChildIds: 15335338532242685063
+  ChildIds: 15642645440363471527
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15642645440363471527
+  Name: "Base"
+  Transform {
+    Location {
+      X: 2.49868774
+      Y: 2.8258667
+      Z: 57.7144623
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.62399054
+      Y: 1
+      Z: 0.00672262907
+    }
+  }
+  ParentId: 1198013964527731182
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9314504034621143103
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5387016660230950312
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 15335338532242685063
+  Name: "Body"
+  Transform {
+    Location {
+      X: 1.89215088
+      Y: 3.25439453
+      Z: 55.4222717
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.96915007
+      Y: 1
+      Z: 0.676196337
+    }
+  }
+  ParentId: 1198013964527731182
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9314504034621143103
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5055429345916703247
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 14184182646849510251
   Name: "Baguette Basher"
   Transform {
     Location {
-      X: 999.551331
-      Y: -1825.50586
-      Z: 15.6515503
+      X: 544.058044
+      Y: -1664.25537
+      Z: 117.530853
     }
     Rotation {
+      Pitch: 70.6170349
     }
     Scale {
       X: 1
@@ -5793,13 +6192,13 @@ Objects {
     }
   }
   ParentId: 4147847003364547307
-  ChildIds: 12397214061534486349
-  ChildIds: 18142592345418088242
-  ChildIds: 5994995107007032266
-  ChildIds: 12147816753576969310
-  ChildIds: 6589259061302386592
-  ChildIds: 3374430101627858220
-  ChildIds: 15321108448884332134
+  ChildIds: 13566970951338252107
+  ChildIds: 4616258121863437737
+  ChildIds: 14119820329164013389
+  ChildIds: 9694207186561815154
+  ChildIds: 16668614254862806334
+  ChildIds: 240183824591605907
+  ChildIds: 8247305593256618378
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentStance"
@@ -5880,7 +6279,7 @@ Objects {
   Equipment {
     SocketName: "right_prop"
     PickupTrigger {
-      SelfId: 12397214061534486349
+      SelfId: 13566970951338252107
     }
   }
   InstanceHistory {
@@ -5892,7 +6291,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15321108448884332134
+  Id: 8247305593256618378
   Name: "Weapon Guide 2hand_sword"
   Transform {
     Location {
@@ -5907,7 +6306,7 @@ Objects {
       Z: 1.0000006
     }
   }
-  ParentId: 17024713993562565858
+  ParentId: 14184182646849510251
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5930,7 +6329,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3374430101627858220
+  Id: 240183824591605907
   Name: "ClientContext"
   Transform {
     Location {
@@ -5943,8 +6342,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17024713993562565858
-  ChildIds: 4132271459194295207
+  ParentId: 14184182646849510251
+  ChildIds: 8893113400526147297
+  ChildIds: 4915640100963850157
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -5962,16 +6362,24 @@ Objects {
   }
 }
 Objects {
-  Id: 4132271459194295207
+  Id: 4915640100963850157
   Name: "Baguette Basher"
   Transform {
+    Location {
+      X: 543.27771
+      Y: -1664.25537
+      Z: 117.530853
+    }
+    Rotation {
+      Pitch: 70.6170044
+    }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 2.39914465
+      Y: 0.438088268
+      Z: 0.827285767
     }
   }
-  ParentId: 3374430101627858220
+  ParentId: 240183824591605907
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5989,6 +6397,62 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+            X: 68.2747955
+            Y: 205.560791
+            Z: -194.060898
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -3.05175781e-05
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.39914465
+            Y: 0.438088268
+            Z: 0.827285767
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4515449708693288353
+    }
+  }
+}
+Objects {
+  Id: 8893113400526147297
+  Name: "Baguette Basher"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 240183824591605907
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6844330457232209348
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Baguette Basher"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -0.258978
+            Z: 0.736106157
           }
         }
         Overrides {
@@ -6004,7 +6468,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6589259061302386592
+  Id: 16668614254862806334
   Name: "ClientContext"
   Transform {
     Location {
@@ -6017,10 +6481,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17024713993562565858
-  ChildIds: 12695499239217553494
-  ChildIds: 7898577107572388625
-  ChildIds: 6276627501472297424
+  ParentId: 14184182646849510251
+  ChildIds: 1589170583504593861
+  ChildIds: 17571292952252943893
+  ChildIds: 5277670132951671215
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -6041,7 +6505,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6276627501472297424
+  Id: 5277670132951671215
   Name: "Geo"
   Transform {
     Location {
@@ -6054,7 +6518,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6589259061302386592
+  ParentId: 16668614254862806334
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6075,7 +6539,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7898577107572388625
+  Id: 17571292952252943893
   Name: "EquipmentMeleeAttacksClient"
   Transform {
     Location {
@@ -6088,7 +6552,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6589259061302386592
+  ParentId: 16668614254862806334
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6113,7 +6577,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12695499239217553494
+  Id: 1589170583504593861
   Name: "EquipmentPickupClient"
   Transform {
     Location {
@@ -6126,7 +6590,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6589259061302386592
+  ParentId: 16668614254862806334
   UnregisteredParameters {
     Overrides {
       Name: "cs:PickupSound"
@@ -6157,7 +6621,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12147816753576969310
+  Id: 9694207186561815154
   Name: "ServerContext"
   Transform {
     Location {
@@ -6170,10 +6634,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17024713993562565858
-  ChildIds: 10928459973544095797
-  ChildIds: 17685057423306602265
-  ChildIds: 3088828910231114375
+  ParentId: 14184182646849510251
+  ChildIds: 15359077167451093897
+  ChildIds: 747629447137083169
+  ChildIds: 3383058202225318941
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -6195,7 +6659,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3088828910231114375
+  Id: 3383058202225318941
   Name: "EquipmentMeleeAttacksServer"
   Transform {
     Location {
@@ -6209,7 +6673,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12147816753576969310
+  ParentId: 9694207186561815154
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6234,7 +6698,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17685057423306602265
+  Id: 747629447137083169
   Name: "EquipmentStanceServer"
   Transform {
     Location {
@@ -6247,7 +6711,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12147816753576969310
+  ParentId: 9694207186561815154
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6270,7 +6734,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10928459973544095797
+  Id: 15359077167451093897
   Name: "EquipmentPickupServer"
   Transform {
     Location {
@@ -6284,12 +6748,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12147816753576969310
+  ParentId: 9694207186561815154
   UnregisteredParameters {
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 12397214061534486349
+        SelfId: 13566970951338252107
       }
     }
   }
@@ -6315,7 +6779,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5994995107007032266
+  Id: 14119820329164013389
   Name: "Attack 2"
   Transform {
     Location {
@@ -6328,7 +6792,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17024713993562565858
+  ParentId: 14184182646849510251
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -6435,7 +6899,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18142592345418088242
+  Id: 4616258121863437737
   Name: "Attack 1"
   Transform {
     Location {
@@ -6448,7 +6912,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17024713993562565858
+  ParentId: 14184182646849510251
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -6554,7 +7018,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12397214061534486349
+  Id: 13566970951338252107
   Name: "Pickup Trigger"
   Transform {
     Location {
@@ -6568,7 +7032,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 17024713993562565858
+  ParentId: 14184182646849510251
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -6584,7 +7048,7 @@ Objects {
   }
   Trigger {
     Interactable: true
-    InteractionLabel: "Equip Advanced 2-Handed Sword"
+    InteractionLabel: "Baguette Basher"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -6601,15 +7065,16 @@ Objects {
   }
 }
 Objects {
-  Id: 13143843966578930505
+  Id: 5590306460761271745
   Name: "Baguette Basher"
   Transform {
     Location {
-      X: 366.973083
-      Y: -1222.35876
-      Z: 15.6515503
+      X: 494.873352
+      Y: -1669.22156
+      Z: 111.410538
     }
     Rotation {
+      Pitch: 69.2506409
     }
     Scale {
       X: 1
@@ -6618,13 +7083,13 @@ Objects {
     }
   }
   ParentId: 4147847003364547307
-  ChildIds: 8129730813182703063
-  ChildIds: 10954302265117793948
-  ChildIds: 6498898627448681334
-  ChildIds: 2887143277820033893
-  ChildIds: 6092934885271498046
-  ChildIds: 15621221831233700569
-  ChildIds: 6021909335644290572
+  ChildIds: 12181865819503299731
+  ChildIds: 16725352782702076227
+  ChildIds: 8980163588721508057
+  ChildIds: 2006175060402651678
+  ChildIds: 12664282766968256712
+  ChildIds: 15921468613465524298
+  ChildIds: 3157020966132984449
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentStance"
@@ -6705,7 +7170,7 @@ Objects {
   Equipment {
     SocketName: "right_prop"
     PickupTrigger {
-      SelfId: 8129730813182703063
+      SelfId: 12181865819503299731
     }
   }
   InstanceHistory {
@@ -6717,11 +7182,12 @@ Objects {
   }
 }
 Objects {
-  Id: 6021909335644290572
+  Id: 3157020966132984449
   Name: "Weapon Guide 2hand_sword"
   Transform {
     Location {
-      X: -134.47467
+      X: -134.474655
+      Z: 2.28881836e-05
     }
     Rotation {
       Pitch: -92.6953735
@@ -6732,7 +7198,7 @@ Objects {
       Z: 1.0000006
     }
   }
-  ParentId: 13143843966578930505
+  ParentId: 5590306460761271745
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -6755,7 +7221,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15621221831233700569
+  Id: 15921468613465524298
   Name: "ClientContext"
   Transform {
     Location {
@@ -6768,8 +7234,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13143843966578930505
-  ChildIds: 8180449895645810144
+  ParentId: 5590306460761271745
+  ChildIds: 18266677243516897493
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -6787,7 +7253,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8180449895645810144
+  Id: 18266677243516897493
   Name: "Baguette Basher"
   Transform {
     Scale {
@@ -6796,7 +7262,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15621221831233700569
+  ParentId: 15921468613465524298
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6829,7 +7295,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6092934885271498046
+  Id: 12664282766968256712
   Name: "ClientContext"
   Transform {
     Location {
@@ -6842,10 +7308,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13143843966578930505
-  ChildIds: 2801749389171050483
-  ChildIds: 2593713230210603932
-  ChildIds: 10628519884592201953
+  ParentId: 5590306460761271745
+  ChildIds: 4682079130493259021
+  ChildIds: 6087545035181401323
+  ChildIds: 3639009137940817960
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -6866,7 +7332,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10628519884592201953
+  Id: 3639009137940817960
   Name: "Geo"
   Transform {
     Location {
@@ -6879,7 +7345,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6092934885271498046
+  ParentId: 12664282766968256712
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6900,7 +7366,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2593713230210603932
+  Id: 6087545035181401323
   Name: "EquipmentMeleeAttacksClient"
   Transform {
     Location {
@@ -6913,7 +7379,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6092934885271498046
+  ParentId: 12664282766968256712
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6938,7 +7404,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2801749389171050483
+  Id: 4682079130493259021
   Name: "EquipmentPickupClient"
   Transform {
     Location {
@@ -6951,7 +7417,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6092934885271498046
+  ParentId: 12664282766968256712
   UnregisteredParameters {
     Overrides {
       Name: "cs:PickupSound"
@@ -6982,7 +7448,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2887143277820033893
+  Id: 2006175060402651678
   Name: "ServerContext"
   Transform {
     Location {
@@ -6995,10 +7461,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13143843966578930505
-  ChildIds: 5311351991837840778
-  ChildIds: 14483113663951208542
-  ChildIds: 5013707437561351574
+  ParentId: 5590306460761271745
+  ChildIds: 1917637007631558304
+  ChildIds: 17890927149366692723
+  ChildIds: 15548160012821303186
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7020,7 +7486,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5013707437561351574
+  Id: 15548160012821303186
   Name: "EquipmentMeleeAttacksServer"
   Transform {
     Location {
@@ -7034,7 +7500,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2887143277820033893
+  ParentId: 2006175060402651678
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7059,7 +7525,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14483113663951208542
+  Id: 17890927149366692723
   Name: "EquipmentStanceServer"
   Transform {
     Location {
@@ -7072,7 +7538,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2887143277820033893
+  ParentId: 2006175060402651678
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7095,7 +7561,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5311351991837840778
+  Id: 1917637007631558304
   Name: "EquipmentPickupServer"
   Transform {
     Location {
@@ -7109,12 +7575,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2887143277820033893
+  ParentId: 2006175060402651678
   UnregisteredParameters {
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 8129730813182703063
+        SelfId: 12181865819503299731
       }
     }
   }
@@ -7140,7 +7606,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6498898627448681334
+  Id: 8980163588721508057
   Name: "Attack 2"
   Transform {
     Location {
@@ -7153,7 +7619,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13143843966578930505
+  ParentId: 5590306460761271745
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -7260,7 +7726,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10954302265117793948
+  Id: 16725352782702076227
   Name: "Attack 1"
   Transform {
     Location {
@@ -7273,7 +7739,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13143843966578930505
+  ParentId: 5590306460761271745
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -7379,11 +7845,12 @@ Objects {
   }
 }
 Objects {
-  Id: 8129730813182703063
+  Id: 12181865819503299731
   Name: "Pickup Trigger"
   Transform {
     Location {
-      Z: 40
+      X: -1.14440918e-05
+      Z: 40.0000076
     }
     Rotation {
     }
@@ -7393,7 +7860,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 13143843966578930505
+  ParentId: 5590306460761271745
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7409,7 +7876,7 @@ Objects {
   }
   Trigger {
     Interactable: true
-    InteractionLabel: "Equip Advanced 2-Handed Sword"
+    InteractionLabel: "Baguette Basher"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -7426,15 +7893,16 @@ Objects {
   }
 }
 Objects {
-  Id: 12634283035413016615
+  Id: 12174562554894999815
   Name: "Baguette Basher"
   Transform {
     Location {
-      X: 373.135803
-      Y: -1311.69971
-      Z: 15.6515503
+      X: 589.534607
+      Y: -1672.06226
+      Z: 116.42421
     }
     Rotation {
+      Pitch: 81.3368378
     }
     Scale {
       X: 1
@@ -7443,13 +7911,13 @@ Objects {
     }
   }
   ParentId: 4147847003364547307
-  ChildIds: 5487526231199346977
-  ChildIds: 10834173152349960231
-  ChildIds: 11891374181481478266
-  ChildIds: 17234533125179326374
-  ChildIds: 288877831701192653
-  ChildIds: 12579109403257270352
-  ChildIds: 12156756883585161200
+  ChildIds: 1024283679990565060
+  ChildIds: 8851673210013129912
+  ChildIds: 14281501877707414002
+  ChildIds: 16678929727486366938
+  ChildIds: 11524321423674183237
+  ChildIds: 13145499793092346035
+  ChildIds: 8415875306146467719
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentStance"
@@ -7530,7 +7998,7 @@ Objects {
   Equipment {
     SocketName: "right_prop"
     PickupTrigger {
-      SelfId: 5487526231199346977
+      SelfId: 1024283679990565060
     }
   }
   InstanceHistory {
@@ -7542,11 +8010,12 @@ Objects {
   }
 }
 Objects {
-  Id: 12156756883585161200
+  Id: 8415875306146467719
   Name: "Weapon Guide 2hand_sword"
   Transform {
     Location {
       X: -134.47467
+      Z: 2.28881836e-05
     }
     Rotation {
       Pitch: -92.6953735
@@ -7557,7 +8026,7 @@ Objects {
       Z: 1.0000006
     }
   }
-  ParentId: 12634283035413016615
+  ParentId: 12174562554894999815
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7580,7 +8049,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12579109403257270352
+  Id: 13145499793092346035
   Name: "ClientContext"
   Transform {
     Location {
@@ -7593,8 +8062,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12634283035413016615
-  ChildIds: 15077474897592653746
+  ParentId: 12174562554894999815
+  ChildIds: 3364814880720956314
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -7612,7 +8081,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15077474897592653746
+  Id: 3364814880720956314
   Name: "Baguette Basher"
   Transform {
     Scale {
@@ -7621,7 +8090,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12579109403257270352
+  ParentId: 13145499793092346035
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7654,7 +8123,7 @@ Objects {
   }
 }
 Objects {
-  Id: 288877831701192653
+  Id: 11524321423674183237
   Name: "ClientContext"
   Transform {
     Location {
@@ -7667,10 +8136,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12634283035413016615
-  ChildIds: 5826496989147308777
-  ChildIds: 9847885573592310095
-  ChildIds: 7840926924888254137
+  ParentId: 12174562554894999815
+  ChildIds: 8037312604982347714
+  ChildIds: 3827807540406016878
+  ChildIds: 2802508334078496246
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -7691,7 +8160,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7840926924888254137
+  Id: 2802508334078496246
   Name: "Geo"
   Transform {
     Location {
@@ -7704,7 +8173,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 288877831701192653
+  ParentId: 11524321423674183237
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7725,7 +8194,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9847885573592310095
+  Id: 3827807540406016878
   Name: "EquipmentMeleeAttacksClient"
   Transform {
     Location {
@@ -7738,7 +8207,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 288877831701192653
+  ParentId: 11524321423674183237
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7763,7 +8232,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5826496989147308777
+  Id: 8037312604982347714
   Name: "EquipmentPickupClient"
   Transform {
     Location {
@@ -7776,7 +8245,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 288877831701192653
+  ParentId: 11524321423674183237
   UnregisteredParameters {
     Overrides {
       Name: "cs:PickupSound"
@@ -7807,7 +8276,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17234533125179326374
+  Id: 16678929727486366938
   Name: "ServerContext"
   Transform {
     Location {
@@ -7820,10 +8289,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12634283035413016615
-  ChildIds: 7531633376676203727
-  ChildIds: 17390292074783417618
-  ChildIds: 6186908731716541126
+  ParentId: 12174562554894999815
+  ChildIds: 7263517160115092103
+  ChildIds: 3195536888939632662
+  ChildIds: 12686068965863197529
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7845,7 +8314,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6186908731716541126
+  Id: 12686068965863197529
   Name: "EquipmentMeleeAttacksServer"
   Transform {
     Location {
@@ -7859,7 +8328,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17234533125179326374
+  ParentId: 16678929727486366938
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7884,7 +8353,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17390292074783417618
+  Id: 3195536888939632662
   Name: "EquipmentStanceServer"
   Transform {
     Location {
@@ -7897,7 +8366,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17234533125179326374
+  ParentId: 16678929727486366938
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7920,7 +8389,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7531633376676203727
+  Id: 7263517160115092103
   Name: "EquipmentPickupServer"
   Transform {
     Location {
@@ -7934,12 +8403,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17234533125179326374
+  ParentId: 16678929727486366938
   UnregisteredParameters {
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 5487526231199346977
+        SelfId: 1024283679990565060
       }
     }
   }
@@ -7965,7 +8434,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11891374181481478266
+  Id: 14281501877707414002
   Name: "Attack 2"
   Transform {
     Location {
@@ -7978,7 +8447,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12634283035413016615
+  ParentId: 12174562554894999815
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -8085,7 +8554,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10834173152349960231
+  Id: 8851673210013129912
   Name: "Attack 1"
   Transform {
     Location {
@@ -8098,7 +8567,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12634283035413016615
+  ParentId: 12174562554894999815
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -8204,11 +8673,12 @@ Objects {
   }
 }
 Objects {
-  Id: 5487526231199346977
+  Id: 1024283679990565060
   Name: "Pickup Trigger"
   Transform {
     Location {
-      Z: 40
+      X: -3.81469727e-06
+      Z: 40.0000038
     }
     Rotation {
     }
@@ -8218,7 +8688,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 12634283035413016615
+  ParentId: 12174562554894999815
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8234,7 +8704,7 @@ Objects {
   }
   Trigger {
     Interactable: true
-    InteractionLabel: "Equip Advanced 2-Handed Sword"
+    InteractionLabel: "Baguette Basher"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -8251,15 +8721,18 @@ Objects {
   }
 }
 Objects {
-  Id: 8994567814086129604
+  Id: 17344690793324931162
   Name: "Baguette Basher"
   Transform {
     Location {
-      X: 366.973083
-      Y: -1450.19592
-      Z: 15.6515503
+      X: 925.300476
+      Y: -1655.61572
+      Z: 129.87912
     }
     Rotation {
+      Pitch: 60.9368286
+      Yaw: 0.890934289
+      Roll: 1.01919651
     }
     Scale {
       X: 1
@@ -8268,13 +8741,13 @@ Objects {
     }
   }
   ParentId: 4147847003364547307
-  ChildIds: 13736593913589703564
-  ChildIds: 11236926382266985698
-  ChildIds: 17069595334683476441
-  ChildIds: 11509177287539931710
-  ChildIds: 16857315899720395467
-  ChildIds: 4203324615754852763
-  ChildIds: 15230149926869071754
+  ChildIds: 12301429403198092093
+  ChildIds: 16210435830380662140
+  ChildIds: 4448392274779950824
+  ChildIds: 13658017157849621288
+  ChildIds: 17238916193923468474
+  ChildIds: 14828538297809916726
+  ChildIds: 3903890067691847477
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentStance"
@@ -8355,7 +8828,7 @@ Objects {
   Equipment {
     SocketName: "right_prop"
     PickupTrigger {
-      SelfId: 13736593913589703564
+      SelfId: 12301429403198092093
     }
   }
   InstanceHistory {
@@ -8367,7 +8840,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15230149926869071754
+  Id: 3903890067691847477
   Name: "Weapon Guide 2hand_sword"
   Transform {
     Location {
@@ -8382,7 +8855,7 @@ Objects {
       Z: 1.0000006
     }
   }
-  ParentId: 8994567814086129604
+  ParentId: 17344690793324931162
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8405,7 +8878,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4203324615754852763
+  Id: 14828538297809916726
   Name: "ClientContext"
   Transform {
     Location {
@@ -8418,8 +8891,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8994567814086129604
-  ChildIds: 14930149357124541678
+  ParentId: 17344690793324931162
+  ChildIds: 7273175463634746891
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -8437,7 +8910,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14930149357124541678
+  Id: 7273175463634746891
   Name: "Baguette Basher"
   Transform {
     Scale {
@@ -8446,7 +8919,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4203324615754852763
+  ParentId: 14828538297809916726
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8479,7 +8952,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16857315899720395467
+  Id: 17238916193923468474
   Name: "ClientContext"
   Transform {
     Location {
@@ -8492,10 +8965,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8994567814086129604
-  ChildIds: 14572292154954580665
-  ChildIds: 5379476305397677212
-  ChildIds: 10942570775430455504
+  ParentId: 17344690793324931162
+  ChildIds: 1668668057968245622
+  ChildIds: 16922911896565665931
+  ChildIds: 174493775092649417
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -8516,7 +8989,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10942570775430455504
+  Id: 174493775092649417
   Name: "Geo"
   Transform {
     Location {
@@ -8529,7 +9002,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16857315899720395467
+  ParentId: 17238916193923468474
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8550,7 +9023,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5379476305397677212
+  Id: 16922911896565665931
   Name: "EquipmentMeleeAttacksClient"
   Transform {
     Location {
@@ -8563,7 +9036,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16857315899720395467
+  ParentId: 17238916193923468474
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -8588,7 +9061,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14572292154954580665
+  Id: 1668668057968245622
   Name: "EquipmentPickupClient"
   Transform {
     Location {
@@ -8601,7 +9074,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16857315899720395467
+  ParentId: 17238916193923468474
   UnregisteredParameters {
     Overrides {
       Name: "cs:PickupSound"
@@ -8632,7 +9105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11509177287539931710
+  Id: 13658017157849621288
   Name: "ServerContext"
   Transform {
     Location {
@@ -8645,10 +9118,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8994567814086129604
-  ChildIds: 16558516019602651076
-  ChildIds: 5689154498381873187
-  ChildIds: 14452079589568976577
+  ParentId: 17344690793324931162
+  ChildIds: 4744614357404033098
+  ChildIds: 18372366750663013504
+  ChildIds: 6300280856478285748
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8670,7 +9143,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14452079589568976577
+  Id: 6300280856478285748
   Name: "EquipmentMeleeAttacksServer"
   Transform {
     Location {
@@ -8684,7 +9157,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11509177287539931710
+  ParentId: 13658017157849621288
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -8709,7 +9182,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5689154498381873187
+  Id: 18372366750663013504
   Name: "EquipmentStanceServer"
   Transform {
     Location {
@@ -8722,7 +9195,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11509177287539931710
+  ParentId: 13658017157849621288
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8745,7 +9218,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16558516019602651076
+  Id: 4744614357404033098
   Name: "EquipmentPickupServer"
   Transform {
     Location {
@@ -8759,12 +9232,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11509177287539931710
+  ParentId: 13658017157849621288
   UnregisteredParameters {
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 13736593913589703564
+        SelfId: 12301429403198092093
       }
     }
   }
@@ -8790,7 +9263,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17069595334683476441
+  Id: 4448392274779950824
   Name: "Attack 2"
   Transform {
     Location {
@@ -8803,7 +9276,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8994567814086129604
+  ParentId: 17344690793324931162
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -8910,7 +9383,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11236926382266985698
+  Id: 16210435830380662140
   Name: "Attack 1"
   Transform {
     Location {
@@ -8923,7 +9396,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8994567814086129604
+  ParentId: 17344690793324931162
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
@@ -9029,7 +9502,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13736593913589703564
+  Id: 12301429403198092093
   Name: "Pickup Trigger"
   Transform {
     Location {
@@ -9043,7 +9516,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 8994567814086129604
+  ParentId: 17344690793324931162
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -9059,7 +9532,7 @@ Objects {
   }
   Trigger {
     Interactable: true
-    InteractionLabel: "Equip Advanced 2-Handed Sword"
+    InteractionLabel: "Baguette Basher"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -9080,11 +9553,12 @@ Objects {
   Name: "Baguette Basher"
   Transform {
     Location {
-      X: 373.135803
-      Y: -1539.53687
-      Z: 15.6515503
+      X: 936.265137
+      Y: -1699.59497
+      Z: 145.619354
     }
     Rotation {
+      Pitch: 79.4655304
     }
     Scale {
       X: 1
@@ -9884,7 +10358,7 @@ Objects {
   }
   Trigger {
     Interactable: true
-    InteractionLabel: "Equip Advanced 2-Handed Sword"
+    InteractionLabel: "Baguette Basher"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -28174,800 +28648,6 @@ Objects {
   }
 }
 Objects {
-  Id: 18116011420096423859
-  Name: "Baguette Basher"
-  Transform {
-    Location {
-      X: 489.160889
-      Y: -1710.32178
-      Z: -165.052948
-    }
-    Rotation {
-      Pitch: -84.0340118
-      Yaw: 180
-      Roll: 180
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4147847003364547307
-  ChildIds: 8564806779125982664
-  ChildIds: 5440438022833254160
-  ChildIds: 16319200360483074761
-  ChildIds: 1041766361738159345
-  ChildIds: 18008281411907156529
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:EquipmentStance"
-      String: "2hand_sword_stance"
-    }
-    Overrides {
-      Name: "cs:PlayerImpact"
-      AssetReference {
-        Id: 307406115803496087
-      }
-    }
-    Overrides {
-      Name: "cs:ObjectImpact"
-      AssetReference {
-        Id: 16244471840856776085
-      }
-    }
-    Overrides {
-      Name: "cs:SwingSound"
-      AssetReference {
-        Id: 1970105428586059764
-      }
-    }
-    Overrides {
-      Name: "cs:HitSphereRadius"
-      Float: 175
-    }
-    Overrides {
-      Name: "cs:HitSphereOffset"
-      Vector {
-        X: 50
-        Z: 50
-      }
-    }
-    Overrides {
-      Name: "cs:ShowHitSphere"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:EquipmentStance:tooltip"
-      String: "The stance animation when a player picks up the equipment."
-    }
-    Overrides {
-      Name: "cs:PlayerImpact:tooltip"
-      String: "Template that is spawned at the location where the hitbox hit the player."
-    }
-    Overrides {
-      Name: "cs:SwingSound:tooltip"
-      String: "Template that is spawned at the equipment owner location when a melee ability is executed."
-    }
-    Overrides {
-      Name: "cs:HitSphereRadius:tooltip"
-      String: "Radius of hit sphere to detect players and damageable objects."
-    }
-    Overrides {
-      Name: "cs:ShowHitSphere:tooltip"
-      String: "Show sphere in editor when performing ability."
-    }
-    Overrides {
-      Name: "cs:HitSphereOffset:tooltip"
-      String: "Offset of the hit sphere from root position of equipment owner."
-    }
-    Overrides {
-      Name: "cs:ObjectImpact:tooltip"
-      String: "Impact template spawned on damageable objects."
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Equipment {
-    SocketName: "right_prop"
-    PickupTrigger {
-      SelfId: 8564806779125982664
-    }
-  }
-  InstanceHistory {
-    SelfId: 18116011420096423859
-    SubobjectId: 13380154364575694248
-    InstanceId: 9631328351239461863
-    TemplateId: 1033855592343353671
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 18008281411907156529
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18116011420096423859
-  ChildIds: 3529386490757968497
-  ChildIds: 5388834254500856657
-  ChildIds: 18122873005064959107
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 18008281411907156529
-    SubobjectId: 13487330286351392810
-    InstanceId: 9631328351239461863
-    TemplateId: 1033855592343353671
-  }
-}
-Objects {
-  Id: 18122873005064959107
-  Name: "Geo"
-  Transform {
-    Location {
-      X: -15.8533173
-      Y: 4.63224933e-05
-      Z: -98.2352066
-    }
-    Rotation {
-      Pitch: -23.8572388
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18008281411907156529
-  ChildIds: 8974920677785968392
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 18122873005064959107
-    SubobjectId: 13350845354224971416
-    InstanceId: 9631328351239461863
-    TemplateId: 1033855592343353671
-  }
-}
-Objects {
-  Id: 8974920677785968392
-  Name: "Baguette Basher"
-  Transform {
-    Location {
-      X: -290.624756
-      Y: 44.9560242
-      Z: 55.4276886
-    }
-    Rotation {
-    }
-    Scale {
-      X: 2.39914465
-      Y: 0.438088268
-      Z: 0.827285767
-    }
-  }
-  ParentId: 18122873005064959107
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1583892998503481529
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: true
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.289999962
-        G: 0.0864238366
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2510984402606835564
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        IsEnabled: true
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 8974920677785968392
-    SubobjectId: 6844330457232209348
-    InstanceId: 11100223869057147015
-    TemplateId: 4515449708693288353
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 5388834254500856657
-  Name: "EquipmentMeleeAttacksClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18008281411907156529
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 12971704803185333098
-    }
-  }
-  InstanceHistory {
-    SelfId: 5388834254500856657
-    SubobjectId: 580445191338613066
-    InstanceId: 9631328351239461863
-    TemplateId: 1033855592343353671
-  }
-}
-Objects {
-  Id: 3529386490757968497
-  Name: "EquipmentPickupClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18008281411907156529
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:PickupSound"
-      AssetReference {
-        Id: 4248955559736083819
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 440168262593430639
-    }
-  }
-  InstanceHistory {
-    SelfId: 3529386490757968497
-    SubobjectId: 8231522078824179818
-    InstanceId: 9631328351239461863
-    TemplateId: 1033855592343353671
-  }
-}
-Objects {
-  Id: 1041766361738159345
-  Name: "ServerContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18116011420096423859
-  ChildIds: 3008015875044744228
-  ChildIds: 8842775961233303903
-  ChildIds: 2490774658384356166
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-    Type: Server
-  }
-  InstanceHistory {
-    SelfId: 1041766361738159345
-    SubobjectId: 5526975688712912618
-    InstanceId: 9631328351239461863
-    TemplateId: 1033855592343353671
-  }
-}
-Objects {
-  Id: 2490774658384356166
-  Name: "EquipmentMeleeAttacksServer"
-  Transform {
-    Location {
-      Y: -325
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1041766361738159345
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 5082628058110625875
-    }
-  }
-  InstanceHistory {
-    SelfId: 2490774658384356166
-    SubobjectId: 6942256758217914717
-    InstanceId: 9631328351239461863
-    TemplateId: 1033855592343353671
-  }
-}
-Objects {
-  Id: 8842775961233303903
-  Name: "EquipmentStanceServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1041766361738159345
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 1427829216143793458
-    }
-  }
-  InstanceHistory {
-    SelfId: 8842775961233303903
-    SubobjectId: 4067034159930274628
-    InstanceId: 9631328351239461863
-    TemplateId: 1033855592343353671
-  }
-}
-Objects {
-  Id: 3008015875044744228
-  Name: "EquipmentPickupServer"
-  Transform {
-    Location {
-      Y: -325
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1041766361738159345
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Trigger"
-      ObjectReference {
-        SelfId: 8564806779125982664
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 8459825612529451237
-    }
-  }
-  InstanceHistory {
-    SelfId: 3008015875044744228
-    SubobjectId: 7744015871360517695
-    InstanceId: 9631328351239461863
-    TemplateId: 1033855592343353671
-  }
-}
-Objects {
-  Id: 16319200360483074761
-  Name: "Attack 2"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18116011420096423859
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Damage"
-      Float: 55
-    }
-    Overrides {
-      Name: "cs:UseHitSphere"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:SwingEffect"
-      AssetReference {
-        Id: 171090409284182791
-      }
-    }
-    Overrides {
-      Name: "cs:SwingSpawnDelay"
-      Float: 0
-    }
-    Overrides {
-      Name: "cs:SwingRotationX"
-      Float: -180
-    }
-    Overrides {
-      Name: "cs:SwingRotationY"
-      Float: 0
-    }
-    Overrides {
-      Name: "cs:Damage:tooltip"
-      String: "Damage value applied to a player hit by hitbox trigger."
-    }
-    Overrides {
-      Name: "cs:UseHitSphere:tooltip"
-      String: "If true, this ability will use the hit sphere cast during execution phase to damage players or damageable objects."
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Ability {
-    IsEnabled: true
-    CastPhaseSettings {
-      Duration: 0.15
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    ExecutePhaseSettings {
-      Duration: 0.15
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    RecoveryPhaseSettings {
-      Duration: 0.1
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    CooldownPhaseSettings {
-      Duration: 1.2
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    Animation: "2hand_sword_slash_right"
-    CanBePrevented: true
-    KeyBinding_v2 {
-      Value: "mc:egameaction:primaryaction"
-    }
-  }
-  InstanceHistory {
-    SelfId: 16319200360483074761
-    SubobjectId: 11583163290014738642
-    InstanceId: 9631328351239461863
-    TemplateId: 1033855592343353671
-  }
-}
-Objects {
-  Id: 5440438022833254160
-  Name: "Attack 1"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18116011420096423859
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Damage"
-      Float: 45
-    }
-    Overrides {
-      Name: "cs:UseHitSphere"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:SwingEffect"
-      AssetReference {
-        Id: 171090409284182791
-      }
-    }
-    Overrides {
-      Name: "cs:SwingSpawnDelay"
-      Float: 0.04
-    }
-    Overrides {
-      Name: "cs:SwingRotationX"
-      Float: -4.8
-    }
-    Overrides {
-      Name: "cs:SwingRotationY"
-      Float: -4
-    }
-    Overrides {
-      Name: "cs:Damage:tooltip"
-      String: "Damage value applied to a player hit by hitbox trigger."
-    }
-    Overrides {
-      Name: "cs:UseHitSphere:tooltip"
-      String: "If true, this ability will use the hit sphere cast during execution phase to damage players or damageable objects."
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Ability {
-    IsEnabled: true
-    CastPhaseSettings {
-      Duration: 0.15
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    ExecutePhaseSettings {
-      Duration: 0.15
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    RecoveryPhaseSettings {
-      Duration: 0.1
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    CooldownPhaseSettings {
-      Duration: 1.2
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    Animation: "2hand_sword_slash_left"
-    KeyBinding_v2 {
-      Value: "mc:egameaction:primaryaction"
-    }
-  }
-  InstanceHistory {
-    SelfId: 5440438022833254160
-    SubobjectId: 668373778692601099
-    InstanceId: 9631328351239461863
-    TemplateId: 1033855592343353671
-  }
-}
-Objects {
-  Id: 8564806779125982664
-  Name: "Pickup Trigger"
-  Transform {
-    Location {
-      Z: 40
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1.2
-    }
-  }
-  ParentId: 18116011420096423859
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:alwaysvisible"
-  }
-  Trigger {
-    Interactable: true
-    InteractionLabel: "Pick-up Baguette Basher"
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 8564806779125982664
-    SubobjectId: 3754477636252876755
-    InstanceId: 9631328351239461863
-    TemplateId: 1033855592343353671
-  }
-}
-Objects {
   Id: 5140733668069828124
   Name: "Red Apple with Stalk (decor)"
   Transform {
@@ -29188,7 +28868,7 @@ Objects {
     Location {
       X: 527.169678
       Y: -1677.42773
-      Z: -38.7180023
+      Z: -49.6891441
     }
     Rotation {
     }
