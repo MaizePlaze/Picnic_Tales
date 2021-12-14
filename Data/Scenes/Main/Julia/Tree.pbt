@@ -6,11 +6,13 @@ Objects {
   Transform {
     Location {
       X: 1083.0531
-      Y: -1464.97302
-      Z: 125.388489
+      Y: -1162.62573
+      Z: 87.3386536
     }
     Rotation {
-      Pitch: 79.4655304
+      Pitch: 45.5336533
+      Yaw: 74.8685
+      Roll: 79.0766907
     }
     Scale {
       X: 1
