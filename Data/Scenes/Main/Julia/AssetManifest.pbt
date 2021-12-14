@@ -53,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15559320499676995789
+  Name: "Glow Shape Decal"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_glow"
+  }
+}
+Assets {
   Id: 14899215849420680703
   Name: "Sphere - Half Thin"
   PlatformAssetType: 1
@@ -233,12 +242,30 @@ Assets {
   }
 }
 Assets {
+  Id: 4943326329165881386
+  Name: "Bottle 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fantasy_bottle_001"
+  }
+}
+Assets {
   Id: 4452517809827602480
   Name: "Basic Pepper 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prim_org_pepper_001_ref"
+  }
+}
+Assets {
+  Id: 4248955559736083819
+  Name: "Impact Player Body Thud 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_impact_player_bodythud_01_Cue_ref"
   }
 }
 Assets {
@@ -275,6 +302,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_sphere_3quarter_002_ref"
+  }
+}
+Assets {
+  Id: 2510984402606835564
+  Name: "Gem - Baguette Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gem_baguette_polished_001"
+  }
+}
+Assets {
+  Id: 1583892998503481529
+  Name: "Food Corn 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_food_generic_corn_001_uv"
   }
 }
 Assets {
