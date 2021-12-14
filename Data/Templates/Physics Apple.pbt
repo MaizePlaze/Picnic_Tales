@@ -17,7 +17,6 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 3628195363046199152
-        ChildIds: 5263573830702898479
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -37,7 +36,7 @@ Assets {
           }
           Settings {
             OverrideMass: true
-            Mass: 3
+            Mass: 5
             LinearDamping: 5
             AngularDamping: 5
           }
@@ -74,6 +73,7 @@ Assets {
           }
         }
         ParentId: 8065011927264135857
+        ChildIds: 5263573830702898479
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -104,10 +104,9 @@ Assets {
             Z: 2
           }
         }
-        ParentId: 8065011927264135857
+        ParentId: 3628195363046199152
         ChildIds: 8421056290921332965
         ChildIds: 14125106330105085800
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -153,7 +152,6 @@ Assets {
             Bool: false
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -220,7 +218,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

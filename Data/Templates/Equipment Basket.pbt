@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 44003275876171690
+        ParentId: 4781671109827199097
         ChildIds: 12862186939387196964
         ChildIds: 14886328126391125466
         WantsNetworking: true
@@ -40,7 +40,7 @@ Assets {
       }
       Objects {
         Id: 12862186939387196964
-        Name: "BoxTrigger"
+        Name: "Trigger"
         Transform {
           Location {
             Z: 45
@@ -48,12 +48,13 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 0.65
-            Y: 0.65
-            Z: 0.65
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 0.99999994
           }
         }
         ParentId: 2209278608782777923
+        ChildIds: 3114850337848008596
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -74,6 +75,40 @@ Assets {
           }
           TriggerShape_v2 {
             Value: "mc:etriggershape:sphere"
+          }
+        }
+      }
+      Objects {
+        Id: 3114850337848008596
+        Name: "PlayerBasketTrigger"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12862186939387196964
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Script {
+          ScriptAsset {
+            Id: 4831873019233903722
           }
         }
       }

@@ -72,6 +72,7 @@ function StartRound()
         p:SetWorldPosition(startingLocs[i]:GetWorldPosition())
     end
     SpawnFruit()
+
 end
 
 Game.roundStartEvent:Connect(StartRound)
@@ -82,15 +83,15 @@ function EndRound()
     readyPlayers = {}
     --ballObject:Destroy()
     --Events.BroadcastToAllPlayers("OpenStartMenu")
-    local sphere = World.FindObjectByName("Physics Apple")
-    sphere:Destroy()
-    
+    --local sphere = World.FindObjectByName("Physics Apple")
+    --sphere:Destroy()
 end
 
 
 function Tick(deltaTime)
     if roundStarted then
         elapsedTime = elapsedTime + deltaTime
+        
         if elapsedTime > roundTime then
             EndRound()
         end

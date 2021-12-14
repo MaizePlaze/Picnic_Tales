@@ -73,7 +73,6 @@ Objects {
   }
   ParentId: 44003275876171690
   ChildIds: 15956412500893631737
-  ChildIds: 10817919029504034442
   ChildIds: 6314032180512726045
   ChildIds: 16809964865909309712
   Collidable_v2 {
@@ -161,52 +160,6 @@ Objects {
     }
     TemplateAsset {
       Id: 11449183948169899721
-    }
-  }
-}
-Objects {
-  Id: 10817919029504034442
-  Name: "Basic Game State Manager"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11960465718331610206
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16086570097188718822
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Basic Game State Manager"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "cs:LobbyHasDuration"
-          Bool: true
-        }
-        Overrides {
-          Name: "cs:RoundEndDuration"
-          Float: 20
-        }
-        Overrides {
-          Name: "cs:RoundDuration"
-          Float: 30
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 16455634504760328398
     }
   }
 }

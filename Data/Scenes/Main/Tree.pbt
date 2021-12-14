@@ -51,6 +51,7 @@ Objects {
   ChildIds: 6526716367957915411
   ChildIds: 12124895633075969357
   ChildIds: 11069014058163123511
+  ChildIds: 9854427314176198881
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -63,6 +64,52 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 9854427314176198881
+  Name: "Equipment Basket"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2209278608782777923
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Equipment Basket"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4035
+            Y: -1265
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8824707599395461006
+    }
   }
 }
 Objects {
