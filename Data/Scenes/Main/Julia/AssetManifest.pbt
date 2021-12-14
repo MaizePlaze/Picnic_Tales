@@ -161,6 +161,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11701728538962683260
+  Name: "Meta Generic Pickup 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_meta_generic_pickup_01_Cue_ref"
+  }
+}
+Assets {
   Id: 10992735078904622553
   Name: "Small Open Crate"
   PlatformAssetType: 1
