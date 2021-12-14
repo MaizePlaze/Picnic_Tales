@@ -1,4 +1,13 @@
 Assets {
+  Id: 18436676146666430799
+  Name: "Grass and Soil"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_grass_003_uv"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -8,12 +17,21 @@ Assets {
   }
 }
 Assets {
-  Id: 9792587434536731249
-  Name: "Whitebox Floor 01 4m x 4m"
+  Id: 8460556615639561465
+  Name: "Cylinder"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_floor_001_4x4"
+    AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
+  Id: 7485850683740043800
+  Name: "Food Fruit 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_food_generic_apple_001_uv"
   }
 }
 Assets {
@@ -26,12 +44,57 @@ Assets {
   }
 }
 Assets {
+  Id: 6120777486642466004
+  Name: "Sphere - Half Slice Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hemisphere_wedge_002"
+  }
+}
+Assets {
+  Id: 5089623065350727938
+  Name: "Basic Apple"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prim_org_apple_001_ref"
+  }
+}
+Assets {
+  Id: 3757877896783615996
+  Name: "Manticore Logo"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_logo_manticore_01"
+  }
+}
+Assets {
+  Id: 1787105103342445801
+  Name: "Metal Gold 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_gold_001"
+  }
+}
+Assets {
   Id: 1090147942510361903
   Name: "Cylinder - Bottom-Aligned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_001"
+  }
+}
+Assets {
+  Id: 993582516876489173
+  Name: "Apple 2"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Apple2"
   }
 }
 Assets {

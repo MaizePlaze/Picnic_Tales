@@ -3,6 +3,9 @@
 local startingLocs = script:GetCustomProperty("StartingLocations"):WaitForObject():GetChildren()
 local endingLocs = script:GetCustomProperty("EndingLocations"):WaitForObject():GetChildren()
 local fruitLocs = script:GetCustomProperty("FruitSpawnLocations"):WaitForObject():GetChildren()
+
+local basket = script:GetCustomProperty("EquipmentBasket")
+
 local apple = script:GetCustomProperty("PhysicsApple")
 local appleShpere = script:GetCustomProperty("StaticApple")
 local appleSpawn = script:GetCustomProperty("AppleSpawn"):WaitForObject()
