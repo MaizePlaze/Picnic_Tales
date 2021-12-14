@@ -17,12 +17,66 @@ Assets {
   }
 }
 Assets {
+  Id: 18323369740862676962
+  Name: "Food Watermelon 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_food_generic_watermelon_001_uv1"
+  }
+}
+Assets {
+  Id: 18020903922608645478
+  Name: "Wood Raw"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_raw_001_uv"
+  }
+}
+Assets {
   Id: 17893195556090897876
   Name: "Wicker Basket 03"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_fan_wicker_003_uv_ref"
+  }
+}
+Assets {
+  Id: 16318550623626695207
+  Name: "Sphere Quarter Wedge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prim_sphere_wedge_001_ref"
+  }
+}
+Assets {
+  Id: 15948807416299862734
+  Name: "Fantasy Dish Set - Bowl 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fan_dish_set_bowl_001_ref"
+  }
+}
+Assets {
+  Id: 15559320499676995789
+  Name: "Glow Shape Decal"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_glow"
+  }
+}
+Assets {
+  Id: 15172180549504871240
+  Name: "Ambience Nature Forest Birds Set 01 SFX"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "sfxabp_forestbirds_ref"
   }
 }
 Assets {
@@ -44,12 +98,93 @@ Assets {
   }
 }
 Assets {
+  Id: 14572866022914192454
+  Name: "Fantasy Dish Set - Plate 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fan_dish_set_plate_001_ref"
+  }
+}
+Assets {
+  Id: 14344352328303337230
+  Name: "Wood Painted 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_painted_white_001_uv"
+  }
+}
+Assets {
+  Id: 13494078118318414513
+  Name: "Carpet Tile 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_carpet_tile_002"
+  }
+}
+Assets {
+  Id: 13280078777988462493
+  Name: "Craftsman Porch Fence Railing 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_porch_001_rail"
+  }
+}
+Assets {
+  Id: 12979312013289071181
+  Name: "Wedge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_001"
+  }
+}
+Assets {
+  Id: 12880514946379160826
+  Name: "Food Pizza 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_food_pizza_pepperoni_001_uv_ref"
+  }
+}
+Assets {
   Id: 12514700371097505949
   Name: "Japanese Sitting Pillow Basket 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_jpn_pillow_sitting_basket_001_ref"
+  }
+}
+Assets {
+  Id: 10992735078904622553
+  Name: "Small Open Crate"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crate_narrow_open_simple_160cm_001"
+  }
+}
+Assets {
+  Id: 10936288674056357559
+  Name: "Fantasy Dish Set - Chalice 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fan_dish_set_chalice_001_ref"
+  }
+}
+Assets {
+  Id: 10771057208018775687
+  Name: "Weapon Guide 2hand_sword"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "weapon_guide_sword_BP_ref"
   }
 }
 Assets {
@@ -62,12 +197,39 @@ Assets {
   }
 }
 Assets {
+  Id: 8621994705150117454
+  Name: "Hill 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hill_003"
+  }
+}
+Assets {
   Id: 7485850683740043800
   Name: "Food Fruit 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_food_generic_apple_001_uv"
+  }
+}
+Assets {
+  Id: 6596493677265272551
+  Name: "Trim - Curve 90\302\260 - 16m Radius"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_trimitives_001_curve90_16m_ref"
+  }
+}
+Assets {
+  Id: 6287606422488195013
+  Name: "Tree Oak 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_oak_001"
   }
 }
 Assets {
@@ -116,11 +278,110 @@ Assets {
   }
 }
 Assets {
+  Id: 4963410339251514959
+  Name: "Small Crate Lid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crate_narrow_lid_simple_160cm_001"
+  }
+}
+Assets {
+  Id: 4943326329165881386
+  Name: "Bottle 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fantasy_bottle_001"
+  }
+}
+Assets {
+  Id: 4452517809827602480
+  Name: "Basic Pepper 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prim_org_pepper_001_ref"
+  }
+}
+Assets {
+  Id: 3675376178011267601
+  Name: "Cylinder - Rounded"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_rounded_002"
+  }
+}
+Assets {
   Id: 3411406684169594568
   Name: "Pipe - 4-Sided Thin"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_4_sided_thin_001"
+  }
+}
+Assets {
+  Id: 3041316967292781893
+  Name: "Sphere"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_002"
+  }
+}
+Assets {
+  Id: 2594668048302166491
+  Name: "Sphere - Cutout Rounded"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_3quarter_002_ref"
+  }
+}
+Assets {
+  Id: 1281609444414250340
+  Name: "Urban Cardboard Box 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cardboard_box_002_ref"
+  }
+}
+Assets {
+  Id: 1146982892770957751
+  Name: "Terrain - Grass"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_terrain_rock-grass-001_wa"
+  }
+}
+Assets {
+  Id: 1045549783696480733
+  Name: "Brick Multicolor 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_multicolor_old_001_uv"
+  }
+}
+Assets {
+  Id: 925388969646760226
+  Name: "Food Cheese 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_food_generic_cheese_001_uv"
+  }
+}
+Assets {
+  Id: 439515672557637332
+  Name: "Terrain - Grass Cliffs"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_terrain_cliff-grass-001_wa"
   }
 }
