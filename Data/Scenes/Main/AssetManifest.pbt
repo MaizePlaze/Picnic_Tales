@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15172180549504871240
-  Name: "Ambience Nature Forest Birds Set 01 SFX"
-  PlatformAssetType: 10
-  PrimaryAsset {
-    AssetType: "AudioBlueprintAssetRef"
-    AssetId: "sfxabp_forestbirds_ref"
-  }
-}
-Assets {
   Id: 11515840070784317904
   Name: "Skylight"
   PlatformAssetType: 6

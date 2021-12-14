@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18020903922608645478
+  Name: "Wood Raw"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_raw_001_uv"
+  }
+}
+Assets {
   Id: 17893195556090897876
   Name: "Wicker Basket 03"
   PlatformAssetType: 2
@@ -62,6 +71,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15172180549504871240
+  Name: "Ambience Nature Forest Birds Set 01 SFX"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "sfxabp_forestbirds_ref"
+  }
+}
+Assets {
   Id: 14899215849420680703
   Name: "Sphere - Half Thin"
   PlatformAssetType: 1
@@ -86,6 +104,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fan_dish_set_plate_001_ref"
+  }
+}
+Assets {
+  Id: 14344352328303337230
+  Name: "Wood Painted 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_painted_white_001_uv"
   }
 }
 Assets {
@@ -158,6 +185,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_fan_wicker_001_uv"
+  }
+}
+Assets {
+  Id: 8621994705150117454
+  Name: "Hill 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hill_003"
   }
 }
 Assets {
@@ -332,11 +368,38 @@ Assets {
   }
 }
 Assets {
+  Id: 1146982892770957751
+  Name: "Terrain - Grass"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_terrain_rock-grass-001_wa"
+  }
+}
+Assets {
+  Id: 1045549783696480733
+  Name: "Brick Multicolor 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_multicolor_old_001_uv"
+  }
+}
+Assets {
   Id: 925388969646760226
   Name: "Food Cheese 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_food_generic_cheese_001_uv"
+  }
+}
+Assets {
+  Id: 439515672557637332
+  Name: "Terrain - Grass Cliffs"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_terrain_cliff-grass-001_wa"
   }
 }

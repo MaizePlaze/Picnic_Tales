@@ -20,7 +20,6 @@ Objects {
   ChildIds: 14832815952701525965
   ChildIds: 4147847003364547307
   ChildIds: 44003275876171690
-  ChildIds: 3434315184773657288
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,54 +32,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 3434315184773657288
-  Name: "Ambience Nature Forest Birds Set 01 SFX"
-  Transform {
-    Location {
-      X: -1037.95386
-      Y: 1284.62158
-      Z: -0.100891113
-    }
-    Rotation {
-    }
-    Scale {
-      X: 2.99444818
-      Y: 1.20939493
-      Z: 1.88351691
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15172180549504871240
-    }
-    TeamSettings {
-    }
-    AudioBP {
-      AutoPlay: true
-      Repeat: true
-      Volume: 1
-      Falloff: 3600
-      Radius: 3000
-      EnableOcclusion: true
-      IsSpatializationEnabled: true
-      IsAttenuationEnabled: true
-    }
   }
 }
 Objects {

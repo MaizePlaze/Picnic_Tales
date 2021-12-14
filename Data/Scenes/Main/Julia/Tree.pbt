@@ -1,6 +1,896 @@
 Name: "Julia"
 RootId: 4147847003364547307
 Objects {
+  Id: 4743128173053869358
+  Name: "Bridge Mini Game"
+  Transform {
+    Location {
+      X: -336.318481
+      Y: -6649.82373
+      Z: 163.672638
+    }
+    Rotation {
+      Yaw: 60.1239471
+    }
+    Scale {
+      X: 1.1857748
+      Y: 1.1857748
+      Z: 1.1857748
+    }
+  }
+  ParentId: 4147847003364547307
+  ChildIds: 7397450173174466374
+  ChildIds: 5205918595906532340
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5205918595906532340
+  Name: "Japanese Temple Bridge 01 - End Template"
+  Transform {
+    Location {
+      X: 921.381775
+      Y: -6214.3
+      Z: 99.8700562
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4743128173053869358
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2473405588511458478
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.110000014
+            G: 0.0305960272
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:id"
+          AssetReference {
+            Id: 14344352328303337230
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.289999962
+            G: 0.28807947
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3480791487747249267
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.110000014
+            G: 0.0305960272
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:id"
+          AssetReference {
+            Id: 14344352328303337230
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.289999962
+            G: 0.28807947
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7395307715119422542
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1045549783696480733
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7941569507556684487
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1045549783696480733
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8297724503592404224
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 18020903922608645478
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8592529586053842824
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1045549783696480733
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10724993488567593835
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Japanese Temple Bridge 01 - End Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -825.408203
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: -1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14791356879936508276
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.110000014
+            G: 0.0305960272
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:id"
+          AssetReference {
+            Id: 14344352328303337230
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.289999962
+            G: 0.28807947
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15426951558917082729
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 18020903922608645478
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17174685804248893132
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.110000014
+            G: 0.0305960272
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:id"
+          AssetReference {
+            Id: 14344352328303337230
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.289999962
+            G: 0.28807947
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7376650015684312040
+    }
+  }
+}
+Objects {
+  Id: 7397450173174466374
+  Name: "Japanese Temple Bridge 01 - End Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4743128173053869358
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2473405588511458478
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.110000014
+            G: 0.0305960272
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:id"
+          AssetReference {
+            Id: 14344352328303337230
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.289999962
+            G: 0.28807947
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3480791487747249267
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.110000014
+            G: 0.0305960272
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:id"
+          AssetReference {
+            Id: 14344352328303337230
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.289999962
+            G: 0.28807947
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7395307715119422542
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1045549783696480733
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7941569507556684487
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1045549783696480733
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8297724503592404224
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 18020903922608645478
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8592529586053842824
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1045549783696480733
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10724993488567593835
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Japanese Temple Bridge 01 - End Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -0.155602291
+            Y: 771.582703
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14791356879936508276
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.110000014
+            G: 0.0305960272
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:id"
+          AssetReference {
+            Id: 14344352328303337230
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.289999962
+            G: 0.28807947
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15426951558917082729
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 18020903922608645478
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17174685804248893132
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.110000014
+            G: 0.0305960272
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:id"
+          AssetReference {
+            Id: 14344352328303337230
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.289999962
+            G: 0.28807947
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7376650015684312040
+    }
+  }
+}
+Objects {
+  Id: 12930460100721851272
+  Name: "Hill 03"
+  Transform {
+    Location {
+      X: 1060.24048
+      Y: -4645.4751
+      Z: 73.1088791
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.17126775
+      Y: 1.17126775
+      Z: 1.81838846
+    }
+  }
+  ParentId: 4147847003364547307
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1146982892770957751
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8621994705150117454
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 3547052009342821814
+  Name: "Hill 03"
+  Transform {
+    Location {
+      X: 777.818115
+      Y: -4520.97
+      Z: 55.6626816
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.17126775
+      Y: 1.17126775
+      Z: 1.81838846
+    }
+  }
+  ParentId: 4147847003364547307
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1146982892770957751
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8621994705150117454
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 1534354158967463637
+  Name: "Hill 03"
+  Transform {
+    Location {
+      X: 433.408936
+      Y: -4414.20215
+      Z: 47.8176498
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.17126775
+      Y: 1.17126775
+      Z: 1.81838846
+    }
+  }
+  ParentId: 4147847003364547307
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 439515672557637332
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8621994705150117454
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 10488529437593986815
+  Name: "Updated River Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4147847003364547307
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3351064268167486467
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 10394.0215
+            Y: -2232.7793
+            Z: -641.247803
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 18.1094055
+            Yaw: -23.1170349
+            Roll: 37.6268806
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4250448895066431590
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Updated River Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -866.739746
+            Y: -7223.17432
+            Z: 200.775696
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -1.15914452
+            Yaw: 5.22996235
+            Roll: -34.4664383
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.0993829742
+            Y: 0.0993829742
+            Z: 0.0993829742
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5535083735834008464
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1032.91125
+            Y: 503.814728
+            Z: -2768.4209
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -1.38549805
+            Yaw: -2.85906982
+            Roll: 34.4412155
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8040379705287285362
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 11045.2656
+            Y: -2791.06226
+            Z: 2144.19922
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 16.6657639
+            Yaw: -25.3111877
+            Roll: 31.2325478
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11523626604221884899
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19885.8047
+            Y: 10102.1592
+            Z: -4193.27783
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -2.46453857
+            Yaw: -1.14428711
+            Roll: 22.9983788
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14320649378686955180
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2253.85449
+            Y: 12865.8115
+            Z: -10768.9414
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 16.6657639
+            Yaw: -25.3111572
+            Roll: 31.2325573
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17753141239109227258
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 8596.90918
+            Y: 15348.0488
+            Z: -12899.54
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -5.61361694
+            Yaw: 9.99513531
+            Roll: 33.5885696
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7541060927982218172
+    }
+  }
+}
+Objects {
+  Id: 3434315184773657288
+  Name: "Ambience Nature Forest Birds Set 01 SFX"
+  Transform {
+    Location {
+      X: -1037.95386
+      Y: 1284.62158
+      Z: -0.100891113
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.99444818
+      Y: 1.20939493
+      Z: 1.88351691
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15172180549504871240
+    }
+    TeamSettings {
+    }
+    AudioBP {
+      AutoPlay: true
+      Repeat: true
+      Volume: 1
+      Falloff: 3600
+      Radius: 3000
+      EnableOcclusion: true
+      IsSpatializationEnabled: true
+      IsAttenuationEnabled: true
+    }
+  }
+}
+Objects {
   Id: 7796564909477214528
   Name: "Cherry Pie Large Picnic Blanket (decor)"
   Transform {
@@ -17577,11 +18467,12 @@ Objects {
   Name: "Geo"
   Transform {
     Location {
-      X: -18.2518387
-      Z: -75.2951813
+      X: -15.8533173
+      Y: 4.63224933e-05
+      Z: -98.2352066
     }
     Rotation {
-      Pitch: -20.1105347
+      Pitch: -23.8572388
     }
     Scale {
       X: 1
