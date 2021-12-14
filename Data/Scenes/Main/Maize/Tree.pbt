@@ -1,6 +1,160 @@
 Name: "Maize"
 RootId: 44003275876171690
 Objects {
+  Id: 15028425180864009252
+  Name: "PersistResources_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 44003275876171690
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 1904844845209011182
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12834481456586026302
+  Name: "BigBasket"
+  Transform {
+    Location {
+      X: 70
+      Y: 2870
+      Z: 140
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 44003275876171690
+  ChildIds: 5120818072763227549
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5120818072763227549
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 1.29611206
+      Y: 1.64575195
+      Z: -4.57763672e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 7.18492126
+      Y: 6.46642923
+      Z: 4.31095314
+    }
+  }
+  ParentId: 12834481456586026302
+  ChildIds: 14223583736937838799
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14223583736937838799
+  Name: "PicnicBasketDropOff"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.139180377
+      Y: 0.154644847
+      Z: 0.231967255
+    }
+  }
+  ParentId: 5120818072763227549
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3374457675940946430
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
   Id: 8370582196425234087
   Name: "Resource Display"
   Transform {
@@ -56,6 +210,9 @@ Objects {
       Id: 5437088186757856573
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11960465718331610206
@@ -90,6 +247,9 @@ Objects {
   Folder {
     IsGroup: true
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16809964865909309712
@@ -123,6 +283,9 @@ Objects {
     TemplateAsset {
       Id: 16194232680959462334
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -161,6 +324,9 @@ Objects {
     TemplateAsset {
       Id: 11449183948169899721
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -202,12 +368,17 @@ Objects {
       Id: 9238341766131625304
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9964610755031626702
   Name: "FruitFindMiniGame"
   Transform {
     Location {
+      X: 6015
+      Y: 120
     }
     Rotation {
     }
@@ -236,6 +407,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -285,12 +459,16 @@ Objects {
       Id: 5496717980017017299
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10689726599139081185
   Name: "Collectable Apple Group"
   Transform {
     Location {
+      X: 35
       Y: 4080
     }
     Scale {
@@ -336,6 +514,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
     WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -459,6 +640,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1726844449338733231
@@ -506,6 +690,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6610124785786209604
@@ -543,6 +730,9 @@ Objects {
     SubobjectId: 17252678357845731993
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -587,6 +777,9 @@ Objects {
     SubobjectId: 7848511469854168560
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -639,6 +832,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13071753341919413150
@@ -689,6 +885,9 @@ Objects {
     SubobjectId: 125538518320409667
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -751,6 +950,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9680845064213501410
@@ -790,6 +992,9 @@ Objects {
     SubobjectId: 3643262277814467135
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -837,6 +1042,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10482527965673934981
@@ -874,6 +1082,9 @@ Objects {
     SubobjectId: 2715487313624563544
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -918,6 +1129,9 @@ Objects {
     SubobjectId: 10407067090896942566
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -970,6 +1184,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14793113974679450139
@@ -1020,6 +1237,9 @@ Objects {
     SubobjectId: 8763301453979622854
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1082,6 +1302,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 989275041499802482
@@ -1121,6 +1344,9 @@ Objects {
     SubobjectId: 13361246192013231279
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1168,6 +1394,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5128540737679592683
@@ -1205,6 +1434,9 @@ Objects {
     SubobjectId: 17580379861065605942
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1249,6 +1481,9 @@ Objects {
     SubobjectId: 14418888039495112154
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1301,6 +1536,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16214335613632509346
@@ -1351,6 +1589,9 @@ Objects {
     SubobjectId: 6184241234324478591
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1413,6 +1654,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1901349340317745742
@@ -1452,6 +1696,9 @@ Objects {
     SubobjectId: 12588899961685159315
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1499,6 +1746,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11103178399426432370
@@ -1536,6 +1786,9 @@ Objects {
     SubobjectId: 3368792693217321647
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1580,6 +1833,9 @@ Objects {
     SubobjectId: 13867953614669044449
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1632,6 +1888,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2982566281439300660
@@ -1682,6 +1941,9 @@ Objects {
     SubobjectId: 11363152288463152105
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1744,6 +2006,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3211526168870393487
@@ -1783,6 +2048,9 @@ Objects {
     SubobjectId: 10972898443291801938
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1830,6 +2098,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9780256419165050184
@@ -1867,6 +2138,9 @@ Objects {
     SubobjectId: 3705408694682204821
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1911,6 +2185,9 @@ Objects {
     SubobjectId: 14837933136303242036
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1963,6 +2240,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12039025947340524405
@@ -2013,6 +2293,9 @@ Objects {
     SubobjectId: 1424549968249447592
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2075,6 +2358,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 679897688414160157
@@ -2114,6 +2400,9 @@ Objects {
     SubobjectId: 13671039156190784192
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2160,6 +2449,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10254440478606088202
@@ -2197,6 +2489,9 @@ Objects {
     SubobjectId: 4222447626816059351
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2241,6 +2536,9 @@ Objects {
     SubobjectId: 10394653402339862252
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2293,6 +2591,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17418012273549603664
@@ -2343,6 +2644,9 @@ Objects {
     SubobjectId: 5003225504735386765
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2405,6 +2709,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 363885737198333889
@@ -2444,6 +2751,9 @@ Objects {
     SubobjectId: 12815831461537349660
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2492,6 +2802,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12921735468429735583
@@ -2529,6 +2842,9 @@ Objects {
     SubobjectId: 541851443920755010
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2573,6 +2889,9 @@ Objects {
     SubobjectId: 1692813424884677645
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2625,6 +2944,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11991090305457507938
@@ -2675,6 +2997,9 @@ Objects {
     SubobjectId: 1350758760499438015
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2737,6 +3062,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5613697466501208808
@@ -2776,6 +3104,9 @@ Objects {
     SubobjectId: 17956395887385949493
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2824,6 +3155,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 204095592505499185
@@ -2861,6 +3195,9 @@ Objects {
     SubobjectId: 13115367403850527212
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2905,6 +3242,9 @@ Objects {
     SubobjectId: 12988395331655001685
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2957,6 +3297,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1507151857477913768
@@ -3007,6 +3350,9 @@ Objects {
     SubobjectId: 11546183084264563573
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3069,6 +3415,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7693163868265207572
@@ -3108,6 +3457,9 @@ Objects {
     SubobjectId: 16002882880467204297
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3156,6 +3508,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15376713340278393174
@@ -3193,6 +3548,9 @@ Objects {
     SubobjectId: 7040038425733490315
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3237,6 +3595,9 @@ Objects {
     SubobjectId: 10480858032557628318
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3289,6 +3650,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10134325904478866993
@@ -3339,6 +3703,9 @@ Objects {
     SubobjectId: 4067429141769396716
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3401,6 +3768,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3353746534061616608
@@ -3440,6 +3810,9 @@ Objects {
     SubobjectId: 11122998561305559613
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3488,6 +3861,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9152741244268755407
@@ -3525,6 +3901,9 @@ Objects {
     SubobjectId: 14687121693584430610
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3569,6 +3948,9 @@ Objects {
     SubobjectId: 16812266030696376098
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3621,6 +4003,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12952089716669097519
@@ -3671,6 +4056,9 @@ Objects {
     SubobjectId: 533995479372990962
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3733,6 +4121,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3612652363514940199
@@ -3772,6 +4163,9 @@ Objects {
     SubobjectId: 9724550161471153402
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3819,6 +4213,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14863913726499354498
@@ -3856,6 +4253,9 @@ Objects {
     SubobjectId: 8831849408354572383
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3900,6 +4300,9 @@ Objects {
     SubobjectId: 6583761170272627090
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3952,6 +4355,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1922998407525874820
@@ -4002,6 +4408,9 @@ Objects {
     SubobjectId: 12572341701999629145
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4064,6 +4473,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2014600390599602622
@@ -4103,6 +4515,9 @@ Objects {
     SubobjectId: 12620069771731361379
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4151,6 +4566,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3188514134732509916
@@ -4188,6 +4606,9 @@ Objects {
     SubobjectId: 11018569135737486593
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4232,6 +4653,9 @@ Objects {
     SubobjectId: 877258481536428609
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4284,6 +4708,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9618321388688035496
@@ -4334,6 +4761,9 @@ Objects {
     SubobjectId: 3579542161772175733
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4396,6 +4826,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 18289232458201465147
@@ -4435,6 +4868,9 @@ Objects {
     SubobjectId: 5261993216015118054
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4483,6 +4919,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14040460593701959750
@@ -4520,6 +4959,9 @@ Objects {
     SubobjectId: 8507174847657645979
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4564,6 +5006,9 @@ Objects {
     SubobjectId: 10906440659263619402
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4616,6 +5061,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6765547139599574982
@@ -4666,6 +5114,9 @@ Objects {
     SubobjectId: 16803563190729443355
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4728,6 +5179,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12002877238599280248
@@ -4767,6 +5221,9 @@ Objects {
     SubobjectId: 1316453756239923621
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4815,6 +5272,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 817851255764522079
@@ -4852,6 +5312,9 @@ Objects {
     SubobjectId: 13803433438059936642
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4896,6 +5359,9 @@ Objects {
     SubobjectId: 6844876833832582095
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4948,6 +5414,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7590818770682268121
@@ -4998,6 +5467,9 @@ Objects {
     SubobjectId: 15964754364432541188
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5060,6 +5532,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8854835776091752662
@@ -5099,6 +5574,9 @@ Objects {
     SubobjectId: 14858642699243923211
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5147,6 +5625,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9289598387400838608
@@ -5184,6 +5665,9 @@ Objects {
     SubobjectId: 3764299509126767117
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5228,6 +5712,9 @@ Objects {
     SubobjectId: 4075502103134227516
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5280,6 +5767,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6897252229768747142
@@ -5330,6 +5820,9 @@ Objects {
     SubobjectId: 16961053907539146587
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5392,6 +5885,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15319443048257517181
@@ -5431,6 +5927,9 @@ Objects {
     SubobjectId: 6939953288494930336
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5478,6 +5977,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1168869619112047363
@@ -5515,6 +6017,9 @@ Objects {
     SubobjectId: 11884606133141724382
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5559,6 +6064,9 @@ Objects {
     SubobjectId: 7645928329924357322
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5611,6 +6119,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12549011316603052204
@@ -5661,6 +6172,9 @@ Objects {
     SubobjectId: 1941396378400280433
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5723,6 +6237,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 542592416474977008
@@ -5762,6 +6279,9 @@ Objects {
     SubobjectId: 12921282648452889901
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5810,6 +6330,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14681727287654724158
@@ -5847,6 +6370,9 @@ Objects {
     SubobjectId: 9181093444405009891
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5891,6 +6417,9 @@ Objects {
     SubobjectId: 5688795874986296958
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5943,6 +6472,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15305300716721960915
@@ -5993,6 +6525,9 @@ Objects {
     SubobjectId: 6967467881521109006
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6055,6 +6590,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2292619429900601815
@@ -6094,6 +6632,9 @@ Objects {
     SubobjectId: 12323880270923982346
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6142,6 +6683,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8368914106220502034
@@ -6179,6 +6723,9 @@ Objects {
     SubobjectId: 13903291531902284751
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6223,6 +6770,9 @@ Objects {
     SubobjectId: 10716240766812208943
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6275,6 +6825,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5124213104523639770
@@ -6325,6 +6878,9 @@ Objects {
     SubobjectId: 17567115380083938311
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6387,6 +6943,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15385487579709405743
@@ -6426,6 +6985,9 @@ Objects {
     SubobjectId: 7012678042283628018
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6474,6 +7036,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16019120519126316491
@@ -6511,6 +7076,9 @@ Objects {
     SubobjectId: 7681289160993135126
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6555,6 +7123,9 @@ Objects {
     SubobjectId: 6685715663455953698
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6607,6 +7178,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10267592156284083374
@@ -6657,6 +7231,9 @@ Objects {
     SubobjectId: 4227721563393913715
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6719,6 +7296,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17181179700485964267
@@ -6758,6 +7338,9 @@ Objects {
     SubobjectId: 6537534640119508534
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6806,6 +7389,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12779618262427939535
@@ -6843,6 +7429,9 @@ Objects {
     SubobjectId: 399802150342925586
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6887,6 +7476,9 @@ Objects {
     SubobjectId: 2128215023591797261
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6939,6 +7531,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17101897464617538705
@@ -6989,6 +7584,9 @@ Objects {
     SubobjectId: 6449180866451258188
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7051,6 +7649,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2378055004854277277
@@ -7090,6 +7691,9 @@ Objects {
     SubobjectId: 10797026730168154944
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7137,6 +7741,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17479925246377429672
@@ -7174,6 +7781,9 @@ Objects {
     SubobjectId: 5062918514173126005
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7218,6 +7828,9 @@ Objects {
     SubobjectId: 16401579201951653501
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7270,6 +7883,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14581521182452862447
@@ -7320,6 +7936,9 @@ Objects {
     SubobjectId: 9119167695245533746
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7382,6 +8001,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16736837567964579306
@@ -7421,6 +8043,9 @@ Objects {
     SubobjectId: 6670679741781846583
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7469,6 +8094,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1369496882079142444
@@ -7506,6 +8134,9 @@ Objects {
     SubobjectId: 12094237436233203185
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7550,6 +8181,9 @@ Objects {
     SubobjectId: 11522881650668398494
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7602,6 +8236,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5868076603260241880
@@ -7652,6 +8289,9 @@ Objects {
     SubobjectId: 16553449246526253061
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7714,6 +8354,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3488069987985718723
@@ -7753,6 +8396,9 @@ Objects {
     SubobjectId: 9565135272588005918
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7801,6 +8447,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6981715989927280798
@@ -7838,6 +8487,9 @@ Objects {
     SubobjectId: 15290348856458080067
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7882,6 +8534,9 @@ Objects {
     SubobjectId: 9921625373470428212
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7934,6 +8589,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6149950779715080491
@@ -7984,6 +8642,9 @@ Objects {
     SubobjectId: 16253263800771411702
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8046,6 +8707,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6559687102764869735
@@ -8085,6 +8749,9 @@ Objects {
     SubobjectId: 17284395751555647418
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8133,6 +8800,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9960267826424894136
@@ -8170,6 +8840,9 @@ Objects {
     SubobjectId: 4535063418330348901
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8214,6 +8887,9 @@ Objects {
     SubobjectId: 15620508131815821472
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8266,6 +8942,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6934560905542395647
@@ -8316,6 +8995,9 @@ Objects {
     SubobjectId: 15342269218860452130
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8378,6 +9060,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17403015997618641151
@@ -8417,6 +9102,9 @@ Objects {
     SubobjectId: 4996141453655930658
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8464,6 +9152,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13371322071249284524
@@ -8501,6 +9192,9 @@ Objects {
     SubobjectId: 956531556952523377
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8545,6 +9239,9 @@ Objects {
     SubobjectId: 112072091384527537
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8597,6 +9294,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2896432445461229001
@@ -8647,6 +9347,9 @@ Objects {
     SubobjectId: 11305164266851385876
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8709,6 +9412,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10479959571713094026
@@ -8748,6 +9454,9 @@ Objects {
     SubobjectId: 2712989153180900951
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8794,6 +9503,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17004852170877677187
@@ -8831,6 +9543,9 @@ Objects {
     SubobjectId: 6857693615084110174
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8875,6 +9590,9 @@ Objects {
     SubobjectId: 8369607253554827234
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8927,6 +9645,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11564127810147784163
@@ -8977,6 +9698,9 @@ Objects {
     SubobjectId: 1489066463362759230
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9039,6 +9763,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17696451527833608710
@@ -9078,6 +9805,9 @@ Objects {
     SubobjectId: 4701861441635667419
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9126,6 +9856,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16372382774472295104
@@ -9163,6 +9896,9 @@ Objects {
     SubobjectId: 6332150779857169693
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9207,6 +9943,9 @@ Objects {
     SubobjectId: 5686233968669097373
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9259,6 +9998,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4798072180615267432
@@ -9309,6 +10051,9 @@ Objects {
     SubobjectId: 17744217494265916341
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9371,6 +10116,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12745510964423578621
@@ -9410,6 +10158,9 @@ Objects {
     SubobjectId: 303733798366641184
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9458,6 +10209,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10813276842278784886
@@ -9495,6 +10249,9 @@ Objects {
     SubobjectId: 2505772746839957675
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9539,6 +10296,9 @@ Objects {
     SubobjectId: 298093804588376332
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9591,6 +10351,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10113073509033520916
@@ -9641,6 +10404,9 @@ Objects {
     SubobjectId: 4075450006275293385
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9703,6 +10469,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11841958938222965312
@@ -9742,6 +10511,9 @@ Objects {
     SubobjectId: 1189271496379768221
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9790,6 +10562,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7020092647729291683
@@ -9827,6 +10602,9 @@ Objects {
     SubobjectId: 15400714131115888254
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9871,6 +10649,9 @@ Objects {
     SubobjectId: 5273119776705582621
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9923,6 +10704,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 929136461057936775
@@ -9973,6 +10757,9 @@ Objects {
     SubobjectId: 13272889055957541466
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10035,6 +10822,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14264269089349257855
@@ -10074,6 +10864,9 @@ Objects {
     SubobjectId: 8152342017045915042
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10121,6 +10914,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15036984582410360247
@@ -10158,6 +10954,9 @@ Objects {
     SubobjectId: 7239583923219757674
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10202,6 +11001,9 @@ Objects {
     SubobjectId: 2592706157937071153
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10254,6 +11056,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11024021249507210660
@@ -10304,6 +11109,9 @@ Objects {
     SubobjectId: 3182639886914034297
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10366,6 +11174,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16621573677849616020
@@ -10405,6 +11216,9 @@ Objects {
     SubobjectId: 5944051977050239305
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10453,6 +11267,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1468438441012475705
@@ -10490,6 +11307,9 @@ Objects {
     SubobjectId: 11580656853686655204
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10534,6 +11354,9 @@ Objects {
     SubobjectId: 4313735237282199986
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10586,6 +11409,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14101457814054950627
@@ -10636,6 +11462,9 @@ Objects {
     SubobjectId: 8603075804707617086
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10698,6 +11527,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14967078295796130070
@@ -10737,6 +11569,9 @@ Objects {
     SubobjectId: 8891104705847955147
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10785,6 +11620,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16706275354846852042
@@ -10822,6 +11660,9 @@ Objects {
     SubobjectId: 5984912397138025495
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10866,6 +11707,9 @@ Objects {
     SubobjectId: 13750464953852741166
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10918,6 +11762,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5660234303512927549
@@ -10968,6 +11815,9 @@ Objects {
     SubobjectId: 18040017037276902112
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11030,6 +11880,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2398293408427678575
@@ -11069,6 +11922,9 @@ Objects {
     SubobjectId: 10781126935598740658
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11117,6 +11973,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13773486687731368042
@@ -11154,6 +12013,9 @@ Objects {
     SubobjectId: 861159344944770999
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11198,6 +12060,9 @@ Objects {
     SubobjectId: 7841144896893859948
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11250,6 +12115,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16260296642468995078
@@ -11300,6 +12168,9 @@ Objects {
     SubobjectId: 6160395781806968795
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11362,6 +12233,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8965343045505122802
@@ -11401,6 +12275,9 @@ Objects {
     SubobjectId: 14464850660201737775
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11449,6 +12326,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7444178103015083621
@@ -11486,6 +12366,9 @@ Objects {
     SubobjectId: 15247282324069982648
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11530,6 +12413,9 @@ Objects {
     SubobjectId: 10337458430056148601
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11582,6 +12468,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13867689612360803845
@@ -11632,6 +12521,9 @@ Objects {
     SubobjectId: 8405367049338997208
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11694,6 +12586,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13585085697924360594
@@ -11733,6 +12628,9 @@ Objects {
     SubobjectId: 599499375281522255
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11780,6 +12678,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7819784626186068655
@@ -11817,6 +12718,9 @@ Objects {
     SubobjectId: 15587880087374892402
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11861,6 +12765,9 @@ Objects {
     SubobjectId: 14690008175383458435
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11913,6 +12820,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8282963024776360643
@@ -11963,6 +12873,9 @@ Objects {
     SubobjectId: 14277761062626483486
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12025,6 +12938,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14164282942793521235
@@ -12064,6 +12980,9 @@ Objects {
     SubobjectId: 8090600990763988878
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12112,6 +13031,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15845644894958947648
@@ -12149,6 +13071,9 @@ Objects {
     SubobjectId: 8012247756720480925
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12193,6 +13118,9 @@ Objects {
     SubobjectId: 13508416604300289068
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12245,6 +13173,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11102590259214435802
@@ -12295,6 +13226,9 @@ Objects {
     SubobjectId: 3369363163396729351
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12357,6 +13291,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17641776938579500985
@@ -12396,6 +13333,9 @@ Objects {
     SubobjectId: 4612280104746856548
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12444,6 +13384,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17444833476038254790
@@ -12481,6 +13424,9 @@ Objects {
     SubobjectId: 5102100540815724315
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12525,6 +13471,9 @@ Objects {
     SubobjectId: 10276197805778682389
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12577,6 +13526,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17354766710539022045
@@ -12627,6 +13579,9 @@ Objects {
     SubobjectId: 4904057885040820480
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12689,6 +13644,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17709643209600903425
@@ -12728,6 +13686,9 @@ Objects {
     SubobjectId: 4689223978145253084
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12776,6 +13737,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14631588167419200212
@@ -12813,6 +13777,9 @@ Objects {
     SubobjectId: 9213209375373045001
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12857,6 +13824,9 @@ Objects {
     SubobjectId: 15548180172268836057
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12909,6 +13879,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9557166720497378803
@@ -12959,6 +13932,9 @@ Objects {
     SubobjectId: 3492491523056093742
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13021,6 +13997,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15664688985006882026
@@ -13060,6 +14039,9 @@ Objects {
     SubobjectId: 7904403752062489399
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13108,6 +14090,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14955832819248789883
@@ -13145,6 +14130,9 @@ Objects {
     SubobjectId: 8888971259980797606
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13189,6 +14177,9 @@ Objects {
     SubobjectId: 2162536175637354257
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13241,6 +14232,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15532149020922795015
@@ -13291,6 +14285,9 @@ Objects {
     SubobjectId: 7159445549793737690
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13353,6 +14350,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7974551120698522900
@@ -13392,6 +14392,9 @@ Objects {
     SubobjectId: 15743872947738219209
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13439,6 +14442,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5677904220254234815
@@ -13476,6 +14482,9 @@ Objects {
     SubobjectId: 18022778130167351138
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13520,6 +14529,9 @@ Objects {
     SubobjectId: 13662680388712938473
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13572,6 +14584,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11016015896779434751
@@ -13622,6 +14637,9 @@ Objects {
     SubobjectId: 3186000838638437666
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13684,6 +14702,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5791755952693195979
@@ -13723,6 +14744,9 @@ Objects {
     SubobjectId: 16480432093746436886
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13771,6 +14795,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5270685920532044795
@@ -13808,6 +14835,9 @@ Objects {
     SubobjectId: 18298985228943438886
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13852,6 +14882,9 @@ Objects {
     SubobjectId: 12733900598782318863
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13904,6 +14937,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3993646280373013140
@@ -13954,6 +14990,9 @@ Objects {
     SubobjectId: 9492034231468926281
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14016,6 +15055,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3219822730174329221
@@ -14055,6 +15097,9 @@ Objects {
     SubobjectId: 10986858124987129432
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14103,6 +15148,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 764911781452587336
@@ -14140,6 +15188,9 @@ Objects {
     SubobjectId: 13712248929310084757
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14184,6 +15235,9 @@ Objects {
     SubobjectId: 13223871221407800723
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14236,6 +15290,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4333552647718693533
@@ -14286,6 +15343,9 @@ Objects {
     SubobjectId: 9869055679145559360
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14348,6 +15408,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5642891452256500122
@@ -14387,6 +15450,9 @@ Objects {
     SubobjectId: 18057641299655923271
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14435,6 +15501,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8511690662142861380
@@ -14472,6 +15541,9 @@ Objects {
     SubobjectId: 14035938250891513753
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14516,6 +15588,9 @@ Objects {
     SubobjectId: 5520870959039416247
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14568,6 +15643,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5548310748514852551
@@ -14618,6 +15696,9 @@ Objects {
     SubobjectId: 17882032481638134042
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14680,6 +15761,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9313074125278565549
@@ -14719,6 +15803,9 @@ Objects {
     SubobjectId: 3884527734426205040
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14767,6 +15854,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13521994081613323247
@@ -14804,6 +15894,9 @@ Objects {
     SubobjectId: 1112942230219469874
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14848,6 +15941,9 @@ Objects {
     SubobjectId: 7466136831840183370
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14900,6 +15996,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14981320520794928148
@@ -14950,6 +16049,9 @@ Objects {
     SubobjectId: 8880646934910229449
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15012,6 +16114,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9687166425960875949
@@ -15051,6 +16156,9 @@ Objects {
     SubobjectId: 3655102640586565744
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15098,6 +16206,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10898672856390598059
@@ -15135,6 +16246,9 @@ Objects {
     SubobjectId: 2587863130803950198
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15179,6 +16293,9 @@ Objects {
     SubobjectId: 10307050172040946555
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15231,6 +16348,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13888812186083965720
@@ -15281,6 +16401,9 @@ Objects {
     SubobjectId: 8388178531474642117
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15343,6 +16466,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4486224745347011061
@@ -15382,6 +16508,9 @@ Objects {
     SubobjectId: 9985737481922149928
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15429,6 +16558,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7435270070255004320
@@ -15466,6 +16598,9 @@ Objects {
     SubobjectId: 15274327892043531645
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15510,6 +16645,9 @@ Objects {
     SubobjectId: 3581411364110957720
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15562,6 +16700,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7832078417744455966
@@ -15612,6 +16753,9 @@ Objects {
     SubobjectId: 15593453286174574275
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15674,6 +16818,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5495863809518663847
@@ -15713,6 +16860,9 @@ Objects {
     SubobjectId: 17911671080032196474
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15760,6 +16910,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4564935249937671931
@@ -15797,6 +16950,9 @@ Objects {
     SubobjectId: 10056496848799893798
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15841,6 +16997,9 @@ Objects {
     SubobjectId: 11934047412884477824
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15893,6 +17052,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16242369656461119688
@@ -15943,6 +17105,9 @@ Objects {
     SubobjectId: 6178463510168534805
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16005,6 +17170,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14100001124504511614
@@ -16044,6 +17212,9 @@ Objects {
     SubobjectId: 8609605572684090275
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16091,6 +17262,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3504425349603821781
@@ -16128,6 +17302,9 @@ Objects {
     SubobjectId: 9544265328037373704
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16172,6 +17349,9 @@ Objects {
     SubobjectId: 14038580020178411075
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16224,6 +17404,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 559088369765432529
@@ -16274,6 +17457,9 @@ Objects {
     SubobjectId: 12904067607041643276
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16336,6 +17522,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15790304193697959765
@@ -16375,6 +17564,9 @@ Objects {
     SubobjectId: 8067175046944546952
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16422,6 +17614,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6829641946995273815
@@ -16459,6 +17654,9 @@ Objects {
     SubobjectId: 16866528007739580298
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16503,6 +17701,9 @@ Objects {
     SubobjectId: 16855845587259019642
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16555,6 +17756,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9791681254713329605
@@ -16605,6 +17809,9 @@ Objects {
     SubobjectId: 3689917930129467416
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16667,6 +17874,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14751560989085321357
@@ -16706,6 +17916,9 @@ Objects {
     SubobjectId: 8677909239044040528
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16754,6 +17967,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14958186522703050069
@@ -16791,6 +18007,9 @@ Objects {
     SubobjectId: 8881122197947292296
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16835,6 +18054,9 @@ Objects {
     SubobjectId: 17735139730394723062
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16887,6 +18109,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9076211685676725381
@@ -16937,6 +18162,9 @@ Objects {
     SubobjectId: 14493459391849601880
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16999,6 +18227,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15931858926961684276
@@ -17038,6 +18269,9 @@ Objects {
     SubobjectId: 7624426763653988585
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17085,6 +18319,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 460974858730042095
@@ -17122,6 +18359,9 @@ Objects {
     SubobjectId: 12876781751397080370
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17166,6 +18406,9 @@ Objects {
     SubobjectId: 3760999512160193606
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17218,6 +18461,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11682316969459486094
@@ -17268,6 +18514,9 @@ Objects {
     SubobjectId: 1642089370474947155
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17330,6 +18579,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12476246098260071777
@@ -17369,6 +18621,9 @@ Objects {
     SubobjectId: 1869756147286227644
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17416,6 +18671,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6853419536583217976
@@ -17453,6 +18711,9 @@ Objects {
     SubobjectId: 16990408176287349989
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17497,6 +18758,9 @@ Objects {
     SubobjectId: 87912972062192999
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17549,6 +18813,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12207502974626289771
@@ -17599,6 +18866,9 @@ Objects {
     SubobjectId: 2143697688882050998
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17661,6 +18931,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12835371250379067522
@@ -17700,6 +18973,9 @@ Objects {
     SubobjectId: 501681676089769823
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17747,6 +19023,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9865439968010651346
@@ -17784,6 +19063,9 @@ Objects {
     SubobjectId: 4341232099069225231
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17828,6 +19110,9 @@ Objects {
     SubobjectId: 2037753045503479917
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17880,6 +19165,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12658453278193329498
@@ -17930,6 +19218,9 @@ Objects {
     SubobjectId: 1981001945857100423
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17992,6 +19283,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12470238737612279120
@@ -18031,6 +19325,9 @@ Objects {
     SubobjectId: 1862523191596819085
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18078,6 +19375,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11062473782180738148
@@ -18115,6 +19415,9 @@ Objects {
     SubobjectId: 3266235343418448825
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18159,6 +19462,9 @@ Objects {
     SubobjectId: 9417383394133517395
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18211,6 +19517,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16256305263953103042
@@ -18261,6 +19570,9 @@ Objects {
     SubobjectId: 6147357915633215263
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18323,6 +19635,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6278207864136813488
@@ -18362,6 +19677,9 @@ Objects {
     SubobjectId: 16426490687275164781
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18408,6 +19726,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 620052335503450407
@@ -18444,6 +19765,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16482544861514429881
@@ -18476,6 +19800,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18543,6 +19870,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9948914644697911460
@@ -18601,6 +19931,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8339371217724523053
@@ -18645,6 +19978,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4545663797680902629
@@ -18684,6 +20020,9 @@ Objects {
     SubobjectId: 10070967776381746744
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18731,6 +20070,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1546204564542034893
@@ -18747,10 +20089,8 @@ Objects {
     }
   }
   ParentId: 7451247619458695716
-  ChildIds: 14639440003203993129
-  ChildIds: 13411477683500424797
-  ChildIds: 17455999902271371664
   ChildIds: 1539370349673180135
+  ChildIds: 8195490920095948514
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18768,6 +20108,175 @@ Objects {
     SubobjectId: 11647164252738927632
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8195490920095948514
+  Name: "Red Apple with Stalk (decor)"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.70433068
+      Y: 1.70433068
+      Z: 1.70433068
+    }
+  }
+  ParentId: 1546204564542034893
+  ChildIds: 5808874125138411332
+  ChildIds: 3652581269302887948
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3652581269302887948
+  Name: "Stalk"
+  Transform {
+    Location {
+      X: -8.48779297
+      Y: 3.72238159
+      Z: 18.9083672
+    }
+    Rotation {
+      Yaw: 87.7028
+      Roll: 1.32311067e-12
+    }
+    Scale {
+      X: 0.233669102
+      Y: 0.233669102
+      Z: 0.233669102
+    }
+  }
+  ParentId: 8195490920095948514
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18436676146666430799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0729166642
+        G: 0.00835502893
+        B: 0.00835502893
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6120777486642466004
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5808874125138411332
+  Name: "Red Apple"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 2.73207552e-05
+      Roll: 1.04287722e-07
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 8195490920095948514
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7485850683740043800
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18813,168 +20322,8 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
-}
-Objects {
-  Id: 17455999902271371664
-  Name: "Manticore Logo"
-  Transform {
-    Location {
-      Y: -5
-    }
-    Rotation {
-      Yaw: -179.999985
-      Roll: 89.9999847
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1546204564542034893
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3757877896783615996
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 17455999902271371664
-    SubobjectId: 5086280980803573325
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
-  }
-}
-Objects {
-  Id: 13411477683500424797
-  Name: "Manticore Logo"
-  Transform {
-    Location {
-      Y: 4.99996948
-      Z: 1.52587891e-05
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1546204564542034893
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3757877896783615996
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 13411477683500424797
-    SubobjectId: 1065401560833667456
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
-  }
-}
-Objects {
-  Id: 14639440003203993129
-  Name: "Cylinder"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 2.5
-      Y: 2.5
-      Z: 0.1
-    }
-  }
-  ParentId: 1546204564542034893
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1787105103342445801
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8460556615639561465
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 14639440003203993129
-    SubobjectId: 9223248792283914740
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -19015,6 +20364,9 @@ Objects {
     SubobjectId: 8997150401733565059
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -19062,6 +20414,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17636747204782596804
@@ -19078,10 +20433,8 @@ Objects {
     }
   }
   ParentId: 13938687227664567385
-  ChildIds: 11469008443438148879
-  ChildIds: 15096174372627360717
-  ChildIds: 6919917041759057281
   ChildIds: 16021357255967163653
+  ChildIds: 6116030143211101822
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19099,6 +20452,175 @@ Objects {
     SubobjectId: 4617424188835237145
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6116030143211101822
+  Name: "Red Apple with Stalk (decor)"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.70433068
+      Y: 1.70433068
+      Z: 1.70433068
+    }
+  }
+  ParentId: 17636747204782596804
+  ChildIds: 5502304847138217727
+  ChildIds: 1589149501975906503
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1589149501975906503
+  Name: "Stalk"
+  Transform {
+    Location {
+      X: -8.48779297
+      Y: 3.72238159
+      Z: 18.9083672
+    }
+    Rotation {
+      Yaw: 87.7028
+      Roll: 1.32311067e-12
+    }
+    Scale {
+      X: 0.233669102
+      Y: 0.233669102
+      Z: 0.233669102
+    }
+  }
+  ParentId: 6116030143211101822
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18436676146666430799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0729166642
+        G: 0.00835502893
+        B: 0.00835502893
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6120777486642466004
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5502304847138217727
+  Name: "Red Apple"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 2.73207552e-05
+      Roll: 1.04287722e-07
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 6116030143211101822
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7485850683740043800
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -19144,168 +20666,8 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
-}
-Objects {
-  Id: 6919917041759057281
-  Name: "Manticore Logo"
-  Transform {
-    Location {
-      Y: -5
-    }
-    Rotation {
-      Yaw: -179.999985
-      Roll: 89.9999847
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17636747204782596804
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3757877896783615996
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 6919917041759057281
-    SubobjectId: 15338777733593586268
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
-  }
-}
-Objects {
-  Id: 15096174372627360717
-  Name: "Manticore Logo"
-  Transform {
-    Location {
-      Y: 4.99996948
-      Z: 1.52587891e-05
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17636747204782596804
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3757877896783615996
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 15096174372627360717
-    SubobjectId: 7302112277819491344
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
-  }
-}
-Objects {
-  Id: 11469008443438148879
-  Name: "Cylinder"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 2.5
-      Y: 2.5
-      Z: 0.1
-    }
-  }
-  ParentId: 17636747204782596804
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1787105103342445801
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8460556615639561465
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 11469008443438148879
-    SubobjectId: 3169452904275378898
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -19346,6 +20708,9 @@ Objects {
     SubobjectId: 562066704326827823
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -19393,6 +20758,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14811722641441238617
@@ -19409,10 +20777,8 @@ Objects {
     }
   }
   ParentId: 7438319299966403765
-  ChildIds: 7791745014702151812
-  ChildIds: 10930808715923104547
-  ChildIds: 1266504429594772017
   ChildIds: 1225657441451250080
+  ChildIds: 14962710980544470732
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19430,6 +20796,175 @@ Objects {
     SubobjectId: 8744862044362834308
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14962710980544470732
+  Name: "Red Apple with Stalk (decor)"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.70433068
+      Y: 1.70433068
+      Z: 1.70433068
+    }
+  }
+  ParentId: 14811722641441238617
+  ChildIds: 13770076051073130583
+  ChildIds: 15782768261870038364
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15782768261870038364
+  Name: "Stalk"
+  Transform {
+    Location {
+      X: -8.48779297
+      Y: 3.72238159
+      Z: 18.9083672
+    }
+    Rotation {
+      Yaw: 87.7028
+      Roll: 1.32311067e-12
+    }
+    Scale {
+      X: 0.233669102
+      Y: 0.233669102
+      Z: 0.233669102
+    }
+  }
+  ParentId: 14962710980544470732
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18436676146666430799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0729166642
+        G: 0.00835502893
+        B: 0.00835502893
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6120777486642466004
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13770076051073130583
+  Name: "Red Apple"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 2.73207552e-05
+      Roll: 1.04287722e-07
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 14962710980544470732
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7485850683740043800
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -19475,168 +21010,8 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
-}
-Objects {
-  Id: 1266504429594772017
-  Name: "Manticore Logo"
-  Transform {
-    Location {
-      Y: -5
-    }
-    Rotation {
-      Yaw: -179.999985
-      Roll: 89.9999847
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14811722641441238617
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3757877896783615996
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 1266504429594772017
-    SubobjectId: 11909124796728258028
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
-  }
-}
-Objects {
-  Id: 10930808715923104547
-  Name: "Manticore Logo"
-  Transform {
-    Location {
-      Y: 4.99996948
-      Z: 1.52587891e-05
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14811722641441238617
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3757877896783615996
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 10930808715923104547
-    SubobjectId: 2550227518941236478
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
-  }
-}
-Objects {
-  Id: 7791745014702151812
-  Name: "Cylinder"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 2.5
-      Y: 2.5
-      Z: 0.1
-    }
-  }
-  ParentId: 14811722641441238617
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1787105103342445801
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8460556615639561465
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 7791745014702151812
-    SubobjectId: 15634215563746752345
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -19677,6 +21052,9 @@ Objects {
     SubobjectId: 6427961935338224883
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -19724,6 +21102,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6991343557324308792
@@ -19740,10 +21121,8 @@ Objects {
     }
   }
   ParentId: 13444366722270562682
-  ChildIds: 11092242461725400508
-  ChildIds: 7354982714640080874
-  ChildIds: 8572387892393779010
   ChildIds: 11226620612956586299
+  ChildIds: 6141565225190078187
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19761,6 +21140,175 @@ Objects {
     SubobjectId: 15406830930579697381
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6141565225190078187
+  Name: "Red Apple with Stalk (decor)"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.70433068
+      Y: 1.70433068
+      Z: 1.70433068
+    }
+  }
+  ParentId: 6991343557324308792
+  ChildIds: 12124781099486013264
+  ChildIds: 10639391156347524657
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10639391156347524657
+  Name: "Stalk"
+  Transform {
+    Location {
+      X: -8.48779297
+      Y: 3.72238159
+      Z: 18.9083672
+    }
+    Rotation {
+      Yaw: 87.7028
+      Roll: 1.32311067e-12
+    }
+    Scale {
+      X: 0.233669102
+      Y: 0.233669102
+      Z: 0.233669102
+    }
+  }
+  ParentId: 6141565225190078187
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18436676146666430799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0729166642
+        G: 0.00835502893
+        B: 0.00835502893
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6120777486642466004
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12124781099486013264
+  Name: "Red Apple"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 2.73207552e-05
+      Roll: 1.04287722e-07
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 6141565225190078187
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7485850683740043800
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -19806,168 +21354,8 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
-}
-Objects {
-  Id: 8572387892393779010
-  Name: "Manticore Logo"
-  Transform {
-    Location {
-      Y: -5
-    }
-    Rotation {
-      Yaw: -179.999985
-      Roll: 89.9999847
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6991343557324308792
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3757877896783615996
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 8572387892393779010
-    SubobjectId: 13988479135782121631
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
-  }
-}
-Objects {
-  Id: 7354982714640080874
-  Name: "Manticore Logo"
-  Transform {
-    Location {
-      Y: 4.99996948
-      Z: 1.52587891e-05
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6991343557324308792
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3757877896783615996
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 7354982714640080874
-    SubobjectId: 15187289380436750391
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
-  }
-}
-Objects {
-  Id: 11092242461725400508
-  Name: "Cylinder"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 2.5
-      Y: 2.5
-      Z: 0.1
-    }
-  }
-  ParentId: 6991343557324308792
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1787105103342445801
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8460556615639561465
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 11092242461725400508
-    SubobjectId: 3258843929345897057
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -20008,6 +21396,9 @@ Objects {
     SubobjectId: 2066936622192177893
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -20054,6 +21445,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4422710048179346016
@@ -20090,6 +21484,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11378070867565297791
@@ -20122,6 +21519,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -20189,6 +21589,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16908880214016142366
@@ -20247,6 +21650,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4732190103056047885
@@ -20291,6 +21697,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3763716787777152130
@@ -20330,6 +21739,9 @@ Objects {
     SubobjectId: 9290181165625215839
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -20377,6 +21789,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7553402856363285677
@@ -20393,10 +21808,8 @@ Objects {
     }
   }
   ParentId: 3069852867745912850
-  ChildIds: 9147410177626565026
-  ChildIds: 947229355559930581
-  ChildIds: 4542408761507466969
   ChildIds: 4868423038193648359
+  ChildIds: 13992937032474702802
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20414,6 +21827,175 @@ Objects {
     SubobjectId: 15854114444222690160
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13992937032474702802
+  Name: "Red Apple with Stalk (decor)"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.70433068
+      Y: 1.70433068
+      Z: 1.70433068
+    }
+  }
+  ParentId: 7553402856363285677
+  ChildIds: 15951775518846234095
+  ChildIds: 4127259933639985993
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4127259933639985993
+  Name: "Stalk"
+  Transform {
+    Location {
+      X: -8.48779297
+      Y: 3.72238159
+      Z: 18.9083672
+    }
+    Rotation {
+      Yaw: 87.7028
+      Roll: 1.32311067e-12
+    }
+    Scale {
+      X: 0.233669102
+      Y: 0.233669102
+      Z: 0.233669102
+    }
+  }
+  ParentId: 13992937032474702802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18436676146666430799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0729166642
+        G: 0.00835502893
+        B: 0.00835502893
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6120777486642466004
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15951775518846234095
+  Name: "Red Apple"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 2.73207552e-05
+      Roll: 1.04287722e-07
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 13992937032474702802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7485850683740043800
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -20459,168 +22041,8 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
-}
-Objects {
-  Id: 4542408761507466969
-  Name: "Manticore Logo"
-  Transform {
-    Location {
-      Y: -5
-    }
-    Rotation {
-      Yaw: -179.999985
-      Roll: 89.9999847
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7553402856363285677
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3757877896783615996
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 4542408761507466969
-    SubobjectId: 10079005688647540996
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
-  }
-}
-Objects {
-  Id: 947229355559930581
-  Name: "Manticore Logo"
-  Transform {
-    Location {
-      Y: 4.99996948
-      Z: 1.52587891e-05
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7553402856363285677
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3757877896783615996
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 947229355559930581
-    SubobjectId: 13399069683475604744
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
-  }
-}
-Objects {
-  Id: 9147410177626565026
-  Name: "Cylinder"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 2.5
-      Y: 2.5
-      Z: 0.1
-    }
-  }
-  ParentId: 7553402856363285677
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1787105103342445801
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8460556615639561465
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 9147410177626565026
-    SubobjectId: 14565788952490755711
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -20661,6 +22083,9 @@ Objects {
     SubobjectId: 10371799411381696240
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -20708,6 +22133,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10513966786246595019
@@ -20724,10 +22152,8 @@ Objects {
     }
   }
   ParentId: 2332998779351804357
-  ChildIds: 6188120032075449433
-  ChildIds: 9242600561853066747
-  ChildIds: 8482171426604480913
   ChildIds: 4699413798389976263
+  ChildIds: 3160160182089444153
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20745,6 +22171,175 @@ Objects {
     SubobjectId: 2683916544148766230
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3160160182089444153
+  Name: "Red Apple with Stalk (decor)"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.70433068
+      Y: 1.70433068
+      Z: 1.70433068
+    }
+  }
+  ParentId: 10513966786246595019
+  ChildIds: 8211421638321640443
+  ChildIds: 15175355518348980189
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15175355518348980189
+  Name: "Stalk"
+  Transform {
+    Location {
+      X: -8.48779297
+      Y: 3.72238159
+      Z: 18.9083672
+    }
+    Rotation {
+      Yaw: 87.7028
+      Roll: 1.32311067e-12
+    }
+    Scale {
+      X: 0.233669102
+      Y: 0.233669102
+      Z: 0.233669102
+    }
+  }
+  ParentId: 3160160182089444153
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18436676146666430799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0729166642
+        G: 0.00835502893
+        B: 0.00835502893
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6120777486642466004
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8211421638321640443
+  Name: "Red Apple"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 2.73207552e-05
+      Roll: 1.04287722e-07
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 3160160182089444153
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7485850683740043800
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -20790,168 +22385,8 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
-}
-Objects {
-  Id: 8482171426604480913
-  Name: "Manticore Logo"
-  Transform {
-    Location {
-      Y: -5
-    }
-    Rotation {
-      Yaw: -179.999985
-      Roll: 89.9999847
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10513966786246595019
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3757877896783615996
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 8482171426604480913
-    SubobjectId: 13934290141880669772
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
-  }
-}
-Objects {
-  Id: 9242600561853066747
-  Name: "Manticore Logo"
-  Transform {
-    Location {
-      Y: 4.99996948
-      Z: 1.52587891e-05
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10513966786246595019
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3757877896783615996
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 9242600561853066747
-    SubobjectId: 3788198863084438054
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
-  }
-}
-Objects {
-  Id: 6188120032075449433
-  Name: "Cylinder"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 2.5
-      Y: 2.5
-      Z: 0.1
-    }
-  }
-  ParentId: 10513966786246595019
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1787105103342445801
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8460556615639561465
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 6188120032075449433
-    SubobjectId: 16228348060506925956
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -20992,6 +22427,9 @@ Objects {
     SubobjectId: 8636394858163181204
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -21039,6 +22477,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9160594275249936221
@@ -21055,10 +22496,8 @@ Objects {
     }
   }
   ParentId: 12615519545874914513
-  ChildIds: 13680663609221920914
-  ChildIds: 15473529856015487111
-  ChildIds: 7443308935827101963
   ChildIds: 6533760835979876398
+  ChildIds: 15575437282743046907
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21076,6 +22515,175 @@ Objects {
     SubobjectId: 14697151050998347904
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15575437282743046907
+  Name: "Red Apple with Stalk (decor)"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.70433068
+      Y: 1.70433068
+      Z: 1.70433068
+    }
+  }
+  ParentId: 9160594275249936221
+  ChildIds: 13178987882502223824
+  ChildIds: 1213350133724708222
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1213350133724708222
+  Name: "Stalk"
+  Transform {
+    Location {
+      X: -8.48779297
+      Y: 3.72238159
+      Z: 18.9083672
+    }
+    Rotation {
+      Yaw: 87.7028
+      Roll: 1.32311067e-12
+    }
+    Scale {
+      X: 0.233669102
+      Y: 0.233669102
+      Z: 0.233669102
+    }
+  }
+  ParentId: 15575437282743046907
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18436676146666430799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0729166642
+        G: 0.00835502893
+        B: 0.00835502893
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6120777486642466004
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13178987882502223824
+  Name: "Red Apple"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 2.73207552e-05
+      Roll: 1.04287722e-07
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 15575437282743046907
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7485850683740043800
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -21121,168 +22729,8 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
-}
-Objects {
-  Id: 7443308935827101963
-  Name: "Manticore Logo"
-  Transform {
-    Location {
-      Y: -5
-    }
-    Rotation {
-      Yaw: -179.999985
-      Roll: 89.9999847
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9160594275249936221
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3757877896783615996
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 7443308935827101963
-    SubobjectId: 15248556102980941526
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
-  }
-}
-Objects {
-  Id: 15473529856015487111
-  Name: "Manticore Logo"
-  Transform {
-    Location {
-      Y: 4.99996948
-      Z: 1.52587891e-05
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9160594275249936221
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3757877896783615996
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 15473529856015487111
-    SubobjectId: 7091823188753547098
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
-  }
-}
-Objects {
-  Id: 13680663609221920914
-  Name: "Cylinder"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 2.5
-      Y: 2.5
-      Z: 0.1
-    }
-  }
-  ParentId: 9160594275249936221
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1787105103342445801
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8460556615639561465
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 13680663609221920914
-    SubobjectId: 652258781584234319
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -21323,6 +22771,9 @@ Objects {
     SubobjectId: 7604956624309197432
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -21370,6 +22821,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11585667141555842689
@@ -21386,10 +22840,8 @@ Objects {
     }
   }
   ParentId: 8910331114592238001
-  ChildIds: 7004675602471820278
-  ChildIds: 11894438348947665175
-  ChildIds: 10263352006224896376
   ChildIds: 18125924612658078959
+  ChildIds: 1132154613033394645
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21407,6 +22859,175 @@ Objects {
     SubobjectId: 1449802941138846044
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1132154613033394645
+  Name: "Red Apple with Stalk (decor)"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.70433068
+      Y: 1.70433068
+      Z: 1.70433068
+    }
+  }
+  ParentId: 11585667141555842689
+  ChildIds: 7064989252518045553
+  ChildIds: 9408025375458917720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9408025375458917720
+  Name: "Stalk"
+  Transform {
+    Location {
+      X: -8.48779297
+      Y: 3.72238159
+      Z: 18.9083672
+    }
+    Rotation {
+      Yaw: 87.7028
+      Roll: 1.32311067e-12
+    }
+    Scale {
+      X: 0.233669102
+      Y: 0.233669102
+      Z: 0.233669102
+    }
+  }
+  ParentId: 1132154613033394645
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18436676146666430799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0729166642
+        G: 0.00835502893
+        B: 0.00835502893
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6120777486642466004
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7064989252518045553
+  Name: "Red Apple"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 2.73207552e-05
+      Roll: 1.04287722e-07
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 1132154613033394645
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7485850683740043800
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -21452,168 +23073,8 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
-}
-Objects {
-  Id: 10263352006224896376
-  Name: "Manticore Logo"
-  Transform {
-    Location {
-      Y: -5
-    }
-    Rotation {
-      Yaw: -179.999985
-      Roll: 89.9999847
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11585667141555842689
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3757877896783615996
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 10263352006224896376
-    SubobjectId: 4231398704444067493
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
-  }
-}
-Objects {
-  Id: 11894438348947665175
-  Name: "Manticore Logo"
-  Transform {
-    Location {
-      Y: 4.99996948
-      Z: 1.52587891e-05
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11585667141555842689
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3757877896783615996
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 11894438348947665175
-    SubobjectId: 1281197535682305738
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
-  }
-}
-Objects {
-  Id: 7004675602471820278
-  Name: "Cylinder"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 2.5
-      Y: 2.5
-      Z: 0.1
-    }
-  }
-  ParentId: 11585667141555842689
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1787105103342445801
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8460556615639561465
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 7004675602471820278
-    SubobjectId: 15412348920261620779
-    InstanceId: 5673462259848196854
-    TemplateId: 16770233353028870407
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -21654,6 +23115,9 @@ Objects {
     SubobjectId: 12546285342670684095
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -21700,6 +23164,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14041194358321072067
@@ -21736,6 +23203,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 246259121043881284
@@ -21768,6 +23238,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -21835,6 +23308,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17095253459760719313
@@ -21893,6 +23369,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1954260783266641569
@@ -21937,6 +23416,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 18289251562749688845
@@ -21976,6 +23458,9 @@ Objects {
     SubobjectId: 5261976309425230800
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22023,6 +23508,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3422064519962160469
@@ -22060,6 +23548,9 @@ Objects {
     SubobjectId: 11217252237572293256
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22104,6 +23595,9 @@ Objects {
     SubobjectId: 1964019546974259830
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22156,6 +23650,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2107575819571569407
@@ -22206,6 +23703,9 @@ Objects {
     SubobjectId: 12243510562347552034
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22268,6 +23768,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10817716312276795336
@@ -22307,6 +23810,9 @@ Objects {
     SubobjectId: 2519215737135484949
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22354,6 +23860,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6512246849078549470
@@ -22391,6 +23900,9 @@ Objects {
     SubobjectId: 17200958881338487811
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22435,6 +23947,9 @@ Objects {
     SubobjectId: 7658703932193728719
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22487,6 +24002,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13233180259224095678
@@ -22537,6 +24055,9 @@ Objects {
     SubobjectId: 248684941942957155
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22599,6 +24120,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12811019378654660826
@@ -22638,6 +24162,9 @@ Objects {
     SubobjectId: 369243258421208839
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22685,6 +24212,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6903960785466615076
@@ -22722,6 +24252,9 @@ Objects {
     SubobjectId: 16940845488994437881
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22766,6 +24299,9 @@ Objects {
     SubobjectId: 13711495643049864273
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22818,6 +24354,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11323330132150692485
@@ -22868,6 +24407,9 @@ Objects {
     SubobjectId: 3022687433552397656
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22930,6 +24472,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17882191636355643063
@@ -22969,6 +24514,9 @@ Objects {
     SubobjectId: 5547445708414277994
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -23016,6 +24564,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4927831961643693182
@@ -23053,6 +24604,9 @@ Objects {
     SubobjectId: 17344804695204076451
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -23097,6 +24651,9 @@ Objects {
     SubobjectId: 6172231640706938436
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -23149,6 +24706,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12519102237161732344
@@ -23199,6 +24759,9 @@ Objects {
     SubobjectId: 1831553076070094629
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -23261,6 +24824,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 233208955885213427
@@ -23300,6 +24866,9 @@ Objects {
     SubobjectId: 13252603560208005422
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -23346,6 +24915,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13203938578395251004
@@ -23382,6 +24954,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2193811687818189579
@@ -23414,6 +24989,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -23481,6 +25059,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13158316745750285141
@@ -23539,6 +25120,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10223914418869889391
@@ -23583,6 +25167,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5395921763328229271
@@ -23622,6 +25209,9 @@ Objects {
     SubobjectId: 18317292758886666314
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -23668,6 +25258,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13025483611788616516
@@ -23704,6 +25297,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8440615418640181716
@@ -23736,6 +25332,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -23803,6 +25402,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9509885620053373269
@@ -23861,6 +25463,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7064146754505340810
@@ -23905,6 +25510,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14154805074032994219
@@ -23944,6 +25552,9 @@ Objects {
     SubobjectId: 8122746390664054902
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -23990,6 +25601,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17276445359309663410
@@ -24026,6 +25640,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10162007682077496211
@@ -24058,6 +25675,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -24125,6 +25745,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14001211693814858571
@@ -24183,6 +25806,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13119538856167031655
@@ -24227,6 +25853,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13560024616177567177
@@ -24266,6 +25895,9 @@ Objects {
     SubobjectId: 646495782193408532
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -24312,6 +25944,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13007644864502122146
@@ -24348,6 +25983,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3089198761331626819
@@ -24380,6 +26018,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -24447,6 +26088,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 121905592640684237
@@ -24505,6 +26149,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8530146166003153994
@@ -24549,6 +26196,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4531761360566097237
@@ -24588,6 +26238,9 @@ Objects {
     SubobjectId: 9958089913941244552
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -24634,6 +26287,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4624234964658867868
@@ -24670,6 +26326,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11691510206067701850
@@ -24702,6 +26361,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -24769,6 +26431,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17691501430182829613
@@ -24827,6 +26492,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12594798736586064344
@@ -24871,6 +26539,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13819678034450070402
@@ -24910,6 +26581,9 @@ Objects {
     SubobjectId: 801474731425797215
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -24955,6 +26629,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12260718335164634549
@@ -24990,6 +26667,9 @@ Objects {
     SubobjectId: 2229528844554435176
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -25035,6 +26715,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5289700590649891298
@@ -25067,6 +26750,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -25134,6 +26820,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12430307255883044428
@@ -25192,6 +26881,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13959423761906540607
@@ -25231,6 +26923,9 @@ Objects {
     SubobjectId: 8462236236921835490
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -25278,6 +26973,9 @@ Objects {
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10351155348204121373
@@ -25321,6 +27019,9 @@ Objects {
     SubobjectId: 4283066199424320192
     InstanceId: 5673462259848196854
     TemplateId: 16770233353028870407
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -25368,6 +27069,9 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -25417,13 +27121,16 @@ Objects {
       Id: 6131898597161979646
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2677495261569597953
   Name: "FruitDropMiniGame"
   Transform {
     Location {
-      X: -165
+      X: 6485
       Y: -385
     }
     Rotation {
@@ -25454,6 +27161,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -25492,6 +27202,9 @@ Objects {
     }
     TeamSettings {
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -25580,6 +27293,9 @@ Objects {
       Id: 9629227241658350152
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2909358311781510362
@@ -25618,6 +27334,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -25665,6 +27384,9 @@ Objects {
   Folder {
     IsGroup: true
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 307581822093468047
@@ -25702,6 +27424,9 @@ Objects {
     }
     TeamSettings {
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -25741,6 +27466,9 @@ Objects {
     TeamSettings {
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1424072667231969214
@@ -25778,6 +27506,9 @@ Objects {
     }
     TeamSettings {
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -25817,6 +27548,9 @@ Objects {
     TeamSettings {
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3362675389590701017
@@ -25854,6 +27588,9 @@ Objects {
     }
     TeamSettings {
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -25893,6 +27630,9 @@ Objects {
     TeamSettings {
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10550928696168535617
@@ -25930,6 +27670,9 @@ Objects {
     }
     TeamSettings {
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -25969,6 +27712,9 @@ Objects {
     TeamSettings {
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3093284252239002583
@@ -26006,6 +27752,9 @@ Objects {
     }
     TeamSettings {
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -26045,6 +27794,9 @@ Objects {
     TeamSettings {
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8690593975811059172
@@ -26083,6 +27835,9 @@ Objects {
     TeamSettings {
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2644743941062582186
@@ -26118,6 +27873,9 @@ Objects {
     }
     TeamSettings {
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -26156,6 +27914,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -26204,6 +27965,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12217542977741803020
@@ -26248,6 +28012,9 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -26294,6 +28061,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2129410073242994225
@@ -26338,6 +28108,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2060234037197206718
@@ -26373,6 +28146,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -26413,6 +28189,9 @@ Objects {
       Value: "mc:etriggershape:box"
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 18113621431397291698
@@ -26445,6 +28224,9 @@ Objects {
     ScriptAsset {
       Id: 4438637293450527869
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -26490,6 +28272,9 @@ Objects {
       BoundsScale: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16426432572577204193
@@ -26523,6 +28308,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -26559,6 +28347,9 @@ Objects {
     TeamSettings {
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13006306498132129600
@@ -26592,6 +28383,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -26629,6 +28423,9 @@ Objects {
     TeamSettings {
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 343961503485121148
@@ -26661,6 +28458,9 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   NetworkContext {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -26721,6 +28521,9 @@ Objects {
       }
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15624149277847110942
@@ -26775,6 +28578,9 @@ Objects {
         }
       }
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -26831,6 +28637,9 @@ Objects {
       }
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6276594087850479869
@@ -26886,6 +28695,9 @@ Objects {
         }
       }
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -26990,6 +28802,9 @@ Objects {
       }
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 531354080944109304
@@ -27030,6 +28845,9 @@ Objects {
     ScriptAsset {
       Id: 3344765655464528008
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -27134,6 +28952,9 @@ Objects {
       }
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3358401213052241780
@@ -27174,6 +28995,9 @@ Objects {
     ScriptAsset {
       Id: 3130806502029863900
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -27229,6 +29053,9 @@ Objects {
         }
       }
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -27306,6 +29133,9 @@ Objects {
       }
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 617672813966230603
@@ -27376,6 +29206,9 @@ Objects {
       }
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6018856275537252153
@@ -27413,6 +29246,9 @@ Objects {
   Folder {
     IsGroup: true
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9667715199617462536
@@ -27443,6 +29279,9 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   NetworkContext {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -27491,6 +29330,9 @@ Objects {
       Id: 9867349589396930324
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5230280991689147059
@@ -27530,6 +29372,9 @@ Objects {
       Value: "mc:etriggershape:box"
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13146634277164826543
@@ -27561,6 +29406,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -27605,5 +29453,8 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

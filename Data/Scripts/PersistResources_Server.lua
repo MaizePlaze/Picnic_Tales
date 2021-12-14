@@ -1,12 +1,12 @@
-function UpdatePlayerRedGems(player)
+function UpdatePlayerApples(player)
 	local data = Storage.GetPlayerData(player) -- data looks like {}
-	data.redGems = player:GetResource("RedGems") -- data should look like {RedGems = 1}
+	data.apples = player:GetResource("Apples") -- data should look like {RedGems = 1}
 	Storage.SetPlayerData(player, data)
 end
 
 function OnResourceChanged(player, resource)
-	if resource == "RedGems" then
-		UpdatePlayerRedGems(player)
+	if resource == "Apples" then
+		UpdatePlayerApples(player)
 	end
 end
 
@@ -15,18 +15,18 @@ function OnPlayerJoined(player)
 	print("player joined: " .. player.name)
 
 	local data = Storage.GetPlayerData(player)
-	if data.redGems then
-		print("Red Gems " .. data.redGems)
-		player:SetResource("RedGems", data.redGems)
-	else
-		player:SetResource("RedGems", 0)
-	end
+	--if data.redGems then
+	--	print("Red Gems " .. data.redGems)
+	--	player:SetResource("RedGems", data.redGems)
+	--else
+		player:SetResource("Apples", 0)
+	--end
 	player.resourceChangedEvent:Connect(OnResourceChanged)
 end
 
 function OnPlayerLeft(player)
 	print("player left: " .. player.name)
-	UpdatePlayerRedGems(player)
+	UpdatePlayerApples(player)
 
 end
 

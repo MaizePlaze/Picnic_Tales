@@ -26,6 +26,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -40,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "Water. Please note that this is a 2.0 version of my previous water.\r\n"
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }

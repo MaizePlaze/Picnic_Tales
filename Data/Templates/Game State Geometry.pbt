@@ -64,6 +64,9 @@ Assets {
         Folder {
           IsGroup: true
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 15981522881091501909
@@ -109,6 +112,9 @@ Assets {
             Id: 2095807772852949911
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -116,5 +122,5 @@ Assets {
       AssetId: "Game_State_Geometry"
     }
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }

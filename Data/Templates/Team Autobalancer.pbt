@@ -71,6 +71,9 @@ Assets {
         Folder {
           IsGroup: true
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 13978147265183234428
@@ -109,6 +112,9 @@ Assets {
             Id: 7407597744590636425
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -116,5 +122,5 @@ Assets {
       AssetId: "Team_Autobalancer"
     }
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }
