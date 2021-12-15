@@ -1,6 +1,6 @@
 Assets {
   Id: 3307912974547883426
-  Name: "GameStateDisplayClient"
+  Name: "GameStateRoundTimeDisplayClient"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {

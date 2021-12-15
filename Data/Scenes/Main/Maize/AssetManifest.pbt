@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6287606422488195013
+  Name: "Tree Oak 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_oak_001"
+  }
+}
+Assets {
   Id: 6242378129829751886
   Name: "Dummy Object"
   PlatformAssetType: 6

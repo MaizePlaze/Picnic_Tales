@@ -15,11 +15,15 @@ Objects {
     }
   }
   ChildIds: 9086936746104183945
+  ChildIds: 3865172354856488109
+  ChildIds: 14062311008128427565
+  ChildIds: 7145556450230357832
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
   ChildIds: 14832815952701525965
   ChildIds: 4147847003364547307
   ChildIds: 44003275876171690
+  ChildIds: 2036860299956311663
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,6 +39,49 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2036860299956311663
+  Name: "AppleDrops"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17735246834492739233
+      value {
+        Overrides {
+          Name: "Name"
+          String: "AppleDrops"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12692582566186066544
+    }
   }
 }
 Objects {
@@ -549,6 +596,204 @@ Objects {
       Id: 841534158063459245
     }
     ShouldDecrowdPlayers: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7145556450230357832
+  Name: "UI Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "UI Settings"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14062311008128427565
+  Name: "Starting Weapon"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 2290038501785217352
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EquipmentTemplate"
+      AssetReference {
+        Id: 8824707599395461006
+      }
+    }
+    Overrides {
+      Name: "cs:Team"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:ReplaceOnEachRespawn"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:OnlyEquipDuringRound"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:ResetStanceAfterRound"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:EquipmentTemplate:tooltip"
+      String: "Equipment template to give to players"
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "If non-zero, only give equipment to players on that team"
+    }
+    Overrides {
+      Name: "cs:ReplaceOnEachRespawn:tooltip"
+      String: "Whether to replace that equipment every time a player spawns"
+    }
+    Overrides {
+      Name: "cs:OnlyEquipDuringRound:tooltip"
+      String: "If checked, players will only be given this equipment when the round starts, and will have the equipment taken away once the round ends."
+    }
+    Overrides {
+      Name: "cs:ResetStanceAfterRound:tooltip"
+      String: "Reset the player\'s stance to unarmed_stance at the end of the round. Only applies if \"OnlyEquipDuringRound\" is checked as well."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 14677204227547467535
+    SubobjectId: 16657464430720987128
+    InstanceId: 6701392491503211742
+    TemplateId: 14615028099963445761
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2290038501785217352
+  Name: "StaticPlayerEquipmentServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14062311008128427565
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 14062311008128427565
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3403025055362370891
+    }
+  }
+  InstanceHistory {
+    SelfId: 14094927996911205704
+    SubobjectId: 17230748584674696639
+    InstanceId: 6701392491503211742
+    TemplateId: 14615028099963445761
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3865172354856488109
+  Name: "Game State Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Game State Settings"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

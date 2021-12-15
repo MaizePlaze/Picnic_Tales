@@ -27,6 +27,8 @@ local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 local EQUIPMENT_TEMPLATE = COMPONENT_ROOT:GetCustomProperty("EquipmentTemplate")
 local TEAM = COMPONENT_ROOT:GetCustomProperty("Team")
 local REPLACE_ON_EACH_RESPAWN = COMPONENT_ROOT:GetCustomProperty("ReplaceOnEachRespawn")
+local ONLY_EQUIP_DURING_ROUND = COMPONENT_ROOT:GetCustomProperty("OnlyEquipDuringRound")
+local RESET_STANCE_AFTER_ROUND = COMPONENT_ROOT:GetCustomProperty("ResetStanceAfterRound")
 
 -- Check user properties
 if not EQUIPMENT_TEMPLATE then
@@ -37,9 +39,11 @@ if TEAM < 0 or TEAM > 4 then
     warn("Team must be a valid team number (1-4) or 0")
     TEAM = 0
 end
+
 -- Variables
 local playerTeams = {}			-- We use this to detect team changes
 local equipment = {}
+local roundHasStarted = false
 
 -- bool AppliesToPlayersTeam(Player)
 -- Returns whether this player should get equipment given the team setting
@@ -54,9 +58,12 @@ end
 -- nil GivePlayerEquipment(Player)
 -- Gives the referenced equipment to the player
 function GivePlayerEquipment(player)
-	equipment[player] = World.SpawnAsset(EQUIPMENT_TEMPLATE)
+	equipment[player] = World.SpawnAsset(EQUIPMENT_TEMPLATE, {position = Vector3.UP * -100})
 	assert(equipment[player]:IsA("Equipment"))
-	equipment[player]:Equip(player)
+	Task.Wait(0.35)
+	if player then
+		equipment[player]:Equip(player)
+	end
 end
 
 -- nil RemovePlayerEquipment(Player)
@@ -77,10 +84,16 @@ end
 -- nil OnPlayerRespawned(Player)
 -- Replace the equipment if ReplaceOnEachRespawn
 function OnPlayerRespawned(player)
-	RemovePlayerEquipment(player)
-
-	if AppliesToPlayersTeam(player) then
-		GivePlayerEquipment(player)
+	if (ONLY_EQUIP_DURING_ROUND) then
+		if (roundHasStarted and AppliesToPlayersTeam(player)) then
+			RemovePlayerEquipment(player)
+			GivePlayerEquipment(player)
+		end
+	else	
+		if AppliesToPlayersTeam(player) then
+			RemovePlayerEquipment(player)
+			GivePlayerEquipment(player)
+		end
 	end
 end
 
@@ -92,10 +105,10 @@ function OnPlayerJoined(player)
 	end
 
 	if REPLACE_ON_EACH_RESPAWN then
-		player.respawnedEvent:Connect(OnPlayerRespawned)
+		player.spawnedEvent:Connect(OnPlayerRespawned)
 	end
 
-	if AppliesToPlayersTeam(player) then
+	if AppliesToPlayersTeam(player) and (not ONLY_EQUIP_DURING_ROUND or roundHasStarted) then
 		GivePlayerEquipment(player)
 	end
 end
@@ -109,9 +122,8 @@ end
 -- nil OnPlayerTeamChanged(Player)
 -- Handles reassinging equipment if the player changes teams
 function OnPlayerTeamChanged(player)
-	RemovePlayerEquipment(player)
-
 	if AppliesToPlayersTeam(player) then
+		RemovePlayerEquipment(player)
 		GivePlayerEquipment(player)
 	end
 end
@@ -124,6 +136,11 @@ function Tick(deltaTime)
 			local team = player.team
 
 			if team ~= playerTeams[player] then
+				if (playerTeams[player] == TEAM) then
+					-- if their old team applied to this object, their new one might not
+					-- dequip this team's equipment from them
+					RemovePlayerEquipment(player)
+				end
 				OnPlayerTeamChanged(player)
 
 				playerTeams[player] = team
@@ -132,6 +149,46 @@ function Tick(deltaTime)
 	end
 end
 
+function OnRoundStart()
+	roundHasStarted = true
+	if (ONLY_EQUIP_DURING_ROUND) then
+		for _, player in pairs(Game.GetPlayers()) do
+			if (AppliesToPlayersTeam(player)) then
+				RemovePlayerEquipment(player)
+				GivePlayerEquipment(player)
+			end
+		end
+	end
+end
+
+function OnRoundEnd()
+	roundHasStarted = false
+	if (ONLY_EQUIP_DURING_ROUND) then
+		for _, player in pairs(Game.GetPlayers()) do
+			if (AppliesToPlayersTeam(player)) then
+				RemovePlayerEquipment(player)
+				
+				if (RESET_STANCE_AFTER_ROUND) then
+					local hasWeapon = false
+					for _, equip in pairs(player:GetEquipment()) do
+						if (equip:IsA("Weapon")) then
+							hasWeapon = true
+							break
+						end
+					end
+					
+					if (not hasWeapon) then
+						player.animationStance = "unarmed_stance"
+					end
+				end
+			end
+		end
+	end
+end
+
 -- Initialize
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 Game.playerLeftEvent:Connect(OnPlayerLeft)
+
+Game.roundStartEvent:Connect(OnRoundStart)
+Game.roundEndEvent:Connect(OnRoundEnd)

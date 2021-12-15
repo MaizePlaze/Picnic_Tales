@@ -68,7 +68,7 @@ function StartRound()
     elapsedTime = 0
     roundStarted = true
     GAME_STATE = GAME_STATES.ROUND
-    for i, p in ipairs(readyPlayers) do
+    for i, p in ipairs(Players) do
         p:SetWorldPosition(startingLocs[i]:GetWorldPosition())
     end
     SpawnFruit()

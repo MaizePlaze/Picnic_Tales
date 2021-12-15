@@ -4,9 +4,9 @@ Assets {
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 11388592286874595498
+      RootId: 11584901805065674989
       Objects {
-        Id: 11388592286874595498
+        Id: 11584901805065674989
         Name: "Generic Trail"
         Transform {
           Scale {
@@ -16,6 +16,41 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 11388592286874595498
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 11388592286874595498
+        Name: "Client Context"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11584901805065674989
         ChildIds: 7928271528055639521
         UnregisteredParameters {
         }
@@ -66,37 +101,11 @@ Assets {
           }
           Overrides {
             Name: "bp:Life"
-            Float: 0.22
+            Float: 0.2
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 2
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.97
-              G: 0.366159
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:ColorB"
-            Color {
-              R: 1
-              G: 0.73827821
-              B: 0.24000001
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:ColorC"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
+            Float: 0.5
           }
         }
         Collidable_v2 {

@@ -4,9 +4,9 @@ Assets {
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 6246242700242467092
+      RootId: 1056829594330030893
       Objects {
-        Id: 6246242700242467092
+        Id: 1056829594330030893
         Name: "Generic Impact Surface Aligned"
         Transform {
           Scale {
@@ -16,7 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 15676067918659116593
+        ChildIds: 6246242700242467092
         UnregisteredParameters {
         }
         Lifespan: 6
@@ -30,15 +30,16 @@ Assets {
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
-        NetworkContext {
+        Folder {
+          IsGroup: true
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
-        Id: 15676067918659116593
-        Name: "Impact Geo"
+        Id: 6246242700242467092
+        Name: "Client Context"
         Transform {
           Location {
           }
@@ -51,11 +52,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6246242700242467092
+        ParentId: 1056829594330030893
         ChildIds: 11244076573502085025
         ChildIds: 6983234237468868165
         ChildIds: 8007739458989036561
-        ChildIds: 9519357983113725241
+        ChildIds: 3337482753359517784
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -65,8 +69,7 @@ Assets {
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
-        Folder {
-          IsGroup: true
+        NetworkContext {
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
@@ -86,7 +89,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15676067918659116593
+        ParentId: 6246242700242467092
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -128,7 +131,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15676067918659116593
+        ParentId: 6246242700242467092
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -164,12 +167,12 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 0.4
-            Y: 0.4
-            Z: 0.4
+            X: 0.1
+            Y: 0.1
+            Z: 0.1
           }
         }
-        ParentId: 15676067918659116593
+        ParentId: 6246242700242467092
         UnregisteredParameters {
           Overrides {
             Name: "bp:Density"
@@ -177,7 +180,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 2
+            Float: 0.2
           }
           Overrides {
             Name: "bp:Spark Line Scale Multiplier"
@@ -197,7 +200,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Enable Sparks"
-            Bool: true
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -227,12 +230,13 @@ Assets {
         }
       }
       Objects {
-        Id: 9519357983113725241
-        Name: "Decal Bullet Damage Metal"
+        Id: 3337482753359517784
+        Name: "Decal Bullet Damage Stone"
         Transform {
           Location {
           }
           Rotation {
+            Yaw: 5.46414922e-05
           }
           Scale {
             X: 0.1
@@ -240,20 +244,8 @@ Assets {
             Z: 0.1
           }
         }
-        ParentId: 15676067918659116593
+        ParentId: 6246242700242467092
         UnregisteredParameters {
-          Overrides {
-            Name: "bp:Shape Index"
-            Int: 0
-          }
-          Overrides {
-            Name: "bp:Fade Delay"
-            Float: 4
-          }
-          Overrides {
-            Name: "bp:Fade Time"
-            Float: 2
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -266,9 +258,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 16471063547951275134
-          }
-          TeamSettings {
+            Id: 11302073280474298634
           }
           DecalBP {
           }
@@ -309,12 +299,12 @@ Assets {
       }
     }
     Assets {
-      Id: 16471063547951275134
-      Name: "Decal Bullet Damage Metal"
+      Id: 11302073280474298634
+      Name: "Decal Bullet Damage Stone"
       PlatformAssetType: 14
       PrimaryAsset {
         AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_bullet_metal_001"
+        AssetId: "bp_decal_bullet_stone_001"
       }
     }
     PrimaryAssetId {
