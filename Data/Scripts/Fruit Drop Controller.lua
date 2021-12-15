@@ -32,9 +32,9 @@ end
   Events.Connect("GameStateChanged",GameStateChanged)
 
 function StartRound()
-    for i, p in ipairs(players) do
-        p:SetWorldPosition(startingLocs[i]:GetWorldPosition())
-    end
+ --   for i, p in ipairs(players) do
+  --      p:SetWorldPosition(startingLocs[i]:GetWorldPosition())
+--    end
 --	local myTask = Task.Spawn(SpawnFruit)
 --	myTask.repeatCount = -1
 --	myTask.repeatInterval = 10
@@ -47,9 +47,9 @@ end
 function EndRound()
 --	local myTask = Task.GetCurrent()
 --	myTask.Cancel()
-	for i, p in ipairs(players) do
-        p:SetWorldPosition(endingLocs[i]:GetWorldPosition())
-    end
+--	for i, p in ipairs(players) do
+ --       p:SetWorldPosition(endingLocs[i]:GetWorldPosition())
+ --   end
 end
 
 function StartLobby()
