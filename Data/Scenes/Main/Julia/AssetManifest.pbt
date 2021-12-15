@@ -53,12 +53,30 @@ Assets {
   }
 }
 Assets {
+  Id: 16263715510205522753
+  Name: "Decal Leaves 02"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_leaves_002"
+  }
+}
+Assets {
   Id: 15948807416299862734
   Name: "Fantasy Dish Set - Bowl 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fan_dish_set_bowl_001_ref"
+  }
+}
+Assets {
+  Id: 15884331097983884237
+  Name: "Bush Leafy Tall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_leafy_bush_001"
   }
 }
 Assets {
@@ -134,6 +152,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13288679651259056663
+  Name: "Bush 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bush_generic_001"
+  }
+}
+Assets {
   Id: 13280078777988462493
   Name: "Craftsman Porch Fence Railing 01"
   PlatformAssetType: 1
@@ -170,6 +197,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12219859193900510649
+  Name: "Bush Leafy Low 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_leafy_bush_002"
+  }
+}
+Assets {
   Id: 10992735078904622553
   Name: "Small Open Crate"
   PlatformAssetType: 1
@@ -197,6 +233,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8698665211691655174
+  Name: "Bush 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bush_generic_002"
+  }
+}
+Assets {
   Id: 8621994705150117454
   Name: "Hill 03"
   PlatformAssetType: 1
@@ -212,6 +257,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_food_generic_apple_001_uv"
+  }
+}
+Assets {
+  Id: 6900587603245602273
+  Name: "Decal Leaves 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_leaves_001"
   }
 }
 Assets {
@@ -314,12 +368,30 @@ Assets {
   }
 }
 Assets {
+  Id: 4583469703328031216
+  Name: "Grass Short"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_002"
+  }
+}
+Assets {
   Id: 4452517809827602480
   Name: "Basic Pepper 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prim_org_pepper_001_ref"
+  }
+}
+Assets {
+  Id: 4000996111807049207
+  Name: "Tree Oak Bare 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_oak_002"
   }
 }
 Assets {
@@ -359,6 +431,24 @@ Assets {
   }
 }
 Assets {
+  Id: 2077734782609117812
+  Name: "Melee Combat - Air Swipe Whooshes Set 01 SFX"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "sfxabp_melee_air_swooshes_ref"
+  }
+}
+Assets {
+  Id: 1599986065388839139
+  Name: "Tree Sakura Hero Bare 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_sakura_hero_02_bare_ref"
+  }
+}
+Assets {
   Id: 1281609444414250340
   Name: "Urban Cardboard Box 02"
   PlatformAssetType: 1
@@ -392,6 +482,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_food_generic_cheese_001_uv"
+  }
+}
+Assets {
+  Id: 730347157251103695
+  Name: "Flower Bellflower Patch 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_flower_bell_patch_001_ref"
   }
 }
 Assets {
