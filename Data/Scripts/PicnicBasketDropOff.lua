@@ -1,5 +1,5 @@
 local trigger = script.parent
-local applesToGet = 50
+
 
 
 
@@ -8,6 +8,11 @@ function OnBeginOverlap(whichTrigger, other)
 		print(whichTrigger.name .. ": Begin Trigger Overlap with " .. other.name)
 		local data = Storage.GetPlayerData(other)
 		data.apples = other:GetResource("Apples")
+		
+		local teamScore = Game.GetTeamScore(other.team)
+		local totalScore = teamScore + data.apples
+		Game.SetTeamScore(other.team, totalScore)
+
 		other:SetResource("Apples", 0)
 	end
 end

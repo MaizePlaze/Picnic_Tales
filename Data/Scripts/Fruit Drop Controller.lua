@@ -6,6 +6,8 @@ local startingLocs = script:GetCustomProperty("StartingLocations"):WaitForObject
 local endingLocs = script:GetCustomProperty("EndingLocations"):WaitForObject():GetChildren()
 local fruitLocs = script:GetCustomProperty("FruitSpawnLocations"):WaitForObject():GetChildren()
 local apple = script:GetCustomProperty("AppleDrops")
+local droppingApples = script:GetCustomProperty("DroppingAppleGroup")
+local SPAWN_CENTER = script:GetCustomProperty("SpawnCenter"):WaitForObject() ---@type SmartObject
 local players = Game.GetPlayers()
 
 function GameStateChanged(oldState, newState, stateHasDuration, stateEndTime)
@@ -33,15 +35,16 @@ function StartRound()
     for i, p in ipairs(players) do
         p:SetWorldPosition(startingLocs[i]:GetWorldPosition())
     end
-	local myTask = Task.Spawn(SpawnFruit)
-	myTask.repeatCount = -1
-	myTask.repeatInterval = 2
+--	local myTask = Task.Spawn(SpawnFruit)
+--	myTask.repeatCount = -1
+--	myTask.repeatInterval = 10
+--	myTask.Wait(50)
 	
 end
 
 function EndRound()
-	local myTask = Task.GetCurrent()
-	myTask.Cancel()
+--	local myTask = Task.GetCurrent()
+--	myTask.Cancel()
 	for i, p in ipairs(players) do
         p:SetWorldPosition(endingLocs[i]:GetWorldPosition())
     end
@@ -52,7 +55,9 @@ end
 
 function SpawnFruit()
 	for i, p in ipairs(fruitLocs) do
-    	local fruit = World.SpawnAsset(apple, {position = fruitLocs[i]:GetWorldPosition(), scale = 1})
+		local fruit = World.SpawnAsset(droppingApples, {position = SPAWN_CENTER:GetWorldPosition(), scale = 1})
+
+    	--local fruit = World.SpawnAsset(droppingApples, {position = fruitLocs[i]:GetWorldPosition(), scale = 1})
 	end
 end
 

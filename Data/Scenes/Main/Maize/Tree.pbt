@@ -1,6 +1,54 @@
 Name: "Maize"
 RootId: 44003275876171690
 Objects {
+  Id: 16511036528839584110
+  Name: "Dropping Apple Group"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 44003275876171690
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16818727958697781400
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Dropping Apple Group"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 210
+            Y: -170
+            Z: 901.416321
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4026065128930891611
+    }
+  }
+}
+Objects {
   Id: 9127460683751086478
   Name: "Fruit Drop Controller"
   Transform {
@@ -44,6 +92,18 @@ Objects {
       Name: "cs:AppleDrops"
       AssetReference {
         Id: 12692582566186066544
+      }
+    }
+    Overrides {
+      Name: "cs:DroppingAppleGroup"
+      AssetReference {
+        Id: 4026065128930891611
+      }
+    }
+    Overrides {
+      Name: "cs:SpawnCenter"
+      ObjectReference {
+        SelfId: 15036190121660937985
       }
     }
   }
@@ -24565,7 +24625,6 @@ Objects {
   }
   ParentId: 2909358311781510362
   ChildIds: 9257012751963952935
-  ChildIds: 11953081474760306806
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24583,79 +24642,6 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 11953081474760306806
-  Name: "Dropping Apple Group"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1737964113192400763
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6131701052375240953
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "cs:MoveTo"
-          Vector {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9956620966024611681
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 345
-            Y: -145
-            Z: 890
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15846275682110148212
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Dropping Apple Group"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -600
-            Y: 875
-            Z: -315
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 16770233353028870407
-    }
   }
 }
 Objects {
@@ -24795,7 +24781,7 @@ Objects {
       Y: -815
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -25212,10 +25198,7 @@ Objects {
     }
   }
   ParentId: 2909358311781510362
-  ChildIds: 2129410073242994225
-  ChildIds: 469161932057450072
-  ChildIds: 12217542977741803020
-  ChildIds: 16087272126578293143
+  ChildIds: 17774362901976261363
   ChildIds: 9884702514211398627
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -25284,6 +25267,46 @@ Objects {
   }
 }
 Objects {
+  Id: 17774362901976261363
+  Name: "PlaceHolders"
+  Transform {
+    Location {
+      Z: -1880
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 842309935005774273
+  ChildIds: 2129410073242994225
+  ChildIds: 469161932057450072
+  ChildIds: 12217542977741803020
+  ChildIds: 12004235008605811035
+  ChildIds: 16087272126578293143
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
   Id: 16087272126578293143
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
@@ -25300,7 +25323,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 842309935005774273
+  ParentId: 17774362901976261363
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -25334,6 +25357,77 @@ Objects {
   }
 }
 Objects {
+  Id: 12004235008605811035
+  Name: "Center Group"
+  Transform {
+    Location {
+      Z: 1250
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17774362901976261363
+  ChildIds: 15036190121660937985
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15036190121660937985
+  Name: "SpawnCenter"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12004235008605811035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6242378129829751886
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
   Id: 12217542977741803020
   Name: "TopCenterCube"
   Transform {
@@ -25348,7 +25442,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 842309935005774273
+  ParentId: 17774362901976261363
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -25396,7 +25490,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 842309935005774273
+  ParentId: 17774362901976261363
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -25443,7 +25537,7 @@ Objects {
       Z: 12
     }
   }
-  ParentId: 842309935005774273
+  ParentId: 17774362901976261363
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

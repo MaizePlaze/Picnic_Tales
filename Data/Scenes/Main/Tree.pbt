@@ -23,7 +23,6 @@ Objects {
   ChildIds: 14832815952701525965
   ChildIds: 4147847003364547307
   ChildIds: 44003275876171690
-  ChildIds: 2036860299956311663
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,49 +38,6 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 2036860299956311663
-  Name: "AppleDrops"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17735246834492739233
-      value {
-        Overrides {
-          Name: "Name"
-          String: "AppleDrops"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 12692582566186066544
-    }
   }
 }
 Objects {
