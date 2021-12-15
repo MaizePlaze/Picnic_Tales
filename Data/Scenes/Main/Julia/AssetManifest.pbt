@@ -53,12 +53,30 @@ Assets {
   }
 }
 Assets {
+  Id: 16263715510205522753
+  Name: "Decal Leaves 02"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_leaves_002"
+  }
+}
+Assets {
   Id: 15948807416299862734
   Name: "Fantasy Dish Set - Bowl 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fan_dish_set_bowl_001_ref"
+  }
+}
+Assets {
+  Id: 15884331097983884237
+  Name: "Bush Leafy Tall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_leafy_bush_001"
   }
 }
 Assets {
@@ -86,6 +104,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hemisphere_002"
+  }
+}
+Assets {
+  Id: 14783482817928033983
+  Name: "Body Slap Thump Impact Hand Leg Stomp 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_body_slap_thump_impact_hand_leg_stomp_01a_Cue_ref"
   }
 }
 Assets {
@@ -125,6 +152,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13288679651259056663
+  Name: "Bush 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bush_generic_001"
+  }
+}
+Assets {
   Id: 13280078777988462493
   Name: "Craftsman Porch Fence Railing 01"
   PlatformAssetType: 1
@@ -161,12 +197,12 @@ Assets {
   }
 }
 Assets {
-  Id: 11701728538962683260
-  Name: "Meta Generic Pickup 01 SFX"
-  PlatformAssetType: 7
+  Id: 12219859193900510649
+  Name: "Bush Leafy Low 01"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_meta_generic_pickup_01_Cue_ref"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_leafy_bush_002"
   }
 }
 Assets {
@@ -188,21 +224,21 @@ Assets {
   }
 }
 Assets {
-  Id: 10771057208018775687
-  Name: "Weapon Guide 2hand_sword"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "weapon_guide_sword_BP_ref"
-  }
-}
-Assets {
   Id: 9314504034621143103
   Name: "Wicker Basket 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_fan_wicker_001_uv"
+  }
+}
+Assets {
+  Id: 8698665211691655174
+  Name: "Bush 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bush_generic_002"
   }
 }
 Assets {
@@ -224,12 +260,30 @@ Assets {
   }
 }
 Assets {
+  Id: 6900587603245602273
+  Name: "Decal Leaves 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_leaves_001"
+  }
+}
+Assets {
   Id: 6596493677265272551
   Name: "Trim - Curve 90\302\260 - 16m Radius"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trimitives_001_curve90_16m_ref"
+  }
+}
+Assets {
+  Id: 6470074521381443047
+  Name: "Weapon Guide 1hand_melee"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "weapon_guide_melee_BP_ref"
   }
 }
 Assets {
@@ -248,6 +302,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hemisphere_wedge_002"
+  }
+}
+Assets {
+  Id: 6108430160052417494
+  Name: "Fighting Melee Ability Impact Medium 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_anime_fighting_melee_ability_impact_medium_01a_Cue_ref"
   }
 }
 Assets {
@@ -305,12 +368,30 @@ Assets {
   }
 }
 Assets {
+  Id: 4583469703328031216
+  Name: "Grass Short"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_002"
+  }
+}
+Assets {
   Id: 4452517809827602480
   Name: "Basic Pepper 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prim_org_pepper_001_ref"
+  }
+}
+Assets {
+  Id: 4000996111807049207
+  Name: "Tree Oak Bare 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_oak_002"
   }
 }
 Assets {
@@ -350,6 +431,24 @@ Assets {
   }
 }
 Assets {
+  Id: 2077734782609117812
+  Name: "Melee Combat - Air Swipe Whooshes Set 01 SFX"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "sfxabp_melee_air_swooshes_ref"
+  }
+}
+Assets {
+  Id: 1599986065388839139
+  Name: "Tree Sakura Hero Bare 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_sakura_hero_02_bare_ref"
+  }
+}
+Assets {
   Id: 1281609444414250340
   Name: "Urban Cardboard Box 02"
   PlatformAssetType: 1
@@ -383,6 +482,24 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_food_generic_cheese_001_uv"
+  }
+}
+Assets {
+  Id: 730347157251103695
+  Name: "Flower Bellflower Patch 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_flower_bell_patch_001_ref"
+  }
+}
+Assets {
+  Id: 675891104398617821
+  Name: "Purchase Buy Button 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_buy_button_01_Cue_ref"
   }
 }
 Assets {
