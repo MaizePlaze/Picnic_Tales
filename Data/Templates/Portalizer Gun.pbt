@@ -125,6 +125,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 1490125431961678209
@@ -158,6 +161,9 @@ Assets {
         }
         NetworkContext {
           Type: Server
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -196,6 +202,9 @@ Assets {
           ScriptAsset {
             Id: 8459825612529451237
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -237,6 +246,9 @@ Assets {
             Id: 12210489528647249200
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 10972754457933944154
@@ -277,6 +289,9 @@ Assets {
             Id: 2472577150731722024
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 12898880880178811781
@@ -316,6 +331,9 @@ Assets {
         }
         NetworkContext {
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 1067237879653126047
@@ -354,6 +372,9 @@ Assets {
             Id: 440168262593430639
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 12789865436988628872
@@ -389,6 +410,9 @@ Assets {
           ScriptAsset {
             Id: 9654009968499969690
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -442,6 +466,9 @@ Assets {
             Id: 6652974207271369531
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 12019378479273235100
@@ -480,6 +507,9 @@ Assets {
             Id: 17169051963161242240
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 15949629018878828151
@@ -511,6 +541,9 @@ Assets {
           ScriptAsset {
             Id: 8163343952479535019
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -551,6 +584,9 @@ Assets {
           ScriptAsset {
             Id: 7560597166793505463
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -600,6 +636,9 @@ Assets {
             Id: 4156168509254213209
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 9472743703936248790
@@ -635,6 +674,9 @@ Assets {
         Folder {
           IsFilePartition: true
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 18182895499934096149
@@ -666,6 +708,9 @@ Assets {
           ScriptAsset {
             Id: 16975801195317677333
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -702,6 +747,9 @@ Assets {
           ScriptAsset {
             Id: 7766883827523033344
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -740,6 +788,9 @@ Assets {
           ScriptAsset {
             Id: 11968684115206234415
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -807,6 +858,9 @@ Assets {
         Relevance {
           Value: "mc:eproxyrelevance:critical"
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 5462570083230773441
@@ -851,6 +905,9 @@ Assets {
             Id: 11739187330987241719
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 16074458976165440858
@@ -887,6 +944,9 @@ Assets {
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 7398973366629249975
@@ -920,6 +980,9 @@ Assets {
           Falloff: -1
           Radius: -1
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 2614064729868515329
@@ -952,6 +1015,9 @@ Assets {
         Folder {
           IsGroup: true
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 7166792831479599766
@@ -980,6 +1046,9 @@ Assets {
         ChildIds: 416754893653250395
         Folder {
           IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -1041,6 +1110,9 @@ Assets {
             BoundsScale: 1
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 2786447763979703628
@@ -1100,6 +1172,9 @@ Assets {
             }
             BoundsScale: 1
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -1161,6 +1236,9 @@ Assets {
             BoundsScale: 1
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 6346941991482895342
@@ -1208,6 +1286,9 @@ Assets {
             }
             BoundsScale: 1
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -1262,6 +1343,9 @@ Assets {
             BoundsScale: 1
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 5742847918152249890
@@ -1309,6 +1393,9 @@ Assets {
             }
             BoundsScale: 1
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -1375,6 +1462,9 @@ Assets {
             BoundsScale: 1
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 12887956534712317933
@@ -1418,6 +1508,9 @@ Assets {
           TriggerShape_v2 {
             Value: "mc:etriggershape:box"
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -1479,6 +1572,9 @@ Assets {
           }
           Animation: "2hand_rifle_shoot"
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 4424486170769933633
@@ -1528,6 +1624,9 @@ Assets {
             Value: "mc:egameaction:extraaction_33"
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 9898070123060077664
@@ -1563,6 +1662,9 @@ Assets {
           }
           TeamSettings {
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
     }
@@ -1673,6 +1775,6 @@ Assets {
   Marketplace {
     Description: "Portal Gun based on the iconic gun from the game Portal. \r\nMade during Bootcamp for the first challenge of the second week.\r\n\r\nEquip - F\r\nFire - LMB\r\nAim - RMB\r\n\r\nFires blue sci-blue element to damage objects\r\n\r\n#CGCB\r\n\r\n\r\nWorking on making the portals in an upcoming new version - watch this space!"
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
   DirectlyPublished: true
 }

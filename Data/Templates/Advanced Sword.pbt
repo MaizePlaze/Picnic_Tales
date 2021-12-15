@@ -1,13 +1,13 @@
 Assets {
-  Id: 1033855592343353671
-  Name: "Advanced 2-Handed Sword"
+  Id: 4173367592303517174
+  Name: "Advanced Sword"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 13380154364575694248
+      RootId: 1550651346007304081
       Objects {
-        Id: 13380154364575694248
-        Name: "Advanced 2-Handed Sword"
+        Id: 1550651346007304081
+        Name: "Advanced Sword"
         Transform {
           Scale {
             X: 1
@@ -16,15 +16,15 @@ Assets {
           }
         }
         ParentId: 6693544904945375742
-        ChildIds: 3754477636252876755
-        ChildIds: 668373778692601099
-        ChildIds: 11583163290014738642
-        ChildIds: 5526975688712912618
-        ChildIds: 13487330286351392810
+        ChildIds: 15775079625870837992
+        ChildIds: 16445015100220171757
+        ChildIds: 11448027595919400989
+        ChildIds: 3297314632271737610
+        ChildIds: 17760304585295101073
         UnregisteredParameters {
           Overrides {
             Name: "cs:EquipmentStance"
-            String: "2hand_sword_stance"
+            String: "1hand_melee_stance"
           }
           Overrides {
             Name: "cs:PlayerImpact"
@@ -46,7 +46,7 @@ Assets {
           }
           Overrides {
             Name: "cs:HitSphereRadius"
-            Float: 175
+            Float: 150
           }
           Overrides {
             Name: "cs:HitSphereOffset"
@@ -101,7 +101,7 @@ Assets {
         Equipment {
           SocketName: "right_prop"
           PickupTrigger {
-            SubObjectId: 3754477636252876755
+            SubObjectId: 15775079625870837992
           }
         }
         NetworkRelevanceDistance {
@@ -109,7 +109,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3754477636252876755
+        Id: 15775079625870837992
         Name: "Pickup Trigger"
         Transform {
           Location {
@@ -123,7 +123,7 @@ Assets {
             Z: 1.2
           }
         }
-        ParentId: 13380154364575694248
+        ParentId: 1550651346007304081
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -139,7 +139,7 @@ Assets {
         }
         Trigger {
           Interactable: true
-          InteractionLabel: "Equip Advanced 2-Handed Sword"
+          InteractionLabel: "Equip Advanced Sword"
           TeamSettings {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
@@ -153,7 +153,7 @@ Assets {
         }
       }
       Objects {
-        Id: 668373778692601099
+        Id: 16445015100220171757
         Name: "Attack 1"
         Transform {
           Location {
@@ -166,11 +166,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13380154364575694248
+        ParentId: 1550651346007304081
         UnregisteredParameters {
           Overrides {
             Name: "cs:Damage"
-            Float: 45
+            Float: 35
           }
           Overrides {
             Name: "cs:UseHitSphere"
@@ -227,7 +227,7 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.15
+            Duration: 0.1
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -249,7 +249,7 @@ Assets {
             }
           }
           CooldownPhaseSettings {
-            Duration: 1.2
+            Duration: 1
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -259,7 +259,7 @@ Assets {
               Value: "mc:eabilitysetfacing:none"
             }
           }
-          Animation: "2hand_sword_slash_left"
+          Animation: "1hand_melee_slash_left"
           KeyBinding_v2 {
             Value: "mc:egameaction:primaryaction"
           }
@@ -269,7 +269,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11583163290014738642
+        Id: 11448027595919400989
         Name: "Attack 2"
         Transform {
           Location {
@@ -282,11 +282,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13380154364575694248
+        ParentId: 1550651346007304081
         UnregisteredParameters {
           Overrides {
             Name: "cs:Damage"
-            Float: 55
+            Float: 40
           }
           Overrides {
             Name: "cs:UseHitSphere"
@@ -343,7 +343,7 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.15
+            Duration: 0.1
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -365,7 +365,7 @@ Assets {
             }
           }
           CooldownPhaseSettings {
-            Duration: 1.2
+            Duration: 1
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -375,7 +375,7 @@ Assets {
               Value: "mc:eabilitysetfacing:none"
             }
           }
-          Animation: "2hand_sword_slash_right"
+          Animation: "1hand_melee_slash_right"
           CanBePrevented: true
           KeyBinding_v2 {
             Value: "mc:egameaction:primaryaction"
@@ -386,7 +386,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5526975688712912618
+        Id: 3297314632271737610
         Name: "ServerContext"
         Transform {
           Location {
@@ -399,10 +399,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13380154364575694248
-        ChildIds: 7744015871360517695
-        ChildIds: 4067034159930274628
-        ChildIds: 6942256758217914717
+        ParentId: 1550651346007304081
+        ChildIds: 4544348558019458745
+        ChildIds: 12525221748800137288
+        ChildIds: 2063908126451672360
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -421,11 +421,10 @@ Assets {
         }
       }
       Objects {
-        Id: 7744015871360517695
+        Id: 4544348558019458745
         Name: "EquipmentPickupServer"
         Transform {
           Location {
-            Y: -325
           }
           Rotation {
           }
@@ -435,12 +434,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5526975688712912618
+        ParentId: 3297314632271737610
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 3754477636252876755
+              SubObjectId: 15775079625870837992
             }
           }
         }
@@ -463,7 +462,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4067034159930274628
+        Id: 12525221748800137288
         Name: "EquipmentStanceServer"
         Transform {
           Location {
@@ -476,7 +475,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5526975688712912618
+        ParentId: 3297314632271737610
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -496,11 +495,10 @@ Assets {
         }
       }
       Objects {
-        Id: 6942256758217914717
+        Id: 2063908126451672360
         Name: "EquipmentMeleeAttacksServer"
         Transform {
           Location {
-            Y: -325
           }
           Rotation {
           }
@@ -510,7 +508,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5526975688712912618
+        ParentId: 3297314632271737610
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -532,7 +530,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13487330286351392810
+        Id: 17760304585295101073
         Name: "ClientContext"
         Transform {
           Location {
@@ -545,10 +543,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13380154364575694248
-        ChildIds: 8231522078824179818
-        ChildIds: 580445191338613066
-        ChildIds: 13350845354224971416
+        ParentId: 1550651346007304081
+        ChildIds: 8500324467780594005
+        ChildIds: 8377405643480515226
+        ChildIds: 16008354779414456412
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -566,7 +564,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8231522078824179818
+        Id: 8500324467780594005
         Name: "EquipmentPickupClient"
         Transform {
           Location {
@@ -579,7 +577,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13487330286351392810
+        ParentId: 17760304585295101073
         UnregisteredParameters {
           Overrides {
             Name: "cs:PickupSound"
@@ -607,7 +605,7 @@ Assets {
         }
       }
       Objects {
-        Id: 580445191338613066
+        Id: 8377405643480515226
         Name: "EquipmentMeleeAttacksClient"
         Transform {
           Location {
@@ -620,7 +618,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13487330286351392810
+        ParentId: 17760304585295101073
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -642,11 +640,9 @@ Assets {
         }
       }
       Objects {
-        Id: 13350845354224971416
+        Id: 16008354779414456412
         Name: "Geo"
         Transform {
-          Location {
-          }
           Rotation {
           }
           Scale {
@@ -655,12 +651,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13487330286351392810
-        ChildIds: 288420891122226695
-        ChildIds: 4232743723449699722
-        ChildIds: 243121217999185629
-        ChildIds: 14269595183658815472
-        ChildIds: 6979450209648531442
+        ParentId: 17760304585295101073
+        ChildIds: 15280079275116858109
+        ChildIds: 4341698049111329373
+        ChildIds: 9088924141626870616
+        ChildIds: 7364961029084904363
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -678,11 +673,11 @@ Assets {
         }
       }
       Objects {
-        Id: 288420891122226695
+        Id: 15280079275116858109
         Name: "Fantasy Sword Grip 01"
         Transform {
           Location {
-            Z: -17.4270477
+            Z: -18
           }
           Rotation {
           }
@@ -692,7 +687,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13350845354224971416
+        ParentId: 16008354779414456412
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -723,11 +718,11 @@ Assets {
         }
       }
       Objects {
-        Id: 4232743723449699722
-        Name: "Fantasy Sword Guard 01"
+        Id: 4341698049111329373
+        Name: "Fantasy Pommel 01"
         Transform {
           Location {
-            Z: 8.69586945
+            Z: -18
           }
           Rotation {
           }
@@ -737,7 +732,63 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13350845354224971416
+        ParentId: 16008354779414456412
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.359375
+              G: 0.291129
+              B: 0.187908
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1383772742094820961
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 9088924141626870616
+        Name: "Fantasy Sword Guard 01"
+        Transform {
+          Location {
+            Z: 8
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16008354779414456412
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -779,102 +830,11 @@ Assets {
         }
       }
       Objects {
-        Id: 243121217999185629
-        Name: "Fantasy Sword Blade 03"
+        Id: 7364961029084904363
+        Name: "Fantasy Sword Blade 02"
         Transform {
           Location {
-            Z: 17.9407501
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 0.6292454
-            Z: 1
-          }
-        }
-        ParentId: 13350845354224971416
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4801985963367974663
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-            BoundsScale: 1
-          }
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 14269595183658815472
-        Name: "Fantasy Pommel 04"
-        Transform {
-          Location {
-            Z: -22.9726181
-          }
-          Rotation {
-            Yaw: 89.9999924
-          }
-          Scale {
-            X: 1.39352274
-            Y: 1.39352274
-            Z: 1.39352274
-          }
-        }
-        ParentId: 13350845354224971416
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12510064410993333055
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-            BoundsScale: 1
-          }
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 6979450209648531442
-        Name: "Fantasy Pommel 03"
-        Transform {
-          Location {
-            Z: -15.0000305
+            Z: 15
           }
           Rotation {
           }
@@ -884,7 +844,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13350845354224971416
+        ParentId: 16008354779414456412
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -896,7 +856,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 9675776263369201294
+            Id: 4342756216088781504
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -925,6 +885,15 @@ Assets {
       }
     }
     Assets {
+      Id: 1383772742094820961
+      Name: "Fantasy Pommel 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_weap_fan_pommel_001"
+      }
+    }
+    Assets {
       Id: 1920010878601219178
       Name: "Fantasy Sword Guard 01"
       PlatformAssetType: 1
@@ -934,35 +903,17 @@ Assets {
       }
     }
     Assets {
-      Id: 4801985963367974663
-      Name: "Fantasy Sword Blade 03"
+      Id: 4342756216088781504
+      Name: "Fantasy Sword Blade 02"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_fan_blade_sword_003"
-      }
-    }
-    Assets {
-      Id: 12510064410993333055
-      Name: "Fantasy Pommel 04"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_fan_pommel_004"
-      }
-    }
-    Assets {
-      Id: 9675776263369201294
-      Name: "Fantasy Pommel 03"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_fan_pommel_003"
+        AssetId: "sm_weap_fan_blade_sword_002"
       }
     }
     PrimaryAssetId {
       AssetType: "TemplateAssetRef"
-      AssetId: "Advanced_2-Handed_Sword"
+      AssetId: "Advanced_Sword"
     }
   }
   SerializationVersion: 103

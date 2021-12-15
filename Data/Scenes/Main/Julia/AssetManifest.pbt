@@ -89,6 +89,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14783482817928033983
+  Name: "Body Slap Thump Impact Hand Leg Stomp 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_body_slap_thump_impact_hand_leg_stomp_01a_Cue_ref"
+  }
+}
+Assets {
   Id: 14716500062930822665
   Name: "Humanoid 2 Karl"
   PlatformAssetType: 26
@@ -161,15 +170,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11701728538962683260
-  Name: "Meta Generic Pickup 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_meta_generic_pickup_01_Cue_ref"
-  }
-}
-Assets {
   Id: 10992735078904622553
   Name: "Small Open Crate"
   PlatformAssetType: 1
@@ -185,15 +185,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fan_dish_set_chalice_001_ref"
-  }
-}
-Assets {
-  Id: 10771057208018775687
-  Name: "Weapon Guide 2hand_sword"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "weapon_guide_sword_BP_ref"
   }
 }
 Assets {
@@ -233,6 +224,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6470074521381443047
+  Name: "Weapon Guide 1hand_melee"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "weapon_guide_melee_BP_ref"
+  }
+}
+Assets {
   Id: 6287606422488195013
   Name: "Tree Oak 01"
   PlatformAssetType: 1
@@ -248,6 +248,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hemisphere_wedge_002"
+  }
+}
+Assets {
+  Id: 6108430160052417494
+  Name: "Fighting Melee Ability Impact Medium 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_anime_fighting_melee_ability_impact_medium_01a_Cue_ref"
   }
 }
 Assets {
@@ -383,6 +392,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_food_generic_cheese_001_uv"
+  }
+}
+Assets {
+  Id: 675891104398617821
+  Name: "Purchase Buy Button 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_buy_button_01_Cue_ref"
   }
 }
 Assets {

@@ -43,6 +43,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 259294969281632904
@@ -88,6 +91,9 @@ Assets {
             BoundsScale: 1
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     Assets {
@@ -104,5 +110,5 @@ Assets {
       AssetId: "Damageable_Crate"
     }
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }

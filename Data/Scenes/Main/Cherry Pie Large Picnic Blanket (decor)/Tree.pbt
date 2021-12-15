@@ -69,6 +69,9 @@ Objects {
   Relevance {
     Value: "mc:eproxyrelevance:low"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16136397926214294608
@@ -135,5 +138,8 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
