@@ -95,7 +95,7 @@ Objects {
         Value: "mc:erespawnmode:atclosestspawnpoint"
       }
       StartSpawned: true
-      RespawnKey: "r"
+      RespawnKey: "P"
     }
   }
   NetworkRelevanceDistance {

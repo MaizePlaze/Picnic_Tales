@@ -19,7 +19,7 @@ function GameStateChanged(oldState, newState, stateHasDuration, stateEndTime)
 	
     elseif newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
         Events.BroadcastToAllPlayers("RoundEnd")
-		--EndRound()
+		EndRound()
 	
     elseif newState == ABGS.GAME_STATE_LOBBY and oldState ~= ABGS.GAME_STATE_LOBBY then
         Events.BroadcastToAllPlayers("Lobby")
@@ -39,6 +39,8 @@ function StartRound()
 --	myTask.repeatCount = -1
 --	myTask.repeatInterval = 10
 --	myTask.Wait(50)
+
+    SpawnFruit()
 	
 end
 
@@ -54,7 +56,7 @@ function StartLobby()
 end
 
 function SpawnFruit()
-	for i, p in ipairs(fruitLocs) do
+	for i, p in ipairs(players) do
 		local fruit = World.SpawnAsset(droppingApples, {position = SPAWN_CENTER:GetWorldPosition(), scale = 1})
 
     	--local fruit = World.SpawnAsset(droppingApples, {position = fruitLocs[i]:GetWorldPosition(), scale = 1})

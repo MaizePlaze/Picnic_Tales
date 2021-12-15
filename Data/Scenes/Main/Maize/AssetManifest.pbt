@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8460556615639561465
-  Name: "Cylinder"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_002"
-  }
-}
-Assets {
   Id: 7485850683740043800
   Name: "Food Fruit 01"
   PlatformAssetType: 2
@@ -68,24 +59,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prim_org_apple_001_ref"
-  }
-}
-Assets {
-  Id: 3757877896783615996
-  Name: "Manticore Logo"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_logo_manticore_01"
-  }
-}
-Assets {
-  Id: 1787105103342445801
-  Name: "Metal Gold 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_gold_001"
   }
 }
 Assets {

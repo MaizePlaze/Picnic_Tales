@@ -108,7 +108,7 @@ Objects {
         }
         Overrides {
           Name: "cs:TeamScoreLimit"
-          Int: 100
+          Int: 10
         }
       }
     }
