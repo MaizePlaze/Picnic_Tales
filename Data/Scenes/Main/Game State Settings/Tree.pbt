@@ -386,6 +386,10 @@ Objects {
           Name: "cs:RoundMessage"
           String: "Round Starting"
         }
+        Overrides {
+          Name: "cs:ShowRoundEndMessage"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -446,11 +450,15 @@ Objects {
         }
         Overrides {
           Name: "cs:RoundDuration"
-          Float: 30
+          Float: 60
         }
         Overrides {
           Name: "cs:LobbyHasDuration"
           Bool: true
+        }
+        Overrides {
+          Name: "cs:LobbyDuration"
+          Float: 60
         }
       }
     }

@@ -1,6 +1,47 @@
 Name: "Maize"
 RootId: 44003275876171690
 Objects {
+  Id: 12851697709634094388
+  Name: "Baguette_Basher_1Handed_Equipment"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 44003275876171690
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9659805398910670651
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Baguette_Basher_1Handed_Equipment"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 689.394531
+            Y: -1449.28735
+            Z: 43.7389755
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 52.4234924
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13373426984019804857
+    }
+  }
+}
+Objects {
   Id: 9127460683751086478
   Name: "Fruit Drop Controller"
   Transform {
@@ -55,7 +96,7 @@ Objects {
     Overrides {
       Name: "cs:SpawnCenter"
       ObjectReference {
-        SelfId: 15036190121660937985
+        SelfId: 11272465288680389818
       }
     }
   }
@@ -2429,9 +2470,9 @@ Objects {
   Name: "ApplePickup"
   Transform {
     Location {
-      X: -8040
-      Y: -4235
-      Z: -35
+      X: -8080
+      Y: -2890
+      Z: -70
     }
     Rotation {
     }
@@ -7497,6 +7538,45 @@ Objects {
     }
   }
   ParentId: 2909358311781510362
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 842309935005774273
+  Name: "Basic Geo"
+  Transform {
+    Location {
+      X: 350
+      Y: 760
+      Z: -100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2909358311781510362
+  ChildIds: 17774362901976261363
+  ChildIds: 12563573681926916954
   ChildIds: 9257012751963952935
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7522,6 +7602,7 @@ Objects {
   Name: "Apple Drop Placeholder"
   Transform {
     Location {
+      Z: 315
     }
     Rotation {
     }
@@ -7531,7 +7612,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1737964113192400763
+  ParentId: 842309935005774273
   ChildIds: 9011397073912637108
   ChildIds: 6694677717172887714
   ChildIds: 10842793191162287863
@@ -8054,89 +8135,37 @@ Objects {
   }
 }
 Objects {
-  Id: 842309935005774273
-  Name: "Basic Geo"
+  Id: 12563573681926916954
+  Name: "Apple Dropping Tree"
   Transform {
-    Location {
-      X: 350
-      Y: 760
-      Z: -100
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
       Z: 1
     }
   }
-  ParentId: 2909358311781510362
-  ChildIds: 17774362901976261363
-  ChildIds: 9884702514211398627
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 9884702514211398627
-  Name: "Tree Oak 01"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.598190904
-      Y: 0.598190904
-      Z: 0.598190904
-    }
-  }
   ParentId: 842309935005774273
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6287606422488195013
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 282656392218111632
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Apple Dropping Tree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9075
+            Y: -195
+            Z: -630
+          }
+        }
       }
-      BoundsScale: 1
     }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
+    TemplateAsset {
+      Id: 11696478091575502186
+    }
   }
 }
 Objects {
@@ -8158,7 +8187,6 @@ Objects {
   ChildIds: 2129410073242994225
   ChildIds: 469161932057450072
   ChildIds: 12217542977741803020
-  ChildIds: 12004235008605811035
   ChildIds: 16087272126578293143
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8227,117 +8255,6 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 12004235008605811035
-  Name: "Center Group"
-  Transform {
-    Location {
-      Z: 1250
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17774362901976261363
-  ChildIds: 15036190121660937985
-  ChildIds: 421754289005573123
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 421754289005573123
-  Name: "Dropping Apple Group"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12004235008605811035
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16818727958697781400
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Dropping Apple Group"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 1550
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 4026065128930891611
-    }
-  }
-}
-Objects {
-  Id: 15036190121660937985
-  Name: "SpawnCenter"
-  Transform {
-    Location {
-      Z: 1655
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12004235008605811035
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6242378129829751886
-    }
-    TeamSettings {
-    }
   }
 }
 Objects {
