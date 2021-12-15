@@ -152,7 +152,7 @@ Objects {
     Location {
       X: -645.773
       Y: 691.247559
-      Z: 4.91101837
+      Z: -14.1468124
     }
     Rotation {
     }
@@ -202,6 +202,7 @@ Objects {
     Location {
       X: -925.159
       Y: 96.1655273
+      Z: -17.6155701
     }
     Rotation {
     }
@@ -251,7 +252,7 @@ Objects {
     Location {
       X: -937.869568
       Y: 404.909668
-      Z: 2.95323944
+      Z: -5.22464752
     }
     Rotation {
     }
@@ -299,9 +300,9 @@ Objects {
   Name: "Flower Bellflower Patch 01"
   Transform {
     Location {
-      X: 1265.63306
-      Y: -428.243652
-      Z: 305.73941
+      X: 1384.30542
+      Y: -479.373535
+      Z: 170.727081
     }
     Rotation {
     }
@@ -349,8 +350,8 @@ Objects {
   Name: "Flower Bellflower Patch 01"
   Transform {
     Location {
-      X: 1243.1687
-      Y: -764.078613
+      X: 1327.20776
+      Y: -793.652344
       Z: 160.740784
     }
     Rotation {
@@ -10183,6 +10184,12 @@ Objects {
   ChildIds: 8349332839608177959
   ChildIds: 15784276949499931025
   ChildIds: 16534036798373545153
+  ChildIds: 11060141203425998105
+  ChildIds: 15505347876165701316
+  ChildIds: 17475505742800940635
+  ChildIds: 4627469367905647277
+  ChildIds: 10174752211609661333
+  ChildIds: 15455876964066494897
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10197,6 +10204,306 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15455876964066494897
+  Name: "Bush 01"
+  Transform {
+    Location {
+      X: 1086.18079
+      Y: -1074.72754
+      Z: -78.3850555
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6545999931211253677
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13288679651259056663
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10174752211609661333
+  Name: "Bush 01"
+  Transform {
+    Location {
+      X: 1223.81348
+      Y: -938.902832
+      Z: -83.3468094
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6545999931211253677
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13288679651259056663
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4627469367905647277
+  Name: "Bush 01"
+  Transform {
+    Location {
+      X: 1414.67065
+      Y: -1185.88037
+      Z: -37.9082184
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6545999931211253677
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13288679651259056663
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17475505742800940635
+  Name: "Bush 01"
+  Transform {
+    Location {
+      X: 1299.06653
+      Y: -1074.94238
+      Z: -37.9082184
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6545999931211253677
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13288679651259056663
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15505347876165701316
+  Name: "Bush 01"
+  Transform {
+    Location {
+      X: 1299.06653
+      Y: -1302.20459
+      Z: -37.9082184
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6545999931211253677
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13288679651259056663
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11060141203425998105
+  Name: "Bush 01"
+  Transform {
+    Location {
+      X: 1428.70142
+      Y: -1276.01562
+      Z: -21.6513977
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6545999931211253677
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13288679651259056663
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -10577,6 +10884,10 @@ Objects {
   ChildIds: 13166772465792607866
   ChildIds: 18256344774350374884
   ChildIds: 17530705550928216646
+  ChildIds: 14797411331195063962
+  ChildIds: 12767870450955650857
+  ChildIds: 1786082452313660545
+  ChildIds: 6513101703049307189
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10591,6 +10902,218 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6513101703049307189
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: 1924.50452
+      Y: -4393.57715
+      Z: 688.491211
+    }
+    Rotation {
+      Pitch: -2.0333252
+      Yaw: -113.68898
+      Roll: 21.6147976
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13883852546327969448
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8698665211691655174
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1786082452313660545
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: 1393.92786
+      Y: -5266.80176
+      Z: 541.021729
+    }
+    Rotation {
+      Pitch: -2.0333252
+      Yaw: -113.689041
+      Roll: 21.61483
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13883852546327969448
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8698665211691655174
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12767870450955650857
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: 33.7705078
+      Y: -5498.02148
+      Z: 541.021729
+    }
+    Rotation {
+      Pitch: -2.0333252
+      Yaw: -113.689087
+      Roll: 21.6148529
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13883852546327969448
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8698665211691655174
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14797411331195063962
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: -464.11731
+      Y: -5098.67578
+      Z: 541.021729
+    }
+    Rotation {
+      Pitch: -2.0333252
+      Yaw: -113.689117
+      Roll: 21.6148758
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13883852546327969448
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8698665211691655174
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -16213,6 +16736,7 @@ Objects {
   ChildIds: 5193705027616992163
   ChildIds: 10967835424294422004
   ChildIds: 3933055343947215577
+  ChildIds: 12470062278047331668
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16227,6 +16751,58 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12470062278047331668
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: -71.7492065
+      Y: -9840.81152
+      Z: 168.67337
+    }
+    Rotation {
+      Yaw: -14.9677734
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17338406880798182542
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6287606422488195013
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableReceiveDecals: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -29227,6 +29803,94 @@ Objects {
   ParentId: 4147847003364547307
   TemplateInstance {
     ParameterOverrideMap {
+      key: 26032052599864140
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 115605752743615229
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 394322784902467458
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 636169566428509893
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1416612555573883368
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2318691860049578867
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2516418253468828418
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2788094179709179346
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 3351064268167486467
       value {
         Overrides {
@@ -29248,6 +29912,28 @@ Objects {
         Overrides {
           Name: "DisableReceiveDecals"
           Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3728228944774800192
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4176562924868223020
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
         }
       }
     }
@@ -29280,6 +29966,39 @@ Objects {
             X: 0.0993829742
             Y: 0.0993829742
             Z: 0.0993829742
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4336384594625667975
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4882833792346854702
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4950838114185125042
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
           }
         }
       }
@@ -29337,6 +30056,28 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 7506373409866460138
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7626648831172795628
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 8040379705287285362
       value {
         Overrides {
@@ -29358,6 +30099,72 @@ Objects {
         Overrides {
           Name: "DisableReceiveDecals"
           Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8947735735668133274
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9821299992381399946
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10329794417391905828
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10929289027879806743
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10993936142380536902
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11280040422730001622
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
         }
       }
     }
@@ -29387,11 +30194,66 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 11683081913939843202
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12027043350917767595
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12331805323751129833
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 13376496371594856594
       value {
         Overrides {
           Name: "DisableReceiveDecals"
           Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13433132655694208053
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13763502042576354543
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
         }
       }
     }
@@ -29421,6 +30283,127 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 14436190697896495380
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14793289437957293936
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14901562285063360692
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15000368738392834995
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15116808376189636536
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15118541714613212658
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15280049109879073967
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16366563296390667598
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16437473640558392290
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16458084734683949419
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16815533170639374403
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 17753141239109227258
       value {
         Overrides {
@@ -29442,6 +30425,17 @@ Objects {
         Overrides {
           Name: "DisableReceiveDecals"
           Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 18213618823115246176
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
         }
       }
     }
