@@ -8,11 +8,11 @@ Tags: "Cute"
 Tags: "OpenWorld"
 Tags: "Casual"
 ScreenshotPaths: "C:\\Users\\Maize\\Downloads\\Picnic_Tales_Core_Splash_Screen_1280_x_720_px1.png"
-ReleaseNotes: "Added Nice Thumbnail\r\nChanged Game State Manager"
+ReleaseNotes: "Hiding Apples"
 OwnerId: "f2e2a54c03be49f29fe4f8b78602201b"
 SerializationVersion: 2
 SceneNameToSceneIdMap {
   key: "Main"
   value: "d0c346e0482efa6deed1f8ba52a53846"
 }
-MaxPlayersForMainScene: 16
+MaxPlayersForMainScene: 10

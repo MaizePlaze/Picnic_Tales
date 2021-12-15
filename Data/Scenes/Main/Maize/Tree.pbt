@@ -1,6 +1,64 @@
 Name: "Maize"
 RootId: 44003275876171690
 Objects {
+  Id: 17654663808726921374
+  Name: "Universal Object Spawner"
+  Transform {
+    Location {
+      X: 1250
+      Y: -275
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 44003275876171690
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12724310867555688579
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Universal Object Spawner"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1250
+            Y: -275
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:Template2"
+          AssetReference {
+            Id: 9347588741874759483
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12430147060698069599
+    }
+  }
+}
+Objects {
   Id: 15028425180864009252
   Name: "PersistResources_Server"
   Transform {
@@ -25905,7 +25963,9 @@ Objects {
   Name: "ApplePickup"
   Transform {
     Location {
-      Y: 200
+      X: -5295
+      Y: -105
+      Z: -95
     }
     Rotation {
     }
@@ -26248,7 +26308,9 @@ Objects {
   Name: "ApplePickup"
   Transform {
     Location {
-      Y: 100
+      X: -5450
+      Y: 1560
+      Z: 33.7755127
     }
     Rotation {
     }
@@ -26591,6 +26653,9 @@ Objects {
   Name: "ApplePickup"
   Transform {
     Location {
+      X: -6274.80371
+      Y: -155.222412
+      Z: 95.1523895
     }
     Rotation {
     }
