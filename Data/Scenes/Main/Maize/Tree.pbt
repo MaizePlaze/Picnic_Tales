@@ -1,6 +1,47 @@
 Name: "Maize"
 RootId: 44003275876171690
 Objects {
+  Id: 12851697709634094388
+  Name: "Baguette_Basher_1Handed_Equipment"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 44003275876171690
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9659805398910670651
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Baguette_Basher_1Handed_Equipment"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 689.394531
+            Y: -1449.28735
+            Z: 43.7389755
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 52.4234924
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13373426984019804857
+    }
+  }
+}
+Objects {
   Id: 9127460683751086478
   Name: "Fruit Drop Controller"
   Transform {

@@ -456,6 +456,10 @@ Objects {
           Name: "cs:LobbyHasDuration"
           Bool: true
         }
+        Overrides {
+          Name: "cs:LobbyDuration"
+          Float: 60
+        }
       }
     }
     TemplateAsset {

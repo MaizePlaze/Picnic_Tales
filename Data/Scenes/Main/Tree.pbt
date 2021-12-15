@@ -20,6 +20,7 @@ Objects {
   ChildIds: 14832815952701525965
   ChildIds: 4147847003364547307
   ChildIds: 44003275876171690
+  ChildIds: 7621544188006162346
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,6 +36,39 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7621544188006162346
+  Name: "Baguette_Spawner"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16141159023675802569
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Baguette_Spawner"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1740
+            Y: -770
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1498839875987333346
+    }
   }
 }
 Objects {
