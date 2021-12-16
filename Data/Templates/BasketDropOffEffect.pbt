@@ -212,7 +212,7 @@ Assets {
             Id: 3576565000871855717
           }
           AutoPlay: true
-          Volume: 1
+          Volume: 2.0718019
           Falloff: -1
           Radius: -1
           EnableOcclusion: true

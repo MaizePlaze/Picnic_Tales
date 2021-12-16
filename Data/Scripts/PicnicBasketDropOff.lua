@@ -10,7 +10,7 @@ local dropoffFX = script:GetCustomProperty("BasketDropOffEffect")
 function OnBeginOverlap(whichTrigger, other)
 	if other:IsA("Player") then
 		print(whichTrigger.name .. ": Begin Trigger Overlap with " .. other.name)
-		local dropFX = World.SpawnAsset(dropoffFX, {position = burstLocation:GetWorldPosition(), scale = 1})
+		
 		local data = Storage.GetPlayerData(other)
 		data.apples = other:GetResource("Apples")
 
@@ -19,6 +19,10 @@ function OnBeginOverlap(whichTrigger, other)
 
 		local totalScore = teamScore + data.apples
 		
+		if data.apples >= 1 then
+			local dropFX = World.SpawnAsset(dropoffFX, {position = burstLocation:GetWorldPosition(), scale = 1})
+		end
+
 		Game.SetTeamScore(other.team, totalScore)
 
 		other:SetResource("Apples", 0)
