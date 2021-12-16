@@ -8,35 +8,30 @@ local burstLocation = script:GetCustomProperty("BurstFXPlaceHolder"):WaitForObje
 local dropoffFX = script:GetCustomProperty("BasketDropOffEffect")
 
 function OnBeginOverlap(whichTrigger, other)
-	if other:IsA("Player") then
-		print(whichTrigger.name .. ": Begin Trigger Overlap with " .. other.name)
-		
-		local data = Storage.GetPlayerData(other)
-		data.apples = other:GetResource("Apples")
-
+	if other:IsA("Player") and Object.IsValid(other) then
+		local playerApples = other:GetResource("Apples")
 		local playerTeam = other.team
 		local teamScore = Game.GetTeamScore(other.team)
-
-		local totalScore = teamScore + data.apples
+		local totalScore = teamScore + playerApples
 		
-		if data.apples >= 1 then
+		if playerApples > 0 then
 			local dropFX = World.SpawnAsset(dropoffFX, {position = burstLocation:GetWorldPosition(), scale = 1})
 		end
 
 		Game.SetTeamScore(other.team, totalScore)
-
 		other:SetResource("Apples", 0)
 
-print("Current Team Number " .. other.team)
-print("total score " .. totalScore)
-print("TEAM SCORE LIMIT" .. TEAM_SCORE_LIMIT)
-print("Current Team Number " .. playerTeam)
+		-- print("Current Team Number " .. other.team)
+		-- print("total score " .. totalScore)
+		-- print("TEAM SCORE LIMIT " .. TEAM_SCORE_LIMIT)
+		-- print("Current Team Number " .. playerTeam)
 
 		if ABGS.GAME_STATE_ROUND then
 			if totalScore >= TEAM_SCORE_LIMIT then
 				if playerTeam == 1 then
 					local BlueBasketBurst = World.SpawnAsset(BURST_BLUE, {position = burstLocation:GetWorldPosition(), scale = 2})
 				end
+
 				if playerTeam == 2 then
 					local RedBasketBurst = World.SpawnAsset(BURST_RED, {position = burstLocation:GetWorldPosition(), scale = 2})
 				end

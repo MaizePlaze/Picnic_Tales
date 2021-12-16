@@ -481,7 +481,7 @@ Objects {
         }
         Overrides {
           Name: "cs:RoundDuration"
-          Float: 30
+          Float: 120
         }
         Overrides {
           Name: "cs:LobbyHasDuration"
@@ -489,7 +489,7 @@ Objects {
         }
         Overrides {
           Name: "cs:LobbyDuration"
-          Float: 1
+          Float: 30
         }
         Overrides {
           Name: "cs:RoundEndDuration"

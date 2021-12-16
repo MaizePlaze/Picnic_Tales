@@ -7,7 +7,7 @@ Assets {
       RootId: 16523805140736041293
       Objects {
         Id: 16523805140736041293
-        Name: "PicnicBasketBurst_Red"
+        Name: "PicnicBasketBurst_Blue"
         Transform {
           Scale {
             X: 2
@@ -436,8 +436,8 @@ Assets {
           Overrides {
             Name: "bp:Color"
             Color {
-              G: 0.0373331606
-              B: 0.559999943
+              R: 0.156190544
+              B: 0.410000205
               A: 1
             }
           }
