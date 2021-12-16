@@ -1,6 +1,53 @@
 Name: "Maize"
 RootId: 44003275876171690
 Objects {
+  Id: 10352072384884970247
+  Name: "Baguette_Spawner"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 44003275876171690
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16141159023675802569
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Baguette_Spawner"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -165
+            Y: 35
+          }
+        }
+        Overrides {
+          Name: "cs:Template1"
+          AssetReference {
+            Id: 6425347757658428185
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1498839875987333346
+    }
+  }
+}
+Objects {
   Id: 12851697709634094388
   Name: "Baguette_Basher_1Handed_Equipment"
   Transform {
@@ -353,7 +400,6 @@ Objects {
   }
   ParentId: 44003275876171690
   ChildIds: 11569917957662549746
-  ChildIds: 11468488314398581459
   ChildIds: 10689726599139081185
   ChildIds: 16597599469179140055
   Collidable_v2 {
@@ -387,6 +433,15 @@ Objects {
   }
   ParentId: 9964610755031626702
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 1905050671108222627
+      value {
+        Overrides {
+          Name: "InteractionLabel"
+          String: "Reset Fruit"
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 9802320275638469321
       value {
@@ -6750,56 +6805,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 12852801014046511253
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 11468488314398581459
-  Name: "Whitebox Floor 01 8m x 8m"
-  Transform {
-    Location {
-      X: -1675
-      Y: 6690
-      Z: -20
-    }
-    Rotation {
-    }
-    Scale {
-      X: 5
-      Y: 5
-      Z: 1
-    }
-  }
-  ParentId: 9964610755031626702
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 917256483381082687
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
     }
   }
   NetworkRelevanceDistance {
