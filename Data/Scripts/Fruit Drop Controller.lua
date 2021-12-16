@@ -4,6 +4,7 @@ local ABGS = require(script:GetCustomProperty("API"))
 
 local startingLocs = script:GetCustomProperty("StartingLocations"):WaitForObject():GetChildren()
 local endingLocs = script:GetCustomProperty("EndingLocations"):WaitForObject():GetChildren()
+local lobbyLocs = script:GetCustomProperty("LobbyLocations"):WaitForObject() ---@type Folder
 local fruitLocs = script:GetCustomProperty("FruitSpawnLocations"):WaitForObject():GetChildren()
 local apple = script:GetCustomProperty("AppleDrops")
 local droppingApples = script:GetCustomProperty("DroppingAppleGroup")
@@ -23,7 +24,7 @@ function GameStateChanged(oldState, newState, stateHasDuration, stateEndTime)
 	
     elseif newState == ABGS.GAME_STATE_LOBBY and oldState ~= ABGS.GAME_STATE_LOBBY then
         Events.BroadcastToAllPlayers("Lobby")
-        --StartLobby()
+        StartLobby()
 
     end
 end
@@ -32,14 +33,14 @@ end
   Events.Connect("GameStateChanged",GameStateChanged)
 
 function StartRound()
- --   for i, p in ipairs(players) do
-  --      p:SetWorldPosition(startingLocs[i]:GetWorldPosition())
---    end
+    for i, p in ipairs(players) do
+        p:SetWorldPosition(startingLocs[i]:GetWorldPosition())
+    end
 --	local myTask = Task.Spawn(SpawnFruit)
 --	myTask.repeatCount = -1
 --	myTask.repeatInterval = 10
 --	myTask.Wait(50)
-
+    Events.Broadcast("ResetCollectables")
     SpawnFruit()
 	
 end
@@ -47,21 +48,31 @@ end
 function EndRound()
 --	local myTask = Task.GetCurrent()
 --	myTask.Cancel()
---	for i, p in ipairs(players) do
- --       p:SetWorldPosition(endingLocs[i]:GetWorldPosition())
- --   end
+    for i, p in ipairs(players) do
+        p:SetWorldPosition(endingLocs[i]:GetWorldPosition())
+    end
+    Events.Broadcast("ResetCollectables")
+    --local appleDropping = World.FindObjectByName("DroppingAppleGroup")
+    
 end
 
 function StartLobby()
+ --   for i, p in ipairs(players) do
+ --       p:SetWorldPosition(lobbyLocs[i]:GetWorldPosition())
+  --  end
+    Events.Broadcast("ResetCollectables")
+    
 end
 
 function SpawnFruit()
-	for i, p in ipairs(players) do
-		local fruit = World.SpawnAsset(droppingApples, {position = SPAWN_CENTER:GetWorldPosition(), scale = 1})
 
+	    for i, p in ipairs(players) do
+		    local fruit = World.SpawnAsset(droppingApples, {position = SPAWN_CENTER:GetWorldPosition(), scale = 1})
+       end
     	--local fruit = World.SpawnAsset(droppingApples, {position = fruitLocs[i]:GetWorldPosition(), scale = 1})
-	end
 end
+
+
 
 
 --Game.roundStartEvent:Connect(StartRound)

@@ -27,11 +27,11 @@ Objects {
     }
     Overrides {
       Name: "cs:ShowMaxScore"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:MaxScore"
-      Int: 3
+      Int: 0
     }
     Overrides {
       Name: "cs:Team:tooltip"
@@ -469,11 +469,11 @@ Objects {
     }
     Overrides {
       Name: "cs:ShowMaxScore"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:MaxScore"
-      Int: 3
+      Int: 0
     }
     Overrides {
       Name: "cs:Team:tooltip"
