@@ -71,6 +71,11 @@ end
 -- Reenables all the collectables
 function ResetCollectables(group)
 	if group ~= nil and group ~= propClientRoot then return end
+
+	if(collectableData == nil) then
+		return
+	end
+
 	collectableData:Reset(true)
 	UpdateCurrentStringData()
 end

@@ -8831,6 +8831,7 @@ Objects {
       Y: 125
     }
     Rotation {
+      Yaw: 90
     }
     Scale {
       X: 1
@@ -8868,6 +8869,7 @@ Objects {
       Y: 125
     }
     Rotation {
+      Yaw: 90
     }
     Scale {
       X: 1
@@ -8905,6 +8907,7 @@ Objects {
       Y: 125
     }
     Rotation {
+      Yaw: 90
     }
     Scale {
       X: 1
@@ -8942,6 +8945,7 @@ Objects {
       Y: 125
     }
     Rotation {
+      Yaw: 90
     }
     Scale {
       X: 1
@@ -8979,6 +8983,7 @@ Objects {
       Y: -100
     }
     Rotation {
+      Yaw: 90
     }
     Scale {
       X: 1
@@ -9016,6 +9021,7 @@ Objects {
       Y: -100
     }
     Rotation {
+      Yaw: 90
     }
     Scale {
       X: 1
@@ -9053,6 +9059,7 @@ Objects {
       Y: -100
     }
     Rotation {
+      Yaw: 90
     }
     Scale {
       X: 1
@@ -9089,6 +9096,7 @@ Objects {
       Y: -100
     }
     Rotation {
+      Yaw: 90
     }
     Scale {
       X: 1
@@ -9126,6 +9134,7 @@ Objects {
       Y: -100
     }
     Rotation {
+      Yaw: 90
     }
     Scale {
       X: 1
@@ -9172,16 +9181,16 @@ Objects {
     }
   }
   ParentId: 2909358311781510362
-  ChildIds: 14303546322723624257
-  ChildIds: 17778304449851941675
-  ChildIds: 1364332734103329854
-  ChildIds: 13105186352943212218
-  ChildIds: 3644486296184832967
-  ChildIds: 6391266952966240138
-  ChildIds: 7008942744408419052
-  ChildIds: 8006161326553931781
-  ChildIds: 17856121300493761948
-  ChildIds: 16441084525144505573
+  ChildIds: 5656346817430892847
+  ChildIds: 5311374097322488425
+  ChildIds: 945735331686732121
+  ChildIds: 1814580981942545305
+  ChildIds: 10788202257238575952
+  ChildIds: 8582561753657897715
+  ChildIds: 6401249207296354751
+  ChildIds: 630063725454906704
+  ChildIds: 9361480748296102441
+  ChildIds: 6244057102649283125
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9202,15 +9211,15 @@ Objects {
   }
 }
 Objects {
-  Id: 16441084525144505573
-  Name: "Group"
+  Id: 6244057102649283125
+  Name: "Cube"
   Transform {
     Location {
       X: -1420
       Y: -915
     }
     Rotation {
-      Yaw: 90
+      Yaw: 60.747776
     }
     Scale {
       X: 1
@@ -9219,58 +9228,34 @@ Objects {
     }
   }
   ParentId: 16426432572577204193
-  ChildIds: 15445315085249757210
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 15445315085249757210
-  Name: "Ending Location"
-  Transform {
-    Location {
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
     }
-    Rotation {
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
     }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16441084525144505573
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6242378129829751886
-    }
-    TeamSettings {
+    DisableCastShadows: true
+    DisableReceiveDecals: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
     }
   }
   NetworkRelevanceDistance {
@@ -9278,15 +9263,15 @@ Objects {
   }
 }
 Objects {
-  Id: 17856121300493761948
-  Name: "Group"
+  Id: 9361480748296102441
+  Name: "Cube"
   Transform {
     Location {
       X: -1480
       Y: 165
     }
     Rotation {
-      Yaw: -90
+      Yaw: -51.1238556
     }
     Scale {
       X: 1
@@ -9295,58 +9280,34 @@ Objects {
     }
   }
   ParentId: 16426432572577204193
-  ChildIds: 18129051138993071232
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 18129051138993071232
-  Name: "Ending Location"
-  Transform {
-    Location {
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
     }
-    Rotation {
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
     }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17856121300493761948
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6242378129829751886
-    }
-    TeamSettings {
+    DisableCastShadows: true
+    DisableReceiveDecals: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
     }
   }
   NetworkRelevanceDistance {
@@ -9354,15 +9315,15 @@ Objects {
   }
 }
 Objects {
-  Id: 8006161326553931781
-  Name: "Group"
+  Id: 630063725454906704
+  Name: "Cube"
   Transform {
     Location {
       X: -1595
       Y: -730
     }
     Rotation {
-      Yaw: 30
+      Yaw: 38.2614555
     }
     Scale {
       X: 1
@@ -9371,58 +9332,34 @@ Objects {
     }
   }
   ParentId: 16426432572577204193
-  ChildIds: 8000019953683716926
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 8000019953683716926
-  Name: "Ending Location"
-  Transform {
-    Location {
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
     }
-    Rotation {
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
     }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8006161326553931781
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6242378129829751886
-    }
-    TeamSettings {
+    DisableCastShadows: true
+    DisableReceiveDecals: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
     }
   }
   NetworkRelevanceDistance {
@@ -9430,15 +9367,15 @@ Objects {
   }
 }
 Objects {
-  Id: 7008942744408419052
-  Name: "Group"
+  Id: 6401249207296354751
+  Name: "Cube"
   Transform {
     Location {
       X: -1640
       Y: -460
     }
     Rotation {
-      Yaw: 30
+      Yaw: 11.819994
     }
     Scale {
       X: 1
@@ -9447,58 +9384,34 @@ Objects {
     }
   }
   ParentId: 16426432572577204193
-  ChildIds: 13711030039007479548
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 13711030039007479548
-  Name: "Ending Location"
-  Transform {
-    Location {
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
     }
-    Rotation {
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
     }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7008942744408419052
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6242378129829751886
-    }
-    TeamSettings {
+    DisableCastShadows: true
+    DisableReceiveDecals: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
     }
   }
   NetworkRelevanceDistance {
@@ -9506,15 +9419,15 @@ Objects {
   }
 }
 Objects {
-  Id: 6391266952966240138
-  Name: "Group"
+  Id: 8582561753657897715
+  Name: "Cube"
   Transform {
     Location {
       X: -1640
       Y: -145
     }
     Rotation {
-      Yaw: -30
+      Yaw: -17.4758625
     }
     Scale {
       X: 1
@@ -9523,58 +9436,34 @@ Objects {
     }
   }
   ParentId: 16426432572577204193
-  ChildIds: 17902352487259085685
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 17902352487259085685
-  Name: "Ending Location"
-  Transform {
-    Location {
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
     }
-    Rotation {
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
     }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6391266952966240138
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6242378129829751886
-    }
-    TeamSettings {
+    DisableCastShadows: true
+    DisableReceiveDecals: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
     }
   }
   NetworkRelevanceDistance {
@@ -9582,50 +9471,15 @@ Objects {
   }
 }
 Objects {
-  Id: 3644486296184832967
-  Name: "Group"
+  Id: 10788202257238575952
+  Name: "Cube"
   Transform {
     Location {
-      X: -570
+      X: -715
       Y: -895
     }
     Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16426432572577204193
-  ChildIds: 4048351241756470479
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 4048351241756470479
-  Name: "Ending Location"
-  Transform {
-    Location {
-    }
-    Rotation {
+      Yaw: 112.077713
     }
     Scale {
       X: -1
@@ -9633,24 +9487,35 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3644486296184832967
+  ParentId: 16426432572577204193
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6242378129829751886
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
     }
-    TeamSettings {
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    DisableReceiveDecals: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
     }
   }
   NetworkRelevanceDistance {
@@ -9658,50 +9523,15 @@ Objects {
   }
 }
 Objects {
-  Id: 13105186352943212218
-  Name: "Group"
+  Id: 1814580981942545305
+  Name: "Cube"
   Transform {
     Location {
       X: -405
       Y: 165
     }
     Rotation {
-      Yaw: 90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16426432572577204193
-  ChildIds: 6607624504416270023
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 6607624504416270023
-  Name: "Ending Location"
-  Transform {
-    Location {
-    }
-    Rotation {
+      Yaw: -139.535782
     }
     Scale {
       X: -1
@@ -9709,74 +9539,51 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13105186352943212218
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6242378129829751886
-    }
-    TeamSettings {
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 1364332734103329854
-  Name: "Group"
-  Transform {
-    Location {
-      X: -405
-      Y: -715
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
   ParentId: 16426432572577204193
-  ChildIds: 14619827116971820326
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsGroup: true
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    DisableReceiveDecals: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 14619827116971820326
-  Name: "Ending Location"
+  Id: 945735331686732121
+  Name: "Cube"
   Transform {
     Location {
+      X: -440
+      Y: -850
     }
     Rotation {
+      Yaw: 134.101593
     }
     Scale {
       X: -1
@@ -9784,24 +9591,35 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1364332734103329854
+  ParentId: 16426432572577204193
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6242378129829751886
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
     }
-    TeamSettings {
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    DisableReceiveDecals: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
     }
   }
   NetworkRelevanceDistance {
@@ -9809,15 +9627,15 @@ Objects {
   }
 }
 Objects {
-  Id: 17778304449851941675
-  Name: "Group"
+  Id: 5311374097322488425
+  Name: "Cube"
   Transform {
     Location {
       X: -245
       Y: -460
     }
     Rotation {
-      Yaw: 150
+      Yaw: 162.855835
     }
     Scale {
       X: 1
@@ -9826,58 +9644,34 @@ Objects {
     }
   }
   ParentId: 16426432572577204193
-  ChildIds: 16979421265715457035
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 16979421265715457035
-  Name: "Ending Location"
-  Transform {
-    Location {
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
     }
-    Rotation {
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
     }
-    Scale {
-      X: -1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17778304449851941675
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6242378129829751886
-    }
-    TeamSettings {
+    DisableCastShadows: true
+    DisableReceiveDecals: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
     }
   }
   NetworkRelevanceDistance {
@@ -9885,15 +9679,15 @@ Objects {
   }
 }
 Objects {
-  Id: 14303546322723624257
-  Name: "Group"
+  Id: 5656346817430892847
+  Name: "Cube"
   Transform {
     Location {
       X: -245
       Y: -145
     }
     Rotation {
-      Yaw: 180
+      Yaw: 193.227463
     }
     Scale {
       X: 1
@@ -9902,59 +9696,34 @@ Objects {
     }
   }
   ParentId: 16426432572577204193
-  ChildIds: 12531654817019220996
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 12531654817019220996
-  Name: "Ending Location"
-  Transform {
-    Location {
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
     }
-    Rotation {
-      Yaw: -179.999985
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
     }
-    Scale {
-      X: -1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14303546322723624257
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6242378129829751886
-    }
-    TeamSettings {
+    DisableCastShadows: true
+    DisableReceiveDecals: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
     }
   }
   NetworkRelevanceDistance {
