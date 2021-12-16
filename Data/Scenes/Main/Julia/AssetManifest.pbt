@@ -116,15 +116,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14716500062930822665
-  Name: "Humanoid 2 Karl"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_guy_head_basic_004_ref"
-  }
-}
-Assets {
   Id: 14572866022914192454
   Name: "Fantasy Dish Set - Plate 01"
   PlatformAssetType: 1
@@ -185,15 +176,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_food_pizza_pepperoni_001_uv_ref"
-  }
-}
-Assets {
-  Id: 12514700371097505949
-  Name: "Japanese Sitting Pillow Basket 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_jpn_pillow_sitting_basket_001_ref"
   }
 }
 Assets {
@@ -338,15 +320,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_001"
-  }
-}
-Assets {
-  Id: 5032517873599206956
-  Name: "Humanoid 2 Rig"
-  PlatformAssetType: 25
-  PrimaryAsset {
-    AssetType: "SkeletonAssetRef"
-    AssetId: "npc_guy_wireframe_001_ref"
   }
 }
 Assets {
