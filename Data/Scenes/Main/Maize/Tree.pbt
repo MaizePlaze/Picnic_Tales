@@ -358,7 +358,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:TeamScoreLimit"
-      Int: 10
+      Int: 20
     }
     Overrides {
       Name: "cs:PicnicBasketBurst_Blue"
@@ -382,6 +382,12 @@ Objects {
       Name: "cs:API"
       AssetReference {
         Id: 11974742996071064388
+      }
+    }
+    Overrides {
+      Name: "cs:BasketDropOffEffect"
+      AssetReference {
+        Id: 7778801491295155995
       }
     }
     Overrides {
@@ -9212,15 +9218,53 @@ Objects {
     }
   }
   ParentId: 2909358311781510362
-  ChildIds: 12531654817019220996
-  ChildIds: 16979421265715457035
-  ChildIds: 14619827116971820326
-  ChildIds: 6607624504416270023
-  ChildIds: 4048351241756470479
-  ChildIds: 17902352487259085685
-  ChildIds: 13711030039007479548
-  ChildIds: 8000019953683716926
-  ChildIds: 18129051138993071232
+  ChildIds: 14303546322723624257
+  ChildIds: 17778304449851941675
+  ChildIds: 1364332734103329854
+  ChildIds: 13105186352943212218
+  ChildIds: 3644486296184832967
+  ChildIds: 6391266952966240138
+  ChildIds: 7008942744408419052
+  ChildIds: 8006161326553931781
+  ChildIds: 17856121300493761948
+  ChildIds: 16441084525144505573
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16441084525144505573
+  Name: "Group"
+  Transform {
+    Location {
+      X: -1420
+      Y: -915
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16426432572577204193
   ChildIds: 15445315085249757210
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -9246,8 +9290,6 @@ Objects {
   Name: "Ending Location"
   Transform {
     Location {
-      X: -1420
-      Y: -915
     }
     Rotation {
     }
@@ -9257,7 +9299,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16426432572577204193
+  ParentId: 16441084525144505573
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9276,6 +9318,44 @@ Objects {
     }
     TeamSettings {
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17856121300493761948
+  Name: "Group"
+  Transform {
+    Location {
+      X: -1480
+      Y: 165
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16426432572577204193
+  ChildIds: 18129051138993071232
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9286,8 +9366,6 @@ Objects {
   Name: "Ending Location"
   Transform {
     Location {
-      X: -1480
-      Y: 165
     }
     Rotation {
     }
@@ -9297,7 +9375,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16426432572577204193
+  ParentId: 17856121300493761948
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9316,6 +9394,44 @@ Objects {
     }
     TeamSettings {
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8006161326553931781
+  Name: "Group"
+  Transform {
+    Location {
+      X: -1595
+      Y: -730
+    }
+    Rotation {
+      Yaw: 30
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16426432572577204193
+  ChildIds: 8000019953683716926
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9326,8 +9442,6 @@ Objects {
   Name: "Ending Location"
   Transform {
     Location {
-      X: -1595
-      Y: -730
     }
     Rotation {
     }
@@ -9337,7 +9451,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16426432572577204193
+  ParentId: 8006161326553931781
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9356,6 +9470,44 @@ Objects {
     }
     TeamSettings {
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7008942744408419052
+  Name: "Group"
+  Transform {
+    Location {
+      X: -1640
+      Y: -460
+    }
+    Rotation {
+      Yaw: 30
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16426432572577204193
+  ChildIds: 13711030039007479548
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9366,8 +9518,6 @@ Objects {
   Name: "Ending Location"
   Transform {
     Location {
-      X: -1640
-      Y: -460
     }
     Rotation {
     }
@@ -9377,7 +9527,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16426432572577204193
+  ParentId: 7008942744408419052
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9396,6 +9546,44 @@ Objects {
     }
     TeamSettings {
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6391266952966240138
+  Name: "Group"
+  Transform {
+    Location {
+      X: -1640
+      Y: -145
+    }
+    Rotation {
+      Yaw: -30
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16426432572577204193
+  ChildIds: 17902352487259085685
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9406,8 +9594,6 @@ Objects {
   Name: "Ending Location"
   Transform {
     Location {
-      X: -1640
-      Y: -145
     }
     Rotation {
     }
@@ -9417,7 +9603,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16426432572577204193
+  ParentId: 6391266952966240138
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9436,6 +9622,44 @@ Objects {
     }
     TeamSettings {
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3644486296184832967
+  Name: "Group"
+  Transform {
+    Location {
+      X: -570
+      Y: -895
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16426432572577204193
+  ChildIds: 4048351241756470479
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9446,8 +9670,6 @@ Objects {
   Name: "Ending Location"
   Transform {
     Location {
-      X: -570
-      Y: -895
     }
     Rotation {
     }
@@ -9457,7 +9679,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16426432572577204193
+  ParentId: 3644486296184832967
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9476,6 +9698,44 @@ Objects {
     }
     TeamSettings {
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13105186352943212218
+  Name: "Group"
+  Transform {
+    Location {
+      X: -405
+      Y: 165
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16426432572577204193
+  ChildIds: 6607624504416270023
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9486,8 +9746,6 @@ Objects {
   Name: "Ending Location"
   Transform {
     Location {
-      X: -405
-      Y: 165
     }
     Rotation {
     }
@@ -9497,7 +9755,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16426432572577204193
+  ParentId: 13105186352943212218
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9516,6 +9774,43 @@ Objects {
     }
     TeamSettings {
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1364332734103329854
+  Name: "Group"
+  Transform {
+    Location {
+      X: -405
+      Y: -715
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16426432572577204193
+  ChildIds: 14619827116971820326
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9526,8 +9821,6 @@ Objects {
   Name: "Ending Location"
   Transform {
     Location {
-      X: -405
-      Y: -715
     }
     Rotation {
     }
@@ -9537,7 +9830,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16426432572577204193
+  ParentId: 1364332734103329854
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9556,6 +9849,44 @@ Objects {
     }
     TeamSettings {
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17778304449851941675
+  Name: "Group"
+  Transform {
+    Location {
+      X: -245
+      Y: -460
+    }
+    Rotation {
+      Yaw: 150
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16426432572577204193
+  ChildIds: 16979421265715457035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9566,8 +9897,6 @@ Objects {
   Name: "Ending Location"
   Transform {
     Location {
-      X: -245
-      Y: -460
     }
     Rotation {
     }
@@ -9577,7 +9906,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16426432572577204193
+  ParentId: 17778304449851941675
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9602,8 +9931,8 @@ Objects {
   }
 }
 Objects {
-  Id: 12531654817019220996
-  Name: "Ending Location"
+  Id: 14303546322723624257
+  Name: "Group"
   Transform {
     Location {
       X: -245
@@ -9613,12 +9942,48 @@ Objects {
       Yaw: 180
     }
     Scale {
-      X: -1
+      X: 1
       Y: 1
       Z: 1
     }
   }
   ParentId: 16426432572577204193
+  ChildIds: 12531654817019220996
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12531654817019220996
+  Name: "Ending Location"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14303546322723624257
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

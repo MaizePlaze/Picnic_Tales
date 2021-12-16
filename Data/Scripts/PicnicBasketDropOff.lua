@@ -5,11 +5,12 @@ local TEAM_SCORE_LIMIT = script:GetCustomProperty("TeamScoreLimit")
 local BURST_BLUE = script:GetCustomProperty("PicnicBasketBurst_Blue")
 local BURST_RED = script:GetCustomProperty("PicnicBasketBurst_Red")
 local burstLocation = script:GetCustomProperty("BurstFXPlaceHolder"):WaitForObject() ---@type SmartObject
+local dropoffFX = script:GetCustomProperty("BasketDropOffEffect")
 
 function OnBeginOverlap(whichTrigger, other)
 	if other:IsA("Player") then
 		print(whichTrigger.name .. ": Begin Trigger Overlap with " .. other.name)
-
+		local dropFX = World.SpawnAsset(dropoffFX, {position = burstLocation:GetWorldPosition(), scale = 1})
 		local data = Storage.GetPlayerData(other)
 		data.apples = other:GetResource("Apples")
 

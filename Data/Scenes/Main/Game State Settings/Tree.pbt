@@ -108,7 +108,7 @@ Objects {
         }
         Overrides {
           Name: "cs:TeamScoreLimit"
-          Int: 10
+          Int: 20
         }
       }
     }
@@ -226,62 +226,6 @@ Objects {
     }
     TemplateAsset {
       Id: 17154454822903296868
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 14891735618874232894
-  Name: "Lobby Start Respawn Players"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3865172354856488109
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13354720253605587128
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Lobby Start Respawn Players"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 714839591765825575
     }
   }
   NetworkRelevanceDistance {
@@ -450,7 +394,7 @@ Objects {
         }
         Overrides {
           Name: "cs:RoundDuration"
-          Float: 60
+          Float: 120
         }
         Overrides {
           Name: "cs:LobbyHasDuration"
@@ -458,7 +402,7 @@ Objects {
         }
         Overrides {
           Name: "cs:LobbyDuration"
-          Float: 10
+          Float: 60
         }
         Overrides {
           Name: "cs:RoundEndDuration"
