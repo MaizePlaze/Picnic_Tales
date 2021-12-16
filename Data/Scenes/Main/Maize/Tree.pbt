@@ -1,94 +1,6 @@
 Name: "Maize"
 RootId: 44003275876171690
 Objects {
-  Id: 10352072384884970247
-  Name: "Baguette_Spawner"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 44003275876171690
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16141159023675802569
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Baguette_Spawner"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -165
-            Y: 35
-          }
-        }
-        Overrides {
-          Name: "cs:Template1"
-          AssetReference {
-            Id: 6425347757658428185
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1498839875987333346
-    }
-  }
-}
-Objects {
-  Id: 12851697709634094388
-  Name: "Baguette_Basher_1Handed_Equipment"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 44003275876171690
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9659805398910670651
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Baguette_Basher_1Handed_Equipment"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 689.394531
-            Y: -1449.28735
-            Z: 43.7389755
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 52.4234924
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13373426984019804857
-    }
-  }
-}
-Objects {
   Id: 9127460683751086478
   Name: "Fruit Drop Controller"
   Transform {
@@ -8252,6 +8164,7 @@ Objects {
   ParentId: 842309935005774273
   ChildIds: 11272465288680389818
   ChildIds: 13800185107484062575
+  ChildIds: 15434767983723962650
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8276,6 +8189,47 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15434767983723962650
+  Name: "Dropping Apple Group"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17825099058935343394
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16818727958697781400
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Dropping Apple Group"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 1365
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4026065128930891611
+    }
   }
 }
 Objects {

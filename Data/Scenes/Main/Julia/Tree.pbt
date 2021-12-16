@@ -29036,7 +29036,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
-      Float: 35
+      Float: 0
     }
     Overrides {
       Name: "cs:UseHitSphere"
@@ -29889,7 +29889,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
-      Float: 35
+      Float: 0
     }
     Overrides {
       Name: "cs:UseHitSphere"
@@ -30742,7 +30742,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
-      Float: 35
+      Float: 0
     }
     Overrides {
       Name: "cs:UseHitSphere"
@@ -31595,7 +31595,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
-      Float: 35
+      Float: 0
     }
     Overrides {
       Name: "cs:UseHitSphere"
@@ -32448,7 +32448,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
-      Float: 35
+      Float: 0
     }
     Overrides {
       Name: "cs:UseHitSphere"
@@ -33301,7 +33301,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
-      Float: 35
+      Float: 0
     }
     Overrides {
       Name: "cs:UseHitSphere"
@@ -34154,7 +34154,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
-      Float: 35
+      Float: 0
     }
     Overrides {
       Name: "cs:UseHitSphere"
@@ -35007,7 +35007,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
-      Float: 35
+      Float: 0
     }
     Overrides {
       Name: "cs:UseHitSphere"
@@ -35860,7 +35860,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
-      Float: 35
+      Float: 0
     }
     Overrides {
       Name: "cs:UseHitSphere"
@@ -36711,7 +36711,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
-      Float: 5
+      Float: 0
     }
     Overrides {
       Name: "cs:UseHitSphere"

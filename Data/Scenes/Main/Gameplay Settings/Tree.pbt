@@ -95,7 +95,6 @@ Objects {
         Value: "mc:erespawnmode:atclosestspawnpoint"
       }
       StartSpawned: true
-      RespawnKey: "P"
     }
   }
   NetworkRelevanceDistance {
@@ -144,7 +143,7 @@ Objects {
   Name: "Third Person Camera Settings"
   Transform {
     Location {
-      Z: -1000
+      Z: 95
     }
     Rotation {
     }
@@ -350,7 +349,7 @@ Objects {
   Name: "Default Bindings"
   Transform {
     Location {
-      Z: -1000
+      Z: 85
     }
     Rotation {
     }

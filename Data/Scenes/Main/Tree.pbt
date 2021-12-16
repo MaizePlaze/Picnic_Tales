@@ -517,7 +517,7 @@ Objects {
     Location {
       X: 100
       Y: -2760
-      Z: 200
+      Z: 365
     }
     Rotation {
     }
@@ -545,6 +545,7 @@ Objects {
   PlayerSpawnPoint {
     TeamInt: 1
     PlayerScaleMultiplier: 1
+    SpawnKey: "SPAWN"
     SpawnEffectsTemplate {
       Id: 841534158063459245
     }
