@@ -44,6 +44,24 @@ Assets {
   }
 }
 Assets {
+  Id: 6019398147637156431
+  Name: "Bench Full"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bench_001"
+  }
+}
+Assets {
+  Id: 3386763718940126507
+  Name: "Park Bench"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_park_bench_001"
+  }
+}
+Assets {
   Id: 1146982892770957751
   Name: "Terrain - Grass"
   PlatformAssetType: 2
@@ -59,5 +77,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_foliage_gen_flower_bell_patch_001_ref"
+  }
+}
+Assets {
+  Id: 485674320595647966
+  Name: "Dirt 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "dirt_001"
   }
 }
