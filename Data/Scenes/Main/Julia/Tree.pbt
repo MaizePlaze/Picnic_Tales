@@ -1,6 +1,332 @@
 Name: "Julia"
 RootId: 4147847003364547307
 Objects {
+  Id: 4072388056047830701
+  Name: "Bush Leafy Tall 01"
+  Transform {
+    Location {
+      X: 481.644714
+      Y: 2590.70923
+      Z: -2.22848511
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15884331097983884237
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 68268185854412457
+  Name: "Bush Leafy Low 01"
+  Transform {
+    Location {
+      X: 451.271912
+      Y: 2547.27759
+      Z: -0.100769043
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12219859193900510649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8552955709564301739
+  Name: "Bush Leafy Low 01"
+  Transform {
+    Location {
+      X: 529.118408
+      Y: 2499.31079
+      Z: -0.10067749
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12219859193900510649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12912999678292218994
+  Name: "Signpost"
+  Transform {
+    Location {
+      X: -1030.76147
+      Y: -628.278687
+      Z: -4.91238785
+    }
+    Rotation {
+      Pitch: -2.39257407
+      Yaw: -131.248016
+      Roll: 4.60700798
+    }
+    Scale {
+      X: 0.655908287
+      Y: 0.655908287
+      Z: 0.655908287
+    }
+  }
+  ParentId: 4147847003364547307
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1503088967905501113
+      value {
+        Overrides {
+          Name: "Text"
+          String: ""
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3550127039043094699
+      value {
+        Overrides {
+          Name: "Text"
+          String: "Welcome To"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9267219385603740001
+      value {
+        Overrides {
+          Name: "Text"
+          String: "20 APPLES"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9957577050108708465
+      value {
+        Overrides {
+          Name: "Text"
+          String: "THE PICNIC"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10690922754268016738
+      value {
+        Overrides {
+          Name: "Text"
+          String: "We Need"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13157738860925028590
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Signpost"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 513.263611
+            Y: 2530.6582
+            Z: -4.91238785
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -2.39257407
+            Yaw: -27.5864105
+            Roll: 4.60709429
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.655908287
+            Y: 0.655908287
+            Z: 0.655908287
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13159759207669468440
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 7114485659060329390
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5.27244425
+            Y: 4.59487486
+            Z: 0.591271222
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.50000006
+            Y: 0.50000006
+            Z: 2.50000048
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14825074671647683660
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 7114485659060329390
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 299.379089
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3
+            Y: 0.5
+            Z: 2
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12414459707508919854
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
   Id: 15389188139679373822
   Name: "Flowers guide to bridge area"
   Transform {

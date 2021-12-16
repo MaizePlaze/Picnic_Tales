@@ -260,6 +260,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7114485659060329390
+  Name: "Bark Pine 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_bark_pine_001_uv"
+  }
+}
+Assets {
   Id: 6900587603245602273
   Name: "Decal Leaves 01"
   PlatformAssetType: 14
