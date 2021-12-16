@@ -197,6 +197,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11325969484437112935
+  Name: "Flower Bellflower 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_flower_bell_002_ref"
+  }
+}
+Assets {
   Id: 10992735078904622553
   Name: "Small Open Crate"
   PlatformAssetType: 1
@@ -278,6 +287,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6353079764689043412
+  Name: "Flower Bellflower 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_flower_bell_001_ref"
+  }
+}
+Assets {
   Id: 6287606422488195013
   Name: "Tree Oak 01"
   PlatformAssetType: 1
@@ -302,6 +320,15 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_anime_fighting_melee_ability_impact_medium_01a_Cue_ref"
+  }
+}
+Assets {
+  Id: 6019398147637156431
+  Name: "Bench Full"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bench_001"
   }
 }
 Assets {
@@ -404,6 +431,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3386763718940126507
+  Name: "Park Bench"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_park_bench_001"
+  }
+}
+Assets {
   Id: 3041316967292781893
   Name: "Sphere"
   PlatformAssetType: 1
@@ -491,6 +527,15 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_buy_button_01_Cue_ref"
+  }
+}
+Assets {
+  Id: 485674320595647966
+  Name: "Dirt 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "dirt_001"
   }
 }
 Assets {
