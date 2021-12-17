@@ -104,6 +104,8 @@ function MeleeAttack(target, abilityInfo)
     -- Ignore if the hitbox is overlapping with the owner
     if target == ability.owner then return end
 
+    
+
     -- Ignore friendly attack
     if target:IsA("Player") then
         if Teams.AreTeamsFriendly(target.team, ability.owner.team) then return end
@@ -116,7 +118,18 @@ function MeleeAttack(target, abilityInfo)
         local damage = Damage.New(abilityInfo.damage)
         damage.sourcePlayer = ability.owner
         damage.sourceAbility = ability
-        target:ApplyDamage(damage)
+    
+        if target:IsA("Player") then
+            local playerApples = target:GetResource("Apples")
+            local applesLeft = playerApples - damage.amount
+            if applesLeft <= 0 then
+                target:SetResource("Apples", 0)
+            else
+                target:SetResource("Apples", applesLeft)
+            end
+        else
+            target:ApplyDamage(damage)
+        end
 
         abilityInfo.ignoreList[target] = 1
     end
