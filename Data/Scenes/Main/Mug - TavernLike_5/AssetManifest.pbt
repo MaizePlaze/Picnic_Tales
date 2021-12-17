@@ -16,3 +16,12 @@ Assets {
     AssetId: "sm_pipe_003"
   }
 }
+Assets {
+  Id: 2723232960546970913
+  Name: "Wood Floor Dark"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_floor_dark_001_uv"
+  }
+}

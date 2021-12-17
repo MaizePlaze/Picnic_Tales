@@ -710,15 +710,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2077734782609117812
-  Name: "Melee Combat - Air Swipe Whooshes Set 01 SFX"
-  PlatformAssetType: 10
-  PrimaryAsset {
-    AssetType: "AudioBlueprintAssetRef"
-    AssetId: "sfxabp_melee_air_swooshes_ref"
-  }
-}
-Assets {
   Id: 1794493300960258535
   Name: "Wedge - Convex"
   PlatformAssetType: 1
