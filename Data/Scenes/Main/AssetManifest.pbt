@@ -35,15 +35,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16319156188981736369
-  Name: "Callout Sparkle"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_sparkles_volume_vfx"
-  }
-}
-Assets {
   Id: 15977132222076426364
   Name: "Hard Thump SFX"
   PlatformAssetType: 7

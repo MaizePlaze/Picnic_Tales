@@ -52015,7 +52015,7 @@ Objects {
     Location {
       X: 548.788757
       Y: -1664.18848
-      Z: 43.7389755
+      Z: -393.097321
     }
     Rotation {
       Pitch: -8.36120605
@@ -52868,7 +52868,7 @@ Objects {
     Location {
       X: 504.827209
       Y: -1654.39294
-      Z: 43.7389755
+      Z: -393.097321
     }
     Rotation {
       Pitch: 12.9758701
@@ -53063,9 +53063,9 @@ Objects {
   Name: "Geo"
   Transform {
     Location {
-      X: -34.4184189
-      Y: -47.2481842
-      Z: -68.5818481
+      X: -34.4184418
+      Y: -47.2482224
+      Z: -68.5818558
     }
     Rotation {
       Pitch: -0.391693115
@@ -53140,9 +53140,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 26.4817944
-            Y: -45.8410912
-            Z: 174.75209
+            X: 26.4817886
+            Y: -45.8410454
+            Z: 174.752106
           }
         }
         Overrides {
@@ -53669,7 +53669,9 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
-      Z: 40
+      X: -3.86238098e-05
+      Y: -4.57763672e-05
+      Z: 39.9999962
     }
     Rotation {
     }
@@ -53721,7 +53723,7 @@ Objects {
     Location {
       X: 531.309448
       Y: -1681.06079
-      Z: 43.7389755
+      Z: -393.097321
     }
     Rotation {
       Pitch: 6.14428759
@@ -53916,8 +53918,8 @@ Objects {
   Name: "Geo"
   Transform {
     Location {
-      X: -34.4184189
-      Y: -47.2481842
+      X: -34.418438
+      Y: -47.2481804
       Z: -68.5818481
     }
     Rotation {
@@ -53993,9 +53995,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 26.4817944
-            Y: -45.8410912
-            Z: 174.75209
+            X: 26.4817791
+            Y: -45.8411293
+            Z: 174.752045
           }
         }
         Overrides {
@@ -54522,6 +54524,8 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
+      X: 4.74452972e-05
+      Y: 5.12599945e-06
       Z: 40
     }
     Rotation {
@@ -54574,7 +54578,7 @@ Objects {
     Location {
       X: 1217.50928
       Y: -1453.69446
-      Z: 29.7522812
+      Z: -407.084
     }
     Rotation {
       Pitch: -24.7720032
@@ -54769,8 +54773,8 @@ Objects {
   Name: "Geo"
   Transform {
     Location {
-      X: -34.4184189
-      Y: -47.2481842
+      X: -34.418457
+      Y: -47.2482109
       Z: -68.5818481
     }
     Rotation {
@@ -54846,9 +54850,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 26.4817944
-            Y: -45.8410912
-            Z: 174.75209
+            X: 26.4818573
+            Y: -45.8410645
+            Z: 174.752029
           }
         }
         Overrides {
@@ -55375,7 +55379,9 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
-      Z: 40
+      X: 3.43322754e-05
+      Y: -2.86102295e-06
+      Z: 40.0000191
     }
     Rotation {
     }
@@ -55427,7 +55433,7 @@ Objects {
     Location {
       X: 870.35144
       Y: -1681.47339
-      Z: 29.7522812
+      Z: -407.084
     }
     Rotation {
       Pitch: 35.5061607
@@ -55622,9 +55628,9 @@ Objects {
   Name: "Geo"
   Transform {
     Location {
-      X: -34.4184189
-      Y: -47.2481842
-      Z: -68.5818481
+      X: -34.4184036
+      Y: -47.2481918
+      Z: -68.5818634
     }
     Rotation {
       Pitch: -0.391693115
@@ -55699,9 +55705,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 26.4817944
-            Y: -45.8410912
-            Z: 174.75209
+            X: 26.4817123
+            Y: -45.8410645
+            Z: 174.752075
           }
         }
         Overrides {
@@ -56228,7 +56234,9 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
-      Z: 40
+      X: 8.58306885e-06
+      Y: 3.86238098e-05
+      Z: 40.0000076
     }
     Rotation {
     }
@@ -56280,7 +56288,7 @@ Objects {
     Location {
       X: 703.359131
       Y: -1464.15271
-      Z: 43.7389755
+      Z: -393.097321
     }
     Rotation {
       Pitch: 11.0286856
@@ -56475,8 +56483,8 @@ Objects {
   Name: "Geo"
   Transform {
     Location {
-      X: -34.4184189
-      Y: -47.2481842
+      X: -34.4184265
+      Y: -47.2481766
       Z: -68.5818481
     }
     Rotation {
@@ -56552,9 +56560,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 26.4817944
-            Y: -45.8410912
-            Z: 174.75209
+            X: 26.4817734
+            Y: -45.8411369
+            Z: 174.752106
           }
         }
         Overrides {
@@ -57081,7 +57089,9 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
-      Z: 40
+      X: -5.76972961e-05
+      Y: -1.95503235e-05
+      Z: 40.0000038
     }
     Rotation {
     }
@@ -57133,7 +57143,7 @@ Objects {
     Location {
       X: 715.091187
       Y: -1452.15845
-      Z: 43.7389755
+      Z: -393.097321
     }
     Rotation {
       Pitch: -16.4558716
@@ -57328,9 +57338,9 @@ Objects {
   Name: "Geo"
   Transform {
     Location {
-      X: -34.4184189
-      Y: -47.2481842
-      Z: -68.5818481
+      X: -34.4184532
+      Y: -47.2482
+      Z: -68.5818558
     }
     Rotation {
       Pitch: -0.391693115
@@ -57405,9 +57415,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 26.4817944
-            Y: -45.8410912
-            Z: 174.75209
+            X: 26.4817924
+            Y: -45.8411026
+            Z: 174.752075
           }
         }
         Overrides {
@@ -57934,7 +57944,9 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
-      Z: 40
+      X: 2.81333923e-05
+      Y: 5.36441803e-05
+      Z: 40.0000038
     }
     Rotation {
     }
@@ -57986,7 +57998,7 @@ Objects {
     Location {
       X: 774.406067
       Y: -1452.15845
-      Z: 43.7389755
+      Z: -393.097321
     }
     Rotation {
       Pitch: -3.77954102
@@ -58181,8 +58193,8 @@ Objects {
   Name: "Geo"
   Transform {
     Location {
-      X: -34.4184189
-      Y: -47.2481842
+      X: -34.4184265
+      Y: -47.2481651
       Z: -68.5818481
     }
     Rotation {
@@ -58258,9 +58270,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 26.4817944
-            Y: -45.8410912
-            Z: 174.75209
+            X: 26.4817905
+            Y: -45.8410339
+            Z: 174.75206
           }
         }
         Overrides {
@@ -58787,7 +58799,9 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
-      Z: 40
+      X: -1.26361847e-05
+      Y: 2.52723694e-05
+      Z: 40.0000038
     }
     Rotation {
     }
@@ -58839,7 +58853,7 @@ Objects {
     Location {
       X: 881.902649
       Y: -1668.50842
-      Z: 29.7522812
+      Z: -407.084
     }
     Rotation {
       Pitch: -50.2672424
@@ -59034,9 +59048,9 @@ Objects {
   Name: "Geo"
   Transform {
     Location {
-      X: -34.4184189
-      Y: -47.2481842
-      Z: -68.5818481
+      X: -34.4184113
+      Y: -47.2482
+      Z: -68.5818329
     }
     Rotation {
       Pitch: -0.391693115
@@ -59111,9 +59125,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 26.4817944
-            Y: -45.8410912
-            Z: 174.75209
+            X: 26.481781
+            Y: -45.8410416
+            Z: 174.752106
           }
         }
         Overrides {
@@ -59640,7 +59654,9 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
-      Z: 40
+      X: -1.71661377e-05
+      Y: -1.58548355e-05
+      Z: 39.9999809
     }
     Rotation {
     }
@@ -59692,7 +59708,7 @@ Objects {
     Location {
       X: 689.394531
       Y: -1449.28735
-      Z: 43.7389755
+      Z: -393.097321
     }
     Rotation {
       Yaw: 52.4234352
@@ -59885,8 +59901,8 @@ Objects {
   Name: "Geo"
   Transform {
     Location {
-      X: -34.4184189
-      Y: -47.2481842
+      X: -34.4183578
+      Y: -47.2481613
       Z: -68.5818481
     }
     Rotation {
@@ -59963,7 +59979,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 26.4817944
-            Y: -45.8410912
+            Y: -45.8411102
             Z: 174.75209
           }
         }
@@ -60543,7 +60559,7 @@ Objects {
     Location {
       X: 1227.48938
       Y: -1465.73901
-      Z: -49.6891441
+      Z: -486.525452
     }
     Rotation {
       Yaw: 5.2049675
@@ -60646,7 +60662,7 @@ Objects {
     Location {
       X: 1.89210248
       Y: 3.25439143
-      Z: 55.4222755
+      Z: 55.4222794
     }
     Rotation {
     }
@@ -60709,7 +60725,7 @@ Objects {
     Location {
       X: 733.462097
       Y: -1465.73901
-      Z: -49.6891441
+      Z: -486.525452
     }
     Rotation {
       Yaw: 5.2049613
@@ -60875,7 +60891,7 @@ Objects {
     Location {
       X: 888.36676
       Y: -1677.42773
-      Z: -49.6891441
+      Z: -486.525452
     }
     Rotation {
       Yaw: -47.8164673
@@ -63071,7 +63087,7 @@ Objects {
     Location {
       X: 527.169678
       Y: -1677.42773
-      Z: -49.6891441
+      Z: -287.356567
     }
     Rotation {
     }

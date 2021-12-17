@@ -8164,7 +8164,6 @@ Objects {
   ParentId: 842309935005774273
   ChildIds: 11272465288680389818
   ChildIds: 13800185107484062575
-  ChildIds: 15434767983723962650
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8192,47 +8191,6 @@ Objects {
   }
 }
 Objects {
-  Id: 15434767983723962650
-  Name: "Dropping Apple Group"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17825099058935343394
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16818727958697781400
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Dropping Apple Group"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 1365
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 4026065128930891611
-    }
-  }
-}
-Objects {
   Id: 13800185107484062575
   Name: "Tree Oak 01"
   Transform {
@@ -8242,9 +8200,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 0.598190904
-      Y: 0.598190904
-      Z: 0.598190904
+      X: 0.850677371
+      Y: 0.850677371
+      Z: 0.850677371
     }
   }
   ParentId: 17825099058935343394
