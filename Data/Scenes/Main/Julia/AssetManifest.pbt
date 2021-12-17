@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18133699642558591580
+  Name: "Plastic Shiny"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_shiny_001"
+  }
+}
+Assets {
   Id: 18020903922608645478
   Name: "Wood Raw"
   PlatformAssetType: 2
@@ -41,6 +50,33 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_fan_wicker_003_uv_ref"
+  }
+}
+Assets {
+  Id: 17818334485311273062
+  Name: "Snow 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_snow_001_uv"
+  }
+}
+Assets {
+  Id: 17660516169954452968
+  Name: "Wedge - Convex"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_curved_convex_001"
+  }
+}
+Assets {
+  Id: 16971722803005799468
+  Name: "Pipe - Half Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half-pipe_003"
   }
 }
 Assets {
@@ -125,12 +161,30 @@ Assets {
   }
 }
 Assets {
+  Id: 14476070742958082707
+  Name: "Pipe - Half Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half-pipe_002"
+  }
+}
+Assets {
   Id: 14344352328303337230
   Name: "Wood Painted 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_painted_white_001_uv"
+  }
+}
+Assets {
+  Id: 14295650898991336118
+  Name: "Food Cheese 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_food_generic_cheese_001_uv"
   }
 }
 Assets {
@@ -143,12 +197,30 @@ Assets {
   }
 }
 Assets {
+  Id: 13349561050136786820
+  Name: "Curtains Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_curtain_02"
+  }
+}
+Assets {
   Id: 13288679651259056663
   Name: "Bush 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bush_generic_001"
+  }
+}
+Assets {
+  Id: 13282259600726273799
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
   }
 }
 Assets {
@@ -197,12 +269,48 @@ Assets {
   }
 }
 Assets {
+  Id: 11974459780557722405
+  Name: "Bark Redwood 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_bark_redwood_001_uv"
+  }
+}
+Assets {
+  Id: 11542581708145215246
+  Name: "Snow 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_snow_001_uv"
+  }
+}
+Assets {
   Id: 11325969484437112935
   Name: "Flower Bellflower 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_foliage_gen_flower_bell_002_ref"
+  }
+}
+Assets {
+  Id: 11323250848998938125
+  Name: "Plastic Shiny"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_shiny_001"
+  }
+}
+Assets {
+  Id: 11155013891418122625
+  Name: "Ellipsoid - Truncated Hollow"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ellipsoid_hollow_001"
   }
 }
 Assets {
@@ -224,12 +332,48 @@ Assets {
   }
 }
 Assets {
+  Id: 10184847056121543272
+  Name: "Basic Material"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_pbr_material_001"
+  }
+}
+Assets {
+  Id: 9914704206085158049
+  Name: "Prism - 8-Sided Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half_octagon_001"
+  }
+}
+Assets {
   Id: 9314504034621143103
   Name: "Wicker Basket 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_fan_wicker_001_uv"
+  }
+}
+Assets {
+  Id: 9288087124434661356
+  Name: "Pipe - Half Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half-pipe_003"
+  }
+}
+Assets {
+  Id: 9256376963641243765
+  Name: "Wedge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_001"
   }
 }
 Assets {
@@ -251,12 +395,39 @@ Assets {
   }
 }
 Assets {
+  Id: 7964524275716821261
+  Name: "Moss 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_moss_001_uv"
+  }
+}
+Assets {
   Id: 7485850683740043800
   Name: "Food Fruit 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_food_generic_apple_001_uv"
+  }
+}
+Assets {
+  Id: 7440098882693208513
+  Name: "Prism - 8-Sided Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half_octagon_001"
+  }
+}
+Assets {
+  Id: 7210998986192987884
+  Name: "Bark Redwood 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_bark_redwood_001_uv"
   }
 }
 Assets {
@@ -284,6 +455,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trimitives_001_curve90_16m_ref"
+  }
+}
+Assets {
+  Id: 6581084023841296860
+  Name: "Moss 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_moss_001_uv"
   }
 }
 Assets {
@@ -341,6 +521,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5722061989651510769
+  Name: "Prism - 6-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_hexagon_001"
+  }
+}
+Assets {
   Id: 5387016660230950312
   Name: "Sphere Pinched - Horizontal"
   PlatformAssetType: 1
@@ -395,6 +584,24 @@ Assets {
   }
 }
 Assets {
+  Id: 4715671659934703897
+  Name: "Cone - Bullet"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bullet_001"
+  }
+}
+Assets {
+  Id: 4691692031683937777
+  Name: "Pipe - Half Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half-pipe_002"
+  }
+}
+Assets {
   Id: 4583469703328031216
   Name: "Grass Short"
   PlatformAssetType: 1
@@ -410,6 +617,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prim_org_pepper_001_ref"
+  }
+}
+Assets {
+  Id: 4335848297940223206
+  Name: "Curtains Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_curtain_02"
+  }
+}
+Assets {
+  Id: 4050437425243511619
+  Name: "Wood Raw"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_raw_001_uv"
   }
 }
 Assets {
@@ -449,6 +674,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3370722629091869980
+  Name: "Prism - 6-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_hexagon_001"
+  }
+}
+Assets {
   Id: 3041316967292781893
   Name: "Sphere"
   PlatformAssetType: 1
@@ -467,12 +701,39 @@ Assets {
   }
 }
 Assets {
+  Id: 2299172346982905132
+  Name: "Ellipsoid - Truncated Hollow"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ellipsoid_hollow_001"
+  }
+}
+Assets {
   Id: 2077734782609117812
   Name: "Melee Combat - Air Swipe Whooshes Set 01 SFX"
   PlatformAssetType: 10
   PrimaryAsset {
     AssetType: "AudioBlueprintAssetRef"
     AssetId: "sfxabp_melee_air_swooshes_ref"
+  }
+}
+Assets {
+  Id: 1794493300960258535
+  Name: "Wedge - Convex"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_curved_convex_001"
+  }
+}
+Assets {
+  Id: 1754334535761015864
+  Name: "Food Fruit 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_food_generic_apple_001_uv"
   }
 }
 Assets {
@@ -500,6 +761,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_terrain_rock-grass-001_wa"
+  }
+}
+Assets {
+  Id: 1137112816547272582
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
   }
 }
 Assets {
@@ -545,6 +815,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "dirt_001"
+  }
+}
+Assets {
+  Id: 442133322379644050
+  Name: "Cone - Bullet"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bullet_001"
   }
 }
 Assets {
