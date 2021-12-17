@@ -35,12 +35,39 @@ Assets {
   }
 }
 Assets {
+  Id: 16319156188981736369
+  Name: "Callout Sparkle"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_sparkles_volume_vfx"
+  }
+}
+Assets {
+  Id: 15977132222076426364
+  Name: "Hard Thump SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "hard_thump_sfx"
+  }
+}
+Assets {
   Id: 11515840070784317904
   Name: "Skylight"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Skylight"
+  }
+}
+Assets {
+  Id: 8295671405986391643
+  Name: "Wet Smack Thump SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_thump_01"
   }
 }
 Assets {
@@ -86,6 +113,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_4_sided_thin_001"
+  }
+}
+Assets {
+  Id: 1803737133462097395
+  Name: "Bubble Pop Coin Collect 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_bubble_pop_coin_collect_01_Cue_ref"
   }
 }
 Assets {

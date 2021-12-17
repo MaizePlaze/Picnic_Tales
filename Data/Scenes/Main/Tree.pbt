@@ -25,6 +25,9 @@ Objects {
   ChildIds: 14514620297413989333
   ChildIds: 11802196637990347576
   ChildIds: 12248196936787760518
+  ChildIds: 15593935273711476686
+  ChildIds: 3191541584411559471
+  ChildIds: 7468109226243651864
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -37,6 +40,132 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7468109226243651864
+  Name: "Wet Smack Thump SFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 8295671405986391643
+    }
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3191541584411559471
+  Name: "Hard Thump SFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 15977132222076426364
+    }
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15593935273711476686
+  Name: "Bubble Pop Coin Collect 01 SFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 1803737133462097395
+    }
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -61,6 +190,7 @@ Objects {
   ChildIds: 7908372350750171328
   ChildIds: 16873626407287984251
   ChildIds: 6954165151560760339
+  ChildIds: 14681365492864671770
   UnregisteredParameters {
     Overrides {
       Name: "cs:HealthChange"
@@ -124,6 +254,95 @@ Objects {
     InstanceId: 933358157763771785
     TemplateId: 11915238200602149623
     WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14681365492864671770
+  Name: "Callout Sparkle"
+  Transform {
+    Location {
+      Z: 30.9518127
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.599612296
+      Y: 0.599612296
+      Z: 0.599612296
+    }
+  }
+  ParentId: 12248196936787760518
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        B: 0.0166664124
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Gravity"
+      Float: -0
+    }
+    Overrides {
+      Name: "bp:Particle Rotation Rate Low"
+      Float: 0.153625637
+    }
+    Overrides {
+      Name: "bp:Particle Rotation Rate High"
+      Float: 0.958385825
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 0.176546603
+    }
+    Overrides {
+      Name: "bp:Life"
+      Float: 2.05683064
+    }
+    Overrides {
+      Name: "bp:Curl Offset"
+      Vector {
+        X: 3
+        Y: 3
+        Z: 3
+      }
+    }
+    Overrides {
+      Name: "bp:Wind Speed"
+      Vector {
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 16319156188981736369
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
