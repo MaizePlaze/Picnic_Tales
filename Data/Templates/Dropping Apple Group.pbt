@@ -30,7 +30,7 @@ Assets {
           Overrides {
             Name: "cs:PickupEffect"
             AssetReference {
-              Id: 9640400270141758965
+              Id: 9207182749068206084
             }
           }
         }

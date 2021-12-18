@@ -18,6 +18,7 @@ Assets {
         ParentId: 9170649427922437516
         ChildIds: 9655399049212327241
         ChildIds: 17177250050598535363
+        ChildIds: 17922810878497236801
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
@@ -319,6 +320,93 @@ Assets {
           Value: "mc:eproxyrelevance:critical"
         }
       }
+      Objects {
+        Id: 17922810878497236801
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.599612296
+            Y: 0.599612296
+            Z: 0.599612296
+          }
+        }
+        ParentId: 8999289172144329185
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
     }
     Assets {
       Id: 5089623065350727938
@@ -354,6 +442,15 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_grass_003_uv"
+      }
+    }
+    Assets {
+      Id: 16319156188981736369
+      Name: "Callout Sparkle"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_sparkles_volume_vfx"
       }
     }
     PrimaryAssetId {
