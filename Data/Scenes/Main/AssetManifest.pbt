@@ -107,15 +107,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1803737133462097395
-  Name: "Bubble Pop Coin Collect 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_bubble_pop_coin_collect_01_Cue_ref"
-  }
-}
-Assets {
   Id: 1146982892770957751
   Name: "Terrain - Grass"
   PlatformAssetType: 2

@@ -65,9 +65,21 @@ function EndRound()
         -- p:SetWorldPosition(position)
         -- p:SetWorldRotation(rotation)
     end
-    Events.Broadcast("ResetCollectables")
-    --local appleDropping = World.FindObjectByName("DroppingAppleGroup")
     
+    
+    local droppingAppleGroups = World.FindObjectsByName("Dropping Apple Group")
+    for _, a in ipairs(droppingAppleGroups) do
+        a:Destroy()
+    end
+    
+    --local appleDropping = World.FindObjectByName("DroppingAppleGroup"):GetChildren()
+ --   for i, p in ipairs(appleDropping) do
+--        p:Destroy()
+ --   end
+    Events.Broadcast("ResetCollectables")
+
+
+
 end
 
 function StartLobby()

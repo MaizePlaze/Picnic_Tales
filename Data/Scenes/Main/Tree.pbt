@@ -24,9 +24,10 @@ Objects {
   ChildIds: 17004982211496005198
   ChildIds: 14514620297413989333
   ChildIds: 11802196637990347576
-  ChildIds: 15593935273711476686
   ChildIds: 3191541584411559471
   ChildIds: 7468109226243651864
+  ChildIds: 9940361056510228460
+  ChildIds: 9761570734146860012
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -42,6 +43,87 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9761570734146860012
+  Name: "ApplePickupEffect"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6432614295180932099
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ApplePickupEffect"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1126.85352
+            Y: -120.952881
+            Z: -0.100830078
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9207182749068206084
+    }
+  }
+}
+Objects {
+  Id: 9940361056510228460
+  Name: "Pickup3Apples"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 67780487479563849
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Pickup3Apples_Red"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 918.676941
+            Y: -306.712708
+            Z: -0.100585938
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11680857195230344466
+    }
   }
 }
 Objects {
@@ -116,48 +198,6 @@ Objects {
   AudioInstance {
     AudioAsset {
       Id: 15977132222076426364
-    }
-    Volume: 1
-    Falloff: -1
-    Radius: -1
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 15593935273711476686
-  Name: "Bubble Pop Coin Collect 01 SFX"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 1803737133462097395
     }
     Volume: 1
     Falloff: -1

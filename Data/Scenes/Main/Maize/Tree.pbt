@@ -53,12 +53,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:DroppingAppleGroup"
-      AssetReference {
-        Id: 4026065128930891611
-      }
-    }
-    Overrides {
       Name: "cs:SpawnCenter"
       ObjectReference {
         SelfId: 11272465288680389818
@@ -74,6 +68,12 @@ Objects {
       Name: "cs:PicnicBasketBurst_Red"
       AssetReference {
         Id: 9046630279864549516
+      }
+    }
+    Overrides {
+      Name: "cs:DroppingAppleGroup"
+      AssetReference {
+        Id: 4026065128930891611
       }
     }
   }
@@ -370,6 +370,36 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 13241091557700086557
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 11.4077911
+        }
+        Overrides {
+          Name: "Width"
+          Int: 128
+        }
+        Overrides {
+          Name: "Height"
+          Int: 33
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13513497818209532703
+      value {
+        Overrides {
+          Name: "Size"
+          Int: 16
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 14059023812613610750
       value {
         Overrides {
@@ -468,7 +498,7 @@ Objects {
           Vector {
             X: 1890
             Y: 2790
-            Z: 140
+            Z: -750.420044
           }
         }
         Overrides {
@@ -6915,7 +6945,7 @@ Objects {
     Location {
       X: -300
       Y: 590
-      Z: 245
+      Z: -665.970642
     }
     Rotation {
     }
@@ -6971,6 +7001,7 @@ Objects {
   ChildIds: 16426432572577204193
   ChildIds: 12738306549908119701
   ChildIds: 2060234037197206718
+  ChildIds: 17825099058935343394
   ChildIds: 842309935005774273
   ChildIds: 1737964113192400763
   ChildIds: 13203368807213981575
@@ -7000,7 +7031,7 @@ Objects {
     Location {
       X: 350
       Y: 760
-      Z: 1155
+      Z: -1563.19055
     }
     Rotation {
     }
@@ -7539,7 +7570,7 @@ Objects {
     Location {
       X: 350
       Y: 760
-      Z: 215
+      Z: -925.920654
     }
     Rotation {
     }
@@ -7576,7 +7607,7 @@ Objects {
     Location {
       X: 350
       Y: 760
-      Z: -100
+      Z: -3448.57422
     }
     Rotation {
     }
@@ -7588,7 +7619,6 @@ Objects {
   }
   ParentId: 2909358311781510362
   ChildIds: 17774362901976261363
-  ChildIds: 17825099058935343394
   ChildIds: 9257012751963952935
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8147,198 +8177,6 @@ Objects {
   }
 }
 Objects {
-  Id: 17825099058935343394
-  Name: "Apple Dropping Tree"
-  Transform {
-    Location {
-      X: -9535
-      Y: 750
-      Z: -630
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 842309935005774273
-  ChildIds: 11272465288680389818
-  ChildIds: 13800185107484062575
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 17825099058935343394
-    SubobjectId: 282656392218111632
-    InstanceId: 12563573681926916954
-    TemplateId: 11696478091575502186
-    WasRoot: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 13800185107484062575
-  Name: "Tree Oak 01"
-  Transform {
-    Location {
-      Z: 630
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.850677371
-      Y: 0.850677371
-      Z: 0.850677371
-    }
-  }
-  ParentId: 17825099058935343394
-  ChildIds: 17142562736803986265
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6287606422488195013
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 13800185107484062575
-    SubobjectId: 5419889082834875613
-    InstanceId: 12563573681926916954
-    TemplateId: 11696478091575502186
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 17142562736803986265
-  Name: "Callout Sparkle"
-  Transform {
-    Location {
-      Z: 234.039
-    }
-    Rotation {
-    }
-    Scale {
-      X: 6.75000048
-      Y: 6.75000048
-      Z: 6.75000048
-    }
-  }
-  ParentId: 13800185107484062575
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 16319156188981736369
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  InstanceHistory {
-    SelfId: 17142562736803986265
-    SubobjectId: 1825601212244196587
-    InstanceId: 12563573681926916954
-    TemplateId: 11696478091575502186
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 11272465288680389818
-  Name: "SpawnCenter"
-  Transform {
-    Location {
-      Z: 1655
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17825099058935343394
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6242378129829751886
-    }
-    TeamSettings {
-    }
-  }
-  InstanceHistory {
-    SelfId: 11272465288680389818
-    SubobjectId: 7556085996554418952
-    InstanceId: 12563573681926916954
-    TemplateId: 11696478091575502186
-  }
-}
-Objects {
   Id: 17774362901976261363
   Name: "PlaceHolders"
   Transform {
@@ -8571,13 +8409,207 @@ Objects {
   }
 }
 Objects {
+  Id: 17825099058935343394
+  Name: "Apple Dropping Tree"
+  Transform {
+    Location {
+      X: -9185
+      Y: 1510
+      Z: -730
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2909358311781510362
+  ChildIds: 11272465288680389818
+  ChildIds: 13800185107484062575
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 17825099058935343394
+    SubobjectId: 282656392218111632
+    InstanceId: 12563573681926916954
+    TemplateId: 11696478091575502186
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13800185107484062575
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      Z: 630
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.850677371
+      Y: 0.850677371
+      Z: 0.850677371
+    }
+  }
+  ParentId: 17825099058935343394
+  ChildIds: 17142562736803986265
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6287606422488195013
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 13800185107484062575
+    SubobjectId: 5419889082834875613
+    InstanceId: 12563573681926916954
+    TemplateId: 11696478091575502186
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17142562736803986265
+  Name: "Callout Sparkle"
+  Transform {
+    Location {
+      Z: 234.039
+    }
+    Rotation {
+    }
+    Scale {
+      X: 6.75000048
+      Y: 6.75000048
+      Z: 6.75000048
+    }
+  }
+  ParentId: 13800185107484062575
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 16319156188981736369
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  InstanceHistory {
+    SelfId: 17142562736803986265
+    SubobjectId: 1825601212244196587
+    InstanceId: 12563573681926916954
+    TemplateId: 11696478091575502186
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11272465288680389818
+  Name: "SpawnCenter"
+  Transform {
+    Location {
+      Z: 1655
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17825099058935343394
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6242378129829751886
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 11272465288680389818
+    SubobjectId: 7556085996554418952
+    InstanceId: 12563573681926916954
+    TemplateId: 11696478091575502186
+  }
+}
+Objects {
   Id: 2060234037197206718
   Name: "Play Field"
   Transform {
     Location {
       X: 350
       Y: 760
-      Z: -1070
+      Z: -2067.53564
     }
     Rotation {
     }
@@ -11029,7 +11061,7 @@ Objects {
     Location {
       X: 165
       Y: -975
-      Z: 50
+      Z: -306.064026
     }
     Rotation {
     }

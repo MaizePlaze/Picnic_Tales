@@ -127,6 +127,9 @@ function MeleeAttack(target, abilityInfo)
             else
                 target:SetResource("Apples", applesLeft)
             end
+            
+            damage.amount = 0
+            target:ApplyDamage(damage)
         else
             target:ApplyDamage(damage)
         end

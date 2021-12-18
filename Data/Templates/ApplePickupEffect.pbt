@@ -7,7 +7,7 @@ Assets {
       RootId: 6432614295180932099
       Objects {
         Id: 6432614295180932099
-        Name: "CoinPickupEffect"
+        Name: "ApplePickupEffect"
         Transform {
           Scale {
             X: 1
@@ -16,9 +16,8 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 6026526477541874560
-        ChildIds: 16388309919071322990
-        ChildIds: 18338219983000224450
+        ChildIds: 14034617690882674451
+        ChildIds: 13074839495325126768
         Lifespan: 2
         WantsNetworking: true
         Collidable_v2 {
@@ -38,10 +37,13 @@ Assets {
         }
       }
       Objects {
-        Id: 6026526477541874560
-        Name: "Collect Coin Star Ping 01 SFX"
+        Id: 14034617690882674451
+        Name: "Bubble Pop Coin Collect 01 SFX"
         Transform {
           Location {
+            X: -1126.85352
+            Y: 120.952881
+            Z: 0.100830078
           }
           Rotation {
           }
@@ -62,11 +64,14 @@ Assets {
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
         AudioInstance {
           AudioAsset {
-            Id: 15253043878600534466
+            Id: 1803737133462097395
           }
-          AutoPlay: true
+          Pitch: -780.509399
           Volume: 1
           Falloff: -1
           Radius: -1
@@ -79,64 +84,8 @@ Assets {
         }
       }
       Objects {
-        Id: 16388309919071322990
-        Name: "Resurrection VFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6432614295180932099
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Enable Beam"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Enable Spiral"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Life"
-            Float: 0.359072894
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 4312380730580143597
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 18338219983000224450
-        Name: "Explosion Kit Afterglow VFX"
+        Id: 13074839495325126768
+        Name: "Explosion Kit Spark Burst VFX"
         Transform {
           Location {
           }
@@ -154,10 +103,41 @@ Assets {
             Name: "bp:Color"
             Color {
               R: 1
-              G: 0.975099385
-              B: 0.0600000024
+              B: 0.0166664124
               A: 1
             }
+          }
+          Overrides {
+            Name: "bp:Size"
+            Float: 1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 1
+          }
+          Overrides {
+            Name: "bp:Initial Velocity Multiplier"
+            Float: 4
+          }
+          Overrides {
+            Name: "bp:Radial Velocity Multiplier"
+            Float: 1
+          }
+          Overrides {
+            Name: "bp:Initial Start Delay"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.51
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.75
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 0.5
           }
         }
         WantsNetworking: true
@@ -165,14 +145,17 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
         Blueprint {
           BlueprintAsset {
-            Id: 10084286561455074257
+            Id: 4124956309344128505
           }
           TeamSettings {
           }
@@ -181,7 +164,7 @@ Assets {
           }
         }
         Relevance {
-          Value: "mc:eproxyrelevance:critical"
+          Value: "mc:eproxyrelevance:medium"
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
@@ -189,30 +172,21 @@ Assets {
       }
     }
     Assets {
-      Id: 15253043878600534466
-      Name: "Collect Coin Star Ping 01 SFX"
+      Id: 1803737133462097395
+      Name: "Bubble Pop Coin Collect 01 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_collect_coin_star_ping_01_Cue_ref"
+        AssetId: "sfx_bubble_pop_coin_collect_01_Cue_ref"
       }
     }
     Assets {
-      Id: 4312380730580143597
-      Name: "Resurrection VFX"
+      Id: 4124956309344128505
+      Name: "Explosion Kit Spark Burst VFX"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_resurrection"
-      }
-    }
-    Assets {
-      Id: 10084286561455074257
-      Name: "Explosion Kit Afterglow VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_mil_explokit_afterglow"
+        AssetId: "fxbp_mil_explokit_sparkBurst"
       }
     }
     PrimaryAssetId {
