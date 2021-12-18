@@ -546,7 +546,7 @@ Objects {
     Overrides {
       Name: "cs:PickupEffect"
       AssetReference {
-        Id: 9640400270141758965
+        Id: 9207182749068206084
       }
     }
   }
@@ -584,7 +584,7 @@ Objects {
   }
   ParentId: 10689726599139081185
   ChildIds: 16947031424756631310
-  ChildIds: 15665724532759923636
+  ChildIds: 4081649287275562135
   ChildIds: 13115168025059799911
   ChildIds: 18021846765350251180
   ChildIds: 14202650634703668757
@@ -6730,9 +6730,14 @@ Objects {
   }
 }
 Objects {
-  Id: 15665724532759923636
+  Id: 4081649287275562135
   Name: "ApplePickup"
   Transform {
+    Location {
+      X: -4285.60645
+      Y: -589.534424
+      Z: -25
+    }
     Scale {
       X: 1
       Y: 1
@@ -6740,27 +6745,438 @@ Objects {
     }
   }
   ParentId: 9170649427922437516
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8999289172144329185
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ApplePickup"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -4285.60645
-            Y: -589.534424
-            Z: -25
-          }
-        }
+  ChildIds: 13959423761906540607
+  ChildIds: 12260718335164634549
+  ChildIds: 13618206033556173367
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Trigger"
+      ObjectReference {
+        SelfId: 13959423761906540607
       }
     }
-    TemplateAsset {
-      Id: 17015332876865497096
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 4081649287275562135
+    SubobjectId: 8999289172144329185
+    InstanceId: 15665724532759923636
+    TemplateId: 17015332876865497096
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13618206033556173367
+  Name: "Callout Sparkle"
+  Transform {
+    Location {
     }
+    Rotation {
+    }
+    Scale {
+      X: 0.599612296
+      Y: 0.599612296
+      Z: 0.599612296
+    }
+  }
+  ParentId: 4081649287275562135
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        B: 0.0166664124
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Gravity"
+      Float: -0
+    }
+    Overrides {
+      Name: "bp:Particle Rotation Rate Low"
+      Float: 0.153625637
+    }
+    Overrides {
+      Name: "bp:Particle Rotation Rate High"
+      Float: 0.958385825
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 0.176546603
+    }
+    Overrides {
+      Name: "bp:Life"
+      Float: 2.05683064
+    }
+    Overrides {
+      Name: "bp:Curl Offset"
+      Vector {
+        X: 3
+        Y: 3
+        Z: 3
+      }
+    }
+    Overrides {
+      Name: "bp:Wind Speed"
+      Vector {
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 16319156188981736369
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12260718335164634549
+  Name: "MantiCoin Geo"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.35
+      Y: 0.35
+      Z: 0.35
+    }
+  }
+  ParentId: 4081649287275562135
+  ChildIds: 5289700590649891298
+  ChildIds: 3096338533410344601
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12260718335164634549
+    SubobjectId: 17177250050598535363
+    InstanceId: 15665724532759923636
+    TemplateId: 17015332876865497096
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3096338533410344601
+  Name: "CoinSpinScript"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.85714293
+      Y: 2.85714293
+      Z: 2.85714293
+    }
+  }
+  ParentId: 12260718335164634549
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:root"
+      ObjectReference {
+        SelfId: 12260718335164634549
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8868536670506798933
+    }
+  }
+  InstanceHistory {
+    SelfId: 3096338533410344601
+    SubobjectId: 7980216677098904559
+    InstanceId: 15665724532759923636
+    TemplateId: 17015332876865497096
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5289700590649891298
+  Name: "Red Apple with Stalk (decor)"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.70433033
+      Y: 1.70433033
+      Z: 1.70433033
+    }
+  }
+  ParentId: 12260718335164634549
+  ChildIds: 12430307255883044428
+  ChildIds: 5663270290725880330
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5289700590649891298
+    SubobjectId: 950190379259104404
+    InstanceId: 15665724532759923636
+    TemplateId: 17015332876865497096
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5663270290725880330
+  Name: "Stalk"
+  Transform {
+    Location {
+      X: -8.48779297
+      Y: 3.72238159
+      Z: 18.9083672
+    }
+    Rotation {
+      Yaw: 87.7028
+      Roll: 1.32311067e-12
+    }
+    Scale {
+      X: 0.233669102
+      Y: 0.233669102
+      Z: 0.233669102
+    }
+  }
+  ParentId: 5289700590649891298
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18436676146666430799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0729166642
+        G: 0.00835502893
+        B: 0.00835502893
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6120777486642466004
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5663270290725880330
+    SubobjectId: 779388706231064444
+    InstanceId: 15665724532759923636
+    TemplateId: 17015332876865497096
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12430307255883044428
+  Name: "Red Apple"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 2.73207552e-05
+      Roll: 1.04287722e-07
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 5289700590649891298
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7485850683740043800
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 12430307255883044428
+    SubobjectId: 16773191872984728378
+    InstanceId: 15665724532759923636
+    TemplateId: 17015332876865497096
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13959423761906540607
+  Name: "Trigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4081649287275562135
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:sphere"
+    }
+  }
+  InstanceHistory {
+    SelfId: 13959423761906540607
+    SubobjectId: 9655399049212327241
+    InstanceId: 15665724532759923636
+    TemplateId: 17015332876865497096
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
