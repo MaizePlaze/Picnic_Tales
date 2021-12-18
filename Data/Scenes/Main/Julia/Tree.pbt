@@ -1,6 +1,397 @@
 Name: "Julia"
 RootId: 4147847003364547307
 Objects {
+  Id: 924337419125561971
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: 10016.7061
+      Y: -2347.35498
+      Z: 1547.86707
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.49059951
+      Y: 1.49059951
+      Z: 1.49059951
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6287606422488195013
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17323139859986027067
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: 10016.7061
+      Y: -4768.58057
+      Z: 1179.22778
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.49059951
+      Y: 1.49059951
+      Z: 1.49059951
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6287606422488195013
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 979262241063563629
+  Name: "Tree Oak Bare 01"
+  Transform {
+    Location {
+      X: 2382.1333
+      Y: -12459.4092
+      Z: 1355.51343
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.83029211
+      Y: 1.83029211
+      Z: 1.83029211
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4000996111807049207
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14975734654090161719
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: 9514.19629
+      Y: -6558.89062
+      Z: 1167.77759
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.49059951
+      Y: 1.49059951
+      Z: 1.49059951
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6287606422488195013
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5625672815637147559
+  Name: "Tree Oak Bare 01"
+  Transform {
+    Location {
+      X: 5999.75586
+      Y: -11072.541
+      Z: 1499.13647
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.83029211
+      Y: 1.83029211
+      Z: 1.83029211
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4000996111807049207
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3204566785180408353
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: 8126.61621
+      Y: -8483.67285
+      Z: 1586.24475
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.49059951
+      Y: 1.49059951
+      Z: 1.49059951
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6287606422488195013
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12413477882657405423
+  Name: "Decal Moss Patch"
+  Transform {
+    Location {
+      X: 4334.33398
+      Y: -8449.62305
+      Z: 49.2716675
+    }
+    Rotation {
+      Pitch: 6.83018879e-06
+      Yaw: 96.9791
+      Roll: 37.5372963
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14234410662358785551
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 12434696148796450354
+  Name: "Decal Moss Patch"
+  Transform {
+    Location {
+      X: 4453.30029
+      Y: -8168.08398
+      Z: 292.128387
+    }
+    Rotation {
+      Yaw: 179.469742
+      Roll: 83.4671402
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14234410662358785551
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
   Id: 17236549635996332865
   Name: "Bush 01"
   Transform {
@@ -1258,7 +1649,7 @@ Objects {
 }
 Objects {
   Id: 10248477339769541471
-  Name: "Bush 02"
+  Name: "Fantasy Castle Pillar 01 Tileset"
   Transform {
     Location {
       X: 5011.88965
@@ -1378,7 +1769,7 @@ Objects {
   }
   ParentId: 4147847003364547307
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1612,14 +2003,17 @@ Objects {
 }
 Objects {
   Id: 15871696497606987154
-  Name: "Bush 02"
+  Name: "Fantasy Castle Pillar 01 Base"
   Transform {
     Location {
-      X: 4367.62061
-      Y: -8481.2793
+      X: 4404.82373
+      Y: -8105.24365
       Z: -57.8055725
     }
     Rotation {
+      Pitch: -6.24124146
+      Yaw: -1.24783325
+      Roll: 8.53969479
     }
     Scale {
       X: 1.29610133
@@ -1642,7 +2036,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 8698665211691655174
+      Id: 14452616722762075696
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -30738,7 +31132,7 @@ Objects {
     Location {
       X: -2710.33203
       Y: -1930.30225
-      Z: 201.889053
+      Z: 163.700485
     }
     Rotation {
       Yaw: 50.0000763
@@ -31698,9 +32092,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -2400
+      X: -2373.74512
       Y: -2750
-      Z: 550
+      Z: 100.305618
     }
     Rotation {
       Yaw: 50.0000534
