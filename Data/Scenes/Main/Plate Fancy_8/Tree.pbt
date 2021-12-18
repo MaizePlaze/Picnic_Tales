@@ -5,9 +5,9 @@ Objects {
   Name: "Ring - Thin"
   Transform {
     Location {
-      X: -0.0855178833
-      Y: 0.166503906
-      Z: 1.58596039
+      X: -0.085552983
+      Y: 0.166702047
+      Z: 1.58595407
     }
     Rotation {
     }
@@ -65,14 +65,15 @@ Objects {
   Name: "Pipe (thin)"
   Transform {
     Location {
-      X: 0.211784363
-      Y: -0.151184082
+      X: 0.211842448
+      Y: -0.151564613
+      Z: 1.86873458e-05
     }
     Rotation {
     }
     Scale {
-      X: 1.18917143
-      Y: 1.18917143
+      X: 1.18917155
+      Y: 1.18917155
       Z: 0.0328225419
     }
   }
@@ -137,9 +138,9 @@ Objects {
   Name: "Pipe (thin)"
   Transform {
     Location {
-      X: 0.211784363
-      Y: -0.151184082
-      Z: 0.00970459
+      X: 0.21174477
+      Y: -0.151140898
+      Z: 0.00970480312
     }
     Rotation {
     }
@@ -210,9 +211,9 @@ Objects {
   Name: "Ring - Thin"
   Transform {
     Location {
-      X: -0.0855178833
-      Y: 0.166503906
-      Z: 0.415367126
+      X: -0.0854830667
+      Y: 0.166332886
+      Z: 0.415373445
     }
     Rotation {
     }
@@ -270,9 +271,9 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: -0.2525177
-      Y: -0.0306396484
-      Z: 0.229019165
+      X: -0.252534866
+      Y: -0.0307816081
+      Z: 0.229027182
     }
     Rotation {
     }

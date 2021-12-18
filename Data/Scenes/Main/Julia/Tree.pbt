@@ -18235,8 +18235,8 @@ Objects {
   Transform {
     Location {
       X: 343.870911
-      Y: 7088.22803
-      Z: 97.9957199
+      Y: 6808.85156
+      Z: 126.977516
     }
     Rotation {
     }
@@ -18320,14 +18320,12 @@ Objects {
   Name: "Curtains Straight"
   Transform {
     Location {
-      X: -1.46337509
-      Y: -20.3464355
-      Z: -100
+      X: -1.46337891
+      Y: 441.353027
+      Z: -131.535019
     }
     Rotation {
-      Pitch: -6.83018879e-06
-      Yaw: -2.42334568e-06
-      Roll: -89.5954819
+      Roll: -89.5954895
     }
     Scale {
       X: 4.89499331
@@ -18388,12 +18386,12 @@ Objects {
   Name: "Fexel\'s Everyday Item Package"
   Transform {
     Location {
-      X: 149.793686
-      Y: -6.31430054
+      X: 149.793701
+      Y: -6.31445312
       Z: -99.2719
     }
     Rotation {
-      Yaw: -89.9999847
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -18432,13 +18430,13 @@ Objects {
   Name: "Sandwich"
   Transform {
     Location {
-      X: -111.841301
+      X: -571.799255
       Y: 28.9946289
-      Z: 6.78565598
+      Z: -21.3944283
     }
     Rotation {
-      Yaw: 91.3639145
-      Roll: 4.72399139
+      Yaw: 91.3639069
+      Roll: 4.72399235
     }
     Scale {
       X: 0.0589411147
@@ -20496,13 +20494,13 @@ Objects {
   Name: "Plate Fancy"
   Transform {
     Location {
-      X: -111.722641
-      Y: 36.7513428
-      Z: 5.96921921
+      X: -571.680603
+      Y: 36.7531738
+      Z: -23.2073174
     }
     Rotation {
       Pitch: -2.5993042
-      Yaw: 174.597443
+      Yaw: 174.597427
       Roll: -2.26501465
     }
     Scale {
@@ -20540,9 +20538,9 @@ Objects {
   Name: "Mug - TavernLike"
   Transform {
     Location {
-      X: -121.357437
-      Y: -237.234344
-      Z: -4.91460419
+      X: -581.315857
+      Y: -237.227509
+      Z: -26.0800171
     }
     Rotation {
       Yaw: 97.4256363
@@ -20582,12 +20580,13 @@ Objects {
   Name: "Sandwich"
   Transform {
     Location {
-      X: 183.81311
-      Y: 47.2197266
-      Z: 6.78565598
+      X: -320.790497
+      Y: -21.0012817
+      Z: -23.1889
     }
     Rotation {
-      Roll: 4.72390461
+      Yaw: 8.796464e-09
+      Roll: 4.72390556
     }
     Scale {
       X: 0.0589411147
@@ -22645,13 +22644,13 @@ Objects {
   Name: "Plate Fancy"
   Transform {
     Location {
-      X: 191.563843
-      Y: 46.9145508
-      Z: 5.96921921
+      X: -313.039032
+      Y: -21.3067322
+      Z: -25.0016365
     }
     Rotation {
       Pitch: -2.5993042
-      Yaw: 83.2336426
+      Yaw: 83.2336273
       Roll: -2.26501465
     }
     Scale {
@@ -22689,14 +22688,14 @@ Objects {
   Name: "Knife"
   Transform {
     Location {
-      X: -111.259155
-      Y: -298.415283
-      Z: 0.269195557
+      X: -571.216797
+      Y: -298.404877
+      Z: -22.5616035
     }
     Rotation {
-      Pitch: -87.8499451
-      Yaw: 155.110077
-      Roll: -127.718765
+      Pitch: -87.8492432
+      Yaw: 155.109848
+      Roll: -127.718323
     }
     Scale {
       X: 0.0359098241
@@ -22733,9 +22732,9 @@ Objects {
   Name: "Mug - TavernLike"
   Transform {
     Location {
-      X: -125.443848
-      Y: 84.5361328
-      Z: 1.15522957
+      X: -585.401794
+      Y: 84.5344238
+      Z: -26.0800476
     }
     Rotation {
     }
@@ -22774,13 +22773,13 @@ Objects {
   Name: "Plate Fancy"
   Transform {
     Location {
-      X: -157.643677
-      Y: -269.295898
-      Z: -2.00572968
+      X: -617.601074
+      Y: -269.286346
+      Z: -23.2075272
     }
     Rotation {
       Pitch: -2.5993042
-      Yaw: 83.2336502
+      Yaw: 83.2336197
       Roll: -2.26501465
     }
     Scale {
@@ -22818,9 +22817,9 @@ Objects {
   Name: "Plate One"
   Transform {
     Location {
-      X: -97.9815674
-      Y: -290.396729
-      Z: -1.94678879
+      X: -557.93988
+      Y: -290.387909
+      Z: -25.1269302
     }
     Rotation {
     }
@@ -22859,9 +22858,9 @@ Objects {
   Name: "PicnicBlanketTrigger"
   Transform {
     Location {
-      X: 9.28320694
-      Y: -17.6743126
-      Z: -1.7845459
+      X: 2.3948822
+      Y: 350.336914
+      Z: 60.245224
     }
     Rotation {
     }
@@ -30754,6 +30753,7 @@ Objects {
   ChildIds: 138387984182436683
   ChildIds: 7121977982878226034
   ChildIds: 17123822129558883579
+  ChildIds: 2328719801087792803
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30768,6 +30768,56 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2328719801087792803
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -155.759888
+      Y: 5033.28369
+      Z: 0.00048828125
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5878218024863846965
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4583469703328031216
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -32807,7 +32857,7 @@ Objects {
   Name: "Grass Short"
   Transform {
     Location {
-      X: 784.899902
+      X: 995.538574
       Y: 6201.2876
       Z: 0.00048828125
     }
@@ -69396,6 +69446,13 @@ Objects {
           Name: "DisableReceiveDecals"
           Bool: true
         }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 0.0266950615
+            Y: 0.611596048
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -69410,7 +69467,7 @@ Objects {
           Vector {
             X: 1965.92126
             Y: 1847.30835
-            Z: 66.1155167
+            Z: 1.54581451
           }
         }
         Overrides {
@@ -69433,6 +69490,20 @@ Objects {
         Overrides {
           Name: "DisableReceiveDecals"
           Bool: true
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -0.0266950615
+            Y: -0.611596048
+            Z: 19.3507519
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.5772095
+          }
         }
       }
     }
