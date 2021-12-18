@@ -2582,20 +2582,22 @@ Objects {
       value {
         Overrides {
           Name: "Text"
-          String: "Relaxation Grotto"
+          String: "Secret Relaxation Grotto"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -0.455885202
-            Y: -26.8761959
-            Z: 310.872589
+            X: 0.481779754
+            Y: -20.2018299
+            Z: 311.4505
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -90
+            Pitch: -0.0308837891
+            Yaw: -90.7457886
+            Roll: 0.0602988601
           }
         }
         Overrides {
@@ -2618,9 +2620,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -0.455446094
-            Y: -26.8762894
-            Z: 370.872375
+            X: 0.545377731
+            Y: -20.2354183
+            Z: 371.450378
           }
         }
         Overrides {
@@ -2629,6 +2631,14 @@ Objects {
             X: 2.00000024
             Y: 1.25000024
             Z: 1.25000024
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -0.0308837891
+            Yaw: -90.7457886
+            Roll: 0.0602988601
           }
         }
       }
@@ -2643,15 +2653,17 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -0.455642372
-            Y: -26.8763065
-            Z: 250.874176
+            X: 0.419554353
+            Y: -20.1689129
+            Z: 251.451935
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -90
+            Pitch: -0.0308837891
+            Yaw: -90.7457886
+            Roll: 0.0602988601
           }
         }
         Overrides {
@@ -2669,20 +2681,22 @@ Objects {
       value {
         Overrides {
           Name: "Text"
-          String: "The Secret Picnic Pals"
+          String: "The Picnic Pals"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -0.45605278
-            Y: -26.876091
-            Z: 340.873505
+            X: 0.513228595
+            Y: -20.2182655
+            Z: 341.451172
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -90
+            Pitch: -0.0308837891
+            Yaw: -90.7457886
+            Roll: 0.0602988601
           }
         }
         Overrides {
@@ -2705,15 +2719,17 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -0.455638736
-            Y: -26.8758736
-            Z: 280.871
+            X: 0.451161236
+            Y: -20.1850433
+            Z: 281.448853
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -90
+            Pitch: -0.0308837891
+            Yaw: -90.7457886
+            Roll: 0.0602988601
           }
         }
         Overrides {
@@ -2950,14 +2966,14 @@ Objects {
           Name: "Position"
           Vector {
             X: 560.302246
-            Y: 267.802246
+            Y: 216.334961
             Z: 326.347107
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -50.0263367
+            Yaw: -46.2798462
           }
         }
         Overrides {

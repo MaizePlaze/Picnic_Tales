@@ -36,7 +36,7 @@ Assets {
           Overrides {
             Name: "cs:Template2"
             AssetReference {
-              Id: 11866421674363095253
+              Id: 841534158063459245
             }
           }
           Overrides {

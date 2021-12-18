@@ -12,7 +12,7 @@ Assets {
       Overrides {
         Name: "cs:ShellSound"
         AssetReference {
-          Id: 15197985150450883762
+          Id: 841534158063459245
         }
       }
       Overrides {

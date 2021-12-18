@@ -53,6 +53,26 @@ Objects {
   ChildIds: 11724778344073447656
   ChildIds: 14797667840526450050
   ChildIds: 14037941987569071374
+  ChildIds: 3108319236789902841
+  ChildIds: 9589406483267930651
+  ChildIds: 8052604112463043951
+  ChildIds: 8266912481865660356
+  ChildIds: 3147014871022640598
+  ChildIds: 6883050947876640264
+  ChildIds: 11427961797413648084
+  ChildIds: 16001706827490877380
+  ChildIds: 15871696497606987154
+  ChildIds: 2811023479995766572
+  ChildIds: 4955540394313068277
+  ChildIds: 15316190199031791247
+  ChildIds: 743031096781121132
+  ChildIds: 11640320407435132015
+  ChildIds: 3585580089806435224
+  ChildIds: 10248477339769541471
+  ChildIds: 13773424588318028417
+  ChildIds: 6378371094526694574
+  ChildIds: 10268056560858003499
+  ChildIds: 7494265475518780228
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -68,6 +88,1166 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7494265475518780228
+  Name: "\"Serene Fantasy Dream\" Music Construction Kit (Sections) 01"
+  Transform {
+    Location {
+      X: 3245.89771
+      Y: -7355.50635
+      Z: 9.59211731
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.53686762
+      Y: 4.31297445
+      Z: 1.53686762
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14431567661077499265
+    }
+    TeamSettings {
+    }
+    AudioBP {
+      AutoPlay: true
+      Repeat: true
+      Volume: 1
+      Falloff: 3600
+      Radius: 400
+      EnableOcclusion: true
+      IsSpatializationEnabled: true
+      IsAttenuationEnabled: true
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10268056560858003499
+  Name: "Wispy Fog Volume VFX"
+  Transform {
+    Location {
+      X: 3739.16772
+      Y: -5899.78857
+      Z: -40.8014526
+    }
+    Rotation {
+      Yaw: 150.943
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Fog Displacement Scale"
+      Float: 0.972238779
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 0.387952119
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3978777934343873348
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6378371094526694574
+  Name: "Wispy Fog Volume VFX"
+  Transform {
+    Location {
+      X: 3829.38745
+      Y: -7403.16162
+      Z: -40.8014526
+    }
+    Rotation {
+      Yaw: -45.6851196
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Fog Displacement Scale"
+      Float: 1.81414235
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 0.816601276
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3978777934343873348
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13773424588318028417
+  Name: "Falling Leaves Volume VFX"
+  Transform {
+    Location {
+      X: 3782.62744
+      Y: -7344.59229
+      Z: 793.900269
+    }
+    Rotation {
+    }
+    Scale {
+      X: 16.34692
+      Y: 26.9633789
+      Z: 16.34692
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Leaf Types"
+      Enum {
+        Value: "mc:eleaftypes:4"
+      }
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 1.86441028
+    }
+    Overrides {
+      Name: "bp:Volume Type"
+      Enum {
+        Value: "mc:evfxvolumetype:1"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15989819144106230191
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10248477339769541471
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: 4709.34717
+      Y: -7064.01514
+      Z: 281.638428
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.65738499
+      Y: 1.65738499
+      Z: 1.65738499
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8698665211691655174
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3585580089806435224
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: 4246.979
+      Y: -8045.17334
+      Z: 264.590179
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.65738499
+      Y: 1.65738499
+      Z: 1.65738499
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8698665211691655174
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11640320407435132015
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: 4246.979
+      Y: -8045.17334
+      Z: -7.85296631
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.65738499
+      Y: 1.65738499
+      Z: 1.65738499
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8698665211691655174
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 743031096781121132
+  Name: "Rock Flat 01"
+  Transform {
+    Location {
+      X: 4731.13965
+      Y: -7603.60059
+      Z: 688.491
+    }
+    Rotation {
+      Yaw: -132.907
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1104392259945429213
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15316190199031791247
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: 6223.1377
+      Y: -8615.6709
+      Z: -19.8356323
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.65738499
+      Y: 1.65738499
+      Z: 1.65738499
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8698665211691655174
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4955540394313068277
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: 5250.9
+      Y: -7473.10352
+      Z: 74.0286865
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.65738499
+      Y: 1.65738499
+      Z: 1.65738499
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8698665211691655174
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2811023479995766572
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: 4924.43945
+      Y: -7469.14648
+      Z: -19.8356323
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.65738499
+      Y: 1.65738499
+      Z: 1.65738499
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8698665211691655174
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15871696497606987154
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: 4367.62061
+      Y: -8481.2793
+      Z: -57.8055725
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.29610133
+      Y: 1.29610133
+      Z: 1.29610133
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8698665211691655174
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16001706827490877380
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: 5197.86426
+      Y: -7368.88818
+      Z: 115.8862
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.29610133
+      Y: 1.29610133
+      Z: 1.29610133
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8698665211691655174
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11427961797413648084
+  Name: "[XRStudio] Painted Wooden Picnic Table"
+  Transform {
+    Location {
+      X: 2144.85425
+      Y: -7659.03662
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 83.5155
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16842282973676930869
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Picnic Table"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4092.61816
+            Y: -8382.94336
+            Z: -0.100585938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 131.404922
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3361886886301934323
+    }
+  }
+}
+Objects {
+  Id: 6883050947876640264
+  Name: "[XRStudio] Painted Wooden Picnic Table"
+  Transform {
+    Location {
+      X: 3388.75366
+      Y: -6118.70654
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 133.612091
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16842282973676930869
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Picnic Table"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2144.85425
+            Y: -7659.03662
+            Z: -0.100585938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 83.5155106
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3361886886301934323
+    }
+  }
+}
+Objects {
+  Id: 3147014871022640598
+  Name: "[XRStudio] Painted Wooden Picnic Table"
+  Transform {
+    Location {
+      X: 5506.71191
+      Y: -5303.32129
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -153.511902
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16842282973676930869
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Picnic Table"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3388.75366
+            Y: -6118.70654
+            Z: -0.100585938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 133.612106
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3361886886301934323
+    }
+  }
+}
+Objects {
+  Id: 8266912481865660356
+  Name: "[XRStudio] Painted Wooden Picnic Table"
+  Transform {
+    Location {
+      X: 4892.30566
+      Y: -3065.46729
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -153.511902
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16842282973676930869
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Picnic Table"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5506.71191
+            Y: -5303.32129
+            Z: -0.100585938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -153.511902
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3361886886301934323
+    }
+  }
+}
+Objects {
+  Id: 8052604112463043951
+  Name: "[XRStudio] Painted Wooden Picnic Table"
+  Transform {
+    Location {
+      X: 5082.50195
+      Y: -2537.01782
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -64.9545517
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16842282973676930869
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Picnic Table"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4892.30566
+            Y: -3065.46729
+            Z: -0.100585938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -153.511902
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3361886886301934323
+    }
+  }
+}
+Objects {
+  Id: 9589406483267930651
+  Name: "[XRStudio] Painted Wooden Picnic Table"
+  Transform {
+    Location {
+      X: 631.294556
+      Y: -2537.01782
+      Z: -0.100585938
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16842282973676930869
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Picnic Table"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5082.50195
+            Y: -2537.01782
+            Z: -0.100585938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -64.9545288
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3361886886301934323
+    }
+  }
+}
+Objects {
+  Id: 3108319236789902841
+  Name: "Picnic Tables Inner Game Area"
+  Transform {
+    Location {
+      X: -426.785706
+      Y: -4291.4
+      Z: -0.100585938
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 12389467071077293799
+  ChildIds: 4214110350311019838
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4214110350311019838
+  Name: "[XRStudio] Painted Wooden Picnic Table"
+  Transform {
+    Location {
+      X: 631.294556
+      Y: -2537.01782
+      Z: -0.100585938
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3108319236789902841
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16842282973676930869
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Picnic Table"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1058.08032
+            Y: -1754.38232
+            Z: 99.5467072
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -0.345334351
+            Yaw: -69.3076248
+            Roll: 0.444670171
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8787859895654210928
+    }
+  }
+}
+Objects {
+  Id: 12389467071077293799
+  Name: "[XRStudio] Painted Wooden Picnic Table"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3108319236789902841
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16842282973676930869
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Picnic Table"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1058.08032
+            Y: 1754.38208
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3361886886301934323
+    }
   }
 }
 Objects {
