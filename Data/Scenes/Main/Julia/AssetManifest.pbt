@@ -98,6 +98,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15989819144106230191
+  Name: "Falling Leaves Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_falling_leaves_volume_vfx"
+  }
+}
+Assets {
   Id: 15948807416299862734
   Name: "Fantasy Dish Set - Bowl 01"
   PlatformAssetType: 1
@@ -170,6 +179,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14431567661077499265
+  Name: "\"Serene Fantasy Dream\" Music Construction Kit (Sections) 01"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "abp_SereneFantasyKit_ref"
+  }
+}
+Assets {
   Id: 14344352328303337230
   Name: "Wood Painted 01"
   PlatformAssetType: 2
@@ -185,6 +203,24 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_food_generic_cheese_001_uv"
+  }
+}
+Assets {
+  Id: 14234410662358785551
+  Name: "Decal Moss Patch"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_moss_patch_001"
+  }
+}
+Assets {
+  Id: 14107746637106868094
+  Name: "Japanese Sitting Pillow 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_pillow_sitting_001_ref"
   }
 }
 Assets {
@@ -305,6 +341,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11199070699782815456
+  Name: "Japanese Sitting Pillow 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_pillow_sitting_002_ref"
+  }
+}
+Assets {
   Id: 11155013891418122625
   Name: "Ellipsoid - Truncated Hollow"
   PlatformAssetType: 1
@@ -350,6 +395,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9344245026853429235
+  Name: "Wicker Basket 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fan_wicker_002_uv"
+  }
+}
+Assets {
   Id: 9314504034621143103
   Name: "Wicker Basket 01"
   PlatformAssetType: 2
@@ -374,6 +428,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wedge_001"
+  }
+}
+Assets {
+  Id: 8918264601242420144
+  Name: "Rock Pile 002"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rocks_small_002"
   }
 }
 Assets {
@@ -647,6 +710,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3978777934343873348
+  Name: "Wispy Fog Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_fog_volume_vfx"
+  }
+}
+Assets {
   Id: 3675376178011267601
   Name: "Cylinder - Rounded"
   PlatformAssetType: 1
@@ -761,6 +833,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
+  Id: 1104392259945429213
+  Name: "Rock Flat 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_004"
   }
 }
 Assets {
