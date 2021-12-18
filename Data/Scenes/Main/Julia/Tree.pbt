@@ -1,6 +1,915 @@
 Name: "Julia"
 RootId: 4147847003364547307
 Objects {
+  Id: 21159663122373379
+  Name: "Small Open Crate"
+  Transform {
+    Location {
+      X: -1825.70337
+      Y: 2896.30322
+      Z: -0.100524902
+    }
+    Rotation {
+      Yaw: -69.5679
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10992735078904622553
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4863121524317196010
+  Name: "Small Crate Lid"
+  Transform {
+    Location {
+      X: -1909.79224
+      Y: 2948.74219
+      Z: 19.2148285
+    }
+    Rotation {
+      Pitch: 29.955658
+      Yaw: -69.5679
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4963410339251514959
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5143557806830062551
+  Name: "Damageable Red Apple Crate"
+  Transform {
+    Location {
+      X: 1249.4187
+      Y: 2641.59082
+      Z: 1.54581451
+    }
+    Rotation {
+      Yaw: 44.2741165
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000012
+      Z: 1.00000012
+    }
+  }
+  ParentId: 4147847003364547307
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 231878873275457242
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 81.6959381
+            Y: 16.4819622
+            Z: -17.308342
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -15.3183899
+            Yaw: 85.2999954
+            Roll: 17.7262554
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 283184779845135845
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 43.5100822
+            Y: 45.7021942
+            Z: -2.21134806
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 579645582412758660
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6.64477062
+            Y: -124.797104
+            Z: 24.9812279
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -1.86889648
+            Yaw: 4.48014116
+            Roll: 32.980629
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 790288547075975047
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 43.9914131
+            Y: 85.693634
+            Z: -1.86252022
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -15.163208
+            Yaw: 2.05128431
+            Roll: -15.3212585
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1304462621488028753
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4.91175413
+            Y: -6.67239809
+            Z: 17.9643822
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1862081705768267287
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 49.4571457
+            Y: -44.5125732
+            Z: 45.8242
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 13.3064642
+            Yaw: 1.56207097
+            Roll: 13.3322592
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1891829075460310508
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 34.0696678
+            Y: 29.5470619
+            Z: 9.79773903
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -14.0484924
+            Yaw: 85.699585
+            Roll: 16.1487122
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3069569756078803763
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 71.8914337
+            Y: -2.50423336
+            Z: 2.5515213
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 9.63371468
+            Yaw: 0.8040483
+            Roll: 9.52589417
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3105633040499362126
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -65.7676315
+            Y: -39.7937775
+            Z: 45.746
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3757068665930781942
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 35.0222168
+            Y: 49.4245224
+            Z: 16.6969986
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4064539354622220964
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 60.4111214
+            Y: 4.13579
+            Z: 18.9083633
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -8.99337769
+            Yaw: 86.9038467
+            Roll: 10.1320229
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4998535934956342994
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 95.0265045
+            Y: 8.0379982
+            Z: -31.2520905
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 16.4285908
+            Yaw: 2.42863679
+            Roll: 16.7075844
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5794358405936232013
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 40.8790092
+            Y: 84.1751251
+            Z: 18.9083652
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 14.1426363
+            Yaw: 85.6725
+            Roll: -16.26474
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6575430264665820370
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 59.8719177
+            Y: -51.3869095
+            Z: 17.9643822
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9027285089605311716
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Red Apple Crate decor"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -118.581482
+            Y: 3747.59082
+            Z: 1.54581451
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 44.2740974
+          }
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceon"
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1.00000012
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10725440026872664666
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -62.7661667
+            Y: -83.7683945
+            Z: 45.746
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12698745527779013842
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6.89103794
+            Y: -115.279755
+            Z: 41.8723946
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 32.943119
+            Yaw: -83.8029175
+            Roll: 2.50155234
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14370825067057839435
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 15.0621376
+            Yaw: 2.02265573
+            Roll: 15.2111855
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 47.0473785
+            Y: 21.447113
+            Z: -4.67254829
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16021729827752717020
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 74.8713455
+            Y: -21.9659595
+            Z: 17.9643822
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 17.8213348
+            Yaw: 2.8877902
+            Roll: 18.2663574
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1242907154206262256
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 18172224721736533935
+  Name: "Damageable Red Apple Crate"
+  Transform {
+    Location {
+      X: 1965.92126
+      Y: 1847.30835
+      Z: 1.54581451
+    }
+    Rotation {
+      Yaw: 44.2741585
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000012
+      Z: 1.00000012
+    }
+  }
+  ParentId: 4147847003364547307
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 231878873275457242
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 81.6959381
+            Y: 16.4819622
+            Z: -17.308342
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -15.3183899
+            Yaw: 85.2999954
+            Roll: 17.7262554
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 283184779845135845
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 43.5100822
+            Y: 45.7021942
+            Z: -2.21134806
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 579645582412758660
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6.64477062
+            Y: -124.797104
+            Z: 24.9812279
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -1.86889648
+            Yaw: 4.48014116
+            Roll: 32.980629
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 790288547075975047
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 43.9914131
+            Y: 85.693634
+            Z: -1.86252022
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -15.163208
+            Yaw: 2.05128431
+            Roll: -15.3212585
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1304462621488028753
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4.91175413
+            Y: -6.67239809
+            Z: 17.9643822
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1862081705768267287
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 49.4571457
+            Y: -44.5125732
+            Z: 45.8242
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 13.3064642
+            Yaw: 1.56207097
+            Roll: 13.3322592
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1891829075460310508
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 34.0696678
+            Y: 29.5470619
+            Z: 9.79773903
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -14.0484924
+            Yaw: 85.699585
+            Roll: 16.1487122
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3069569756078803763
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 71.8914337
+            Y: -2.50423336
+            Z: 2.5515213
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 9.63371468
+            Yaw: 0.8040483
+            Roll: 9.52589417
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3105633040499362126
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -65.7676315
+            Y: -39.7937775
+            Z: 45.746
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3757068665930781942
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 35.0222168
+            Y: 49.4245224
+            Z: 16.6969986
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4064539354622220964
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 60.4111214
+            Y: 4.13579
+            Z: 18.9083633
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -8.99337769
+            Yaw: 86.9038467
+            Roll: 10.1320229
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4998535934956342994
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 95.0265045
+            Y: 8.0379982
+            Z: -31.2520905
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 16.4285908
+            Yaw: 2.42863679
+            Roll: 16.7075844
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5794358405936232013
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 40.8790092
+            Y: 84.1751251
+            Z: 18.9083652
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 14.1426363
+            Yaw: 85.6725
+            Roll: -16.26474
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6575430264665820370
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 59.8719177
+            Y: -51.3869095
+            Z: 17.9643822
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9027285089605311716
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Red Apple Crate decor"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1249.4187
+            Y: 2641.59082
+            Z: 1.54581451
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 44.2741356
+          }
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceon"
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1.00000012
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10725440026872664666
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -62.7661667
+            Y: -83.7683945
+            Z: 45.746
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12698745527779013842
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6.89103794
+            Y: -115.279755
+            Z: 41.8723946
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 32.943119
+            Yaw: -83.8029175
+            Roll: 2.50155234
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14370825067057839435
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 15.0621376
+            Yaw: 2.02265573
+            Roll: 15.2111855
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 47.0473785
+            Y: 21.447113
+            Z: -4.67254829
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16021729827752717020
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 74.8713455
+            Y: -21.9659595
+            Z: 17.9643822
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 17.8213348
+            Yaw: 2.8877902
+            Roll: 18.2663574
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1242907154206262256
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
   Id: 17216857516807323049
   Name: "Bush 02"
   Transform {
@@ -18432,7 +19341,7 @@ Objects {
     Location {
       X: -571.799255
       Y: 28.9946289
-      Z: -21.3944283
+      Z: -27.221714
     }
     Rotation {
       Yaw: 91.3639069
@@ -20495,8 +21404,8 @@ Objects {
   Transform {
     Location {
       X: -571.680603
-      Y: 36.7531738
-      Z: -23.2073174
+      Y: 36.7550659
+      Z: -29.0346031
     }
     Rotation {
       Pitch: -2.5993042
@@ -20582,7 +21491,7 @@ Objects {
     Location {
       X: -320.790497
       Y: -21.0012817
-      Z: -23.1889
+      Z: -29.0161858
     }
     Rotation {
       Yaw: 8.796464e-09
@@ -22645,8 +23554,8 @@ Objects {
   Transform {
     Location {
       X: -313.039032
-      Y: -21.3067322
-      Z: -25.0016365
+      Y: -21.3058472
+      Z: -30.8289223
     }
     Rotation {
       Pitch: -2.5993042
@@ -69279,6 +70188,7 @@ Objects {
   ParentId: 4147847003364547307
   ChildIds: 880001919052837217
   ChildIds: 9755793664032770871
+  ChildIds: 18440208746411275358
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -69293,6 +70203,68 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 18440208746411275358
+  Name: "Green Apple (decor)"
+  Transform {
+    Location {
+      X: -1474.5332
+      Y: 252.941162
+    }
+    Rotation {
+      Yaw: -69.5679
+    }
+    Scale {
+      X: 0.445568591
+      Y: 0.445568591
+      Z: 0.445568591
+    }
+  }
+  ParentId: 341234770719137638
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4946768303961194863
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5089623065350727938
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -69537,6 +70509,15 @@ Objects {
             Y: -77.2645874
             Z: 60.4834213
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 241518876794970246
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
         }
       }
     }
@@ -73609,6 +74590,7 @@ Objects {
   ChildIds: 4252421416388661917
   ChildIds: 14087010144859350553
   ChildIds: 15536340054054940383
+  ChildIds: 4984783390262122219
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -73623,6 +74605,357 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4984783390262122219
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 83.2714081
+      Y: 46.6934547
+      Z: 7.85101318
+    }
+    Rotation {
+      Yaw: -108.275589
+    }
+    Scale {
+      X: 1.16760516
+      Y: 1.16760516
+      Z: 1.16760516
+    }
+  }
+  ParentId: 10928986063078227728
+  ChildIds: 553823628846416721
+  ChildIds: 9640429271828979577
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9640429271828979577
+  Name: "ClientContext"
+  Transform {
+    Location {
+      Z: -44.5222321
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4984783390262122219
+  ChildIds: 9188915230455684324
+  ChildIds: 6287086001813161342
+  ChildIds: 13777854161394254611
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13777854161394254611
+  Name: "SitTrigger"
+  Transform {
+    Location {
+      X: 38.0703735
+      Z: 18.7627411
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.476830095
+      Y: 0.0572012067
+      Z: 0.476830095
+    }
+  }
+  ParentId: 9640429271828979577
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    InteractionLabel: "Sit"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6287086001813161342
+  Name: "OuterTrigger"
+  Transform {
+    Location {
+      X: 40.9888916
+      Z: 18.7627411
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.24003482
+      Y: 0.672337
+      Z: 1.24003482
+    }
+  }
+  ParentId: 9640429271828979577
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9188915230455684324
+  Name: "ChairClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9640429271828979577
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Root"
+      ObjectReference {
+        SelfId: 4984783390262122219
+      }
+    }
+    Overrides {
+      Name: "cs:OuterTrigger"
+      ObjectReference {
+        SelfId: 6287086001813161342
+      }
+    }
+    Overrides {
+      Name: "cs:SitTrigger"
+      ObjectReference {
+        SelfId: 13777854161394254611
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 11442475187611604727
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 553823628846416721
+  Name: "ServerContext"
+  Transform {
+    Location {
+      X: 50.9395561
+      Y: 10.569664
+      Z: 77.6000366
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4984783390262122219
+  ChildIds: 13351845357612766398
+  ChildIds: 16606250339889292475
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    Type: Server
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16606250339889292475
+  Name: "Guide Cube"
+  Transform {
+    Location {
+      X: -35.7556801
+      Y: -1.47020055e-05
+      Z: -76.6409302
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.0435556397
+      Y: 0.813191473
+      Z: 0.0435556397
+    }
+  }
+  ParentId: 553823628846416721
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13351845357612766398
+  Name: "ChairServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 553823628846416721
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Root"
+      ObjectReference {
+        SelfId: 4984783390262122219
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14287183517268683398
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
