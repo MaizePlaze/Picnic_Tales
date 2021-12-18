@@ -130,7 +130,11 @@ function MeleeAttack(target, abilityInfo)
             
             damage.amount = 0
             target:ApplyDamage(damage)
-            target:animationStance("unarmed_stun_dizzy")
+            local playerStance = target.animationStance
+            print(playerStance)
+            target.animationStance = "unarmed_stun_dizzy"
+            Task.Wait(1.5)
+            target.animationStance = playerStance
         else
             target:ApplyDamage(damage)
         end
