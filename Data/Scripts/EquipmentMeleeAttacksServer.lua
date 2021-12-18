@@ -130,6 +130,7 @@ function MeleeAttack(target, abilityInfo)
             
             damage.amount = 0
             target:ApplyDamage(damage)
+            target:animationStance("unarmed_stun_dizzy")
         else
             target:ApplyDamage(damage)
         end

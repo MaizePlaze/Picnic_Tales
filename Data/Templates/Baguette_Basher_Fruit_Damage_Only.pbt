@@ -7,7 +7,7 @@ Assets {
       RootId: 9659805398910670651
       Objects {
         Id: 9659805398910670651
-        Name: "Baguette_Basher_1Handed_Equipment"
+        Name: "Baguette_Basher_Fruit_Damage_Only"
         Transform {
           Scale {
             X: 1
@@ -30,13 +30,13 @@ Assets {
           Overrides {
             Name: "cs:PlayerImpact"
             AssetReference {
-              Id: 307406115803496087
+              Id: 1448243100367879904
             }
           }
           Overrides {
             Name: "cs:ObjectImpact"
             AssetReference {
-              Id: 16244471840856776085
+              Id: 2005078399509689596
             }
           }
           Overrides {

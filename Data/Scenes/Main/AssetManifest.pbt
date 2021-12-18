@@ -35,30 +35,12 @@ Assets {
   }
 }
 Assets {
-  Id: 15977132222076426364
-  Name: "Hard Thump SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "hard_thump_sfx"
-  }
-}
-Assets {
   Id: 11515840070784317904
   Name: "Skylight"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Skylight"
-  }
-}
-Assets {
-  Id: 8295671405986391643
-  Name: "Wet Smack Thump SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_thump_01"
   }
 }
 Assets {

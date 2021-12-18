@@ -24,10 +24,11 @@ Objects {
   ChildIds: 17004982211496005198
   ChildIds: 14514620297413989333
   ChildIds: 11802196637990347576
-  ChildIds: 3191541584411559471
-  ChildIds: 7468109226243651864
   ChildIds: 9940361056510228460
   ChildIds: 9761570734146860012
+  ChildIds: 6663978554835284108
+  ChildIds: 15708223739224622998
+  ChildIds: 12965911363901754835
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -43,6 +44,129 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12965911363901754835
+  Name: "Apple Crate Impact Effect"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8644717386920002046
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Apple Crate Impact Effect"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2005078399509689596
+    }
+  }
+}
+Objects {
+  Id: 15708223739224622998
+  Name: "Player Bread Impact Effect"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17227563079327885139
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Player Bread Impact Effect"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1303.42517
+            Y: -226.270752
+            Z: -0.100585938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1448243100367879904
+    }
+  }
+}
+Objects {
+  Id: 6663978554835284108
+  Name: "Baguette_Basher_Fruit_Damage_Only"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9659805398910670651
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Baguette_Basher_Fruit_Damage_Only"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1025.17542
+            Y: -172.408203
+            Z: -0.100585938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7311212680059740864
+    }
   }
 }
 Objects {
@@ -124,90 +248,6 @@ Objects {
     TemplateAsset {
       Id: 11680857195230344466
     }
-  }
-}
-Objects {
-  Id: 7468109226243651864
-  Name: "Wet Smack Thump SFX"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 8295671405986391643
-    }
-    Volume: 1
-    Falloff: -1
-    Radius: -1
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 3191541584411559471
-  Name: "Hard Thump SFX"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 15977132222076426364
-    }
-    Volume: 1
-    Falloff: -1
-    Radius: -1
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
