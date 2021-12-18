@@ -5,9 +5,9 @@ Objects {
   Name: "Ring - Thin"
   Transform {
     Location {
-      X: -0.0855178833
-      Y: 0.166503906
-      Z: 1.58596039
+      X: -0.0859932825
+      Y: 0.166504323
+      Z: 1.58595788
     }
     Rotation {
     }
@@ -65,8 +65,8 @@ Objects {
   Name: "Pipe (thin)"
   Transform {
     Location {
-      X: 0.211784363
-      Y: -0.151184082
+      X: 0.211675748
+      Y: -0.151185945
     }
     Rotation {
     }
@@ -137,9 +137,9 @@ Objects {
   Name: "Pipe (thin)"
   Transform {
     Location {
-      X: 0.211784363
-      Y: -0.151184082
-      Z: 0.00970459
+      X: 0.211675748
+      Y: -0.151185945
+      Z: 0.00970697496
     }
     Rotation {
     }
@@ -210,9 +210,9 @@ Objects {
   Name: "Ring - Thin"
   Transform {
     Location {
-      X: -0.0855178833
-      Y: 0.166503906
-      Z: 0.415367126
+      X: -0.0859932825
+      Y: 0.166504323
+      Z: 0.415367246
     }
     Rotation {
     }
@@ -270,9 +270,9 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: -0.2525177
-      Y: -0.0306396484
-      Z: 0.229019165
+      X: -0.252467453
+      Y: -0.0306411237
+      Z: 0.229022607
     }
     Rotation {
     }
@@ -321,6 +321,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {

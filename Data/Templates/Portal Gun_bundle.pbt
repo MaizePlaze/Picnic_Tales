@@ -22,7 +22,7 @@ Assets {
         Folder {
           BundleDummy {
             ReferencedAssets {
-              Id: 12859464437884246819
+              Id: 841534158063459245
             }
           }
         }

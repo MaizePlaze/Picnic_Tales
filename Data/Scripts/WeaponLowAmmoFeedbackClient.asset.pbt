@@ -7,7 +7,7 @@ Assets {
       Overrides {
         Name: "cs:LowAmmoSound"
         AssetReference {
-          Id: 16064653477604779480
+          Id: 841534158063459245
         }
       }
       Overrides {
