@@ -1,0 +1,7 @@
+-- Game.playerJoinedEvent:Connect(function(player)
+-- 	player.bindingPressedEvent:Connect(function(p, binding)
+-- 		if(binding == "ability_extra_1") then
+-- 			player:Die()
+-- 		end
+-- 	end)
+-- end)
