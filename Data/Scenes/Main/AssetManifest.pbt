@@ -62,15 +62,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7433215678583165186
-  Name: "Instant Fog Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_instaFog_volume_vfx1"
-  }
-}
-Assets {
   Id: 6120777486642466004
   Name: "Sphere - Half Slice Thin"
   PlatformAssetType: 1

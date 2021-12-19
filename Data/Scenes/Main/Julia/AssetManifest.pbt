@@ -521,6 +521,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6769523610148993537
+  Name: "Grass Tall"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_001"
+  }
+}
+Assets {
   Id: 6596493677265272551
   Name: "Trim - Curve 90\302\260 - 16m Radius"
   PlatformAssetType: 1
