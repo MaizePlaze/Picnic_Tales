@@ -1,13 +1,4 @@
 Assets {
-  Id: 18436676146666430799
-  Name: "Grass and Soil"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_grass_003_uv"
-  }
-}
-Assets {
   Id: 16319156188981736369
   Name: "Callout Sparkle"
   PlatformAssetType: 8
@@ -26,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7485850683740043800
-  Name: "Food Fruit 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_food_generic_apple_001_uv"
-  }
-}
-Assets {
   Id: 6287606422488195013
   Name: "Tree Oak 01"
   PlatformAssetType: 1
@@ -50,24 +32,6 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_dummy_pivot"
-  }
-}
-Assets {
-  Id: 6120777486642466004
-  Name: "Sphere - Half Slice Thin"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hemisphere_wedge_002"
-  }
-}
-Assets {
-  Id: 5089623065350727938
-  Name: "Basic Apple"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prim_org_apple_001_ref"
   }
 }
 Assets {
