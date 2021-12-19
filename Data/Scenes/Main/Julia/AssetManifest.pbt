@@ -179,6 +179,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14452616722762075696
+  Name: "Fantasy Castle Pillar 01 Base"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_pillar_001_base"
+  }
+}
+Assets {
   Id: 14431567661077499265
   Name: "\"Serene Fantasy Dream\" Music Construction Kit (Sections) 01"
   PlatformAssetType: 10
@@ -509,6 +518,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_leaves_001"
+  }
+}
+Assets {
+  Id: 6769523610148993537
+  Name: "Grass Tall"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_001"
   }
 }
 Assets {
