@@ -1,6 +1,931 @@
 Name: "Julia"
 RootId: 4147847003364547307
 Objects {
+  Id: 3278944289709265472
+  Name: "Decal Moss Patch"
+  Transform {
+    Location {
+      X: -1270.64966
+      Y: -3966.53369
+      Z: 592.585144
+    }
+    Rotation {
+      Yaw: -70.0601196
+      Roll: 90.600296
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14234410662358785551
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 2768489054419753565
+  Name: "Decal Moss Patch"
+  Transform {
+    Location {
+      X: -1977.17041
+      Y: -3348.99731
+      Z: 467.903717
+    }
+    Rotation {
+      Yaw: -43.4798813
+      Roll: 90.3764801
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14234410662358785551
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 5209858939688065995
+  Name: "Decal Moss Patch"
+  Transform {
+    Location {
+      X: -4884.19189
+      Y: -229.43399
+      Z: 490.332092
+    }
+    Rotation {
+      Yaw: -79.8520355
+      Roll: 81.6956787
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14234410662358785551
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 4830825376637873214
+  Name: "Decal Moss Patch"
+  Transform {
+    Location {
+      X: -3866.8457
+      Y: -542.338928
+      Z: 388.72995
+    }
+    Rotation {
+      Yaw: -24.7293243
+      Roll: 82.002861
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14234410662358785551
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 747399834245709940
+  Name: "Decal Moss Patch"
+  Transform {
+    Location {
+      X: -3071.3418
+      Y: -1106.26819
+      Z: 454.803467
+    }
+    Rotation {
+      Yaw: -45.6428337
+      Roll: 54.4509544
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14234410662358785551
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 12560421111108929271
+  Name: "Decal Moss Patch"
+  Transform {
+    Location {
+      X: -2799.4873
+      Y: -1672.70752
+      Z: 314.424377
+    }
+    Rotation {
+      Yaw: -74.1979828
+      Roll: 87.5237503
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4147847003364547307
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14234410662358785551
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 6630185891437948764
+  Name: "Pillar Main Game Area"
+  Transform {
+    Location {
+      X: -3533.36597
+      Y: -698.865417
+      Z: -91.9557114
+    }
+    Rotation {
+      Pitch: 6.07265949
+      Yaw: 69.042923
+      Roll: -3.24267578
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4147847003364547307
+  ChildIds: 2350766539563441134
+  ChildIds: 14448638394340413804
+  ChildIds: 1255755643855599170
+  ChildIds: 15554281942019340124
+  ChildIds: 11268084407748019245
+  ChildIds: 8794107537444822178
+  ChildIds: 17333192367864606019
+  ChildIds: 15608571309393303461
+  ChildIds: 18421123015541033121
+  ChildIds: 7724356681819662362
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7724356681819662362
+  Name: "Fantasy Castle Pillar 01 Base"
+  Transform {
+    Location {
+      X: -2187.26318
+      Y: -2237.46729
+      Z: 734.600525
+    }
+    Rotation {
+      Pitch: -7.75720215
+      Yaw: 33.0282555
+      Roll: -1.18078613
+    }
+    Scale {
+      X: 3.49143457
+      Y: 3.30873132
+      Z: 1.43538857
+    }
+  }
+  ParentId: 6630185891437948764
+  ChildIds: 152370283911809087
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14452616722762075696
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 152370283911809087
+  Name: "Decal Moss Patch"
+  Transform {
+    Location {
+      X: 61.604393
+      Y: -44.169838
+      Z: 350.891357
+    }
+    Rotation {
+      Pitch: 0.579172671
+      Yaw: -89.9864502
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 0.884468138
+      Y: 0.437559396
+      Z: 0.69667542
+    }
+  }
+  ParentId: 7724356681819662362
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14234410662358785551
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 18421123015541033121
+  Name: "Fantasy Castle Pillar 01 Base"
+  Transform {
+    Location {
+      X: -2690.67603
+      Y: -2961.50464
+      Z: 607.427
+    }
+    Rotation {
+      Pitch: -2.41030884
+      Yaw: -49.4528809
+      Roll: 6.13808203
+    }
+    Scale {
+      X: 3.49143457
+      Y: 3.30873132
+      Z: 1.43538857
+    }
+  }
+  ParentId: 6630185891437948764
+  ChildIds: 17845561473546644538
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14452616722762075696
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17845561473546644538
+  Name: "Decal Moss Patch"
+  Transform {
+    Location {
+      X: 61.604393
+      Y: -44.169838
+      Z: 350.891357
+    }
+    Rotation {
+      Pitch: 0.579172671
+      Yaw: -89.9864502
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 0.884468138
+      Y: 0.437559396
+      Z: 0.69667542
+    }
+  }
+  ParentId: 18421123015541033121
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14234410662358785551
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 15608571309393303461
+  Name: "Fantasy Castle Pillar 01 Base"
+  Transform {
+    Location {
+      X: -2009.65588
+      Y: -2336.57812
+      Z: 343.779877
+    }
+    Rotation {
+      Pitch: -5.25164795
+      Yaw: -22.9766846
+      Roll: 4.76248
+    }
+    Scale {
+      X: 1.13062298
+      Y: 2.28540397
+      Z: 1.43538868
+    }
+  }
+  ParentId: 6630185891437948764
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14452616722762075696
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17333192367864606019
+  Name: "Fantasy Castle Pillar 01 Base"
+  Transform {
+    Location {
+      X: -71.5512695
+      Y: 1629.27539
+      Z: -87.4102936
+    }
+    Rotation {
+      Pitch: 5.66222668
+      Yaw: -58.2325745
+      Roll: 3.6626482
+    }
+    Scale {
+      X: -2.65769863
+      Y: 2.17191148
+      Z: 1.6478554
+    }
+  }
+  ParentId: 6630185891437948764
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14452616722762075696
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8794107537444822178
+  Name: "Fantasy Castle Pillar 01 Base"
+  Transform {
+    Location {
+      X: -42.1447449
+      Y: 343.320526
+      Z: -17.7124939
+    }
+    Rotation {
+      Pitch: 2.06911016
+      Yaw: -26.2572632
+      Roll: 2.36948347
+    }
+    Scale {
+      X: 1.13062179
+      Y: 1.89187098
+      Z: 1.43538857
+    }
+  }
+  ParentId: 6630185891437948764
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14452616722762075696
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11268084407748019245
+  Name: "Fantasy Castle Pillar 01 Base"
+  Transform {
+    Location {
+      X: -720.997192
+      Y: -959.692322
+      Z: 128.45163
+    }
+    Rotation {
+      Pitch: -0.175170898
+      Yaw: -53.3532104
+      Roll: 6.12407398
+    }
+    Scale {
+      X: 1.13062179
+      Y: 1.89187098
+      Z: 1.43538857
+    }
+  }
+  ParentId: 6630185891437948764
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14452616722762075696
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15554281942019340124
+  Name: "Fantasy Castle Pillar 01 Base"
+  Transform {
+    Location {
+      X: -323.911621
+      Y: -576.345
+      Z: 64.4187088
+    }
+    Rotation {
+      Pitch: -4.29144287
+      Yaw: -13.6564636
+      Roll: 3.88855195
+    }
+    Scale {
+      X: 1.13062179
+      Y: 1.89187098
+      Z: 1.43538857
+    }
+  }
+  ParentId: 6630185891437948764
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14452616722762075696
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1255755643855599170
+  Name: "Decal Moss Patch"
+  Transform {
+    Location {
+      X: -26.7753906
+      Y: 6.71142578
+      Z: 531.121216
+    }
+    Rotation {
+      Yaw: -89.9999924
+      Roll: 89.9999695
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6630185891437948764
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14234410662358785551
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 14448638394340413804
+  Name: "Decal Moss Patch"
+  Transform {
+    Location {
+      X: 50.9239502
+      Y: -3.57958984
+      Z: 194.542786
+    }
+    Rotation {
+      Yaw: -90.0009842
+      Roll: 86.0625
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6630185891437948764
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14234410662358785551
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 2350766539563441134
+  Name: "Fantasy Castle Pillar 01 Base"
+  Transform {
+    Location {
+      X: -65.1379395
+      Y: -20.5140572
+      Z: 5.35249949
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.13062179
+      Y: 1.89187098
+      Z: 1.43538857
+    }
+  }
+  ParentId: 6630185891437948764
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14452616722762075696
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
   Id: 11666903259986248112
   Name: "Lighting Main Game Play Area"
   Transform {
@@ -755,9 +1680,9 @@ Objects {
   Name: "Point Light"
   Transform {
     Location {
-      X: 1339.37439
-      Y: 1832.74731
-      Z: 257.253326
+      X: 1322.41919
+      Y: 1699.38843
+      Z: 376.653137
     }
     Rotation {
     }
@@ -58448,7 +59373,7 @@ Objects {
   }
   ParentId: 13883852546327969448
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
