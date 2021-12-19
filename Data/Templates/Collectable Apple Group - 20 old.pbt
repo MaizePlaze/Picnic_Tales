@@ -1,6 +1,6 @@
 Assets {
   Id: 7598201077198913219
-  Name: "Collectable Apple Group - 20"
+  Name: "Collectable Apple Group - 20 old"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
