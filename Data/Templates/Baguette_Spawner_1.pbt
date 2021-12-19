@@ -275,14 +275,16 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
+            X: 1.86730957
+            Y: 1.71765137
             Z: -5
           }
           Rotation {
             Yaw: -3.05175781e-05
           }
           Scale {
-            X: 2
-            Y: 2
+            X: 1.46111834
+            Y: 0.866889715
             Z: 2
           }
         }
@@ -291,7 +293,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3110766469218200335
+              Id: 4916272036230992312
             }
           }
           Overrides {
@@ -568,15 +570,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cylinder_002"
-      }
-    }
-    Assets {
-      Id: 3110766469218200335
-      Name: "Edge Line Sharp"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "fxma_add_edgeline_sharpline"
       }
     }
     Assets {

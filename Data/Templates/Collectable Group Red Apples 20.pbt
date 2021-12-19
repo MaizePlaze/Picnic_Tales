@@ -1,13 +1,13 @@
 Assets {
-  Id: 7598201077198913219
-  Name: "Collectable Apple Group - 20"
+  Id: 1025510029611788240
+  Name: "Collectable Group Red Apples 20"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 1935303560074071995
+      RootId: 14817463942308454957
       Objects {
-        Id: 1935303560074071995
-        Name: "Collectable Apple Group - 20"
+        Id: 14817463942308454957
+        Name: "Collectable Group Red Apples 20"
         Transform {
           Scale {
             X: 1
@@ -15,9 +15,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 4805791761734118650
-        ChildIds: 16421264638854056221
+        ParentId: 9964610755031626702
+        ChildIds: 15446517371318678737
+        ChildIds: 2791963859785227328
         UnregisteredParameters {
           Overrides {
             Name: "cs:Resource"
@@ -30,7 +30,7 @@ Assets {
           Overrides {
             Name: "cs:PickupEffect"
             AssetReference {
-              Id: 9640400270141758965
+              Id: 9207182749068206084
             }
           }
         }
@@ -51,7 +51,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4805791761734118650
+        Id: 15446517371318678737
         Name: "CollectableGroup_Server"
         Transform {
           Location {
@@ -64,12 +64,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1935303560074071995
+        ParentId: 14817463942308454957
         UnregisteredParameters {
           Overrides {
             Name: "cs:ClientRoot"
             ObjectReference {
-              SubObjectId: 16421264638854056221
+              SubObjectId: 2791963859785227328
             }
           }
         }
@@ -92,10 +92,12 @@ Assets {
         }
       }
       Objects {
-        Id: 16421264638854056221
+        Id: 2791963859785227328
         Name: "ClientContext"
         Transform {
           Location {
+            Y: -125
+            Z: 135
           }
           Rotation {
           }
@@ -105,28 +107,28 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1935303560074071995
-        ChildIds: 9999538631813843869
-        ChildIds: 2687148605696419552
-        ChildIds: 13631719313334511158
-        ChildIds: 6948462080989254571
-        ChildIds: 1166870904003927635
-        ChildIds: 16532895501456933869
-        ChildIds: 5629339530711613555
-        ChildIds: 5467875778977784719
-        ChildIds: 11665729515233314859
-        ChildIds: 203723302286942531
-        ChildIds: 14261931010290275461
-        ChildIds: 14964030005192178775
-        ChildIds: 17078907412489766847
-        ChildIds: 11210936237784661189
-        ChildIds: 3083172935882646566
-        ChildIds: 2669934119765320871
-        ChildIds: 5078534122814512914
-        ChildIds: 1987657264230752652
-        ChildIds: 18238003716459078315
-        ChildIds: 16862974158066635204
-        ChildIds: 14603154063166417462
+        ParentId: 14817463942308454957
+        ChildIds: 12886010252240002754
+        ChildIds: 7016418146588794203
+        ChildIds: 17292083774838729387
+        ChildIds: 11808943318567990112
+        ChildIds: 11304684632612790233
+        ChildIds: 11801468455240178462
+        ChildIds: 2394532836583660594
+        ChildIds: 4717993121725597684
+        ChildIds: 2475967931271323773
+        ChildIds: 17791726962592564509
+        ChildIds: 8762816581939097609
+        ChildIds: 8314194309586567646
+        ChildIds: 12873346280587281523
+        ChildIds: 16386418759583912118
+        ChildIds: 4522048031765355897
+        ChildIds: 10992045794482607509
+        ChildIds: 4509118612254055400
+        ChildIds: 901113122229088264
+        ChildIds: 4047664500617850499
+        ChildIds: 170484483823615044
+        ChildIds: 15655711412744024727
         UnregisteredParameters {
           Overrides {
             Name: "cs:Contents"
@@ -154,10 +156,12 @@ Assets {
         }
       }
       Objects {
-        Id: 9999538631813843869
+        Id: 12886010252240002754
         Name: "CollectableGroup_Client"
         Transform {
           Location {
+            Y: 250
+            Z: -135
           }
           Rotation {
           }
@@ -167,12 +171,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
+        ParentId: 2791963859785227328
         UnregisteredParameters {
           Overrides {
             Name: "cs:ClientRoot"
             ObjectReference {
-              SubObjectId: 16421264638854056221
+              SubObjectId: 2791963859785227328
             }
           }
         }
@@ -195,23 +199,31 @@ Assets {
         }
       }
       Objects {
-        Id: 2687148605696419552
+        Id: 7016418146588794203
         Name: "ApplePickup"
         Transform {
+          Location {
+            X: -4285.60645
+            Y: -589.534424
+            Z: -25
+          }
+          Rotation {
+          }
           Scale {
             X: 1
             Y: 1
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 15877318433145602632
-        ChildIds: 13243001075988608962
+        ParentId: 2791963859785227328
+        ChildIds: 10971446764721732083
+        ChildIds: 17572323479273180281
+        ChildIds: 16502925694963854331
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 15877318433145602632
+              SubObjectId: 10971446764721732083
             }
           }
         }
@@ -232,7 +244,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15877318433145602632
+        Id: 10971446764721732083
         Name: "Trigger"
         Transform {
           Location {
@@ -245,7 +257,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 2687148605696419552
+        ParentId: 7016418146588794203
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -269,7 +281,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13243001075988608962
+        Id: 17572323479273180281
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -282,9 +294,9 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 2687148605696419552
-        ChildIds: 6090713482971167637
-        ChildIds: 3969397988030606574
+        ParentId: 7016418146588794203
+        ChildIds: 1194430193743331374
+        ChildIds: 8287707682916915029
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -302,7 +314,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6090713482971167637
+        Id: 1194430193743331374
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -315,9 +327,9 @@ Assets {
             Z: 1.70433033
           }
         }
-        ParentId: 13243001075988608962
-        ChildIds: 12785463821601829947
-        ChildIds: 6015049192967020669
+        ParentId: 17572323479273180281
+        ChildIds: 17688714166255243136
+        ChildIds: 1687802117881043910
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -338,7 +350,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12785463821601829947
+        Id: 17688714166255243136
         Name: "Red Apple"
         Transform {
           Location {
@@ -353,7 +365,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 6090713482971167637
+        ParentId: 1194430193743331374
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -399,7 +411,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6015049192967020669
+        Id: 1687802117881043910
         Name: "Stalk"
         Transform {
           Location {
@@ -417,7 +429,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 6090713482971167637
+        ParentId: 1194430193743331374
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -468,7 +480,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3969397988030606574
+        Id: 8287707682916915029
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -481,12 +493,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 13243001075988608962
+        ParentId: 17572323479273180281
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 13243001075988608962
+              SubObjectId: 17572323479273180281
             }
           }
         }
@@ -509,10 +521,100 @@ Assets {
         }
       }
       Objects {
-        Id: 13631719313334511158
+        Id: 16502925694963854331
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.599612296
+            Y: 0.599612296
+            Z: 0.599612296
+          }
+        }
+        ParentId: 7016418146588794203
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 17292083774838729387
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -5450
+            Y: 1560
+            Z: 33.7755127
           }
           Rotation {
           }
@@ -522,14 +624,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 9542361044642015215
-        ChildIds: 10164274461742886736
+        ParentId: 2791963859785227328
+        ChildIds: 16587574039793689166
+        ChildIds: 1862001452652697424
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 9542361044642015215
+              SubObjectId: 16587574039793689166
             }
           }
         }
@@ -550,7 +652,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9542361044642015215
+        Id: 16587574039793689166
         Name: "Trigger"
         Transform {
           Location {
@@ -563,7 +665,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13631719313334511158
+        ParentId: 17292083774838729387
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -587,7 +689,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10164274461742886736
+        Id: 1862001452652697424
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -600,9 +702,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 13631719313334511158
-        ChildIds: 8580864783895551428
-        ChildIds: 12674006026879477918
+        ParentId: 17292083774838729387
+        ChildIds: 17812312666200250388
+        ChildIds: 18139140101321138582
+        ChildIds: 15018764784138767511
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -620,7 +723,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8580864783895551428
+        Id: 17812312666200250388
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -633,12 +736,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 10164274461742886736
+        ParentId: 1862001452652697424
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 10164274461742886736
+              SubObjectId: 1862001452652697424
             }
           }
         }
@@ -661,7 +764,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12674006026879477918
+        Id: 18139140101321138582
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -674,9 +777,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 10164274461742886736
-        ChildIds: 226420646848535368
-        ChildIds: 7419166461827365738
+        ParentId: 1862001452652697424
+        ChildIds: 12429771791769143265
+        ChildIds: 7244972304887652641
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -697,7 +800,7 @@ Assets {
         }
       }
       Objects {
-        Id: 226420646848535368
+        Id: 12429771791769143265
         Name: "Red Apple"
         Transform {
           Location {
@@ -712,7 +815,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 12674006026879477918
+        ParentId: 18139140101321138582
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -758,7 +861,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7419166461827365738
+        Id: 7244972304887652641
         Name: "Stalk"
         Transform {
           Location {
@@ -776,7 +879,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 12674006026879477918
+        ParentId: 18139140101321138582
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -827,10 +930,100 @@ Assets {
         }
       }
       Objects {
-        Id: 6948462080989254571
+        Id: 15018764784138767511
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 1862001452652697424
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 11808943318567990112
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -5295
+            Y: -105
+            Z: -95
           }
           Rotation {
           }
@@ -840,14 +1033,15 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 6143747875575964126
-        ChildIds: 10207345879681884752
+        ParentId: 2791963859785227328
+        ChildIds: 7430853305320656025
+        ChildIds: 17113622859891842926
+        ChildIds: 17404962287924424094
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 6143747875575964126
+              SubObjectId: 7430853305320656025
             }
           }
         }
@@ -868,7 +1062,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6143747875575964126
+        Id: 7430853305320656025
         Name: "Trigger"
         Transform {
           Location {
@@ -881,7 +1075,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6948462080989254571
+        ParentId: 11808943318567990112
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -905,7 +1099,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10207345879681884752
+        Id: 17113622859891842926
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -918,9 +1112,9 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 6948462080989254571
-        ChildIds: 5526658813709387656
-        ChildIds: 1300222698265512141
+        ParentId: 11808943318567990112
+        ChildIds: 3430221165187687814
+        ChildIds: 8296955014814976655
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -938,7 +1132,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5526658813709387656
+        Id: 3430221165187687814
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -951,12 +1145,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 10207345879681884752
+        ParentId: 17113622859891842926
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 10207345879681884752
+              SubObjectId: 17113622859891842926
             }
           }
         }
@@ -979,7 +1173,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1300222698265512141
+        Id: 8296955014814976655
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -992,9 +1186,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 10207345879681884752
-        ChildIds: 649843863850513652
-        ChildIds: 4191948822023949367
+        ParentId: 17113622859891842926
+        ChildIds: 6362079092538710273
+        ChildIds: 11517467363275181861
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1015,7 +1209,7 @@ Assets {
         }
       }
       Objects {
-        Id: 649843863850513652
+        Id: 6362079092538710273
         Name: "Red Apple"
         Transform {
           Location {
@@ -1030,7 +1224,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 1300222698265512141
+        ParentId: 8296955014814976655
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1076,7 +1270,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4191948822023949367
+        Id: 11517467363275181861
         Name: "Stalk"
         Transform {
           Location {
@@ -1094,7 +1288,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 1300222698265512141
+        ParentId: 8296955014814976655
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1145,10 +1339,100 @@ Assets {
         }
       }
       Objects {
-        Id: 1166870904003927635
+        Id: 17404962287924424094
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.599612296
+            Y: 0.599612296
+            Z: 0.599612296
+          }
+        }
+        ParentId: 11808943318567990112
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 11304684632612790233
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -6060
+            Y: 290
+            Z: -70
           }
           Rotation {
           }
@@ -1158,14 +1442,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 7683344987403061658
-        ChildIds: 5168884986367137421
+        ParentId: 2791963859785227328
+        ChildIds: 16561248538095246341
+        ChildIds: 13130806299930916222
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 7683344987403061658
+              SubObjectId: 16561248538095246341
             }
           }
         }
@@ -1186,7 +1470,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7683344987403061658
+        Id: 16561248538095246341
         Name: "Trigger"
         Transform {
           Location {
@@ -1199,7 +1483,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1166870904003927635
+        ParentId: 11304684632612790233
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -1223,7 +1507,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5168884986367137421
+        Id: 13130806299930916222
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -1236,9 +1520,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 1166870904003927635
-        ChildIds: 10235579803245117750
-        ChildIds: 345519246714054048
+        ParentId: 11304684632612790233
+        ChildIds: 17287711843649559211
+        ChildIds: 15347433425448192607
+        ChildIds: 16409758131385966926
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1256,7 +1541,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10235579803245117750
+        Id: 17287711843649559211
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -1269,12 +1554,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 5168884986367137421
+        ParentId: 13130806299930916222
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 5168884986367137421
+              SubObjectId: 13130806299930916222
             }
           }
         }
@@ -1297,7 +1582,7 @@ Assets {
         }
       }
       Objects {
-        Id: 345519246714054048
+        Id: 15347433425448192607
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -1310,9 +1595,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 5168884986367137421
-        ChildIds: 2567204809612975694
-        ChildIds: 17842486397107518374
+        ParentId: 13130806299930916222
+        ChildIds: 11220145201172421255
+        ChildIds: 18293050441294908889
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1333,7 +1618,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2567204809612975694
+        Id: 11220145201172421255
         Name: "Red Apple"
         Transform {
           Location {
@@ -1348,7 +1633,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 345519246714054048
+        ParentId: 15347433425448192607
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1394,7 +1679,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17842486397107518374
+        Id: 18293050441294908889
         Name: "Stalk"
         Transform {
           Location {
@@ -1412,7 +1697,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 345519246714054048
+        ParentId: 15347433425448192607
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1463,10 +1748,100 @@ Assets {
         }
       }
       Objects {
-        Id: 16532895501456933869
+        Id: 16409758131385966926
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 13130806299930916222
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 11801468455240178462
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -5500
+            Y: 735
+            Z: -65
           }
           Rotation {
           }
@@ -1476,14 +1851,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 11774331031573113198
-        ChildIds: 13437046932765750228
+        ParentId: 2791963859785227328
+        ChildIds: 11354776974962523751
+        ChildIds: 17093532312758123144
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 11774331031573113198
+              SubObjectId: 11354776974962523751
             }
           }
         }
@@ -1504,7 +1879,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11774331031573113198
+        Id: 11354776974962523751
         Name: "Trigger"
         Transform {
           Location {
@@ -1517,7 +1892,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16532895501456933869
+        ParentId: 11801468455240178462
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -1541,7 +1916,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13437046932765750228
+        Id: 17093532312758123144
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -1554,9 +1929,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 16532895501456933869
-        ChildIds: 6213978580683270926
-        ChildIds: 7421417517828653947
+        ParentId: 11801468455240178462
+        ChildIds: 4319894651491987014
+        ChildIds: 3231519955890827288
+        ChildIds: 5345760278565278216
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1574,7 +1950,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6213978580683270926
+        Id: 4319894651491987014
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -1587,12 +1963,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 13437046932765750228
+        ParentId: 17093532312758123144
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 13437046932765750228
+              SubObjectId: 17093532312758123144
             }
           }
         }
@@ -1615,7 +1991,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7421417517828653947
+        Id: 3231519955890827288
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -1628,9 +2004,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 13437046932765750228
-        ChildIds: 14968376837858601759
-        ChildIds: 1220011191825628762
+        ParentId: 17093532312758123144
+        ChildIds: 15709219409655408793
+        ChildIds: 11044109847771941641
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1651,7 +2027,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14968376837858601759
+        Id: 15709219409655408793
         Name: "Red Apple"
         Transform {
           Location {
@@ -1666,7 +2042,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 7421417517828653947
+        ParentId: 3231519955890827288
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1712,7 +2088,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1220011191825628762
+        Id: 11044109847771941641
         Name: "Stalk"
         Transform {
           Location {
@@ -1730,7 +2106,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 7421417517828653947
+        ParentId: 3231519955890827288
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1781,10 +2157,100 @@ Assets {
         }
       }
       Objects {
-        Id: 5629339530711613555
+        Id: 5345760278565278216
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 17093532312758123144
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 2394532836583660594
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -4660
+            Y: -5
+            Z: -95
           }
           Rotation {
           }
@@ -1794,14 +2260,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 12873968548897626084
-        ChildIds: 18355322949669320558
+        ParentId: 2791963859785227328
+        ChildIds: 1376297216589997659
+        ChildIds: 17205559730456336624
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 12873968548897626084
+              SubObjectId: 1376297216589997659
             }
           }
         }
@@ -1822,7 +2288,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12873968548897626084
+        Id: 1376297216589997659
         Name: "Trigger"
         Transform {
           Location {
@@ -1835,7 +2301,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5629339530711613555
+        ParentId: 2394532836583660594
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -1859,7 +2325,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18355322949669320558
+        Id: 17205559730456336624
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -1872,9 +2338,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 5629339530711613555
-        ChildIds: 6858247743483625017
-        ChildIds: 2134407969754388792
+        ParentId: 2394532836583660594
+        ChildIds: 15283280591457693859
+        ChildIds: 5155004590534296263
+        ChildIds: 10123292856822708845
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1892,7 +2359,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6858247743483625017
+        Id: 15283280591457693859
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -1905,12 +2372,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 18355322949669320558
+        ParentId: 17205559730456336624
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 18355322949669320558
+              SubObjectId: 17205559730456336624
             }
           }
         }
@@ -1933,7 +2400,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2134407969754388792
+        Id: 5155004590534296263
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -1946,9 +2413,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 18355322949669320558
-        ChildIds: 7360141016798575261
-        ChildIds: 105380138235049948
+        ParentId: 17205559730456336624
+        ChildIds: 17248793285297427097
+        ChildIds: 9276659278098442593
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1969,7 +2436,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7360141016798575261
+        Id: 17248793285297427097
         Name: "Red Apple"
         Transform {
           Location {
@@ -1984,7 +2451,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 2134407969754388792
+        ParentId: 5155004590534296263
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2030,7 +2497,7 @@ Assets {
         }
       }
       Objects {
-        Id: 105380138235049948
+        Id: 9276659278098442593
         Name: "Stalk"
         Transform {
           Location {
@@ -2048,7 +2515,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 2134407969754388792
+        ParentId: 5155004590534296263
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2099,10 +2566,100 @@ Assets {
         }
       }
       Objects {
-        Id: 5467875778977784719
+        Id: 10123292856822708845
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 17205559730456336624
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 4717993121725597684
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -3460
+            Y: -3240
+            Z: -75
           }
           Rotation {
           }
@@ -2112,14 +2669,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 4704511739513810446
-        ChildIds: 17946490642725456145
+        ParentId: 2791963859785227328
+        ChildIds: 11829764499810624961
+        ChildIds: 11180162605421207055
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 4704511739513810446
+              SubObjectId: 11829764499810624961
             }
           }
         }
@@ -2140,7 +2697,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4704511739513810446
+        Id: 11829764499810624961
         Name: "Trigger"
         Transform {
           Location {
@@ -2153,7 +2710,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5467875778977784719
+        ParentId: 4717993121725597684
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -2177,7 +2734,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17946490642725456145
+        Id: 11180162605421207055
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -2190,9 +2747,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 5467875778977784719
-        ChildIds: 17534838203363400308
-        ChildIds: 17924557505952294643
+        ParentId: 4717993121725597684
+        ChildIds: 4820347570739703661
+        ChildIds: 6526100801441227912
+        ChildIds: 8605280790836609226
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2210,7 +2768,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17534838203363400308
+        Id: 4820347570739703661
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -2223,12 +2781,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 17946490642725456145
+        ParentId: 11180162605421207055
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 17946490642725456145
+              SubObjectId: 11180162605421207055
             }
           }
         }
@@ -2251,7 +2809,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17924557505952294643
+        Id: 6526100801441227912
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -2264,9 +2822,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 17946490642725456145
-        ChildIds: 807388624321102501
-        ChildIds: 7477374632049717179
+        ParentId: 11180162605421207055
+        ChildIds: 13025878202181024797
+        ChildIds: 1907811623403259359
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2287,7 +2845,7 @@ Assets {
         }
       }
       Objects {
-        Id: 807388624321102501
+        Id: 13025878202181024797
         Name: "Red Apple"
         Transform {
           Location {
@@ -2302,7 +2860,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 17924557505952294643
+        ParentId: 6526100801441227912
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2348,7 +2906,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7477374632049717179
+        Id: 1907811623403259359
         Name: "Stalk"
         Transform {
           Location {
@@ -2366,7 +2924,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 17924557505952294643
+        ParentId: 6526100801441227912
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2417,10 +2975,100 @@ Assets {
         }
       }
       Objects {
-        Id: 11665729515233314859
+        Id: 8605280790836609226
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 11180162605421207055
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 2475967931271323773
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -4025
+            Y: -2060
+            Z: -60
           }
           Rotation {
           }
@@ -2430,14 +3078,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 971542657527477615
-        ChildIds: 12012475179141525541
+        ParentId: 2791963859785227328
+        ChildIds: 4841602395456768430
+        ChildIds: 17956752928196212557
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 971542657527477615
+              SubObjectId: 4841602395456768430
             }
           }
         }
@@ -2458,7 +3106,7 @@ Assets {
         }
       }
       Objects {
-        Id: 971542657527477615
+        Id: 4841602395456768430
         Name: "Trigger"
         Transform {
           Location {
@@ -2471,7 +3119,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11665729515233314859
+        ParentId: 2475967931271323773
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -2495,7 +3143,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12012475179141525541
+        Id: 17956752928196212557
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -2508,9 +3156,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 11665729515233314859
-        ChildIds: 2458547348818127096
-        ChildIds: 16549724825909670378
+        ParentId: 2475967931271323773
+        ChildIds: 11706972137115909411
+        ChildIds: 6218773826623387673
+        ChildIds: 9759384040820019686
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2528,7 +3177,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2458547348818127096
+        Id: 11706972137115909411
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -2541,12 +3190,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 12012475179141525541
+        ParentId: 17956752928196212557
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 12012475179141525541
+              SubObjectId: 17956752928196212557
             }
           }
         }
@@ -2569,7 +3218,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16549724825909670378
+        Id: 6218773826623387673
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -2582,9 +3231,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 12012475179141525541
-        ChildIds: 14932622123644064610
-        ChildIds: 11630972525744665628
+        ParentId: 17956752928196212557
+        ChildIds: 4319056550418497213
+        ChildIds: 15810933760080749716
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2605,7 +3254,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14932622123644064610
+        Id: 4319056550418497213
         Name: "Red Apple"
         Transform {
           Location {
@@ -2620,7 +3269,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 16549724825909670378
+        ParentId: 6218773826623387673
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2666,7 +3315,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11630972525744665628
+        Id: 15810933760080749716
         Name: "Stalk"
         Transform {
           Location {
@@ -2684,7 +3333,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 16549724825909670378
+        ParentId: 6218773826623387673
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2735,10 +3384,100 @@ Assets {
         }
       }
       Objects {
-        Id: 203723302286942531
+        Id: 9759384040820019686
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 17956752928196212557
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 17791726962592564509
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -6890
+            Y: -845
+            Z: -95
           }
           Rotation {
           }
@@ -2748,14 +3487,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 12893912971669202997
-        ChildIds: 1531030581569992045
+        ParentId: 2791963859785227328
+        ChildIds: 9558807127452478569
+        ChildIds: 2799913725286485649
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 12893912971669202997
+              SubObjectId: 9558807127452478569
             }
           }
         }
@@ -2776,7 +3515,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12893912971669202997
+        Id: 9558807127452478569
         Name: "Trigger"
         Transform {
           Location {
@@ -2789,7 +3528,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 203723302286942531
+        ParentId: 17791726962592564509
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -2813,7 +3552,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1531030581569992045
+        Id: 2799913725286485649
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -2826,9 +3565,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 203723302286942531
-        ChildIds: 11057878194812164880
-        ChildIds: 7886907378856402751
+        ParentId: 17791726962592564509
+        ChildIds: 240706852482859490
+        ChildIds: 9357544239099579191
+        ChildIds: 17737325277419902262
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2846,7 +3586,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11057878194812164880
+        Id: 240706852482859490
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -2859,12 +3599,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 1531030581569992045
+        ParentId: 2799913725286485649
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 1531030581569992045
+              SubObjectId: 2799913725286485649
             }
           }
         }
@@ -2887,7 +3627,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7886907378856402751
+        Id: 9357544239099579191
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -2900,9 +3640,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 1531030581569992045
-        ChildIds: 7484911876724892780
-        ChildIds: 14844374423641568710
+        ParentId: 2799913725286485649
+        ChildIds: 17230375117166882332
+        ChildIds: 5272891367752443058
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2923,7 +3663,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7484911876724892780
+        Id: 17230375117166882332
         Name: "Red Apple"
         Transform {
           Location {
@@ -2938,7 +3678,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 7886907378856402751
+        ParentId: 9357544239099579191
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2984,7 +3724,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14844374423641568710
+        Id: 5272891367752443058
         Name: "Stalk"
         Transform {
           Location {
@@ -3002,7 +3742,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 7886907378856402751
+        ParentId: 9357544239099579191
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3053,10 +3793,100 @@ Assets {
         }
       }
       Objects {
-        Id: 14261931010290275461
+        Id: 17737325277419902262
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 2799913725286485649
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 8762816581939097609
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -7461.26562
+            Y: -1459.31226
+            Z: -80
           }
           Rotation {
           }
@@ -3066,14 +3896,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 10249343680055435414
-        ChildIds: 17631384617780751283
+        ParentId: 2791963859785227328
+        ChildIds: 11166443195034853509
+        ChildIds: 14416761630085154823
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 10249343680055435414
+              SubObjectId: 11166443195034853509
             }
           }
         }
@@ -3094,7 +3924,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10249343680055435414
+        Id: 11166443195034853509
         Name: "Trigger"
         Transform {
           Location {
@@ -3107,7 +3937,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14261931010290275461
+        ParentId: 8762816581939097609
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -3131,7 +3961,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17631384617780751283
+        Id: 14416761630085154823
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -3144,9 +3974,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 14261931010290275461
-        ChildIds: 3108861319916984459
-        ChildIds: 9420016339131955497
+        ParentId: 8762816581939097609
+        ChildIds: 1786828118658667787
+        ChildIds: 8223741929494983413
+        ChildIds: 15729018106900457490
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3164,7 +3995,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3108861319916984459
+        Id: 1786828118658667787
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -3177,12 +4008,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 17631384617780751283
+        ParentId: 14416761630085154823
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 17631384617780751283
+              SubObjectId: 14416761630085154823
             }
           }
         }
@@ -3205,7 +4036,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9420016339131955497
+        Id: 8223741929494983413
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -3218,9 +4049,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 17631384617780751283
-        ChildIds: 9717574488966715417
-        ChildIds: 3536244877879736145
+        ParentId: 14416761630085154823
+        ChildIds: 2886641604730341943
+        ChildIds: 10043603547435218449
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3241,7 +4072,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9717574488966715417
+        Id: 2886641604730341943
         Name: "Red Apple"
         Transform {
           Location {
@@ -3256,7 +4087,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 9420016339131955497
+        ParentId: 8223741929494983413
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3302,7 +4133,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3536244877879736145
+        Id: 10043603547435218449
         Name: "Stalk"
         Transform {
           Location {
@@ -3320,7 +4151,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 9420016339131955497
+        ParentId: 8223741929494983413
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3371,10 +4202,100 @@ Assets {
         }
       }
       Objects {
-        Id: 14964030005192178775
+        Id: 15729018106900457490
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 14416761630085154823
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 8314194309586567646
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -6895
+            Y: -2340
+            Z: -75
           }
           Rotation {
           }
@@ -3384,14 +4305,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 13059727071937220889
-        ChildIds: 6578068355208519998
+        ParentId: 2791963859785227328
+        ChildIds: 7123998813138714849
+        ChildIds: 3542273140757005665
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 13059727071937220889
+              SubObjectId: 7123998813138714849
             }
           }
         }
@@ -3412,7 +4333,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13059727071937220889
+        Id: 7123998813138714849
         Name: "Trigger"
         Transform {
           Location {
@@ -3425,7 +4346,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14964030005192178775
+        ParentId: 8314194309586567646
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -3449,7 +4370,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6578068355208519998
+        Id: 3542273140757005665
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -3462,9 +4383,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 14964030005192178775
-        ChildIds: 12030033972028742294
-        ChildIds: 18158944542558151957
+        ParentId: 8314194309586567646
+        ChildIds: 1903793053388413739
+        ChildIds: 11226166897183484446
+        ChildIds: 1715960306227073819
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3482,7 +4404,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12030033972028742294
+        Id: 1903793053388413739
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -3495,12 +4417,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 6578068355208519998
+        ParentId: 3542273140757005665
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 6578068355208519998
+              SubObjectId: 3542273140757005665
             }
           }
         }
@@ -3523,7 +4445,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18158944542558151957
+        Id: 11226166897183484446
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -3536,9 +4458,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 6578068355208519998
-        ChildIds: 2055143770504090605
-        ChildIds: 12595567298580581328
+        ParentId: 3542273140757005665
+        ChildIds: 9555418050012181539
+        ChildIds: 6970802897598452357
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3559,7 +4481,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2055143770504090605
+        Id: 9555418050012181539
         Name: "Red Apple"
         Transform {
           Location {
@@ -3574,7 +4496,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 18158944542558151957
+        ParentId: 11226166897183484446
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3620,7 +4542,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12595567298580581328
+        Id: 6970802897598452357
         Name: "Stalk"
         Transform {
           Location {
@@ -3638,7 +4560,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 18158944542558151957
+        ParentId: 11226166897183484446
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3689,10 +4611,100 @@ Assets {
         }
       }
       Objects {
-        Id: 17078907412489766847
+        Id: 1715960306227073819
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 3542273140757005665
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 12873346280587281523
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -6491.43506
+            Y: -3493.2998
+            Z: -84.9999847
           }
           Rotation {
           }
@@ -3702,14 +4714,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 14492022863196960459
-        ChildIds: 14552639691257138069
+        ParentId: 2791963859785227328
+        ChildIds: 7908555406659517774
+        ChildIds: 7249425531933361068
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 14492022863196960459
+              SubObjectId: 7908555406659517774
             }
           }
         }
@@ -3730,7 +4742,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14492022863196960459
+        Id: 7908555406659517774
         Name: "Trigger"
         Transform {
           Location {
@@ -3743,7 +4755,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17078907412489766847
+        ParentId: 12873346280587281523
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -3767,7 +4779,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14552639691257138069
+        Id: 7249425531933361068
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -3780,9 +4792,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 17078907412489766847
-        ChildIds: 2468741924384100103
-        ChildIds: 10505833928188302618
+        ParentId: 12873346280587281523
+        ChildIds: 1754047137811302081
+        ChildIds: 14131374704551631283
+        ChildIds: 15847201883388543410
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3800,7 +4813,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2468741924384100103
+        Id: 1754047137811302081
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -3813,12 +4826,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 14552639691257138069
+        ParentId: 7249425531933361068
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 14552639691257138069
+              SubObjectId: 7249425531933361068
             }
           }
         }
@@ -3841,7 +4854,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10505833928188302618
+        Id: 14131374704551631283
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -3854,9 +4867,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 14552639691257138069
-        ChildIds: 8510478268152212945
-        ChildIds: 11682046165683875682
+        ParentId: 7249425531933361068
+        ChildIds: 12921906708768290258
+        ChildIds: 2012025521278517234
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3877,7 +4890,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8510478268152212945
+        Id: 12921906708768290258
         Name: "Red Apple"
         Transform {
           Location {
@@ -3892,7 +4905,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 10505833928188302618
+        ParentId: 14131374704551631283
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3938,7 +4951,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11682046165683875682
+        Id: 2012025521278517234
         Name: "Stalk"
         Transform {
           Location {
@@ -3956,7 +4969,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 10505833928188302618
+        ParentId: 14131374704551631283
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -4007,10 +5020,100 @@ Assets {
         }
       }
       Objects {
-        Id: 11210936237784661189
+        Id: 15847201883388543410
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 7249425531933361068
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 16386418759583912118
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -7430
+            Y: -3405
+            Z: -85
           }
           Rotation {
           }
@@ -4020,14 +5123,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 3204072482985665844
-        ChildIds: 4157053664845605114
+        ParentId: 2791963859785227328
+        ChildIds: 17402670208273892596
+        ChildIds: 4106579911383636212
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 3204072482985665844
+              SubObjectId: 17402670208273892596
             }
           }
         }
@@ -4048,7 +5151,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3204072482985665844
+        Id: 17402670208273892596
         Name: "Trigger"
         Transform {
           Location {
@@ -4061,7 +5164,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11210936237784661189
+        ParentId: 16386418759583912118
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -4085,7 +5188,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4157053664845605114
+        Id: 4106579911383636212
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -4098,9 +5201,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 11210936237784661189
-        ChildIds: 10930930669560392585
-        ChildIds: 14189008740645371142
+        ParentId: 16386418759583912118
+        ChildIds: 13994736490368063735
+        ChildIds: 918879802622373671
+        ChildIds: 7827089558363348247
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4118,7 +5222,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10930930669560392585
+        Id: 13994736490368063735
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -4131,12 +5235,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 4157053664845605114
+        ParentId: 4106579911383636212
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 4157053664845605114
+              SubObjectId: 4106579911383636212
             }
           }
         }
@@ -4159,7 +5263,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14189008740645371142
+        Id: 918879802622373671
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -4172,9 +5276,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 4157053664845605114
-        ChildIds: 16658208007610069866
-        ChildIds: 5799070020916226459
+        ParentId: 4106579911383636212
+        ChildIds: 17417774277309316764
+        ChildIds: 14581820671283171325
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4195,7 +5299,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16658208007610069866
+        Id: 17417774277309316764
         Name: "Red Apple"
         Transform {
           Location {
@@ -4210,7 +5314,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 14189008740645371142
+        ParentId: 918879802622373671
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -4256,7 +5360,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5799070020916226459
+        Id: 14581820671283171325
         Name: "Stalk"
         Transform {
           Location {
@@ -4274,7 +5378,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 14189008740645371142
+        ParentId: 918879802622373671
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -4325,10 +5429,100 @@ Assets {
         }
       }
       Objects {
-        Id: 3083172935882646566
+        Id: 7827089558363348247
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 4106579911383636212
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 4522048031765355897
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -8215
+            Y: -1525
+            Z: -65
           }
           Rotation {
           }
@@ -4338,14 +5532,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 6252158212976232398
-        ChildIds: 1611384755465367051
+        ParentId: 2791963859785227328
+        ChildIds: 12977468548042705634
+        ChildIds: 10697863325103552405
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 6252158212976232398
+              SubObjectId: 12977468548042705634
             }
           }
         }
@@ -4366,7 +5560,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6252158212976232398
+        Id: 12977468548042705634
         Name: "Trigger"
         Transform {
           Location {
@@ -4379,7 +5573,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3083172935882646566
+        ParentId: 4522048031765355897
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -4403,7 +5597,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1611384755465367051
+        Id: 10697863325103552405
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -4416,9 +5610,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 3083172935882646566
-        ChildIds: 16267153747701612771
-        ChildIds: 7175616038898794209
+        ParentId: 4522048031765355897
+        ChildIds: 5258469015189899372
+        ChildIds: 10834964832432572160
+        ChildIds: 4130483315272250884
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4436,7 +5631,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16267153747701612771
+        Id: 5258469015189899372
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -4449,12 +5644,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 1611384755465367051
+        ParentId: 10697863325103552405
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 1611384755465367051
+              SubObjectId: 10697863325103552405
             }
           }
         }
@@ -4477,7 +5672,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7175616038898794209
+        Id: 10834964832432572160
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -4490,9 +5685,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 1611384755465367051
-        ChildIds: 14524874525479504600
-        ChildIds: 13487369648014444467
+        ParentId: 10697863325103552405
+        ChildIds: 16637034184524511643
+        ChildIds: 9438442397565219984
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4513,7 +5708,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14524874525479504600
+        Id: 16637034184524511643
         Name: "Red Apple"
         Transform {
           Location {
@@ -4528,7 +5723,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 7175616038898794209
+        ParentId: 10834964832432572160
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -4574,7 +5769,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13487369648014444467
+        Id: 9438442397565219984
         Name: "Stalk"
         Transform {
           Location {
@@ -4592,7 +5787,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 7175616038898794209
+        ParentId: 10834964832432572160
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -4643,10 +5838,100 @@ Assets {
         }
       }
       Objects {
-        Id: 2669934119765320871
+        Id: 4130483315272250884
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 10697863325103552405
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 10992045794482607509
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -6760
+            Y: -4450
+            Z: -75
           }
           Rotation {
           }
@@ -4656,14 +5941,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 8265380244196824093
-        ChildIds: 1334952394668845342
+        ParentId: 2791963859785227328
+        ChildIds: 16924900139654146366
+        ChildIds: 12482268856668191496
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 8265380244196824093
+              SubObjectId: 16924900139654146366
             }
           }
         }
@@ -4684,7 +5969,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8265380244196824093
+        Id: 16924900139654146366
         Name: "Trigger"
         Transform {
           Location {
@@ -4697,7 +5982,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 2669934119765320871
+        ParentId: 10992045794482607509
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -4721,7 +6006,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1334952394668845342
+        Id: 12482268856668191496
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -4734,9 +6019,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 2669934119765320871
-        ChildIds: 2087999916402925946
-        ChildIds: 4387183292028735280
+        ParentId: 10992045794482607509
+        ChildIds: 9776460253913816265
+        ChildIds: 944414815380768690
+        ChildIds: 2429888884447106609
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4754,7 +6040,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2087999916402925946
+        Id: 9776460253913816265
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -4767,12 +6053,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 1334952394668845342
+        ParentId: 12482268856668191496
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 1334952394668845342
+              SubObjectId: 12482268856668191496
             }
           }
         }
@@ -4795,7 +6081,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4387183292028735280
+        Id: 944414815380768690
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -4808,9 +6094,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 1334952394668845342
-        ChildIds: 6122160076833395218
-        ChildIds: 2020136393943606717
+        ParentId: 12482268856668191496
+        ChildIds: 1560392115813058355
+        ChildIds: 5761922837334823179
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4831,7 +6117,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6122160076833395218
+        Id: 1560392115813058355
         Name: "Red Apple"
         Transform {
           Location {
@@ -4846,7 +6132,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 4387183292028735280
+        ParentId: 944414815380768690
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -4892,7 +6178,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2020136393943606717
+        Id: 5761922837334823179
         Name: "Stalk"
         Transform {
           Location {
@@ -4910,7 +6196,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 4387183292028735280
+        ParentId: 944414815380768690
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -4961,10 +6247,100 @@ Assets {
         }
       }
       Objects {
-        Id: 5078534122814512914
+        Id: 2429888884447106609
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 12482268856668191496
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 4509118612254055400
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -8077.75391
+            Y: -5415.01025
+            Z: -65.5757523
           }
           Rotation {
           }
@@ -4974,14 +6350,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 206693028024656083
-        ChildIds: 5082135289001522346
+        ParentId: 2791963859785227328
+        ChildIds: 10516401210819701906
+        ChildIds: 5516493500605221377
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 206693028024656083
+              SubObjectId: 10516401210819701906
             }
           }
         }
@@ -5002,7 +6378,7 @@ Assets {
         }
       }
       Objects {
-        Id: 206693028024656083
+        Id: 10516401210819701906
         Name: "Trigger"
         Transform {
           Location {
@@ -5015,7 +6391,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5078534122814512914
+        ParentId: 4509118612254055400
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -5039,7 +6415,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5082135289001522346
+        Id: 5516493500605221377
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -5052,9 +6428,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 5078534122814512914
-        ChildIds: 4280739007256499792
-        ChildIds: 3674055421521275417
+        ParentId: 4509118612254055400
+        ChildIds: 5523467489780380203
+        ChildIds: 2902436740466525998
+        ChildIds: 2220969957120816280
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5072,7 +6449,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4280739007256499792
+        Id: 5523467489780380203
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -5085,12 +6462,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 5082135289001522346
+        ParentId: 5516493500605221377
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 5082135289001522346
+              SubObjectId: 5516493500605221377
             }
           }
         }
@@ -5113,7 +6490,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3674055421521275417
+        Id: 2902436740466525998
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -5126,9 +6503,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 5082135289001522346
-        ChildIds: 8969702388350890436
-        ChildIds: 18256452127791607525
+        ParentId: 5516493500605221377
+        ChildIds: 677503100560074376
+        ChildIds: 7731323798829768640
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5149,7 +6526,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8969702388350890436
+        Id: 677503100560074376
         Name: "Red Apple"
         Transform {
           Location {
@@ -5164,7 +6541,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 3674055421521275417
+        ParentId: 2902436740466525998
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -5210,7 +6587,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18256452127791607525
+        Id: 7731323798829768640
         Name: "Stalk"
         Transform {
           Location {
@@ -5228,7 +6605,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 3674055421521275417
+        ParentId: 2902436740466525998
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -5279,10 +6656,100 @@ Assets {
         }
       }
       Objects {
-        Id: 1987657264230752652
+        Id: 2220969957120816280
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 5516493500605221377
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 901113122229088264
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -6018.0918
+            Y: -5127.49316
+            Z: -96.1366119
           }
           Rotation {
           }
@@ -5292,14 +6759,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 11604845451830908380
-        ChildIds: 11831498052785870744
+        ParentId: 2791963859785227328
+        ChildIds: 7417090367667914793
+        ChildIds: 5864077143756732651
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 11604845451830908380
+              SubObjectId: 7417090367667914793
             }
           }
         }
@@ -5320,7 +6787,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11604845451830908380
+        Id: 7417090367667914793
         Name: "Trigger"
         Transform {
           Location {
@@ -5333,7 +6800,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1987657264230752652
+        ParentId: 901113122229088264
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -5357,7 +6824,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11831498052785870744
+        Id: 5864077143756732651
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -5370,9 +6837,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 1987657264230752652
-        ChildIds: 13835001487930659643
-        ChildIds: 2541841953800921575
+        ParentId: 901113122229088264
+        ChildIds: 3044671631887211489
+        ChildIds: 13638727603984477301
+        ChildIds: 6065240060029292939
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5390,7 +6858,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13835001487930659643
+        Id: 3044671631887211489
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -5403,12 +6871,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 11831498052785870744
+        ParentId: 5864077143756732651
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 11831498052785870744
+              SubObjectId: 5864077143756732651
             }
           }
         }
@@ -5431,7 +6899,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2541841953800921575
+        Id: 13638727603984477301
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -5444,9 +6912,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 11831498052785870744
-        ChildIds: 5648141024676659401
-        ChildIds: 11291118165189978981
+        ParentId: 5864077143756732651
+        ChildIds: 15270044355585919336
+        ChildIds: 14588410691508166722
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5467,7 +6935,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5648141024676659401
+        Id: 15270044355585919336
         Name: "Red Apple"
         Transform {
           Location {
@@ -5482,7 +6950,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 2541841953800921575
+        ParentId: 13638727603984477301
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -5528,7 +6996,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11291118165189978981
+        Id: 14588410691508166722
         Name: "Stalk"
         Transform {
           Location {
@@ -5546,7 +7014,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 2541841953800921575
+        ParentId: 13638727603984477301
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -5597,10 +7065,100 @@ Assets {
         }
       }
       Objects {
-        Id: 18238003716459078315
+        Id: 6065240060029292939
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 5864077143756732651
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 4047664500617850499
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -3160
+            Y: -4790
+            Z: -100
           }
           Rotation {
           }
@@ -5610,14 +7168,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 17779475548534715107
-        ChildIds: 6175896141935812071
+        ParentId: 2791963859785227328
+        ChildIds: 8596412233204250141
+        ChildIds: 1621097111099770959
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 17779475548534715107
+              SubObjectId: 8596412233204250141
             }
           }
         }
@@ -5638,7 +7196,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17779475548534715107
+        Id: 8596412233204250141
         Name: "Trigger"
         Transform {
           Location {
@@ -5651,7 +7209,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18238003716459078315
+        ParentId: 4047664500617850499
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -5675,7 +7233,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6175896141935812071
+        Id: 1621097111099770959
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -5688,9 +7246,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 18238003716459078315
-        ChildIds: 9157476332229463322
-        ChildIds: 1615941170159101042
+        ParentId: 4047664500617850499
+        ChildIds: 8564617468471394048
+        ChildIds: 15174617274375691952
+        ChildIds: 12772634157555565780
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5708,7 +7267,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9157476332229463322
+        Id: 8564617468471394048
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -5721,12 +7280,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 6175896141935812071
+        ParentId: 1621097111099770959
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 6175896141935812071
+              SubObjectId: 1621097111099770959
             }
           }
         }
@@ -5749,7 +7308,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1615941170159101042
+        Id: 15174617274375691952
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -5762,9 +7321,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 6175896141935812071
-        ChildIds: 10550245400990165334
-        ChildIds: 16440538430735943484
+        ParentId: 1621097111099770959
+        ChildIds: 2981998872458338552
+        ChildIds: 5103333321558088620
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5785,7 +7344,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10550245400990165334
+        Id: 2981998872458338552
         Name: "Red Apple"
         Transform {
           Location {
@@ -5800,7 +7359,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 1615941170159101042
+        ParentId: 15174617274375691952
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -5846,7 +7405,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16440538430735943484
+        Id: 5103333321558088620
         Name: "Stalk"
         Transform {
           Location {
@@ -5864,7 +7423,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 1615941170159101042
+        ParentId: 15174617274375691952
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -5915,10 +7474,100 @@ Assets {
         }
       }
       Objects {
-        Id: 16862974158066635204
+        Id: 12772634157555565780
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 1621097111099770959
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 170484483823615044
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -3475
+            Y: -5930
+            Z: -96.8596573
           }
           Rotation {
           }
@@ -5928,14 +7577,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 16424477303733956029
-        ChildIds: 17160694108998708957
+        ParentId: 2791963859785227328
+        ChildIds: 9551418914156913724
+        ChildIds: 6625069597638618686
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 16424477303733956029
+              SubObjectId: 9551418914156913724
             }
           }
         }
@@ -5956,7 +7605,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16424477303733956029
+        Id: 9551418914156913724
         Name: "Trigger"
         Transform {
           Location {
@@ -5969,7 +7618,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16862974158066635204
+        ParentId: 170484483823615044
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -5993,7 +7642,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17160694108998708957
+        Id: 6625069597638618686
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -6006,9 +7655,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 16862974158066635204
-        ChildIds: 4251990639490219027
-        ChildIds: 10418347488729291726
+        ParentId: 170484483823615044
+        ChildIds: 17336090713819008963
+        ChildIds: 12051083882339322746
+        ChildIds: 2328217261485782733
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6026,7 +7676,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4251990639490219027
+        Id: 17336090713819008963
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -6039,12 +7689,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 17160694108998708957
+        ParentId: 6625069597638618686
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 17160694108998708957
+              SubObjectId: 6625069597638618686
             }
           }
         }
@@ -6067,7 +7717,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10418347488729291726
+        Id: 12051083882339322746
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -6080,9 +7730,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 17160694108998708957
-        ChildIds: 11221164577620417924
-        ChildIds: 26456088023963284
+        ParentId: 6625069597638618686
+        ChildIds: 14966992993278896994
+        ChildIds: 7072614672473634613
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6103,7 +7753,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11221164577620417924
+        Id: 14966992993278896994
         Name: "Red Apple"
         Transform {
           Location {
@@ -6118,7 +7768,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 10418347488729291726
+        ParentId: 12051083882339322746
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -6164,7 +7814,7 @@ Assets {
         }
       }
       Objects {
-        Id: 26456088023963284
+        Id: 7072614672473634613
         Name: "Stalk"
         Transform {
           Location {
@@ -6182,7 +7832,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 10418347488729291726
+        ParentId: 12051083882339322746
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -6233,10 +7883,100 @@ Assets {
         }
       }
       Objects {
-        Id: 14603154063166417462
+        Id: 2328217261485782733
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 6625069597638618686
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 15655711412744024727
         Name: "ApplePickup"
         Transform {
           Location {
+            X: -4670
+            Y: -6555
+            Z: -90
           }
           Rotation {
           }
@@ -6246,14 +7986,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16421264638854056221
-        ChildIds: 17625675761594381259
-        ChildIds: 2675857764347025771
+        ParentId: 2791963859785227328
+        ChildIds: 5060945253217056981
+        ChildIds: 14048680470144207598
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 17625675761594381259
+              SubObjectId: 5060945253217056981
             }
           }
         }
@@ -6274,7 +8014,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17625675761594381259
+        Id: 5060945253217056981
         Name: "Trigger"
         Transform {
           Location {
@@ -6287,7 +8027,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14603154063166417462
+        ParentId: 15655711412744024727
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -6311,7 +8051,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2675857764347025771
+        Id: 14048680470144207598
         Name: "MantiCoin Geo"
         Transform {
           Location {
@@ -6324,9 +8064,10 @@ Assets {
             Z: 0.35
           }
         }
-        ParentId: 14603154063166417462
-        ChildIds: 1482961334570723801
-        ChildIds: 9310724026076783810
+        ParentId: 15655711412744024727
+        ChildIds: 14624174825843892127
+        ChildIds: 6802960924383655661
+        ChildIds: 10091411926888713111
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6344,7 +8085,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1482961334570723801
+        Id: 14624174825843892127
         Name: "CoinSpinScript"
         Transform {
           Location {
@@ -6357,12 +8098,12 @@ Assets {
             Z: 2.85714293
           }
         }
-        ParentId: 2675857764347025771
+        ParentId: 14048680470144207598
         UnregisteredParameters {
           Overrides {
             Name: "cs:root"
             ObjectReference {
-              SubObjectId: 2675857764347025771
+              SubObjectId: 14048680470144207598
             }
           }
         }
@@ -6385,7 +8126,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9310724026076783810
+        Id: 6802960924383655661
         Name: "Red Apple with Stalk (decor)"
         Transform {
           Location {
@@ -6398,9 +8139,9 @@ Assets {
             Z: 1.70433068
           }
         }
-        ParentId: 2675857764347025771
-        ChildIds: 15339068971429223456
-        ChildIds: 14576025293425600248
+        ParentId: 14048680470144207598
+        ChildIds: 15812555750021386021
+        ChildIds: 10438628599555234573
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6421,7 +8162,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15339068971429223456
+        Id: 15812555750021386021
         Name: "Red Apple"
         Transform {
           Location {
@@ -6436,7 +8177,7 @@ Assets {
             Z: 0.445568591
           }
         }
-        ParentId: 9310724026076783810
+        ParentId: 6802960924383655661
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -6482,7 +8223,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14576025293425600248
+        Id: 10438628599555234573
         Name: "Stalk"
         Transform {
           Location {
@@ -6500,7 +8241,7 @@ Assets {
             Z: 0.233669102
           }
         }
-        ParentId: 9310724026076783810
+        ParentId: 6802960924383655661
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -6545,6 +8286,93 @@ Assets {
             }
             BoundsScale: 1
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 10091411926888713111
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.71317816
+            Y: 1.71317816
+            Z: 1.71317816
+          }
+        }
+        ParentId: 14048680470144207598
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              B: 0.0166664124
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -0
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate Low"
+            Float: 0.153625637
+          }
+          Overrides {
+            Name: "bp:Particle Rotation Rate High"
+            Float: 0.958385825
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.176546603
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2.05683064
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+              X: 3
+              Y: 3
+              Z: 3
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 16319156188981736369
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
@@ -6585,6 +8413,15 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_grass_003_uv"
+      }
+    }
+    Assets {
+      Id: 16319156188981736369
+      Name: "Callout Sparkle"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_sparkles_volume_vfx"
       }
     }
     PrimaryAssetId {

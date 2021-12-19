@@ -1,13 +1,13 @@
 Assets {
-  Id: 2743983552569989878
-  Name: "Apple Crate Damaged Effect"
+  Id: 8328281977894614391
+  Name: "Yellow Apple Crate Damaged Effect"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 9927879069397735132
+      RootId: 6634275457844744020
       Objects {
-        Id: 9927879069397735132
-        Name: "Apple Crate Damaged Effect"
+        Id: 6634275457844744020
+        Name: "Yellow Apple Crate Damaged Effect"
         Transform {
           Scale {
             X: 1
@@ -16,14 +16,12 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 1294213185541065051
-        ChildIds: 15550810701710517661
-        ChildIds: 5804294120531106720
-        ChildIds: 10467680471746094919
-        ChildIds: 17460536384934889419
-        ChildIds: 10506504493132930224
-        ChildIds: 5189714790579655730
-        ChildIds: 4877323333008827074
+        ChildIds: 2121702721482733531
+        ChildIds: 5267345474356656989
+        ChildIds: 14563978336575347886
+        ChildIds: 12426456526602952223
+        ChildIds: 16031954275538213349
+        ChildIds: 9180890792229261081
         Lifespan: 5
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -45,11 +43,10 @@ Assets {
         }
       }
       Objects {
-        Id: 1294213185541065051
-        Name: "Nature Rocks Debris Falling 01 SFX"
+        Id: 2121702721482733531
+        Name: "Explosion Kit Rock Burst VFX"
         Transform {
           Location {
-            Z: 30
           }
           Rotation {
           }
@@ -59,7 +56,94 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9927879069397735132
+        ParentId: 6634275457844744020
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.844000041
+              G: 0.774370074
+              B: 0.00843999255
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.5
+          }
+          Overrides {
+            Name: "bp:Particle Scale"
+            Float: 2
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: -30
+          }
+          Overrides {
+            Name: "bp:Initial Velocity Multiplier"
+            Float: 1
+          }
+          Overrides {
+            Name: "bp:Burst Velocity Max"
+            Float: 27.154007
+          }
+          Overrides {
+            Name: "bp:Burst Velocity Min"
+            Float: 5
+          }
+          Overrides {
+            Name: "bp:Burst Angle Max"
+            Float: 3
+          }
+          Overrides {
+            Name: "bp:Drag Multiplier"
+            Float: 5
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 4865058493803961332
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 5267345474356656989
+        Name: "Nature Rocks Debris Falling 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6634275457844744020
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -81,7 +165,6 @@ Assets {
           Volume: 1
           Falloff: -1
           Radius: -1
-          EnableOcclusion: true
           FadeOutTime: 0.5
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
@@ -92,11 +175,10 @@ Assets {
         }
       }
       Objects {
-        Id: 15550810701710517661
+        Id: 14563978336575347886
         Name: "Large Wooden Structure Break Destroy Impact 01 SFX"
         Transform {
           Location {
-            Z: 30
           }
           Rotation {
           }
@@ -106,7 +188,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9927879069397735132
+        ParentId: 6634275457844744020
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -127,7 +209,6 @@ Assets {
           Volume: 1
           Falloff: -1
           Radius: -1
-          EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
@@ -136,101 +217,20 @@ Assets {
         }
       }
       Objects {
-        Id: 5804294120531106720
-        Name: "Smoke Puff VFX"
-        Transform {
-          Location {
-            Z: 50
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 9927879069397735132
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 2
-              G: 1.49296474
-              B: 1.06800008
-              A: 0.822
-            }
-          }
-          Overrides {
-            Name: "bp:Sort Priority Adjustment"
-            Int: 1
-          }
-          Overrides {
-            Name: "bp:Burst"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Radius"
-            Float: 0.398064256
-          }
-          Overrides {
-            Name: "bp:Density"
-            Float: 0.605463088
-          }
-          Overrides {
-            Name: "bp:Particle Scale Multiplier"
-            Float: 0.605463088
-          }
-          Overrides {
-            Name: "bp:Life"
-            Float: 0.598883688
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17772147750865925804
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:medium"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 10467680471746094919
+        Id: 12426456526602952223
         Name: "Wood Impact VFX"
         Transform {
           Location {
-            Z: 100
           }
           Rotation {
           }
           Scale {
-            X: 5
-            Y: 5
-            Z: 5
+            X: 2
+            Y: 2
+            Z: 2
           }
         }
-        ParentId: 9927879069397735132
+        ParentId: 6634275457844744020
         UnregisteredParameters {
           Overrides {
             Name: "bp:Initial Start Delay"
@@ -247,6 +247,14 @@ Assets {
           Overrides {
             Name: "bp:Enable Dust"
             Bool: true
+          }
+          Overrides {
+            Name: "bp:Dust Gravity"
+            Float: -10
+          }
+          Overrides {
+            Name: "bp:Enable Splinters"
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -279,13 +287,10 @@ Assets {
         }
       }
       Objects {
-        Id: 17460536384934889419
+        Id: 16031954275538213349
         Name: "Wood Impact VFX"
         Transform {
           Location {
-            X: 50
-            Y: 25
-            Z: 75
           }
           Rotation {
           }
@@ -295,7 +300,7 @@ Assets {
             Z: 5
           }
         }
-        ParentId: 9927879069397735132
+        ParentId: 6634275457844744020
         UnregisteredParameters {
           Overrides {
             Name: "bp:Initial Start Delay"
@@ -311,7 +316,11 @@ Assets {
           }
           Overrides {
             Name: "bp:Enable Dust"
-            Bool: true
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Dust Gravity"
+            Float: -10
           }
         }
         Collidable_v2 {
@@ -344,72 +353,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10506504493132930224
-        Name: "Wood Impact VFX"
-        Transform {
-          Location {
-            X: -50
-            Y: -25
-            Z: 75
-          }
-          Rotation {
-          }
-          Scale {
-            X: 5
-            Y: 5
-            Z: 5
-          }
-        }
-        ParentId: 9927879069397735132
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Initial Start Delay"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Local Space"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Enable Impact Lines"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Enable Dust"
-            Bool: true
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 6298331142273284064
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:medium"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 5189714790579655730
+        Id: 9180890792229261081
         Name: "Box Impact VFX"
         Transform {
           Location {
@@ -422,7 +366,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9927879069397735132
+        ParentId: 6634275457844744020
         UnregisteredParameters {
           Overrides {
             Name: "bp:Color"
@@ -432,6 +376,18 @@ Assets {
               B: 0.0739817619
               A: 1
             }
+          }
+          Overrides {
+            Name: "bp:Enable Dust"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 1.6598171
+          }
+          Overrides {
+            Name: "bp:Packing Peanut Scale"
+            Float: 2.10195088
           }
         }
         Collidable_v2 {
@@ -463,63 +419,14 @@ Assets {
           Value: "mc:eproxyrelevance:critical"
         }
       }
-      Objects {
-        Id: 4877323333008827074
-        Name: "Sand Impact VFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 3.44363523
-            Y: 3.44363523
-            Z: 3.44363523
-          }
-        }
-        ParentId: 9927879069397735132
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 1.99032128
-          }
-          Overrides {
-            Name: "bp:Dust Gravity"
-            Float: -0.203513145
-          }
-          Overrides {
-            Name: "bp:Gravity"
-            Float: -2.67861128
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 1418293026354132534
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:medium"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
+    }
+    Assets {
+      Id: 4865058493803961332
+      Name: "Explosion Kit Rock Burst VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_mil_dirt_impact_explosikit_debris"
       }
     }
     Assets {
@@ -541,15 +448,6 @@ Assets {
       }
     }
     Assets {
-      Id: 17772147750865925804
-      Name: "Smoke Puff VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_smoke_puff"
-      }
-    }
-    Assets {
       Id: 6298331142273284064
       Name: "Wood Impact VFX"
       PlatformAssetType: 8
@@ -565,15 +463,6 @@ Assets {
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_box_impact_sm"
-      }
-    }
-    Assets {
-      Id: 1418293026354132534
-      Name: "Sand Impact VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_gun_impact_sand"
       }
     }
     PrimaryAssetId {

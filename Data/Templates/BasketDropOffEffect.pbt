@@ -49,8 +49,8 @@ Assets {
           }
           Scale {
             X: 1
-            Y: 1
-            Z: 1
+            Y: 1.5
+            Z: 2
           }
         }
         ParentId: 9324159466236739041
@@ -112,7 +112,7 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1.5
+            X: 2.41025949
             Y: 1.5
             Z: 3
           }
@@ -212,10 +212,9 @@ Assets {
             Id: 3576565000871855717
           }
           AutoPlay: true
-          Volume: 2.0718019
+          Volume: 2.52756214
           Falloff: -1
           Radius: -1
-          EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
