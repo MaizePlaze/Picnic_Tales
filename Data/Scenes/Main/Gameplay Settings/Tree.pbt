@@ -63,46 +63,6 @@ Objects {
   }
 }
 Objects {
-  Id: 16667030600702238561
-  Name: "Respawn Settings"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9086936746104183945
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Settings {
-    RespawnSettings {
-      RespawnDelay: 5
-      RespawnMode_v2 {
-        Value: "mc:erespawnmode:atclosestspawnpoint"
-      }
-      StartSpawned: true
-      RespawnKey: "P"
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 2087218954009114865
   Name: "Team Settings"
   Transform {
@@ -144,7 +104,7 @@ Objects {
   Name: "Third Person Camera Settings"
   Transform {
     Location {
-      Z: -1000
+      Z: 95
     }
     Rotation {
     }
@@ -350,7 +310,7 @@ Objects {
   Name: "Default Bindings"
   Transform {
     Location {
-      Z: -1000
+      Z: 85
     }
     Rotation {
     }
@@ -418,6 +378,7 @@ Objects {
       ChatMode {
         Value: "mc:echatmode:teamandall"
       }
+      EnablePlayModeProfiler: true
       ChatSettings {
         ChatMode {
         }

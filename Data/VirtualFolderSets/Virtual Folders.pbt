@@ -4,5 +4,13 @@ Assets {
   PlatformAssetType: 30
   SerializationVersion: 103
   VirtualFolderSetAsset {
+    Folders {
+      VirtualFolderPath: "Auxiliary"
+      PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "Damageables"
+      PlatformAssetType: 3
+    }
   }
 }

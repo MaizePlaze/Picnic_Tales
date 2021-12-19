@@ -11,16 +11,11 @@ Objects {
     }
   }
   ParentId: 10282234490525398704
-  UnregisteredParameters {
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   TemplateInstance {
     ParameterOverrideMap {
@@ -40,33 +35,10 @@ Objects {
           Rotator {
           }
         }
-        Overrides {
-          Name: "cs:ShowHealthbars"
-          Bool: false
-        }
-        Overrides {
-          Name: "cs:ShowOnSelf"
-          Bool: true
-        }
-        Overrides {
-          Name: "cs:ShowOnEnemies"
-          Bool: true
-        }
-        Overrides {
-          Name: "cs:ShowOnDeadPlayers"
-          Bool: true
-        }
-        Overrides {
-          Name: "cs:Scale"
-          Float: 0.75
-        }
       }
     }
     TemplateAsset {
       Id: 2683802530600555933
     }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
   }
 }

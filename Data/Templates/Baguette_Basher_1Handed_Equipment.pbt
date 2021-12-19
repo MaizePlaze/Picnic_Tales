@@ -7,7 +7,7 @@ Assets {
       RootId: 9659805398910670651
       Objects {
         Id: 9659805398910670651
-        Name: "Baguette Basher 1 handed"
+        Name: "Baguette_Basher_1Handed_Equipment"
         Transform {
           Scale {
             X: 1
@@ -171,7 +171,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Damage"
-            Float: 35
+            Float: 0
           }
           Overrides {
             Name: "cs:UseHitSphere"
@@ -287,7 +287,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Damage"
-            Float: 40
+            Float: 0
           }
           Overrides {
             Name: "cs:UseHitSphere"

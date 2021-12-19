@@ -12,7 +12,7 @@ end
 
 function OnPlayerJoined(player)
 
-	print("player joined: " .. player.name)
+	--print("player joined: " .. player.name)
 
 	local data = Storage.GetPlayerData(player)
 	--if data.redGems then
@@ -25,7 +25,7 @@ function OnPlayerJoined(player)
 end
 
 function OnPlayerLeft(player)
-	print("player left: " .. player.name)
+	--print("player left: " .. player.name)
 	UpdatePlayerApples(player)
 
 end

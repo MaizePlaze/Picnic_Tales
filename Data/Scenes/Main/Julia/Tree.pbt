@@ -73040,7 +73040,6 @@ Objects {
   ChildIds: 4880323987802739841
   ChildIds: 2471844529002774650
   ChildIds: 10655253776934434181
-  ChildIds: 15570399897018204582
   ChildIds: 7849455778062457507
   ChildIds: 9683433069592965516
   ChildIds: 930863601492090236
@@ -74751,56 +74750,6 @@ Objects {
     Location {
       X: 1007.81415
       Y: -1357.85181
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.323030949
-      Y: 0.323030949
-      Z: 0.323030949
-    }
-  }
-  ParentId: 9777232790409501833
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6287606422488195013
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableReceiveDecals: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 15570399897018204582
-  Name: "Tree Oak 01"
-  Transform {
-    Location {
-      X: -1454.41638
-      Y: -307.257446
     }
     Rotation {
     }

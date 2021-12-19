@@ -102,6 +102,10 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "cs:DefaultDuration"
+          Float: 5
+        }
       }
     }
     ParameterOverrideMap {

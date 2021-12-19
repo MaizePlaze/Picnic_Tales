@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18292919912201198881
+        ParentId: 10282234490525398704
         ChildIds: 12710326895889515650
         UnregisteredParameters {
           Overrides {
@@ -24,11 +24,11 @@ Assets {
           }
           Overrides {
             Name: "cs:ShowHealthbars"
-            Bool: true
+            Bool: false
           }
           Overrides {
             Name: "cs:ShowOnSelf"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:ShowOnTeammates"
@@ -40,7 +40,7 @@ Assets {
           }
           Overrides {
             Name: "cs:ShowOnEnemies"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:MaxDistanceOnEnemies"
@@ -48,11 +48,11 @@ Assets {
           }
           Overrides {
             Name: "cs:ShowOnDeadPlayers"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:Scale"
-            Float: 1
+            Float: 0.75
           }
           Overrides {
             Name: "cs:ShowNumbers"
@@ -131,14 +131,6 @@ Assets {
             }
           }
           Overrides {
-            Name: "cs:ShowNames:tooltip"
-            String: "Show names as part of the nameplate. Default names are hidden either way."
-          }
-          Overrides {
-            Name: "cs:ShowOnSelf:tooltip"
-            String: "Show a nameplate on the local player"
-          }
-          Overrides {
             Name: "cs:HealthNumberColor"
             Color {
               R: 1
@@ -146,6 +138,30 @@ Assets {
               B: 1
               A: 1
             }
+          }
+          Overrides {
+            Name: "cs:Team1Color"
+            Color {
+              R: 0.119428508
+              B: 0.417999983
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:Team2Color"
+            Color {
+              R: 0.922000051
+              G: 0.848825336
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:ShowNames:tooltip"
+            String: "Show names as part of the nameplate. Default names are hidden either way."
+          }
+          Overrides {
+            Name: "cs:ShowOnSelf:tooltip"
+            String: "Show a nameplate on the local player"
           }
           Overrides {
             Name: "cs:ShowOnTeammates:tooltip"

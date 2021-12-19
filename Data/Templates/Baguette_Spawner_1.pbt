@@ -1,13 +1,13 @@
 Assets {
-  Id: 1498839875987333346
-  Name: "Baguette_Spawner"
+  Id: 14833195117990085073
+  Name: "Baguette_Spawner_1"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 16141159023675802569
+      RootId: 1730144763770154220
       Objects {
-        Id: 16141159023675802569
-        Name: "Baguette_Spawner"
+        Id: 1730144763770154220
+        Name: "Baguette_Spawner_1"
         Transform {
           Scale {
             X: 1
@@ -16,9 +16,10 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 13981463585925200778
-        ChildIds: 844092802495103322
-        ChildIds: 9860253732135817889
+        ChildIds: 2390632457390851471
+        ChildIds: 17560817032333848191
+        ChildIds: 8130395241294396804
+        ChildIds: 4148604168017996763
         UnregisteredParameters {
           Overrides {
             Name: "cs:RespawnDelay"
@@ -31,13 +32,7 @@ Assets {
           Overrides {
             Name: "cs:Template1"
             AssetReference {
-              Id: 6425347757658428185
-            }
-          }
-          Overrides {
-            Name: "cs:Template2"
-            AssetReference {
-              Id: 13373426984019804857
+              Id: 7311212680059740864
             }
           }
           Overrides {
@@ -66,14 +61,13 @@ Assets {
         }
       }
       Objects {
-        Id: 13981463585925200778
-        Name: "Fruit Basket Wicker Oval 1 large (player)"
+        Id: 2390632457390851471
+        Name: "Basket"
         Transform {
           Location {
             Z: -45
           }
           Rotation {
-            Yaw: -47.8163757
           }
           Scale {
             X: 0.897475481
@@ -81,10 +75,9 @@ Assets {
             Z: 0.897475481
           }
         }
-        ParentId: 16141159023675802569
-        ChildIds: 5094886451529487019
-        ChildIds: 5965239870211847637
-        ChildIds: 9617291707955686350
+        ParentId: 1730144763770154220
+        ChildIds: 5199961318037714617
+        ChildIds: 6554263813918166938
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -105,23 +98,23 @@ Assets {
         }
       }
       Objects {
-        Id: 5094886451529487019
+        Id: 5199961318037714617
         Name: "Body"
         Transform {
           Location {
-            X: 1.89210451
-            Y: 3.25440311
+            X: 1.89217556
+            Y: 3.25443602
             Z: 55.4222755
           }
           Rotation {
           }
           Scale {
-            X: 0.897475839
-            Y: 2.14299297
+            X: 1.59190953
+            Y: 0.897475481
             Z: 0.897475481
           }
         }
-        ParentId: 13981463585925200778
+        ParentId: 2390632457390851471
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -154,6 +147,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -167,23 +161,23 @@ Assets {
         }
       }
       Objects {
-        Id: 5965239870211847637
+        Id: 6554263813918166938
         Name: "Base"
         Transform {
           Location {
-            X: 2.4986515
-            Y: 2.8258853
+            X: 2.49866748
+            Y: 2.82585192
             Z: 57.7144623
           }
           Rotation {
           }
           Scale {
-            X: 0.897475839
-            Y: 2.14299297
+            X: 1.59190953
+            Y: 0.897475481
             Z: 0.897475481
           }
         }
-        ParentId: 13981463585925200778
+        ParentId: 2390632457390851471
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -216,87 +210,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 9617291707955686350
-        Name: "Baguette Basher"
-        Transform {
-          Location {
-            X: 13.4158831
-            Y: 47.9902115
-            Z: 133.708389
-          }
-          Rotation {
-            Pitch: 37.3609047
-            Yaw: 87.3611374
-            Roll: 116.60598
-          }
-          Scale {
-            X: 2.67321467
-            Y: 0.488133967
-            Z: 0.92179209
-          }
-        }
-        ParentId: 13981463585925200778
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 1583892998503481529
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.289999962
-              G: 0.0864238366
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.265068114
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 0.196344107
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2510984402606835564
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
           DisableReceiveDecals: true
           StaticMesh {
             Physics {
@@ -311,7 +224,7 @@ Assets {
         }
       }
       Objects {
-        Id: 844092802495103322
+        Id: 17560817032333848191
         Name: "UniversalObjectSpawner"
         Transform {
           Location {
@@ -324,18 +237,18 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16141159023675802569
+        ParentId: 1730144763770154220
         UnregisteredParameters {
           Overrides {
             Name: "cs:Root"
             ObjectReference {
-              SubObjectId: 16141159023675802569
+              SubObjectId: 1730144763770154220
             }
           }
           Overrides {
             Name: "cs:ShowHideObject"
             ObjectReference {
-              SubObjectId: 9860253732135817889
+              SubObjectId: 8130395241294396804
             }
           }
         }
@@ -358,11 +271,11 @@ Assets {
         }
       }
       Objects {
-        Id: 9860253732135817889
+        Id: 8130395241294396804
         Name: "Cylinder"
         Transform {
           Location {
-            Z: -50
+            Z: -5
           }
           Rotation {
             Yaw: -3.05175781e-05
@@ -373,7 +286,7 @@ Assets {
             Z: 2
           }
         }
-        ParentId: 16141159023675802569
+        ParentId: 1730144763770154220
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -421,6 +334,205 @@ Assets {
           Value: "mc:eproxyrelevance:critical"
         }
       }
+      Objects {
+        Id: 4148604168017996763
+        Name: "Baguettes"
+        Transform {
+          Location {
+            Z: 110
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1730144763770154220
+        ChildIds: 639674799029672809
+        ChildIds: 5193831309861184224
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 639674799029672809
+        Name: "Baguette_Geo"
+        Transform {
+          Location {
+            X: -45
+          }
+          Rotation {
+            Pitch: 77.4253845
+            Yaw: -174.483871
+            Roll: 59.9706268
+          }
+          Scale {
+            X: 2.39914465
+            Y: 0.438088268
+            Z: 0.827285767
+          }
+        }
+        ParentId: 4148604168017996763
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 1583892998503481529
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.289999962
+              G: 0.0864238366
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.265068114
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.196344107
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2510984402606835564
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 5193831309861184224
+        Name: "Baguette_Geo"
+        Transform {
+          Location {
+            X: 45
+          }
+          Rotation {
+            Pitch: -74.98526
+            Yaw: 175.366104
+            Roll: 59.0618248
+          }
+          Scale {
+            X: -2.39914465
+            Y: 0.438088268
+            Z: 0.827285767
+          }
+        }
+        ParentId: 4148604168017996763
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 1583892998503481529
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.289999962
+              G: 0.0864238366
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.265068114
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.196344107
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2510984402606835564
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
     }
     Assets {
       Id: 5055429345916703247
@@ -450,24 +562,6 @@ Assets {
       }
     }
     Assets {
-      Id: 2510984402606835564
-      Name: "Gem - Baguette Polished"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_gem_baguette_polished_001"
-      }
-    }
-    Assets {
-      Id: 1583892998503481529
-      Name: "Food Corn 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_food_generic_corn_001_uv"
-      }
-    }
-    Assets {
       Id: 1137112816547272582
       Name: "Cylinder"
       PlatformAssetType: 1
@@ -483,6 +577,24 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "fxma_add_edgeline_sharpline"
+      }
+    }
+    Assets {
+      Id: 2510984402606835564
+      Name: "Gem - Baguette Polished"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_gem_baguette_polished_001"
+      }
+    }
+    Assets {
+      Id: 1583892998503481529
+      Name: "Food Corn 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_food_generic_corn_001_uv"
       }
     }
     PrimaryAssetId {

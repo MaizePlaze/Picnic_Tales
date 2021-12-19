@@ -45,6 +45,10 @@ local DAMAGE_CHANGE_COLOR = COMPONENT_ROOT:GetCustomProperty("DamageChangeColor"
 local HEAL_CHANGE_COLOR = COMPONENT_ROOT:GetCustomProperty("HealChangeColor") 
 local HEALTH_NUMBER_COLOR = COMPONENT_ROOT:GetCustomProperty("HealthNumberColor") 
 
+local TEAM_1_COLOR = COMPONENT_ROOT:GetCustomProperty("Team1Color") ---@type Color
+local TEAM_2_COLOR = COMPONENT_ROOT:GetCustomProperty("Team2Color") ---@type Color
+
+print("hi")
 -- Check user properties
 if MAX_DISTANCE_ON_TEAMMATES < 0.0 then
     warn("MaxDistanceOnTeammates cannot be negative")
@@ -271,12 +275,22 @@ function Tick(deltaTime)
 					local nameColor = nil
 					local healthColor = nil
 
-					if player == LOCAL_PLAYER or Teams.AreTeamsFriendly(player.team, LOCAL_PLAYER.team) then
-						nameColor = FRIENDLY_NAME_COLOR
-						healthColor = FRIENDLY_HEALTH_COLOR
+					if(Teams.AreTeamsFriendly(player.team, LOCAL_PLAYER.team)) then
+						if(LOCAL_PLAYER.team == 1) then
+							nameColor = TEAM_1_COLOR
+							healthColor = TEAM_1_COLOR
+						elseif(LOCAL_PLAYER.team == 2) then
+							nameColor = TEAM_2_COLOR
+							healthColor = TEAM_2_COLOR
+						end
 					else
-						nameColor = ENEMY_NAME_COLOR
-						healthColor = ENEMY_HEALTH_COLOR
+						if(player.team == 1) then
+							nameColor = TEAM_1_COLOR
+							healthColor = TEAM_1_COLOR
+						elseif(player.team == 2) then
+							nameColor = TEAM_2_COLOR
+							healthColor = TEAM_2_COLOR
+						end
 					end
 
 					nameplate.nameText:SetColor(nameColor)

@@ -27,11 +27,11 @@ Objects {
     }
     Overrides {
       Name: "cs:ShowMaxScore"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:MaxScore"
-      Int: 3
+      Int: 0
     }
     Overrides {
       Name: "cs:Team:tooltip"
@@ -356,14 +356,17 @@ Objects {
         Id: 5196377603841433560
       }
       Color {
-        R: 0.205078766
-        G: 0.205078766
-        B: 0.205078766
-        A: 0.5
+        R: 0.906
+        G: 0.905999959
+        A: 1
       }
       TeamSettings {
-        UseTeamColor: true
         TeamInt: 2
+      }
+      ShadowColor {
+        R: 1
+        G: 1
+        B: 1
       }
     }
     AnchorLayout {
@@ -469,11 +472,11 @@ Objects {
     }
     Overrides {
       Name: "cs:ShowMaxScore"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:MaxScore"
-      Int: 3
+      Int: 0
     }
     Overrides {
       Name: "cs:Team:tooltip"
@@ -798,13 +801,11 @@ Objects {
         Id: 5196377603841433560
       }
       Color {
-        R: 0.205078766
-        G: 0.205078766
-        B: 0.205078766
-        A: 0.5
+        R: 0.101428621
+        B: 0.426000118
+        A: 1
       }
       TeamSettings {
-        UseTeamColor: true
         TeamInt: 1
       }
     }
