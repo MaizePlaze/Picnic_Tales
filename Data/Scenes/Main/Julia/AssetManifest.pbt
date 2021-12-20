@@ -152,6 +152,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14716500062930822665
+  Name: "Humanoid 2 Karl"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_guy_head_basic_004_ref"
+  }
+}
+Assets {
   Id: 14572866022914192454
   Name: "Fantasy Dish Set - Plate 01"
   PlatformAssetType: 1
@@ -284,6 +293,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_food_pizza_pepperoni_001_uv_ref"
+  }
+}
+Assets {
+  Id: 12752080577268377911
+  Name: "Flower Wild Lily Patch 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_flower_wild_lily_patch_001_ref"
   }
 }
 Assets {
@@ -617,6 +635,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_001"
+  }
+}
+Assets {
+  Id: 5032517873599206956
+  Name: "Humanoid 2 Rig"
+  PlatformAssetType: 25
+  PrimaryAsset {
+    AssetType: "SkeletonAssetRef"
+    AssetId: "npc_guy_wireframe_001_ref"
   }
 }
 Assets {
