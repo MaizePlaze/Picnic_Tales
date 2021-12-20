@@ -10,6 +10,7 @@ Tags: "Casual"
 ScreenshotPaths: "C:\\Users\\Maize\\Downloads\\Picnic_Tales_Core_Splash_Screen_1280_x_720_px1.png"
 OwnerId: "f2e2a54c03be49f29fe4f8b78602201b"
 SerializationVersion: 2
+CubemapPath: "D:/Core_Dev_Projects/Picnic_Tales/Screenshots/Cubemaps/Cubemap0001.png"
 SceneNameToSceneIdMap {
   key: "Main"
   value: "d0c346e0482efa6deed1f8ba52a53846"

@@ -195,7 +195,7 @@ Objects {
         }
         Overrides {
           Name: "cs:TeamScoreLimit"
-          Int: 20
+          Int: 50
         }
       }
     }
@@ -481,7 +481,7 @@ Objects {
         }
         Overrides {
           Name: "cs:RoundDuration"
-          Float: 120
+          Float: 300
         }
         Overrides {
           Name: "cs:LobbyHasDuration"
@@ -489,11 +489,11 @@ Objects {
         }
         Overrides {
           Name: "cs:LobbyDuration"
-          Float: 30
+          Float: 120
         }
         Overrides {
           Name: "cs:RoundEndDuration"
-          Float: 10
+          Float: 15
         }
       }
     }

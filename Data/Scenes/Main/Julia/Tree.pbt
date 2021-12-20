@@ -70013,7 +70013,6 @@ Objects {
     }
   }
   ParentId: 11119379782012186616
-  ChildIds: 11127263900950481375
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -70031,67 +70030,6 @@ Objects {
     SubobjectId: 16008354779414456412
     InstanceId: 2724024543833682241
     TemplateId: 4173367592303517174
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 11127263900950481375
-  Name: "Baguette Basher"
-  Transform {
-    Location {
-      X: 1183.48
-      Y: -1159.42798
-      Z: 103.108345
-    }
-    Rotation {
-      Pitch: 10.6547117
-      Yaw: 173.861862
-      Roll: 71.1480942
-    }
-    Scale {
-      X: 2.39914465
-      Y: 0.438088268
-      Z: 0.827285767
-    }
-  }
-  ParentId: 14127284396028396161
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6844330457232209348
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Baguette Basher"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 26.4817944
-            Y: -45.8410912
-            Z: 174.75209
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 85.5537872
-            Yaw: -164.340027
-            Roll: 70.201622
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 4515449708693288353
-    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -70828,7 +70766,6 @@ Objects {
     }
   }
   ParentId: 11223328980072368142
-  ChildIds: 5717330699164249198
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -70846,67 +70783,6 @@ Objects {
     SubobjectId: 16008354779414456412
     InstanceId: 2724024543833682241
     TemplateId: 4173367592303517174
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 5717330699164249198
-  Name: "Baguette Basher"
-  Transform {
-    Location {
-      X: 1183.48
-      Y: -1159.42798
-      Z: 103.108345
-    }
-    Rotation {
-      Pitch: 10.6547117
-      Yaw: 173.861862
-      Roll: 71.1480942
-    }
-    Scale {
-      X: 2.39914465
-      Y: 0.438088268
-      Z: 0.827285767
-    }
-  }
-  ParentId: 14087606962613142885
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6844330457232209348
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Baguette Basher"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 26.4817944
-            Y: -45.8410912
-            Z: 174.75209
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 85.5537872
-            Yaw: -164.340027
-            Roll: 70.201622
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 4515449708693288353
-    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -71587,7 +71463,6 @@ Objects {
     }
   }
   ParentId: 14080113156349253638
-  ChildIds: 9654734367459735537
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -71605,67 +71480,6 @@ Objects {
     SubobjectId: 16008354779414456412
     InstanceId: 2724024543833682241
     TemplateId: 4173367592303517174
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 9654734367459735537
-  Name: "Baguette Basher"
-  Transform {
-    Location {
-      X: 1183.48
-      Y: -1159.42798
-      Z: 103.108345
-    }
-    Rotation {
-      Pitch: 10.6547117
-      Yaw: 173.861862
-      Roll: 71.1480942
-    }
-    Scale {
-      X: 2.39914465
-      Y: 0.438088268
-      Z: 0.827285767
-    }
-  }
-  ParentId: 14988245314594785388
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6844330457232209348
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Baguette Basher"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 26.4817944
-            Y: -45.8410912
-            Z: 174.75209
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 85.5537872
-            Yaw: -164.340027
-            Roll: 70.201622
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 4515449708693288353
-    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
