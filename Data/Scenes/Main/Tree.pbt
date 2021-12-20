@@ -19,6 +19,10 @@ Objects {
   ChildIds: 14832815952701525965
   ChildIds: 4147847003364547307
   ChildIds: 44003275876171690
+  ChildIds: 5317153295229993403
+  ChildIds: 7217803020390922864
+  ChildIds: 7134462956646121199
+  ChildIds: 5551791420506046524
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,6 +38,160 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5551791420506046524
+  Name: "Spawner - Red Apple Crate"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13345253903239852829
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Spawner - Red Apple Crate"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -960.140808
+            Y: 4697.74658
+            Z: -0.100585938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 53.3893547
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2062911253213155720
+    }
+  }
+}
+Objects {
+  Id: 7134462956646121199
+  Name: "Spawner - Green Apple Crate"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17940056265480590587
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Spawner - Green Apple Crate"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1302.31921
+            Y: 4718.24658
+            Z: -0.100585938
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6066225024201975781
+    }
+  }
+}
+Objects {
+  Id: 7217803020390922864
+  Name: "Spawner - Yellow Apple Crate"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7530857200830102584
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Spawner - Yellow Apple Crate"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2825.39819
+            Y: 96.2023621
+            Z: -0.100570679
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 68.4332886
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2374977923799134954
+    }
+  }
+}
+Objects {
+  Id: 5317153295229993403
+  Name: "Spawner - Green Apple Crate"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17940056265480590587
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Spawner - Green Apple Crate"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 534.974243
+            Y: -167.343185
+            Z: -0.100585938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 81.2335892
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6066225024201975781
+    }
   }
 }
 Objects {
