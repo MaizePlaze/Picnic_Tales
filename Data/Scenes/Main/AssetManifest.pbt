@@ -1,10 +1,46 @@
 Assets {
+  Id: 18317228675771559283
+  Name: "Humanoid 1 Nalo"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_gal_head_basic_003_ref"
+  }
+}
+Assets {
+  Id: 17463579655779552341
+  Name: "Humanoid 1 Sonia"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_gal_head_sport_001_ref"
+  }
+}
+Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_SunLight"
+  }
+}
+Assets {
+  Id: 15865607849873254976
+  Name: "Humanoid 1 Tennis Skirt"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_gal_lower_sport_002_ref"
+  }
+}
+Assets {
+  Id: 14716500062930822665
+  Name: "Humanoid 2 Karl"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_guy_head_basic_004_ref"
   }
 }
 Assets {
@@ -53,6 +89,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9994238635191653205
+  Name: "Humanoid 1 Tennis Top"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_gal_upper_sport_002_ref"
+  }
+}
+Assets {
   Id: 8918264601242420144
   Name: "Rock Pile 002"
   PlatformAssetType: 1
@@ -98,12 +143,30 @@ Assets {
   }
 }
 Assets {
+  Id: 5032517873599206956
+  Name: "Humanoid 2 Rig"
+  PlatformAssetType: 25
+  PrimaryAsset {
+    AssetType: "SkeletonAssetRef"
+    AssetId: "npc_guy_wireframe_001_ref"
+  }
+}
+Assets {
   Id: 4583469703328031216
   Name: "Grass Short"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_002"
+  }
+}
+Assets {
+  Id: 1205921004640945987
+  Name: "Humanoid 1 Rig"
+  PlatformAssetType: 25
+  PrimaryAsset {
+    AssetType: "SkeletonAssetRef"
+    AssetId: "npc_gal_wireframe_001_ref"
   }
 }
 Assets {
