@@ -152,12 +152,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14783482817928033983
-  Name: "Body Slap Thump Impact Hand Leg Stomp 01 SFX"
-  PlatformAssetType: 7
+  Id: 14716500062930822665
+  Name: "Humanoid 2 Karl"
+  PlatformAssetType: 26
   PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_body_slap_thump_impact_hand_leg_stomp_01a_Cue_ref"
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_guy_head_basic_004_ref"
   }
 }
 Assets {
@@ -293,6 +293,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_food_pizza_pepperoni_001_uv_ref"
+  }
+}
+Assets {
+  Id: 12752080577268377911
+  Name: "Flower Wild Lily Patch 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_flower_wild_lily_patch_001_ref"
   }
 }
 Assets {
@@ -548,15 +557,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6470074521381443047
-  Name: "Weapon Guide 1hand_melee"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "weapon_guide_melee_BP_ref"
-  }
-}
-Assets {
   Id: 6353079764689043412
   Name: "Flower Bellflower 01"
   PlatformAssetType: 1
@@ -581,15 +581,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hemisphere_wedge_002"
-  }
-}
-Assets {
-  Id: 6108430160052417494
-  Name: "Fighting Melee Ability Impact Medium 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_anime_fighting_melee_ability_impact_medium_01a_Cue_ref"
   }
 }
 Assets {
@@ -644,6 +635,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_001"
+  }
+}
+Assets {
+  Id: 5032517873599206956
+  Name: "Humanoid 2 Rig"
+  PlatformAssetType: 25
+  PrimaryAsset {
+    AssetType: "SkeletonAssetRef"
+    AssetId: "npc_guy_wireframe_001_ref"
   }
 }
 Assets {
@@ -887,15 +887,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_foliage_gen_flower_bell_patch_001_ref"
-  }
-}
-Assets {
-  Id: 675891104398617821
-  Name: "Purchase Buy Button 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_buy_button_01_Cue_ref"
   }
 }
 Assets {
