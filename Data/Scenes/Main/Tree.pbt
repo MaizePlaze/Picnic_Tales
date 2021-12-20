@@ -24,6 +24,8 @@ Objects {
   ChildIds: 6662363476228936059
   ChildIds: 6442569943537288577
   ChildIds: 11849219953591314908
+  ChildIds: 14342153650835794298
+  ChildIds: 11045842286448151979
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,6 +41,97 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11045842286448151979
+  Name: "GrowShroom"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9015105953714030991
+      value {
+        Overrides {
+          Name: "Name"
+          String: "GrowShroom"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1198.63269
+            Y: -1010.46289
+            Z: 26.2824097
+          }
+        }
+        Overrides {
+          Name: "cs:MaxWalkSpeed"
+          Int: 1000
+        }
+        Overrides {
+          Name: "cs:MaxAcceleration"
+          Int: 1200
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13316636166924694352
+    }
+  }
+}
+Objects {
+  Id: 14342153650835794298
+  Name: "ShrinkShroom"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9015105953714030991
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ShrinkShroom"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 156.555099
+            Y: 18.3524628
+            Z: 31.4083099
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "cs:MaxAcceleration"
+          Int: 1200
+        }
+        Overrides {
+          Name: "cs:MaxWalkSpeed"
+          Int: 800
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4737050595051618116
+    }
   }
 }
 Objects {

@@ -70669,12 +70669,10 @@ Objects {
     }
   }
   ParentId: 4147847003364547307
-  ChildIds: 16510796461693447681
   ChildIds: 11432896633232169630
   ChildIds: 2522198675338357732
   ChildIds: 15154952087177704531
   ChildIds: 11223328980072368142
-  ChildIds: 15060401009741137319
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentStance"
@@ -70755,7 +70753,7 @@ Objects {
   Equipment {
     SocketName: "right_prop"
     PickupTrigger {
-      SelfId: 16510796461693447681
+      SelfId: 841534158063459245
     }
   }
   InstanceHistory {
@@ -70767,42 +70765,6 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 15060401009741137319
-  Name: "Weapon Guide 1hand_melee"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16996596326313636791
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6470074521381443047
-    }
-    TeamSettings {
-    }
   }
 }
 Objects {
@@ -71175,12 +71137,6 @@ Objects {
   }
   ParentId: 15154952087177704531
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:Trigger"
-      ObjectReference {
-        SelfId: 16510796461693447681
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -71452,56 +71408,6 @@ Objects {
   }
 }
 Objects {
-  Id: 16510796461693447681
-  Name: "Pickup Trigger"
-  Transform {
-    Location {
-      Z: 40
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1.2
-    }
-  }
-  ParentId: 16996596326313636791
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:alwaysvisible"
-  }
-  Trigger {
-    Interactable: true
-    InteractionLabel: "Baguette Basher"
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 309242145871832331
-    SubobjectId: 15775079625870837992
-    InstanceId: 2724024543833682241
-    TemplateId: 4173367592303517174
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 2419764358616469149
   Name: "Baguette Basher 1 handed"
   Transform {
@@ -71522,12 +71428,10 @@ Objects {
     }
   }
   ParentId: 4147847003364547307
-  ChildIds: 16708585909890323015
   ChildIds: 6260622840882082111
   ChildIds: 4179636440876944468
   ChildIds: 4299035773300354957
   ChildIds: 14080113156349253638
-  ChildIds: 10290446488472020181
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentStance"
@@ -71608,7 +71512,7 @@ Objects {
   Equipment {
     SocketName: "right_prop"
     PickupTrigger {
-      SelfId: 16708585909890323015
+      SelfId: 841534158063459245
     }
   }
   InstanceHistory {
@@ -71620,42 +71524,6 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 10290446488472020181
-  Name: "Weapon Guide 1hand_melee"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2419764358616469149
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6470074521381443047
-    }
-    TeamSettings {
-    }
   }
 }
 Objects {
@@ -72028,12 +71896,6 @@ Objects {
   }
   ParentId: 4299035773300354957
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:Trigger"
-      ObjectReference {
-        SelfId: 16708585909890323015
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -72297,56 +72159,6 @@ Objects {
   InstanceHistory {
     SelfId: 4223988716047386638
     SubobjectId: 16445015100220171757
-    InstanceId: 2724024543833682241
-    TemplateId: 4173367592303517174
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 16708585909890323015
-  Name: "Pickup Trigger"
-  Transform {
-    Location {
-      Z: 40
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1.2
-    }
-  }
-  ParentId: 2419764358616469149
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:alwaysvisible"
-  }
-  Trigger {
-    Interactable: true
-    InteractionLabel: "Baguette Basher"
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 309242145871832331
-    SubobjectId: 15775079625870837992
     InstanceId: 2724024543833682241
     TemplateId: 4173367592303517174
   }
@@ -80869,8 +80681,6 @@ Objects {
     }
   }
   ParentId: 4147847003364547307
-  ChildIds: 8751090102541028965
-  ChildIds: 12449426848187127786
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -80885,132 +80695,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 12449426848187127786
-  Name: "Base"
-  Transform {
-    Location {
-      X: 2.49866748
-      Y: 2.82585192
-      Z: 57.7144623
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.59190953
-      Y: 0.897475481
-      Z: 0.897475481
-    }
-  }
-  ParentId: 9505022356450984301
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 9314504034621143103
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5387016660230950312
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableReceiveDecals: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 8751090102541028965
-  Name: "Body"
-  Transform {
-    Location {
-      X: 1.89217556
-      Y: 3.25443602
-      Z: 55.4222755
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.59190953
-      Y: 0.897475481
-      Z: 0.897475481
-    }
-  }
-  ParentId: 9505022356450984301
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 9314504034621143103
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5055429345916703247
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableReceiveDecals: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

@@ -7,7 +7,7 @@ Assets {
       RootId: 282656392218111632
       Objects {
         Id: 282656392218111632
-        Name: "Dropping Tree"
+        Name: "Apple Dropping Tree"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 842309935005774273
+        ParentId: 2909358311781510362
         ChildIds: 7556085996554418952
         ChildIds: 5419889082834875613
         Collidable_v2 {
@@ -83,9 +83,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 0.598190904
-            Y: 0.598190904
-            Z: 0.598190904
+            X: 0.850677371
+            Y: 0.850677371
+            Z: 0.850677371
           }
         }
         ParentId: 282656392218111632

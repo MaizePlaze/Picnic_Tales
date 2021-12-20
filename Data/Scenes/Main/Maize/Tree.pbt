@@ -706,7 +706,6 @@ Objects {
   ChildIds: 2060234037197206718
   ChildIds: 17825099058935343394
   ChildIds: 842309935005774273
-  ChildIds: 1737964113192400763
   ChildIds: 13203368807213981575
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1261,43 +1260,6 @@ Objects {
     }
     TeamSettings {
     }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 1737964113192400763
-  Name: "Group"
-  Transform {
-    Location {
-      X: 350
-      Y: 760
-      Z: -925.920654
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2909358311781510362
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -2307,7 +2269,7 @@ Objects {
 }
 Objects {
   Id: 2060234037197206718
-  Name: "Play Field"
+  Name: "Play Field-old"
   Transform {
     Location {
       X: 350
@@ -3481,7 +3443,7 @@ Objects {
       Z: 90
     }
     Rotation {
-      Yaw: -30.0000095
+      Yaw: 180
     }
     Scale {
       X: 0.75
@@ -3523,7 +3485,7 @@ Objects {
       Z: 90
     }
     Rotation {
-      Yaw: -59.9999847
+      Yaw: 180
     }
     Scale {
       X: 0.75
@@ -3565,7 +3527,7 @@ Objects {
       Z: 90
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: 180
     }
     Scale {
       X: 0.75
@@ -3607,7 +3569,7 @@ Objects {
       Z: 90
     }
     Rotation {
-      Yaw: -120.000008
+      Yaw: 180
     }
     Scale {
       X: 0.75
@@ -3649,7 +3611,7 @@ Objects {
       Z: 90
     }
     Rotation {
-      Yaw: -149.999969
+      Yaw: 180
     }
     Scale {
       X: 0.75
@@ -3691,7 +3653,7 @@ Objects {
       Z: 90
     }
     Rotation {
-      Yaw: -179.999969
+      Yaw: 180
     }
     Scale {
       X: 0.75
@@ -3733,7 +3695,7 @@ Objects {
       Z: 90
     }
     Rotation {
-      Yaw: 149.999969
+      Yaw: 180
     }
     Scale {
       X: 0.75
@@ -3775,7 +3737,7 @@ Objects {
       Z: 90
     }
     Rotation {
-      Yaw: 120.000008
+      Yaw: 180
     }
     Scale {
       X: 0.75
@@ -3817,7 +3779,7 @@ Objects {
       Z: 90
     }
     Rotation {
-      Yaw: 89.9999847
+      Yaw: 180
     }
     Scale {
       X: 0.75
@@ -3859,7 +3821,7 @@ Objects {
       Z: 90
     }
     Rotation {
-      Yaw: 59.9999847
+      Yaw: 180
     }
     Scale {
       X: 0.75
@@ -3901,7 +3863,7 @@ Objects {
       Z: 90
     }
     Rotation {
-      Yaw: 30.0000095
+      Yaw: 180
     }
     Scale {
       X: 0.75
@@ -3943,6 +3905,7 @@ Objects {
       Z: 90
     }
     Rotation {
+      Yaw: 180
     }
     Scale {
       X: 0.75
