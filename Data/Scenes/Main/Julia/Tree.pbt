@@ -83908,8 +83908,10 @@ Objects {
   ChildIds: 4252421416388661917
   ChildIds: 14087010144859350553
   ChildIds: 15536340054054940383
-  ChildIds: 4984783390262122219
   ChildIds: 1432818605431528575
+  ChildIds: 14567625671992403822
+  ChildIds: 17752689106241762206
+  ChildIds: 433093795774856924
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -83927,6 +83929,400 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 433093795774856924
+  Name: "Sittable Folding Chair"
+  Transform {
+    Location {
+      X: 1327.61902
+      Y: -2015.17346
+      Z: 122.357056
+    }
+    Rotation {
+      Yaw: 41.1000252
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10928986063078227728
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2047732190613167624
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -465.045898
+            Y: 70.9225311
+            Z: 818.532959
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2159998438797793606
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 32.5953979
+            Y: -0.761429787
+            Z: -98.235611
+          }
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6391263277793638506
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 24.9683952
+            Y: 56.8451233
+            Z: -25.1708069
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 90.0000153
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11747342324576246180
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 34.9598
+            Y: 47.5582
+            Z: -85.6179352
+          }
+        }
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:inheritfromparent"
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.984169245
+            Y: 1.2843312
+            Z: 0.954516232
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16360099004481151197
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Yellow Apple Sittable"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -199.221085
+            Y: -25.2483521
+            Z: 71.9371
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -8.12200928
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14221159249116317307
+    }
+  }
+}
+Objects {
+  Id: 17752689106241762206
+  Name: "Sittable Folding Chair"
+  Transform {
+    Location {
+      X: 1327.61902
+      Y: -2015.17346
+      Z: 122.357056
+    }
+    Rotation {
+      Yaw: 41.1000252
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10928986063078227728
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2047732190613167624
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -465.045898
+            Y: 70.9225311
+            Z: 818.532959
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2159998438797793606
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 32.5953979
+            Y: -0.761429787
+            Z: -98.235611
+          }
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6391263277793638506
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 24.9683952
+            Y: 56.8451233
+            Z: -25.1708069
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 90.0000153
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11747342324576246180
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 34.9598
+            Y: 47.5582
+            Z: -85.6179352
+          }
+        }
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:inheritfromparent"
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.984169245
+            Y: 1.2843312
+            Z: 0.954516232
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16360099004481151197
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Red Apple Sittable"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 265.60968
+            Y: -11.1151428
+            Z: 81.4190674
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -8.12200928
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14221159249116317307
+    }
+  }
+}
+Objects {
+  Id: 14567625671992403822
+  Name: "Sittable Folding Chair"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10928986063078227728
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2047732190613167624
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -465.045898
+            Y: 70.9225311
+            Z: 818.532959
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2159998438797793606
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 32.5953979
+            Y: -0.761429787
+            Z: -98.235611
+          }
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6391263277793638506
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 24.9683952
+            Y: 56.8451233
+            Z: -25.1708069
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 90.0000153
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11747342324576246180
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 34.9598
+            Y: 47.5582
+            Z: -85.6179352
+          }
+        }
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:inheritfromparent"
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.984169245
+            Y: 1.2843312
+            Z: 0.954516232
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16360099004481151197
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Green Apple Sittable"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 65.4006729
+            Y: -19.7342796
+            Z: 81.4190674
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -8.12199879
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14221159249116317307
+    }
   }
 }
 Objects {
@@ -84078,361 +84474,6 @@ Objects {
   }
 }
 Objects {
-  Id: 4984783390262122219
-  Name: "Chair Logic"
-  Transform {
-    Location {
-      X: 83.2714081
-      Y: 46.6934547
-      Z: 7.85101318
-    }
-    Rotation {
-      Yaw: -108.275589
-    }
-    Scale {
-      X: 1.16760516
-      Y: 1.16760516
-      Z: 1.16760516
-    }
-  }
-  ParentId: 10928986063078227728
-  ChildIds: 553823628846416721
-  ChildIds: 9640429271828979577
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 9640429271828979577
-  Name: "ClientContext"
-  Transform {
-    Location {
-      Z: -44.5222321
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4984783390262122219
-  ChildIds: 9188915230455684324
-  ChildIds: 6287086001813161342
-  ChildIds: 13777854161394254611
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  NetworkContext {
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 13777854161394254611
-  Name: "SitTrigger"
-  Transform {
-    Location {
-      X: 38.0703239
-      Y: 1.47020055e-05
-      Z: 23.2790012
-    }
-    Rotation {
-      Yaw: 93.5566711
-    }
-    Scale {
-      X: 0.476830095
-      Y: 0.0572012104
-      Z: 0.476830095
-    }
-  }
-  ParentId: 9640429271828979577
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:alwaysvisible"
-  }
-  Trigger {
-    InteractionLabel: "Sit"
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 6287086001813161342
-  Name: "OuterTrigger"
-  Transform {
-    Location {
-      X: 40.988842
-      Y: -1.79691178e-05
-      Z: 37.150486
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.908887684
-      Y: 0.492791682
-      Z: 0.908887684
-    }
-  }
-  ParentId: 9640429271828979577
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:alwaysvisible"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 9188915230455684324
-  Name: "ChairClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9640429271828979577
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Root"
-      ObjectReference {
-        SelfId: 4984783390262122219
-      }
-    }
-    Overrides {
-      Name: "cs:OuterTrigger"
-      ObjectReference {
-        SelfId: 6287086001813161342
-      }
-    }
-    Overrides {
-      Name: "cs:SitTrigger"
-      ObjectReference {
-        SelfId: 13777854161394254611
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 11442475187611604727
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 553823628846416721
-  Name: "ServerContext"
-  Transform {
-    Location {
-      X: 50.9395561
-      Y: 10.569664
-      Z: 77.6000366
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4984783390262122219
-  ChildIds: 13351845357612766398
-  ChildIds: 16606250339889292475
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  NetworkContext {
-    Type: Server
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 16606250339889292475
-  Name: "Guide Cube"
-  Transform {
-    Location {
-      X: -33.9358711
-      Y: -11.6599083
-      Z: -44.4478226
-    }
-    Rotation {
-      Yaw: -176.352402
-    }
-    Scale {
-      X: 0.0435556397
-      Y: 0.813191473
-      Z: 0.0435556397
-    }
-  }
-  ParentId: 553823628846416721
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 13351845357612766398
-  Name: "ChairServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 553823628846416721
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Root"
-      ObjectReference {
-        SelfId: 4984783390262122219
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 14287183517268683398
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 15536340054054940383
   Name: "Yellow Apple"
   Transform {
@@ -84442,9 +84483,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.783278
+      Y: 0.783278
+      Z: 0.783278
     }
   }
   ParentId: 10928986063078227728
@@ -84505,14 +84546,15 @@ Objects {
   Name: "Green Apple"
   Transform {
     Location {
-      X: 67.6773682
+      X: 100.251015
+      Y: 5.55500221
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.783278
+      Y: 0.783278
+      Z: 0.783278
     }
   }
   ParentId: 10928986063078227728
@@ -84571,9 +84613,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.783278
+      Y: 0.783278
+      Z: 0.783278
     }
   }
   ParentId: 10928986063078227728
