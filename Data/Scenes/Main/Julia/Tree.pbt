@@ -1309,8 +1309,8 @@ Objects {
   Name: "Karl Dancing by Picnic Blanket"
   Transform {
     Location {
-      X: -171.137772
-      Y: -590.244751
+      X: -120.400597
+      Y: -492.412964
     }
     Rotation {
       Yaw: 89.7210464
@@ -1373,12 +1373,12 @@ Objects {
   Name: "Karl Dancing by Picnic Blanket"
   Transform {
     Location {
-      X: -499.467682
-      Y: 412.883301
+      X: -249.89772
+      Y: 52.2111816
       Z: 2.19026184
     }
     Rotation {
-      Yaw: -70.4624252
+      Yaw: -70.4624329
     }
     Scale {
       X: 1
@@ -1438,8 +1438,8 @@ Objects {
   Name: "Karl Dancing by Main Signpost"
   Transform {
     Location {
-      X: 670.605469
-      Y: 177.361084
+      X: 414.086212
+      Y: -42.2709961
       Z: 2.19026184
     }
     Rotation {
@@ -71209,13 +71209,13 @@ Objects {
           Vector {
             X: 1981.79736
             Y: 5185.51709
-            Z: -0.100585938
+            Z: -156.568008
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -65.8955841
+            Yaw: -65.8955688
           }
         }
         Overrides {
@@ -71353,7 +71353,7 @@ Objects {
           Vector {
             X: 1306.52515
             Y: 4697.49121
-            Z: -0.100830078
+            Z: -136.623138
           }
         }
         Overrides {
@@ -73404,7 +73404,7 @@ Objects {
           Vector {
             X: 2776.01074
             Y: 84.9868774
-            Z: 0.0613098145
+            Z: -203.559494
           }
         }
         Overrides {
@@ -79691,7 +79691,7 @@ Objects {
           Vector {
             X: 1965.92126
             Y: 1847.30835
-            Z: 1.54581451
+            Z: -222.291595
           }
         }
         Overrides {
@@ -79925,7 +79925,7 @@ Objects {
     Location {
       X: -650.147827
       Y: -1563.5708
-      Z: 0.238464355
+      Z: -88.3994751
     }
     Rotation {
       Yaw: 6.30014133
@@ -84900,7 +84900,7 @@ Objects {
           Vector {
             X: 545.433
             Y: -149.473145
-            Z: -0.243469238
+            Z: -187.21167
           }
         }
         Overrides {

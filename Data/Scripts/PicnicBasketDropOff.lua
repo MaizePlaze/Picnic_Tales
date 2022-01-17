@@ -25,7 +25,7 @@ function OnBeginOverlap(whichTrigger, other)
 		-- print("total score " .. totalScore)
 		-- print("TEAM SCORE LIMIT " .. TEAM_SCORE_LIMIT)
 		-- print("Current Team Number " .. playerTeam)
-
+		print(ABGS.GAME_STATE_ROUND)
 		if ABGS.GAME_STATE_ROUND then
 			if totalScore >= TEAM_SCORE_LIMIT then
 				if playerTeam == 1 then

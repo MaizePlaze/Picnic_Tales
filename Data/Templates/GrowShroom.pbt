@@ -1,139 +1,29 @@
 Assets {
-  Id: 12430147060698069599
-  Name: "Universal Object Spawner"
+  Id: 13316636166924694352
+  Name: "GrowShroom"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 12724310867555688579
+      RootId: 9015105953714030991
       Objects {
-        Id: 12724310867555688579
-        Name: "Spawner - Shrink Mushroom"
+        Id: 9015105953714030991
+        Name: "GrowShroom"
         Transform {
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4781671109827199097
-        ChildIds: 6567354516116234768
-        ChildIds: 11342603688156189220
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:RespawnDelay"
-            Float: 1
-          }
-          Overrides {
-            Name: "cs:RoundStartSpawn"
-            Bool: false
-          }
-          Overrides {
-            Name: "cs:Template1"
-            AssetReference {
-              Id: 4737050595051618116
-            }
-          }
-          Overrides {
-            Name: "cs:Template2"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:RespawnDelay:tooltip"
-            String: "Delay after the object has been collected, before the next object is spawned."
-          }
-          Overrides {
-            Name: "cs:RoundStartSpawn:tooltip"
-            String: "If true, will spawn an object at the start of a round."
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 6567354516116234768
-        Name: "UniversalObjectSpawner"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12724310867555688579
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Root"
-            ObjectReference {
-              SubObjectId: 12724310867555688579
-            }
-          }
-          Overrides {
-            Name: "cs:ShowHideObject"
-            ObjectReference {
-              SubObjectId: 11342603688156189220
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 11740543328883743074
-          }
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 11342603688156189220
-        Name: "ShrinkShroom"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
           Scale {
             X: 0.5
             Y: 0.5
             Z: 0.5
           }
         }
-        ParentId: 12724310867555688579
-        ChildIds: 11550406540989537090
-        ChildIds: 4878398837171089707
-        ChildIds: 17430244339628341922
+        ParentId: 4781671109827199097
+        ChildIds: 4629237942444884201
+        ChildIds: 11801294738357054080
+        ChildIds: 1265995331963248905
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 4878398837171089707
+              SubObjectId: 11801294738357054080
             }
           }
           Overrides {
@@ -158,7 +48,7 @@ Assets {
           }
           Overrides {
             Name: "cs:MaxWalkSpeed"
-            Int: 1000
+            Int: 1200
           }
           Overrides {
             Name: "cs:MaxAcceleration"
@@ -166,7 +56,7 @@ Assets {
           }
           Overrides {
             Name: "cs:GravityScale"
-            Float: 2
+            Float: 1.9
           }
           Overrides {
             Name: "cs:MakeFly"
@@ -186,14 +76,14 @@ Assets {
           }
           Overrides {
             Name: "cs:DestroyOnPickup"
-            Bool: true
+            Bool: false
           }
           Overrides {
             Name: "cs:ChangePlayerScale"
             Vector {
-              X: 0.5
-              Y: 0.5
-              Z: 0.5
+              X: 2
+              Y: 2
+              Z: 2
             }
           }
           Overrides {
@@ -203,13 +93,13 @@ Assets {
           Overrides {
             Name: "cs:GrowBlip"
             AssetReference {
-              Id: 11115112240768801188
+              Id: 2833589328863456425
             }
           }
           Overrides {
             Name: "cs:ShrinkBlip"
             AssetReference {
-              Id: 2833589328863456425
+              Id: 11115112240768801188
             }
           }
           Overrides {
@@ -271,7 +161,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11550406540989537090
+        Id: 4629237942444884201
         Name: "AdvancedResourcePickupServer"
         Transform {
           Location {
@@ -286,7 +176,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11342603688156189220
+        ParentId: 9015105953714030991
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -309,7 +199,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4878398837171089707
+        Id: 11801294738357054080
         Name: "Trigger"
         Transform {
           Location {
@@ -322,7 +212,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11342603688156189220
+        ParentId: 9015105953714030991
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -349,7 +239,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17430244339628341922
+        Id: 1265995331963248905
         Name: "Geo_ClientContext"
         Transform {
           Location {
@@ -362,8 +252,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11342603688156189220
-        ChildIds: 116940641940035739
+        ParentId: 9015105953714030991
+        ChildIds: 16278935988931380016
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -383,7 +273,7 @@ Assets {
         }
       }
       Objects {
-        Id: 116940641940035739
+        Id: 16278935988931380016
         Name: "Crate"
         Transform {
           Location {
@@ -397,9 +287,9 @@ Assets {
             Z: 0.731707752
           }
         }
-        ParentId: 17430244339628341922
-        ChildIds: 8410759156513665108
-        ChildIds: 17035067572231024212
+        ParentId: 1265995331963248905
+        ChildIds: 10721969039236393983
+        ChildIds: 873035730835518975
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -419,7 +309,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8410759156513665108
+        Id: 10721969039236393983
         Name: "SpinObject"
         Transform {
           Location {
@@ -433,7 +323,7 @@ Assets {
             Z: 1.36666584
           }
         }
-        ParentId: 116940641940035739
+        ParentId: 16278935988931380016
         UnregisteredParameters {
           Overrides {
             Name: "cs:speed"
@@ -463,7 +353,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17035067572231024212
+        Id: 873035730835518975
         Name: "Group"
         Transform {
           Location {
@@ -479,15 +369,15 @@ Assets {
             Z: 0.511284113
           }
         }
-        ParentId: 116940641940035739
-        ChildIds: 3543507501995053430
-        ChildIds: 7372034205283703232
-        ChildIds: 7917765710836278665
-        ChildIds: 8127606001756459719
-        ChildIds: 533247055558618788
-        ChildIds: 8185068017481373572
-        ChildIds: 1658996789210527901
-        ChildIds: 3563086977058202841
+        ParentId: 16278935988931380016
+        ChildIds: 15084810941238299357
+        ChildIds: 9672510311961281131
+        ChildIds: 10201953991565098530
+        ChildIds: 10429805073225828716
+        ChildIds: 16650770666264442127
+        ChildIds: 10512000843565550639
+        ChildIds: 17829999581411124022
+        ChildIds: 15062203564965789554
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -505,7 +395,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3543507501995053430
+        Id: 15084810941238299357
         Name: "Reinforced Crate 150cm"
         Transform {
           Location {
@@ -518,12 +408,12 @@ Assets {
             Z: 5.03590584
           }
         }
-        ParentId: 17035067572231024212
+        ParentId: 873035730835518975
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17034031215987071564
+              Id: 5536628586608795105
             }
           }
         }
@@ -556,14 +446,14 @@ Assets {
         }
       }
       Objects {
-        Id: 7372034205283703232
+        Id: 9672510311961281131
         Name: "Reinforced Crate 150cm"
         Transform {
           Location {
-            Z: 79.2164612
+            Z: 93.166
           }
           Rotation {
-            Pitch: -0.586364746
+            Pitch: -0.586364865
             Yaw: -179.999954
             Roll: -179.999893
           }
@@ -573,12 +463,12 @@ Assets {
             Z: 2.75671124
           }
         }
-        ParentId: 17035067572231024212
+        ParentId: 873035730835518975
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17034031215987071564
+              Id: 5536628586608795105
             }
           }
         }
@@ -593,7 +483,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2326592247975427636
+            Id: 385454521436677437
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -611,16 +501,16 @@ Assets {
         }
       }
       Objects {
-        Id: 7917765710836278665
+        Id: 10201953991565098530
         Name: "Reinforced Crate 150cm"
         Transform {
           Location {
             Z: 3.09798527
           }
           Rotation {
-            Pitch: 1.39613843
-            Yaw: -6.10351562e-05
-            Roll: 0.000246491138
+            Pitch: -0.586364746
+            Yaw: -179.999954
+            Roll: -179.999893
           }
           Scale {
             X: 0.506845355
@@ -628,12 +518,12 @@ Assets {
             Z: 0.595204
           }
         }
-        ParentId: 17035067572231024212
+        ParentId: 873035730835518975
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17034031215987071564
+              Id: 5536628586608795105
             }
           }
         }
@@ -666,29 +556,29 @@ Assets {
         }
       }
       Objects {
-        Id: 8127606001756459719
+        Id: 10429805073225828716
         Name: "Reinforced Crate 150cm"
         Transform {
           Location {
-            Z: -36.9575539
+            Z: -34.2509384
           }
           Rotation {
-            Pitch: -1.23751831
-            Yaw: -6.10351562e-05
-            Roll: 0.000163790522
+            Pitch: -0.586364746
+            Yaw: -179.999954
+            Roll: -179.999893
           }
           Scale {
             X: 0.368615299
-            Y: 0.36861515
-            Z: 0.43287614
+            Y: 0.368615121
+            Z: 0.43287611
           }
         }
-        ParentId: 17035067572231024212
+        ParentId: 873035730835518975
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17034031215987071564
+              Id: 5536628586608795105
             }
           }
         }
@@ -721,12 +611,12 @@ Assets {
         }
       }
       Objects {
-        Id: 533247055558618788
+        Id: 16650770666264442127
         Name: "Reinforced Crate 150cm"
         Transform {
           Location {
             X: -75.4111252
-            Z: 140.425644
+            Z: 135.300858
           }
           Rotation {
             Pitch: -31.2545471
@@ -739,12 +629,12 @@ Assets {
             Z: 0.29996106
           }
         }
-        ParentId: 17035067572231024212
+        ParentId: 873035730835518975
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7120103827944318625
+              Id: 3781020123536070316
             }
           }
         }
@@ -777,18 +667,18 @@ Assets {
         }
       }
       Objects {
-        Id: 8185068017481373572
+        Id: 10512000843565550639
         Name: "Reinforced Crate 150cm"
         Transform {
           Location {
             X: -75.4111252
             Y: 74.6960297
-            Z: 122.017418
+            Z: 116.892738
           }
           Rotation {
             Pitch: -42.6915894
-            Yaw: 112.859665
-            Roll: -155.838898
+            Yaw: 112.859695
+            Roll: -155.838867
           }
           Scale {
             X: 0.138874814
@@ -796,12 +686,12 @@ Assets {
             Z: 0.29996106
           }
         }
-        ParentId: 17035067572231024212
+        ParentId: 873035730835518975
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7120103827944318625
+              Id: 3781020123536070316
             }
           }
         }
@@ -834,17 +724,17 @@ Assets {
         }
       }
       Objects {
-        Id: 1658996789210527901
+        Id: 17829999581411124022
         Name: "Reinforced Crate 150cm"
         Transform {
           Location {
             X: 42.7698212
             Y: 74.6960297
-            Z: 130.283569
+            Z: 138.966827
           }
           Rotation {
             Pitch: 3.59563684
-            Yaw: 137.263657
+            Yaw: 137.263702
             Roll: 142.716446
           }
           Scale {
@@ -853,12 +743,12 @@ Assets {
             Z: 0.29996106
           }
         }
-        ParentId: 17035067572231024212
+        ParentId: 873035730835518975
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7120103827944318625
+              Id: 3781020123536070316
             }
           }
         }
@@ -891,18 +781,18 @@ Assets {
         }
       }
       Objects {
-        Id: 3563086977058202841
+        Id: 15062203564965789554
         Name: "Reinforced Crate 150cm"
         Transform {
           Location {
             X: 42.7698212
             Y: -30.0514832
-            Z: 150.878983
+            Z: 156.091064
           }
           Rotation {
-            Pitch: 28.3877048
-            Yaw: 146.432266
-            Roll: 174.453827
+            Pitch: 28.3877
+            Yaw: 146.432281
+            Roll: 174.453842
           }
           Scale {
             X: 0.322270066
@@ -910,12 +800,12 @@ Assets {
             Z: 0.696083069
           }
         }
-        ParentId: 17035067572231024212
+        ParentId: 873035730835518975
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7120103827944318625
+              Id: 3781020123536070316
             }
           }
         }
@@ -955,15 +845,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_bones_human_ulna_01_ref"
-      }
-    }
-    Assets {
-      Id: 2326592247975427636
-      Name: "Coral Table 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_coral_table_01"
       }
     }
     Assets {

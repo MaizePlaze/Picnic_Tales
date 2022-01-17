@@ -1,13 +1,13 @@
 Assets {
-  Id: 12430147060698069599
-  Name: "Universal Object Spawner"
+  Id: 11466119639028947179
+  Name: "ShrinkingDebuff"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 12724310867555688579
+      RootId: 9015105953714030991
       Objects {
-        Id: 12724310867555688579
-        Name: "Spawner - Shrink Mushroom"
+        Id: 9015105953714030991
+        Name: "ShrinkingDebuff"
         Transform {
           Scale {
             X: 1
@@ -16,124 +16,14 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 6567354516116234768
-        ChildIds: 11342603688156189220
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:RespawnDelay"
-            Float: 1
-          }
-          Overrides {
-            Name: "cs:RoundStartSpawn"
-            Bool: false
-          }
-          Overrides {
-            Name: "cs:Template1"
-            AssetReference {
-              Id: 4737050595051618116
-            }
-          }
-          Overrides {
-            Name: "cs:Template2"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:RespawnDelay:tooltip"
-            String: "Delay after the object has been collected, before the next object is spawned."
-          }
-          Overrides {
-            Name: "cs:RoundStartSpawn:tooltip"
-            String: "If true, will spawn an object at the start of a round."
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 6567354516116234768
-        Name: "UniversalObjectSpawner"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12724310867555688579
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Root"
-            ObjectReference {
-              SubObjectId: 12724310867555688579
-            }
-          }
-          Overrides {
-            Name: "cs:ShowHideObject"
-            ObjectReference {
-              SubObjectId: 11342603688156189220
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 11740543328883743074
-          }
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 11342603688156189220
-        Name: "ShrinkShroom"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.5
-            Y: 0.5
-            Z: 0.5
-          }
-        }
-        ParentId: 12724310867555688579
-        ChildIds: 11550406540989537090
-        ChildIds: 4878398837171089707
-        ChildIds: 17430244339628341922
+        ChildIds: 4629237942444884201
+        ChildIds: 11801294738357054080
+        ChildIds: 1265995331963248905
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 4878398837171089707
+              SubObjectId: 11801294738357054080
             }
           }
           Overrides {
@@ -158,7 +48,7 @@ Assets {
           }
           Overrides {
             Name: "cs:MaxWalkSpeed"
-            Int: 1000
+            Int: 500
           }
           Overrides {
             Name: "cs:MaxAcceleration"
@@ -198,7 +88,7 @@ Assets {
           }
           Overrides {
             Name: "cs:TimeTillReset"
-            Float: 60
+            Float: 6
           }
           Overrides {
             Name: "cs:GrowBlip"
@@ -271,7 +161,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11550406540989537090
+        Id: 4629237942444884201
         Name: "AdvancedResourcePickupServer"
         Transform {
           Location {
@@ -286,7 +176,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11342603688156189220
+        ParentId: 9015105953714030991
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -309,7 +199,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4878398837171089707
+        Id: 11801294738357054080
         Name: "Trigger"
         Transform {
           Location {
@@ -322,7 +212,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11342603688156189220
+        ParentId: 9015105953714030991
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -349,7 +239,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17430244339628341922
+        Id: 1265995331963248905
         Name: "Geo_ClientContext"
         Transform {
           Location {
@@ -362,8 +252,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11342603688156189220
-        ChildIds: 116940641940035739
+        ParentId: 9015105953714030991
+        ChildIds: 16278935988931380016
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -383,7 +273,7 @@ Assets {
         }
       }
       Objects {
-        Id: 116940641940035739
+        Id: 16278935988931380016
         Name: "Crate"
         Transform {
           Location {
@@ -397,9 +287,9 @@ Assets {
             Z: 0.731707752
           }
         }
-        ParentId: 17430244339628341922
-        ChildIds: 8410759156513665108
-        ChildIds: 17035067572231024212
+        ParentId: 1265995331963248905
+        ChildIds: 10721969039236393983
+        ChildIds: 873035730835518975
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -419,7 +309,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8410759156513665108
+        Id: 10721969039236393983
         Name: "SpinObject"
         Transform {
           Location {
@@ -433,7 +323,7 @@ Assets {
             Z: 1.36666584
           }
         }
-        ParentId: 116940641940035739
+        ParentId: 16278935988931380016
         UnregisteredParameters {
           Overrides {
             Name: "cs:speed"
@@ -463,7 +353,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17035067572231024212
+        Id: 873035730835518975
         Name: "Group"
         Transform {
           Location {
@@ -479,15 +369,15 @@ Assets {
             Z: 0.511284113
           }
         }
-        ParentId: 116940641940035739
-        ChildIds: 3543507501995053430
-        ChildIds: 7372034205283703232
-        ChildIds: 7917765710836278665
-        ChildIds: 8127606001756459719
-        ChildIds: 533247055558618788
-        ChildIds: 8185068017481373572
-        ChildIds: 1658996789210527901
-        ChildIds: 3563086977058202841
+        ParentId: 16278935988931380016
+        ChildIds: 15084810941238299357
+        ChildIds: 9672510311961281131
+        ChildIds: 10201953991565098530
+        ChildIds: 10429805073225828716
+        ChildIds: 16650770666264442127
+        ChildIds: 10512000843565550639
+        ChildIds: 17829999581411124022
+        ChildIds: 15062203564965789554
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -505,7 +395,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3543507501995053430
+        Id: 15084810941238299357
         Name: "Reinforced Crate 150cm"
         Transform {
           Location {
@@ -518,7 +408,7 @@ Assets {
             Z: 5.03590584
           }
         }
-        ParentId: 17035067572231024212
+        ParentId: 873035730835518975
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -556,7 +446,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7372034205283703232
+        Id: 9672510311961281131
         Name: "Reinforced Crate 150cm"
         Transform {
           Location {
@@ -573,7 +463,7 @@ Assets {
             Z: 2.75671124
           }
         }
-        ParentId: 17035067572231024212
+        ParentId: 873035730835518975
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -611,7 +501,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7917765710836278665
+        Id: 10201953991565098530
         Name: "Reinforced Crate 150cm"
         Transform {
           Location {
@@ -628,7 +518,7 @@ Assets {
             Z: 0.595204
           }
         }
-        ParentId: 17035067572231024212
+        ParentId: 873035730835518975
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -666,7 +556,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8127606001756459719
+        Id: 10429805073225828716
         Name: "Reinforced Crate 150cm"
         Transform {
           Location {
@@ -683,7 +573,7 @@ Assets {
             Z: 0.43287614
           }
         }
-        ParentId: 17035067572231024212
+        ParentId: 873035730835518975
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -721,7 +611,7 @@ Assets {
         }
       }
       Objects {
-        Id: 533247055558618788
+        Id: 16650770666264442127
         Name: "Reinforced Crate 150cm"
         Transform {
           Location {
@@ -739,7 +629,7 @@ Assets {
             Z: 0.29996106
           }
         }
-        ParentId: 17035067572231024212
+        ParentId: 873035730835518975
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -777,7 +667,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8185068017481373572
+        Id: 10512000843565550639
         Name: "Reinforced Crate 150cm"
         Transform {
           Location {
@@ -796,7 +686,7 @@ Assets {
             Z: 0.29996106
           }
         }
-        ParentId: 17035067572231024212
+        ParentId: 873035730835518975
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -834,7 +724,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1658996789210527901
+        Id: 17829999581411124022
         Name: "Reinforced Crate 150cm"
         Transform {
           Location {
@@ -853,7 +743,7 @@ Assets {
             Z: 0.29996106
           }
         }
-        ParentId: 17035067572231024212
+        ParentId: 873035730835518975
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -891,7 +781,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3563086977058202841
+        Id: 15062203564965789554
         Name: "Reinforced Crate 150cm"
         Transform {
           Location {
@@ -910,7 +800,7 @@ Assets {
             Z: 0.696083069
           }
         }
-        ParentId: 17035067572231024212
+        ParentId: 873035730835518975
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -980,5 +870,9 @@ Assets {
       AssetId: "None"
     }
   }
+  Marketplace {
+    Description: "Eat these mushrooms to change sizes! "
+  }
   SerializationVersion: 103
+  DirectlyPublished: true
 }
