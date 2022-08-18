@@ -29,6 +29,7 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
     }
     PrimaryAssetId {
@@ -43,5 +44,5 @@ Assets {
     Version: "1.1.0"
     Description: "An accurately kitbashed picnic table to toss in your metaverse game builds.\r\nHave a seat and enjoy the great outdoors, eat some BBQ and hang out with friends. \r\nAll else fails it\'s just one more thing to leap over in the midst of a park shoot out gun battle.\r\n\r\nEnjoy and have a Great Game.\r\n\r\nXRStudio (Chaz Scholton)\r\n\r\nI\'m on discord as\r\nChaz Scholton (XRStudio)#0990\r\n\r\n"
   }
-  SerializationVersion: 105
+  SerializationVersion: 118
 }

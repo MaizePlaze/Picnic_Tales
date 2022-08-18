@@ -41,6 +41,7 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
     }
     PrimaryAssetId {
@@ -55,5 +56,5 @@ Assets {
     Version: "1.2.0"
     Description: "Eat these mushrooms to change sizes! "
   }
-  SerializationVersion: 105
+  SerializationVersion: 118
 }

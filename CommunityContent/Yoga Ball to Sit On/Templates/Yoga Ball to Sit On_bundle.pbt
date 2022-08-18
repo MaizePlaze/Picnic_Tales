@@ -38,6 +38,7 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
     }
     PrimaryAssetId {
@@ -52,5 +53,5 @@ Assets {
     Version: "1.0.0"
     Description: "It\'s a yoga ball that you can interact with to sit. "
   }
-  SerializationVersion: 105
+  SerializationVersion: 118
 }

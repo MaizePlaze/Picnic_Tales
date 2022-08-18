@@ -33,6 +33,7 @@ Objects {
       Id: 16970334652460341747
     }
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 10315558171873153012
@@ -86,6 +87,7 @@ Objects {
       Id: 4933920290858337259
     }
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 6443457504435287691
@@ -144,6 +146,7 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 11594232477443816711
@@ -206,6 +209,7 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 7869227493574547336
@@ -262,6 +266,7 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 11366213581366374606
@@ -318,6 +323,7 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 18376382916131409530
@@ -372,6 +378,7 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 4881894022419409718
@@ -430,6 +437,7 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 15170088673287394530
@@ -497,6 +505,15 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 17454989556266754053
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
     TemplateAsset {
       Id: 7871826792785676228
     }
@@ -504,4 +521,5 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }

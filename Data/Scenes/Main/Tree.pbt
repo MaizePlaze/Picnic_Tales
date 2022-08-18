@@ -39,6 +39,7 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 5551791420506046524
@@ -52,6 +53,96 @@ Objects {
   }
   ParentId: 4781671109827199097
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 2997702539998455448
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3507751836316414223
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4579879745866413721
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6831281236292349697
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8804252708453632393
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10642511850278537015
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11495631065082723401
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11837671185061800861
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12369358628207924481
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13093663056568014593
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 13345253903239852829
       value {
@@ -75,10 +166,128 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 13735738709754949022
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14154772671513628896
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14262894634665005725
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15464994793947152759
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15768612862536716069
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15915590857223040304
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16429479912737602644
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16644678909462324567
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17084551281853429302
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17132074834053186825
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17633764440605679167
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17807767993559823812
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 18225212298316187522
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
     TemplateAsset {
       Id: 2062911253213155720
     }
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 7134462956646121199
@@ -92,6 +301,222 @@ Objects {
   }
   ParentId: 4781671109827199097
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 1041764392704508521
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1584391034619231985
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2767804156443422493
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2913636657991400393
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3188509766014916693
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4327578623889912000
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4834996498796114236
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5456495693214801862
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6009344584878368504
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6303664759471343351
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6886826094788781377
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7647991008366073298
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7849577317871800461
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9522958815553566074
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10357572913240136148
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10469466600310133881
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11870192822295586476
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13821068382014032235
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14218176214172691367
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15280520677482570484
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15717073466798813061
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15775049940100859648
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16018336490774797231
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16538313624410655867
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 17940056265480590587
       value {
@@ -113,6 +538,7 @@ Objects {
       Id: 6066225024201975781
     }
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 7217803020390922864
@@ -126,6 +552,69 @@ Objects {
   }
   ParentId: 4781671109827199097
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 562608884100250820
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 757663926683380758
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1187298410391955440
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1224212091736746977
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3185716981832962872
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5636686548987114348
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5927974909729978771
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 7530857200830102584
       value {
@@ -149,10 +638,155 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 7975213990458144854
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8500258664976114872
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9024713027377259196
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9443086797509715862
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9488385701784798571
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10339451734364338552
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11162977181824041871
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11231575661972208580
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11309353575698350746
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11767383408932654326
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11898039898344439677
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12706265448141181056
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12961676449057448718
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14941664090059574230
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16118208068994477434
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17144498703227693027
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
     TemplateAsset {
       Id: 2374977923799134954
     }
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 5317153295229993403
@@ -166,6 +800,222 @@ Objects {
   }
   ParentId: 4781671109827199097
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 1041764392704508521
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1584391034619231985
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2767804156443422493
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2913636657991400393
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3188509766014916693
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4327578623889912000
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4834996498796114236
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5456495693214801862
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6009344584878368504
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6303664759471343351
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6886826094788781377
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7647991008366073298
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7849577317871800461
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9522958815553566074
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10357572913240136148
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10469466600310133881
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11870192822295586476
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13821068382014032235
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14218176214172691367
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15280520677482570484
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15717073466798813061
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15775049940100859648
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16018336490774797231
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16538313624410655867
+      value {
+        Overrides {
+          Name: "CoreProxy.IsReplicationEnabledByDefault"
+          Bool: false
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 17940056265480590587
       value {
@@ -193,6 +1043,7 @@ Objects {
       Id: 6066225024201975781
     }
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 44003275876171690
@@ -228,6 +1079,7 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 4147847003364547307
@@ -263,6 +1115,7 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 14832815952701525965
@@ -303,6 +1156,7 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 10005074784157121906
@@ -340,6 +1194,7 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 10505154200474359396
@@ -445,6 +1300,7 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 7155168770677928712
@@ -530,6 +1386,7 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 13551641546322277000
@@ -666,6 +1523,7 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 9086936746104183945
@@ -703,4 +1561,5 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }

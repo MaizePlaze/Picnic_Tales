@@ -178,6 +178,7 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
     }
     PrimaryAssetId {
@@ -185,5 +186,5 @@ Assets {
       AssetId: "Object_Mover"
     }
   }
-  SerializationVersion: 105
+  SerializationVersion: 118
 }

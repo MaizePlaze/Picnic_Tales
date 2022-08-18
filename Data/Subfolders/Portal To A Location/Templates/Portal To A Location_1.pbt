@@ -33,6 +33,7 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
       Objects {
         Id: 5063355568464640327
@@ -72,6 +73,7 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
       Objects {
         Id: 7030298691915880781
@@ -109,10 +111,15 @@ Assets {
           TriggerShape_v2 {
             Value: "mc:etriggershape:box"
           }
+          InteractionTemplate {
+          }
+          BreadcrumbTemplate {
+          }
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
       Objects {
         Id: 10912677647860865359
@@ -171,6 +178,7 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
       Objects {
         Id: 11788075628528633600
@@ -223,9 +231,13 @@ Assets {
             BoundsScale: 1
           }
         }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
     }
     Assets {
@@ -263,6 +275,6 @@ Assets {
   Marketplace {
     Description: "Enter portal -> go to the cubes position. Comes with vfx/sfx already set up for you!\r\n\r\nSimple portal to position template, works out of box, no setup required. \r\n\r\nCustomize the asset to your liking, easy controls within the MovePlayerToLocationTrigger script:\r\n- The cube will automatically turn on/off on load based on your selection. By default it\'ll hide the cube on load.\r\n- Turn on/off vfx/sfx. By default it\'ll play vfx/sfx when you go through the portal.\r\n- Change out vfx/sfx by updating SpawnedVFXSFXPortal folder with whatever assets you want in there. \r\n\r\nAdvanced:\r\nTo lower your networked obj count, unnetwork the MoveToLocationPoint obj, turn off \"hideCubeOnLoad\", and set the cube visibilty FORCE_OFF once you\'ve positioned it within your scene. You do get rid of the easy controls features but if you have a lot of networked objs then you might have to.\r\n\r\n@LuckofBuck on Twitter"
   }
-  SerializationVersion: 105
+  SerializationVersion: 118
   DirectlyPublished: true
 }
