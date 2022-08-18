@@ -43,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "Portal Gun based on the iconic gun from the game Portal. \r\nMade during Bootcamp for the first challenge of the second week.\r\n\r\nEquip - F\r\nFire - LMB\r\nAim - RMB\r\n\r\nFires blue sci-blue element to damage objects\r\n\r\n#CGCB\r\n\r\n\r\nWorking on making the portals in an upcoming new version - watch this space!"
   }
-  SerializationVersion: 103
+  SerializationVersion: 105
 }

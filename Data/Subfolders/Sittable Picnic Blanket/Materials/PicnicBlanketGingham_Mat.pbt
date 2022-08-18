@@ -2,7 +2,7 @@ Assets {
   Id: 17678985608131925510
   Name: "PicnicBlanketGingham_Mat"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 10597308499589433659
     ParameterOverrides {

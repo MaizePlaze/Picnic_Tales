@@ -110,5 +110,5 @@ Assets {
       AssetId: "Damageable_Crate"
     }
   }
-  SerializationVersion: 103
+  SerializationVersion: 105
 }

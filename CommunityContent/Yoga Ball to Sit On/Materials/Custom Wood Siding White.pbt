@@ -2,7 +2,7 @@ Assets {
   Id: 10476624084001499086
   Name: "Custom Wood Siding White"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 14262099436117619482
     ParameterOverrides {

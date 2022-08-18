@@ -282,6 +282,6 @@ Assets {
   Marketplace {
     Description: "Interact with the chair to sit down!"
   }
-  SerializationVersion: 103
+  SerializationVersion: 105
   DirectlyPublished: true
 }

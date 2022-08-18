@@ -2,7 +2,7 @@ Assets {
   Id: 8841041562394907102
   Name: "GlowyMushroomShrink"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 12002787867552207821
     ParameterOverrides {

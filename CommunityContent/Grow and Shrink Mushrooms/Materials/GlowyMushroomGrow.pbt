@@ -2,7 +2,7 @@ Assets {
   Id: 1302253455711297936
   Name: "GlowyMushroomGrow"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 12002787867552207821
     ParameterOverrides {

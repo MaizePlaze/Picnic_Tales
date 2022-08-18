@@ -211,5 +211,5 @@ Assets {
       AssetId: "Basic_Loot_Table"
     }
   }
-  SerializationVersion: 103
+  SerializationVersion: 105
 }

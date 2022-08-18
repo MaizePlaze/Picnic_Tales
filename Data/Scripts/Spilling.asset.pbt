@@ -6,6 +6,6 @@ Assets {
     CustomParameters {
     }
   }
-  SerializationVersion: 103
+  SerializationVersion: 105
   VirtualFolderPath: "Damageables"
 }

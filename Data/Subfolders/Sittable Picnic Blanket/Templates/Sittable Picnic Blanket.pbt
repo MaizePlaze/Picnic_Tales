@@ -43,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "A picnic blanket you can sit on! \r\n\r\nHuge thanks to Slinkous, AJ, Fexeliche, & RavenMaiden for their cc that I used in addition to the trigger script i wrote to disable the trigger so you can enjoy the view. "
   }
-  SerializationVersion: 103
+  SerializationVersion: 105
 }

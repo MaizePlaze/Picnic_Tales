@@ -11582,6 +11582,6 @@ Assets {
   Marketplace {
     Description: "Basic template for your scene of a portion of a river"
   }
-  SerializationVersion: 103
+  SerializationVersion: 105
   DirectlyPublished: true
 }

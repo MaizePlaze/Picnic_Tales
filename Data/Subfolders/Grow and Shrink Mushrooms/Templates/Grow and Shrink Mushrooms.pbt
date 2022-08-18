@@ -55,5 +55,5 @@ Assets {
     Version: "1.2.0"
     Description: "Eat these mushrooms to change sizes! "
   }
-  SerializationVersion: 103
+  SerializationVersion: 105
 }

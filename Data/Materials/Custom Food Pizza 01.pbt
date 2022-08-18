@@ -2,7 +2,7 @@ Assets {
   Id: 9220245121507531689
   Name: "Custom Food Pizza 01"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 12880514946379160826
     ParameterOverrides {

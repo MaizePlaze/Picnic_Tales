@@ -52,5 +52,5 @@ Assets {
     Version: "1.0.0"
     Description: "It\'s a yoga ball that you can interact with to sit. "
   }
-  SerializationVersion: 103
+  SerializationVersion: 105
 }

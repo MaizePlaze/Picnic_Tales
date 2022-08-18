@@ -873,6 +873,6 @@ Assets {
   Marketplace {
     Description: "Eat these mushrooms to change sizes! "
   }
-  SerializationVersion: 103
+  SerializationVersion: 105
   DirectlyPublished: true
 }

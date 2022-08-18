@@ -2,7 +2,7 @@ Assets {
   Id: 7120103827944318625
   Name: "GlowyMushroomShrinkSpores"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 12002787867552207821
     ParameterOverrides {

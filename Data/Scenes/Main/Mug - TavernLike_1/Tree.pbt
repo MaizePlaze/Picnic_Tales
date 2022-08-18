@@ -50,12 +50,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4497705230166407534
-    SubobjectId: 11974493494600548202
-    InstanceId: 8257356533588229488
-    TemplateId: 9051782281842332107
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -110,12 +104,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11324893474255669489
-    SubobjectId: 390942271135944437
-    InstanceId: 8257356533588229488
-    TemplateId: 9051782281842332107
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -150,12 +138,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Hank_1"
-  }
-  InstanceHistory {
-    SelfId: 11615059939091282585
-    SubobjectId: 4140503546376223901
-    InstanceId: 8257356533588229488
-    TemplateId: 9051782281842332107
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -211,12 +193,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12016973540862852684
-    SubobjectId: 4504198535746287688
-    InstanceId: 8257356533588229488
-    TemplateId: 9051782281842332107
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -250,12 +226,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Sides_1"
-  }
-  InstanceHistory {
-    SelfId: 12054862220731474605
-    SubobjectId: 4543432882535916713
-    InstanceId: 8257356533588229488
-    TemplateId: 9051782281842332107
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

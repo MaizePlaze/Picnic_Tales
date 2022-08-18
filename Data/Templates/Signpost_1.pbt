@@ -1,5 +1,5 @@
 Assets {
-  Id: 12414459707508919854
+  Id: 6511797358704703669
   Name: "Signpost"
   PlatformAssetType: 5
   TemplateAsset {
@@ -10,9 +10,9 @@ Assets {
         Name: "Signpost"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.655908287
+            Y: 0.655908287
+            Z: 0.655908287
           }
         }
         ParentId: 4781671109827199097
@@ -44,14 +44,16 @@ Assets {
         Name: "Chamfered Cube"
         Transform {
           Location {
-            Z: 299.379089
+            X: 1.63485265
+            Y: 12.2089977
+            Z: 299.084106
           }
           Rotation {
           }
           Scale {
-            X: 3
-            Y: 0.5
-            Z: 2
+            X: 5.1432662
+            Y: 0.572592497
+            Z: 3.11206555
           }
         }
         ParentId: 13157738860925028590
@@ -59,8 +61,12 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 2436979131935544357
+              Id: 7114485659060329390
             }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -96,13 +102,16 @@ Assets {
         Name: "Cylinder - Rounded - bottom aligned"
         Transform {
           Location {
+            X: 7.09886932
+            Y: 18.5938797
+            Z: 1.79593182
           }
           Rotation {
           }
           Scale {
-            X: 0.5
-            Y: 0.5
-            Z: 2.5
+            X: 0.50000006
+            Y: 0.50000006
+            Z: 2.50000048
           }
         }
         ParentId: 13157738860925028590
@@ -110,8 +119,12 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 2436979131935544357
+              Id: 7114485659060329390
             }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -131,6 +144,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableReceiveDecals: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -147,16 +161,19 @@ Assets {
         Name: "Line 1"
         Transform {
           Location {
-            Y: -26
-            Z: 360
+            X: 0.545377731
+            Y: -20.2354183
+            Z: 371.450378
           }
           Rotation {
-            Yaw: -90
+            Pitch: -0.0308837891
+            Yaw: -90.7457886
+            Roll: 0.0602988601
           }
           Scale {
-            X: 2
-            Y: 1.25
-            Z: 1.25
+            X: 2.00000024
+            Y: 1.25000024
+            Z: 1.25000024
           }
         }
         ParentId: 13157738860925028590
@@ -170,6 +187,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Text {
+          Text: "Welcome To"
           FontAsset {
           }
           Color {
@@ -196,16 +214,19 @@ Assets {
         Name: "Line 2"
         Transform {
           Location {
-            Y: -26
-            Z: 330
+            X: 0.513228595
+            Y: -20.2182655
+            Z: 341.451172
           }
           Rotation {
-            Yaw: -89.9999847
+            Pitch: -0.0308837891
+            Yaw: -90.7457886
+            Roll: 0.0602988601
           }
           Scale {
-            X: 1
-            Y: 1.25
-            Z: 1.25
+            X: 1.00000012
+            Y: 1.25000024
+            Z: 1.25000024
           }
         }
         ParentId: 13157738860925028590
@@ -219,6 +240,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Text {
+          Text: "The Picnic Pals"
           FontAsset {
           }
           Color {
@@ -245,16 +267,19 @@ Assets {
         Name: "Line 3"
         Transform {
           Location {
-            Y: -26
-            Z: 300
+            X: 0.481779754
+            Y: -20.2018299
+            Z: 311.4505
           }
           Rotation {
-            Yaw: -89.9999847
+            Pitch: -0.0308837891
+            Yaw: -90.7457886
+            Roll: 0.0602988601
           }
           Scale {
-            X: 1
-            Y: 1.25
-            Z: 1.25
+            X: 1.00000012
+            Y: 1.25000024
+            Z: 1.25000024
           }
         }
         ParentId: 13157738860925028590
@@ -268,6 +293,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Text {
+          Text: "Secret Relaxation Grotto"
           FontAsset {
           }
           Color {
@@ -294,16 +320,19 @@ Assets {
         Name: "Line 4"
         Transform {
           Location {
-            Y: -26
-            Z: 270
+            X: 0.451161236
+            Y: -20.1850433
+            Z: 281.448853
           }
           Rotation {
-            Yaw: -89.9999847
+            Pitch: -0.0308837891
+            Yaw: -90.7457886
+            Roll: 0.0602988601
           }
           Scale {
-            X: 1
-            Y: 1.25
-            Z: 1.25
+            X: 1.00000012
+            Y: 1.25000024
+            Z: 1.25000024
           }
         }
         ParentId: 13157738860925028590
@@ -317,6 +346,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Text {
+          Text: "We Still Need Apples for the Picnic"
           FontAsset {
           }
           Color {
@@ -343,16 +373,19 @@ Assets {
         Name: "Line 5"
         Transform {
           Location {
-            Y: -26
-            Z: 240
+            X: 0.419554353
+            Y: -20.1689129
+            Z: 251.451935
           }
           Rotation {
-            Yaw: -89.9999847
+            Pitch: -0.0308837891
+            Yaw: -90.7457886
+            Roll: 0.0602988601
           }
           Scale {
-            X: 1
-            Y: 1.25
-            Z: 1.25
+            X: 1.00000012
+            Y: 1.25000024
+            Z: 1.25000024
           }
         }
         ParentId: 13157738860925028590
@@ -366,6 +399,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Text {
+          Text: "When You\'re Ready Jump Back In"
           FontAsset {
           }
           Color {
@@ -398,12 +432,12 @@ Assets {
       }
     }
     Assets {
-      Id: 2436979131935544357
-      Name: "Wood Planks"
+      Id: 7114485659060329390
+      Name: "Bark Pine 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_wood_planks_dark_001_uv"
+        AssetId: "mi_bark_pine_001_uv"
       }
     }
     Assets {

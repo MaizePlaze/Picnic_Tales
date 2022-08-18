@@ -491,5 +491,5 @@ Assets {
       AssetId: "Japanese_Temple_Bridge_01_-_End_Template"
     }
   }
-  SerializationVersion: 103
+  SerializationVersion: 105
 }
